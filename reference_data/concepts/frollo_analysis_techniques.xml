@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept rdf:about="http://localhost:8000/2956a3e1-cff8-3f4c-97c2-61a5483cae11">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d8c2422e-0028-39e3-a69b-dcb393f6bf5b">
+        <skos:prefLabel xml:lang="fr">{"id": "e62d03bc-c92d-4170-a65d-8a1aa33befd3", "value": "Diffraction X induite par rayonnement synchrotron"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "4f5b84d3-7c6b-450c-9a1d-6306b80901aa", "value": "61194"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/68791bc9-736c-3266-8509-de52681a09de"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/44d11cd9-b380-3004-b987-46727a42c2a7"/>
+        <dcterms:title xml:lang="fr">{"id": "fd3ddb5f-6d42-4bd8-911e-7fe627eefa46", "value": "Frollo - Techniques d'analyses et d'examens (TAPAC)"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/716618c3-fdff-36b2-bbc5-663dc3c2d439"/>
+        <dcterms:title xml:lang="en">{"id": "0e9a8b0b-e7d0-400c-972d-4bf7fbbae6c6", "value": "Frollo - Analysis and examination techniques (TAPAC)"}</dcterms:title>
+        <dcterms:identifier xml:lang="en">{"id": "2a490714-5403-4ad4-9441-9d3da99b1a86", "value": "https://ark.notre-dame.science/ark:/35572/th12"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d263a9df-ad2f-345a-8c60-d62afb0969dd"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6774bca7-cbe6-3db7-943f-256fd8dda025"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d357cb8b-835d-30cb-bf27-f697a9d5e389"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/84173959-4be0-321d-a193-39c16afb6dc4"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/557ae987-2730-3d37-badb-56ff8c386b5a"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4fdd066c-0d62-3058-9ce6-484789d1f110">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "4a28483f-b298-4887-9690-eb2c1f0d18b6", "value": "Diffraction X par chambre Gandolfi"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "71c4125d-b6f1-424c-ba9d-38ef70e2a08c", "value": "61198"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "0e023d0a-9a13-4bf6-b629-1b72c6dc298d", "value": "Diffraction X"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/312f531f-3ec2-3f7b-b9df-d15dac09fd76">
+        <skos:prefLabel xml:lang="fr">{"id": "24b73208-a368-4072-9ac1-26363a0ba954", "value": "Diffraction X par chambre Debye-Scherrer"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "7f2f9c76-6f88-47b0-9c95-01a61a9a6896", "value": "61197"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/54ca065b-6dec-336c-9b1d-3cf88785d9c4">
+        <skos:prefLabel xml:lang="fr">{"id": "f1e663c8-35ee-4731-9443-408dc00b018d", "value": "Diffraction WAXD"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "1595b029-599a-4d33-9fa6-fc3923cae08c", "value": "61195"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "48f478e8-a1f0-431b-bd15-abfc37d0fdee", "value": "61193"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3d7b9297-364d-3019-8fc9-1bc3c2bd2618">
+        <dcterms:identifier xml:lang="en">{"id": "80c87e2c-e12e-4dc3-a54e-31c0c78a157f", "value": "61199"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "a4bfe5c8-972f-48f3-83fe-9e84be053159", "value": "Diffraction X par goniom\u00e8tre"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/647c09e8-26ab-3925-adea-ea85e28e76d3">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "241dd40a-e091-4992-a6b2-36164d480f58", "value": "61196"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "edcb1721-b1fe-4447-ba90-209b577d307b", "value": "Diffraction X aux petits angles"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e7116944-47ca-34e2-a2aa-7b9f6db15b77">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "6deb5419-f149-4e0e-bc32-15de6e7efc0b", "value": "Spectrom\u00e9trie de masse \u00e0 source plasma"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3e3d8f8b-a95e-438a-bb67-159847b70eb7", "value": "61286"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/195ec12d-1a0d-3bab-b70c-1a2dbe31b63b">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/06decb70-8c5a-358b-b301-f22a08d2c967">
+        <skos:prefLabel xml:lang="fr">{"id": "6d3a98ac-19dc-4ff3-92cf-7a6cef5f610b", "value": "Voltam\u00e9trie par abrasion"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "002b3512-5db7-4180-8eff-c69ca2a7ec32", "value": "61178"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ddab0380-8c12-382b-80c9-ba273fbd1e0c">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "5f6f2289-48e0-4a44-aae0-7415236675cf", "value": "61179"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "3291c64d-6c01-4551-85d0-20a71d617d3c", "value": "Voltam\u00e9trie PIGE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "4030ddea-2195-4b22-bf2b-58ce2ae4709b", "value": "Voltam\u00e9trie"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b2100852-9208-3a0d-bed1-848e824e1321">
+        <dcterms:identifier xml:lang="en">{"id": "cd202704-5069-4b2e-8d2a-3db250f54204", "value": "61177"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "0e8d41f2-4ed0-4ac2-9b92-afe377d19621", "value": "Voltam\u00e9trie LSV"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0f4b8e84-4892-37e0-b92f-92f41b3d34fc">
+        <skos:prefLabel xml:lang="fr">{"id": "f3e7839b-4cee-411f-8b3c-21d11c415d71", "value": "Voltam\u00e9trie de microparticules"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "6add3999-82d8-45a5-a064-2c97ca49b3ae", "value": "61176"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "e55116da-8496-4fe6-a39e-8fd5bc297c8d", "value": "61175"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e1c3f592-214c-3eef-82c2-e88a0b50ff84">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "f1471556-43a7-4d28-b27c-d4e1f1a6434a", "value": "61125"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/74ec8852-08fc-3916-9b9e-834fe224aabb">
+        <skos:prefLabel xml:lang="fr">{"id": "b60c6dd3-d06e-4763-af21-cede965292ce", "value": "Galvanoplastie"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "5b525a12-0529-4b5e-b5d4-04624dd17e8a", "value": "61127"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5aa8435d-76a2-37b7-9665-c06a6235f80e">
+        <skos:prefLabel xml:lang="fr">{"id": "be21f1eb-8eeb-40f5-91f1-2fdc511a81b9", "value": "\u00c9lectroplastie"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "207d1aca-3852-432f-b89d-697b24a264c7", "value": "61126"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "730088fc-0eb4-42bb-a3cf-fd0b722c2702", "value": "\u00c9lectrolyse"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5bbf8d87-b1d0-337c-81e3-97ae64a8020e">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/073217b8-fb64-30d7-9b09-3de1abde5fcc">
+        <skos:prefLabel xml:lang="fr">{"id": "fe803aa4-df71-435a-abf6-cf9cb7f0b178", "value": "Calorim\u00e9trie"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/ac2460fd-e2e8-3539-ad56-3406aa119bb9"/>
+        <dcterms:identifier xml:lang="en">{"id": "f97e40df-922a-4e61-b778-4731b951883c", "value": "61141"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "1289db14-4cdd-4b2b-9a4a-b0d55055635f", "value": "61138"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/aebb7984-f265-389f-b619-3f275f421015">
+        <dcterms:identifier xml:lang="en">{"id": "5856646e-8b97-447b-80c3-8c0b92763f68", "value": "61139"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "9351a53e-8894-4d94-a19e-679a0cf93cc3", "value": "Analyse thermique diff\u00e9rentielle"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "7ba44977-0e32-4e33-8d48-bb48d5ad110d", "value": "Analyse thermique"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/59de5ad5-92da-31c6-add1-06834dea5e6f">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "039dc640-a7a8-49fe-b8ca-b829c9032274", "value": "Analyse thermogravim\u00e9trique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ba590067-3ff1-4e82-9913-7545d7ebf483", "value": "61140"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/73ede03b-091e-355b-a638-ba940e33b5f7">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/20b32b8d-bb90-3322-95f4-a5ed4663358d">
+        <dcterms:identifier xml:lang="en">{"id": "76b31c78-3326-4a42-8f4f-952f912a998e", "value": "61038"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "7f71ca29-d42c-42de-bc23-9d901cd43714", "value": "Chromatographie en phase liquide \u00e0 haute performance"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/30b4915e-e8d7-3539-9ea5-62b6ce8c4bb5"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e6b3a58b-fc9c-3365-9430-da0ac4de0977">
+        <dcterms:identifier xml:lang="en">{"id": "736cebfe-38bd-4c45-8503-fffc3d783bba", "value": "61030"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "f6a477fe-90bc-42cc-af7f-a9632370534d", "value": "Chromatographie BPC"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e9067a47-82db-31a8-87c7-2e1947c224d4">
+        <skos:narrower rdf:resource="http://localhost:8000/62647dc9-3231-3ca3-b88e-3d0ee1962bc7"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "dc27fdc5-483b-40f0-800d-c4a31beec0bf", "value": "chromatographie de surface"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/8a6eadfd-fd9f-3e7c-bc4c-ae6e0a831356"/>
+        <dcterms:identifier xml:lang="en">{"id": "c8e65f41-e4fa-4ec9-a7af-7196c757d393", "value": "61034"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:note xml:lang="fr"><![CDATA[{"id": "eeea5ed1-eef8-4311-b4e2-1e502b5deae8", "value": "La <strong>chromatographie en phase liquide</strong> (CPL) ou <em>liquid chromatography</em> (LC) est une technique d'analyse quantitative, qualitative et s\u00e9parative principalement utilis\u00e9e dans le domaine de la chimie analytique comme outil scientifique majeur mais aussi dans des domaines vari\u00e9s tels que la chimie organique et la biochimie"}]]></skos:note>
+    <dcterms:identifier xml:lang="en">{"id": "c323a967-49d5-4846-92f7-3e9b5248ad60", "value": "61028"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "94130c83-1fd5-47d3-9596-879cb0c8d9c9", "value": "liquid chromatography"}</skos:prefLabel>
+    <skos:definition xml:lang="en">{"id": "3b61c3f2-707b-4520-8dbd-f8b02d8473b0", "value": "technique in analytical chemistry used to separate, identify, and quantify each component in a mixture"}</skos:definition>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2daf3003-96b9-32bf-b2b1-82bb8c1c7735">
+        <skos:narrower rdf:resource="http://localhost:8000/f76ccbd5-13b3-36ca-9d0a-367072832f2d"/>
+        <dcterms:identifier xml:lang="en">{"id": "ca4257c0-08df-4bb7-bace-ad3f2a037779", "value": "61032"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "17e9f1dc-c1ca-46c7-a4ad-f7a13e3821fd", "value": "Chromatographie d'exclusion st\u00e9rique"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/652fa95b-fd7c-376c-9f13-e5ed421c8054">
+        <skos:prefLabel xml:lang="fr">{"id": "c3154b89-722e-411a-a3e6-5df1b7e1c47d", "value": "Chromatographie \u00e0 contre-courant"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "cc802927-bc81-4c22-9378-392e87bf817d", "value": "61029"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="it">{"id": "454b1593-0bb2-4542-ae99-23874378e783", "value": "cromatografia liquida"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9a2fb9f1-6c7a-3ef1-8b83-da81e74d476a">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "35b977d4-0477-4045-8932-fc3bae33a1fd", "value": "61031"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "a381efc7-dfd3-4523-8524-3da4302bf932", "value": "Chromatographie d'\u00e9change de ligands"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9eeb059e-1007-3ab4-ab5a-2d570b829879">
+        <skos:prefLabel xml:lang="fr">{"id": "2f8b161c-bbcd-45bc-adcf-7aba00d12a4a", "value": "Chromatographie ionique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "b9ad7f12-e686-43f4-b4e2-ab60aae7dc91", "value": "61040"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "0f789c5a-fb53-48e8-9b85-7dec28026bfb", "value": "Chromatographie en phase liquide"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d263a9df-ad2f-345a-8c60-d62afb0969dd">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2c0878c8-7712-346b-97dc-20eef381b594">
+        <skos:definition xml:lang="fr">{"id": "bc2aa1d0-662f-4c8b-bbe0-0f81d8c8c192", "value": "type de format utilis\u00e9 pour la mesure de son"}</skos:definition>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "7e97bc3a-b30b-4ee3-a7b2-f5db8b642b20", "value": "76823"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "67200129-e55c-455d-a2cc-6a5b92702d93", "value": ".wave"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ac9265bc-d3dd-3e50-a95e-48cbde43d985">
+        <skos:prefLabel xml:lang="fr">{"id": "c696d508-ac29-4bf2-891e-4290e30b7e0a", "value": "type de microphone"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/29a6d4e2-eb3b-3e3b-a8e4-b5de3154b67e"/>
+        <dcterms:identifier xml:lang="en">{"id": "fb4b103c-c350-42a9-bbce-ea1a503fa00f", "value": "76820"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/90529322-0af4-3e31-a7f4-2a8f22755cde"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "8d81b31a-1995-4dd4-af90-c4c2c60e1bd8", "value": "76819"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "df2d6243-a2a8-4577-a438-76aef31310d1", "value": "Mesure de son"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0bb7399d-d110-3e75-9d62-6cccc1f94810">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "becf3a21-533d-430b-8c5b-434a9a44a657", "value": "76824"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "ab7cac28-faf7-4a77-ae0f-ae5fac34cf13", "value": "Captation sonore"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1af43165-69b1-3265-9738-d86a2a363dff">
+    <skos:prefLabel xml:lang="fr">{"id": "5fdd45ac-0efd-4e41-bca5-a5491f251aae", "value": "Spectrom\u00e9trie d'\u00e9mission atomique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "f71d295e-f74d-4239-b98f-e8c41b01a58f", "value": "61265"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1d0ed92e-633b-3d92-821c-d8b9ef813c6b">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "3ebb1092-25b7-4c7d-b8ff-ffbf5e036f71", "value": "Spectrom\u00e9trie d'\u00e9mission atomique \u00e0 source plasma"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "6c8904ec-9760-47b1-949d-5d58469221e4", "value": "61261"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/26e870e7-7b78-318c-8c11-f8a64768b705">
+    <dcterms:identifier xml:lang="en">{"id": "f3f54f21-5c48-43c0-8df8-91c0be63d74c", "value": "61108"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "a325c845-de0b-4469-b69e-0179583532bb", "value": "Thermographie active"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/716618c3-fdff-36b2-bbc5-663dc3c2d439">
+    <skos:prefLabel xml:lang="fr">{"id": "12ebc2cb-83c7-41e9-b65a-792dc594d1f8", "value": "Chromatographie"}</skos:prefLabel>
+    <skos:definition xml:lang="en">{"id": "a43b2a42-92c0-434c-93a2-f3d617a471f5", "value": "set of laboratory techniques for the separation of mixtures"}</skos:definition>
+    <skos:prefLabel xml:lang="it">{"id": "8db67ab0-3a3a-46b7-846d-8c13b3c57baa", "value": "cromatografia"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "216721b0-cfd4-440e-b253-dbdd1f222639", "value": "chromatography"}</skos:prefLabel>
+    <skos:definition xml:lang="it">{"id": "27fef461-9dfc-4c47-9b1f-00a5aadf9c2c", "value": "serie di tecniche di laboratorio atte alla separazione dei composti in una miscela"}</skos:definition>
+    <skos:definition xml:lang="fr"><![CDATA[{"id": "106853fa-d157-44b3-88a0-29aafd199246", "value": "m\u00e9thode d'analyse chimique</br>La <strong>chromatographie</strong> est une m\u00e9thode physico-chimique qui sert \u00e0 s\u00e9parer les diff\u00e9rentes substances pr\u00e9sentes dans un m\u00e9lange (\u00e9chantillon en phase homog\u00e8ne, liquide ou gazeuse)"}]]></skos:definition>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/05d48960-0005-35f8-842d-961dca1145c7">
+        <skos:prefLabel xml:lang="fr">{"id": "e4c332fe-085f-4e1a-9fa7-c11b53adfa6d", "value": "Chromatographie de perm\u00e9ation sur gel"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "aa307ae9-320f-4ac0-bc8e-8c9c4115fc54", "value": "61021"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5952c92e-faa2-36a2-bf06-b65c8c519b46">
+        <skos:narrower rdf:resource="http://localhost:8000/81a52ed1-5897-3577-ae68-f6e15634206e"/>
+        <skos:prefLabel xml:lang="en">{"id": "206c37b4-13ac-466d-966b-fb1ee6fbe669", "value": "gas chromatography"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">{"id": "f52feca2-1262-4598-9dd9-5dc3ae5bef02", "value": "Chromatographie en phase gazeuse"}</skos:prefLabel>
+        <skos:note xml:lang="fr"><![CDATA[{"id": "e88acb59-4253-4430-bede-833e9c73e54c", "value": "La <strong>chromatographie en phase gazeuse (CPG)</strong> est une technique de chromatographie qui permet de s\u00e9parer des mol\u00e9cules d'un m\u00e9lange gazeux, \u00e9ventuellement tr\u00e8s complexe, de natures tr\u00e8s diverses. Elle s'applique principalement aux compos\u00e9s gazeux ou susceptibles d'\u00eatre vaporis\u00e9s par chauffage sans d\u00e9composition"}]]></skos:note>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="it">{"id": "36331a7a-9cd3-46d1-ae8e-efd2f029029c", "value": "gascromatografia"}</skos:prefLabel>
+        <skos:definition xml:lang="en">{"id": "e373be28-67a2-462b-a06b-92c8fc99eecd", "value": "type of chromatography to separate complex mixtures"}</skos:definition>
+        <skos:narrower rdf:resource="http://localhost:8000/58a4712d-b5ef-30bd-adc7-a2102a9a2223"/>
+        <dcterms:identifier xml:lang="en">{"id": "ac219191-763d-45e4-9453-4a81c21b634b", "value": "61022"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/b3fd2363-4d79-3148-a14b-806547d6c714"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/73ede03b-091e-355b-a638-ba940e33b5f7"/>
+    <dcterms:identifier xml:lang="en">{"id": "c27f38e1-1f63-43d4-b55a-306b00725488", "value": "61020"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e1474f64-f7d8-36c3-88d3-9c3db7bf9573">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/bff891af-db91-3f59-9b47-3336ab2d3f5d">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "6c27dcf7-e446-4215-b382-fbe0e324d341", "value": "61239"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "b9f5cd08-64b8-4893-b600-253de0a341a9", "value": "R\u00e9flectom\u00e9trie X"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/64ea26a1-99e3-3418-ad92-0725f96f20f4">
+        <skos:prefLabel xml:lang="fr">{"id": "8c8d2f44-8aee-40b2-9650-1f33260951ba", "value": "R\u00e9flectom\u00e9trie infrarouge"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "03cedecb-f219-45e0-a30b-c35bc00ac9ed", "value": "61238"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "c67f528f-b94d-4a65-923d-83eaeb114795", "value": "61237"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "ec9fedc6-8e17-4422-852e-77bab21cbd77", "value": "R\u00e9flectom\u00e9trie"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9535ef43-dd71-329b-8f8c-75fe8e862efa">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d9d04aee-6d8a-3850-af8d-9afe323dc19f">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "9c465b99-d554-46fc-92ef-76ddf6461ec4", "value": "61219"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "15b1434b-869f-4efb-831a-04f380c6c0a2", "value": "Spectrofluorom\u00e9trie"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "a711c097-3d32-4f59-8b17-d5359c38f52e", "value": "61218"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "8705453e-d0e3-4954-852f-bddedeecb6a1", "value": "Fluorim\u00e9trie"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5f9bfd47-9b4c-3b0c-a59c-7012504a06ed">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "e6161f25-f5fb-4c22-bbf9-2ba95df5f436", "value": "61292"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "9fc2781c-8204-4e4a-88db-1623cccc7e3c", "value": "Spectrom\u00e9trie de masse par d\u00e9sorption laser"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/13cc3abe-7144-3eb2-beae-63730a945fef">
+    <skos:prefLabel xml:lang="fr">{"id": "309473a9-76f7-452e-a906-ccc7b81a1615", "value": "Spectrom\u00e9trie de masse du rapport isotopique"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "08c39ba7-c8ef-438f-baed-e215c29a23f0", "value": "61290"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/28a7e7e0-f53e-3d6b-b310-0420c22058af">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "6af36db2-51ac-4134-b1fd-c9c892d6d619", "value": "Holographie"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/eaa2e1ce-bb6e-3da2-8037-7fa574400d7c">
+        <skos:prefLabel xml:lang="fr">{"id": "4040a765-e6e7-4924-9b85-dd19bbc4bfcb", "value": "Holographie optique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "4b293a9d-b413-487e-af2e-05cfe29cd8df", "value": "61085"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6d7b6c0e-3e38-300f-8246-a0a840bd341a">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "00a23766-9488-4d58-af61-056d5e52072a", "value": "Holographie acoustique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "c44c3a20-2ee8-4448-b7a1-765b410928e5", "value": "61084"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c4ae71f8-587f-3679-b206-3b57227e5dc3">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "964d300b-6235-4c1e-a598-bbf52743d85e", "value": "61086"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "7d81138b-6e2c-45ee-ae2e-4d385d4d0a67", "value": "Interf\u00e9rom\u00e9trie holographique"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "70d3d925-6373-4c5c-a0e4-5169cc130f3f", "value": "61083"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/104f3d14-f0fa-3d92-938f-8d512b44d12b">
+    <skos:prefLabel xml:lang="fr">{"id": "f0cfe475-8def-48fb-ae6c-a4600b5b924c", "value": "Spectrom\u00e9trie UV"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c2f54135-237b-359c-98a3-58faf4d86175">
+        <dcterms:identifier xml:lang="en">{"id": "89192fb5-3dbe-44fc-a579-9bbf8cbf9112", "value": "61324"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "235681b3-84c3-4e94-a70e-1d485b863138", "value": "DAD"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2953a858-4ed5-365b-84fe-aa682464a577">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "389e1667-5da4-4f22-a0b6-6cbb0a70854d", "value": "61325"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "f8882702-e3fa-4ef5-a078-aaa88b7aab02", "value": "Spectrom\u00e9trie UV visible"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "ccd55398-ddaa-4d27-9f01-51788bac245a", "value": "61323"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ac0efba0-ca21-3c9d-82f7-24dde26d9c53">
+    <dcterms:identifier xml:lang="en">{"id": "ce5acc67-6688-41ed-9bf3-c499f9d99344", "value": "61247"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "b86a0886-6b12-48ce-90f3-4a262f6a614b", "value": "Spectrom\u00e9trie de plasma induit par laser"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4eba539b-c223-38b0-8343-53966f655c17">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2cefcfb6-3d5f-326b-9bfd-840ea93a7e23">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "bfd3e46f-51c2-479d-a39a-ce7300e3bcbe", "value": "Interf\u00e9rom\u00e9trie \u00e9lectronique de Speckles"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "75acde24-ccf3-43d5-a51b-749201a7628d", "value": "61090"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/42f0d438-c7c3-3986-af56-730b3150ad6b">
+        <skos:prefLabel xml:lang="fr">{"id": "c7961427-a155-443a-9db1-4bb72b8fe12e", "value": "Interf\u00e9rom\u00e9trie doppler laser"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "fe48eb5f-cc5f-4d6e-9253-feaf95e9d986", "value": "61089"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "a06635a9-8935-4a96-bca0-e9bbc96c4023", "value": "61087"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e3835ad7-ece0-3052-89cf-970e9500583b">
+        <dcterms:identifier xml:lang="en">{"id": "bec24a23-e07f-4feb-83f3-ace5ab3c5394", "value": "61088"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "e9654eb1-2526-4b65-9a3f-c3dc36226a32", "value": "Interf\u00e9rom\u00e9trie de moir\u00e9"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "be04faf2-7a5b-4ddb-be00-8563efcd2d01", "value": "Interf\u00e9rom\u00e9trie"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f24d4825-cfe5-382d-993f-7e8fe4a4bd80">
+        <skos:prefLabel xml:lang="fr">{"id": "a2fb83c6-6c5a-4b83-b5f5-1096bed355fc", "value": "Interf\u00e9rom\u00e9trie holographique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "38071725-a25c-4adb-ae6e-22ddd06b0fe4", "value": "61091"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3b6d70cc-f983-350d-8b7c-895a27090cc7">
+    <dcterms:identifier xml:lang="en">{"id": "623c91a8-fa95-40b5-a626-da62a1d0d6c5", "value": "61026"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "a43349e0-99e2-48db-84ba-ac4990131325", "value": "Chromatographie en phase gazeuse \u00e0 pyrolyse coupl\u00e9e \u00e0 la spectrom\u00e9trie de masse + THM"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7a7e8591-94f0-3fe2-b7ea-b4dde33dcbfb">
+    <dcterms:identifier xml:lang="en">{"id": "2328d28e-53db-4ee6-9ecc-4cef30996580", "value": "61274"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "2545eee3-d443-4c05-b619-3d3c3e88e758", "value": "Spectrom\u00e9trie d'images"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d35a8f0a-4fdd-3733-abbe-3e13e3ba5d26">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "48a8760e-afe3-4b71-99e4-314404ec9907", "value": "Fluorescence X"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "246d0c85-d762-436c-a88c-bee34fa3255e", "value": "61209"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a2e4b31a-53fa-3d8c-8aa6-f5b8b2564629">
+        <dcterms:identifier xml:lang="en">{"id": "b2d64103-26d7-4f56-8602-3095dc58d96e", "value": "61216"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "befd0cda-fbfd-4473-bfc4-94e53f1e1571", "value": "Fluorescence X portable"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cd7de52f-b6a7-3dce-9ccd-f6187fb79baa">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "26b7790c-055f-444d-b1dc-03e35ef1665a", "value": "Fluorescence X induite par particules acc\u00e9l\u00e9r\u00e9es"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "af1cb694-52fe-4877-a64f-6fd38a9dd737", "value": "61214"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/499a30a8-d3fe-3ea7-a49a-07d4755b216d">
+        <dcterms:identifier xml:lang="en">{"id": "d12d42d0-1673-4166-af58-ce8880f2d596", "value": "61210"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "cfe88dc5-01e2-4139-8256-263e549941e7", "value": "Fluorescence X \u00e0 dispersion d'\u00e9nergie"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/0c67412a-7b15-30cb-a15c-14e982cbd1fa"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e05a5195-9f82-3453-9eb0-0d0d344d63ac">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "270603b9-6c1b-4925-bc8d-214b63aa693b", "value": "61213"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "4c9d395e-519e-4ba8-896c-0eb314ae10e9", "value": "Fluorescence X en r\u00e9flexion totale"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/59367393-f619-3994-a359-b73e3d7e1184">
+        <skos:prefLabel xml:lang="fr">{"id": "b9c69edd-ab8d-42b7-b970-fe8e55c6d76a", "value": "Fluorescence X induite par rayonnement synchrotron"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "deb0eb9a-4684-4282-a262-e4f7504975f4", "value": "61215"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6d4ff657-5ac1-3a73-a8f9-06fe71e13cb0">
+        <skos:prefLabel xml:lang="fr">{"id": "f3d7d6aa-bece-4b53-b18e-5162f4dabd1c", "value": "Fluorescence X \u00e0 dispersion de longueur d'onde"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "ab41c4d7-e430-425f-9227-a6e05631ca9d", "value": "61212"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9b85c40c-132d-3664-a869-e62fae06aa10">
+        <skos:prefLabel xml:lang="fr">{"id": "7e243190-044d-44d8-8968-1528711298c7", "value": "Microfluorescence x"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "a1f26ed8-0a13-462b-9458-b82385729ce4", "value": "61217"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/95be91d5-bdf5-3b6c-8b68-dd9318af8f2c">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "745119ff-be66-4474-8dbd-d8be3571cdb9", "value": "Pr\u00e9l\u00e8vement"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/8bab41e6-2f6d-36c7-a74c-e2214f0f478d">
+        <skos:prefLabel xml:lang="fr">{"id": "5d6122c8-8ad6-4eca-81a0-054f119d4c64", "value": "Forage"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "cf0c45be-a5da-48ce-a320-b8585c928613", "value": "45164"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/51f4055f-9f07-39be-bc83-f301e531b9c0">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "a71632de-9630-4b69-9e2c-828ad411c07d", "value": "41175"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "0b5c5484-dd26-4536-bbcd-b30d879e3e3e", "value": "Pr\u00e9l\u00e8vement sur site"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/97de7a0e-a466-3535-962d-cadb31fb07da">
+        <skos:prefLabel xml:lang="fr">{"id": "3305b4c1-3116-4a21-a89d-549e4fae487d", "value": "Pr\u00e9l\u00e8vement sur objet en laboratoire"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "35a2f66c-a438-4371-bd4a-671a5c6e1492", "value": "41176"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "de286232-04bc-4f9b-855a-4e013e44f1da", "value": "61045"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/46ad3c76-f575-3c0a-9d6a-e85549475067">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/210d9031-b08c-3a59-bb45-1e837e824bbe">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "9afd6a88-fa4b-4b49-9912-dda7752ac5cf", "value": "61166"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "cd531d0a-2116-419f-8970-3867b6dbee36", "value": "Syst\u00e8me de mesure de r\u00e9sistance au percement"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "91b8e085-0ca1-4286-b484-a6510689e302", "value": "61154"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "d078fb6e-d2c0-4351-8ca0-ca29d97de10b", "value": "Test sur les mat\u00e9riaux"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9abb6adb-32ff-3019-8c46-d12cfaf587b3">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "46170498-e0fb-44cb-866c-7e472b272d9d", "value": "61165"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "c9839ebf-ac8d-42e5-a213-40499d9da3fe", "value": "Porosit\u00e9 accessible \u00e0 l'eau"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/891f3338-9bee-3a59-8fb3-1b2605640774">
+        <skos:narrower rdf:resource="http://localhost:8000/1aeb6ffd-d2ef-3548-a857-7677d07ae17e"/>
+        <skos:narrower rdf:resource="http://localhost:8000/0a8bb02c-a57d-3486-b733-b6ac3e91bdae"/>
+        <skos:prefLabel xml:lang="fr">{"id": "d2673ba8-c11a-4a9e-a0bb-30203538e084", "value": "Vieillissement artificiel"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/7b945b1b-4cc4-38a3-8fe5-91a22f345ae9"/>
+        <dcterms:identifier xml:lang="en">{"id": "82cce711-414c-494e-aa59-4f6eab90e91a", "value": "61167"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/71faefd8-7243-3530-a4fd-217c12495567">
+        <skos:narrower rdf:resource="http://localhost:8000/31fc324d-4a92-368a-b959-a4b458b1b715"/>
+        <skos:prefLabel xml:lang="fr">{"id": "cc2fc25d-3410-49da-8c6a-4cd36174cc1f", "value": "Masse volumique"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/2834268e-300c-3568-9a02-0d2772f29898"/>
+        <dcterms:identifier xml:lang="en">{"id": "78c371b7-18ab-4354-8125-7581590032d4", "value": "61160"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0d4d7e24-449f-39e7-ad0e-f7ed47740950">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "9019e89d-2b0a-4bf7-bfd3-44a74ef43156", "value": "61158"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "834e924d-c2e1-4219-8dff-58736a1896a3", "value": "Essai m\u00e9canique"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/631bcea1-16f2-3a54-941f-0edbc8f7e5bd"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a607221b-f993-3407-87f7-02096c26a5b8">
+        <dcterms:identifier xml:lang="en">{"id": "e9191c67-23db-4b8f-a5e7-1eb1c9f1e939", "value": "61163"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/6a07c5e2-1847-32fa-887c-14bd520cca5a"/>
+        <skos:prefLabel xml:lang="fr">{"id": "5e876f31-53e3-4110-b9ad-e9de3d268a3f", "value": "Mesure"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/09e43ef7-3e8f-39bb-a1c7-782bb82157d8">
+        <dcterms:identifier xml:lang="en">{"id": "a4e59baa-7030-44ad-b470-405aab3a859a", "value": "61155"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "5513ba99-4574-4e97-8a56-c839fd85666b", "value": "Distribution du volume des pores"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/a44d1d65-d778-3d2c-a384-166cdd0476b3"/>
+        <skos:narrower rdf:resource="http://localhost:8000/58b315e7-07ae-309b-a368-48ba20edfc3f"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/11a78a37-45e8-398b-8d76-0beccc61b20c">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/129a1ec8-d1cd-35ab-a90f-8fd2b20cd3a4">
+        <dcterms:identifier xml:lang="en">{"id": "62ea02ef-f741-403e-b128-57ca473f7b2a", "value": "61266"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "05f932ea-e78b-46f0-9c54-38682d1e9bfe", "value": "Spectrom\u00e9trie d'\u00e9mission atomique \u00e0 source plasma"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b4094d3e-7277-38e5-8aa4-fdcb894455f3">
+        <skos:prefLabel xml:lang="fr">{"id": "3c92b052-072f-4f64-9ae1-8b8cbaa523db", "value": "Spectrom\u00e9trie d'\u00e9mission UV source plasma"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "a85eda06-199a-420a-97cf-d385a9e3998c", "value": "61264"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "8bf717e6-6ad9-4acf-abc6-c4f07c282a39", "value": "Spectrom\u00e9trie d'\u00e9mission \u00e0 plasma"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "4d938299-c11d-4ba5-9790-1fabfbc9e513", "value": "61260"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0497e1b2-6adb-3fb3-b2ca-927ac1792185">
+        <skos:prefLabel xml:lang="fr">{"id": "015b2213-6eef-411d-84b6-34b4702ded6c", "value": "Spectrom\u00e9trie d'\u00e9mission plasma \u00e0 couplage inductif"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "24e0f07a-ecf2-4c1c-ac33-9f9cad93d0b6", "value": "61263"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5cd7e0aa-ae5d-3fc8-8340-ff19dc3e053e">
+        <skos:prefLabel xml:lang="fr">{"id": "3fcd71d8-f16e-4d42-8f03-c11b0dd3049a", "value": "Spectrom\u00e9trie d'\u00e9mission optique \u00e0 source plasma"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "d67a85fb-1efa-437f-83ac-705a145e6cc0", "value": "61262"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e0a4fb46-d619-3f19-be79-c688e727e27e">
+    <dcterms:identifier xml:lang="en">{"id": "2a95e985-b22e-4220-95f3-09075247d60e", "value": "61312"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "b14e1292-5b1d-4683-b173-f5acbde34050", "value": "Spectrom\u00e9trie infrarouge d'absorption r\u00e9flexion par modulation de polarisation"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/015658b6-82fd-3e08-9680-47cb4c4f151f">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "8cc5b40c-1777-4ea2-8733-ea9d79db2bd1", "value": "61067"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "966db9bf-db76-4130-bb45-7dd929940e19", "value": "Microscopie \u00e9lectronique \u00e0 balayage sous vide"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/713f8e17-1575-30cd-8847-2cd52d85b498">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "d8c9a0e5-2157-43eb-b9af-e1df6a10c00d", "value": "Macrophotographie"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ea471435-5e18-40b7-9d06-09f26d5bbf93", "value": "61092"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5ff53d67-a8b1-3aba-b059-c9f300663c39">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/356fa68f-1db5-3a7c-b66b-fd54ebf921ef">
+        <dcterms:identifier xml:lang="en">{"id": "7207498b-c9ad-4fcd-97af-54d3b89694fa", "value": "61288"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "207207a9-bf85-44b0-ad08-52fea263fe26", "value": "Spectrom\u00e9trie de masse des atomes secondaires neutres"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a483e28f-d7d2-3ebd-a5d9-6a5aa0da9c9d">
+        <skos:prefLabel xml:lang="fr">{"id": "3729b0c5-7cec-45f3-a73c-78cc4cf4d98e", "value": "Ionisation chimique \u00e0 pression atmosph\u00e9rique"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "b8b1f73a-a87e-49d7-a3a3-c76517ece429", "value": "61280"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/bdd15fda-a46a-38c0-8067-e8dd6eeda525">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "63df6a6c-4096-46c1-a694-e545c0ac538c", "value": "Spectrom\u00e9trie de masse par ionisation thermique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "55b79869-888c-4043-82fa-12ca2181455d", "value": "61293"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/21c32605-ac8a-3698-a380-ca64278f2a9a">
+        <dcterms:identifier xml:lang="en">{"id": "80221ac7-2f3c-447f-a601-d36dd034c1ef", "value": "61287"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "a3f1ec91-0ae8-4803-9abd-a7619ddac4d2", "value": "Spectrom\u00e9trie de masse \u00e0 transform\u00e9e de fourier"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0e0d8a12-2b45-3a2b-8f0d-4f60f3fb9e62">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "428e9398-01b8-4e11-aca9-924c6dd75598", "value": "61289"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "60a857ca-c49d-41d8-8d16-2a8f53104980", "value": "Spectrom\u00e9trie de masse des ions secondaires"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/72000403-39de-3500-9f89-3914f2a18be3">
+        <skos:prefLabel xml:lang="fr">{"id": "4c62856e-165a-4b69-abe9-799a6c1f0d25", "value": "Chromatographie en phase gazeuse coupl\u00e9e \u00e0 la spectrom\u00e9trie de masse"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "b83ce69f-d78a-4adb-bbbf-781603687587", "value": "61278"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/84be229e-50c0-3fa4-a01b-ac6a5bf69fb3">
+        <skos:prefLabel xml:lang="fr">{"id": "9f0051ed-ff22-452c-ae39-8d167cec85ff", "value": "Chromatographie en phase liquide \u00e0 haute performance coupl\u00e9e \u00e0 la spectrom\u00e9trie de masse"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "8091d3ea-2f4b-46cb-bafe-2e84e76afb04", "value": "61279"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/645c3f5c-4466-3798-85d9-62494d3ba431">
+        <dcterms:identifier xml:lang="en">{"id": "92175fed-e929-4606-b41f-5e2c5cfd5369", "value": "61291"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "604d773a-7154-4654-9288-38f380245334", "value": "Spectrom\u00e9trie de masse par acc\u00e9l\u00e9rateur ou Spectrom\u00e9trie de masse acc\u00e9l\u00e9r\u00e9e"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7345e8cd-9283-398d-90f6-c3a292378328">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "f6965799-6549-4c44-bb52-d632ed83fb76", "value": "Spectrom\u00e9trie de masse \u00e0 r\u00e9solution directe de temp\u00e9rature"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "2033f560-95ad-422e-9d36-c3158bf02613", "value": "61285"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/5f9bfd47-9b4c-3b0c-a59c-7012504a06ed"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/549b3cb3-7a15-3461-b1a8-e8c7be4affec">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "b65320ed-9ae0-41d4-9862-fc3f1270243b", "value": "61283"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "fb9223c7-ec11-448d-8d7c-f333e73736e6", "value": "Spectrom\u00e9trie de masse \u00e0 plasma induit"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/6b9a83b6-24d3-34e0-a521-6dfc472ba9e7"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b1995400-c9d7-3242-b054-5d3ddc2b7d44">
+        <skos:prefLabel xml:lang="fr">{"id": "75a78d26-f50c-4026-8510-b0025edca1c7", "value": "Spectrom\u00e9trie de masse \u00e0 ionisation \u00e9lectrospray"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "0c119721-e611-4f97-95a1-36c376708725", "value": "61282"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "17989b2f-1848-4f58-bd86-852b52eef60e", "value": "61276"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/13cc3abe-7144-3eb2-beae-63730a945fef"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/daf27a2d-caef-35c3-94ca-7d44c5f026af">
+        <skos:prefLabel xml:lang="fr">{"id": "6590d46b-e365-4cc8-9e1d-6ad7f3b61321", "value": "Spectrom\u00e9trie RIMS"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "8d55ed50-d188-49ad-9e51-1cfddac1cf22", "value": "61294"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3872ec55-fafd-31b3-ac27-9c550ca7d7b7">
+        <dcterms:identifier xml:lang="en">{"id": "f155f082-cbe9-4521-8792-b5fc62aa1707", "value": "61281"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "eda2c0e6-ab22-4e51-a9c4-507c062aac00", "value": "Spectrom\u00e9trie de masse \u00e0 d\u00e9charge de lueur"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "c6009901-d838-4de1-a58b-1015bdf1898e", "value": "Spectrom\u00e9trie de masse"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/e7116944-47ca-34e2-a2aa-7b9f6db15b77"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/86838fae-a04c-307c-80a7-7f4f7a11faa9">
+        <dcterms:identifier xml:lang="en">{"id": "97ad17e5-8dd4-4d99-bd18-8ad603f2038c", "value": "61277"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "09d23f4a-7a2a-4ebc-83ef-9565f379aba6", "value": "Chromatographie en phase gazeuse \u00e0 pyrolyse coupl\u00e9e \u00e0 la spectrom\u00e9trie de masse"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5d54371f-d225-36fd-ab70-290d596b6f56">
+    <skos:prefLabel xml:lang="fr">{"id": "4c24a093-952a-4ab4-b0d4-d34c6f4347f6", "value": "Spectrom\u00e9trie d'\u00e9mission X induite par protons PIH"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ce37fb0c-915a-48f2-9f49-085233987a5b", "value": "61273"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/40a7532d-4ef3-3f89-85ef-477db97ead30">
+    <dcterms:identifier xml:lang="en">{"id": "0b94e7c3-d837-4f08-acb4-2925eac59de8", "value": "61192"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "dd6963ca-d901-4947-8b18-d4f4a44e3a52", "value": "Diffraction neutronique TOF"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/19d1dc99-ee66-3b46-bcb8-01d668465847">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "fa824478-38fa-47ba-9d39-17463b1d9d90", "value": "Microdiffraction X"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3ae47713-3822-4a50-ab50-2576adb30811", "value": "61201"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5ca353af-510a-30ea-92b8-525cece33096">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "80ae8590-1dbc-4e32-b645-77f6396c7d28", "value": "Immunofluorescence"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7b8a1bc8-f202-446e-b336-fa29967fbe81", "value": "61220"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fe7ad643-d0ba-32fe-abc3-ae45333c80cb">
+    <skos:prefLabel xml:lang="fr">{"id": "185cf02d-ad00-4479-a401-67077f5130cd", "value": "Comptage"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "225c8e56-4d3d-4e01-a3d8-ccf3f41680df", "value": "45165"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/25ca139a-59de-3d82-90da-200213254d2c">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "b2f7886f-e2cc-4a66-bf5c-2df1d581231a", "value": "61232"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/97f01696-a583-3f0d-a2f1-be8e091bc8a4">
+        <skos:narrower rdf:resource="http://localhost:8000/2dfba4b2-8d06-326b-8d03-6ab6d3d09480"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "b37baa79-c373-4292-afd2-500cfe801ea8", "value": "Microspectrom\u00e9trie Raman"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "5e1598d1-08c2-40e0-9c56-37f1fb54d580", "value": "61234"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/be00cd0a-0f8d-35f3-bce1-5c010e69a35f">
+        <dcterms:identifier xml:lang="en">{"id": "3e594e3c-8074-4547-9d9f-6c19a1170277", "value": "61233"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "db4f4267-d8df-462d-a79f-88ed60cf4101", "value": "Microspectrom\u00e9trie infrarouge"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "d208bb09-008d-4ea2-97a8-b354c3c6c020", "value": "Microspectrom\u00e9trie"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/04665a66-bd5f-3e6f-b40d-fe9c6a417ef3">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "5670e136-5e7c-4cb0-9ffe-9f3725f02c3d", "value": "61049"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "5a72a1ae-3204-4774-aa60-cf16014c0809", "value": "Vid\u00e9oendoscopie"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/77593eb2-9956-3cb3-a8b8-c244352ecd80">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/68dd3876-f8fd-3bc2-a171-78053bc935ee">
+        <dcterms:identifier xml:lang="en">{"id": "64bdc295-070c-4dc3-8703-7c63f78df790", "value": "61255"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "c31eb3a8-8850-42d2-b727-f645025fee50", "value": "Spectrom\u00e9trie SEXAFS"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "517b54e3-2843-4d64-b43c-360dba0a6e42", "value": "61253"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/fb353be5-1146-39dc-bf86-2b6e75bf4782">
+        <skos:prefLabel xml:lang="fr">{"id": "7fcf8a41-95b0-4b02-ac51-41b951fbef98", "value": "Spectrom\u00e9trie XANES"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "b15c55b7-9e6f-4bc4-ac68-b0bceba827be", "value": "61256"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "f00d752d-a848-4cb0-8ddc-97de3b4b308c", "value": "Spectrom\u00e9trie d'absorption des rayons X"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/03fc2584-8d61-306e-be48-2a3d02388384">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "95f336d5-168f-4c3d-82a8-de18bbac49d3", "value": "61254"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "16c6cae0-421c-4f70-ae70-fc2bf7f80219", "value": "Spectrom\u00e9trie EXAFS"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ab8796a1-b760-3e25-80e5-412c7d04585a">
+    <skos:prefLabel xml:lang="fr">{"id": "9826e9e3-192a-43eb-9e26-d1162e06bd81", "value": "Spectrom\u00e9trie d'\u00e9lectrons Auger par rayons X"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ca1cbaec-e033-410a-9f98-17606770365d", "value": "61258"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/29a6d4e2-eb3b-3e3b-a8e4-b5de3154b67e">
+    <dcterms:identifier xml:lang="en">{"id": "cd7dab4b-54a1-4ef6-9517-6faa0866be22", "value": "76822"}</dcterms:identifier>
+    <skos:definition xml:lang="fr">{"id": "08491ec3-9a8f-461f-a7b0-06700d01638b", "value": "Micrphone \u00e0 4 t\u00eates"}</skos:definition>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "e388dae4-b707-49fd-b65f-3f372715700f", "value": "micrphone quadri-sonique"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9048faf1-802a-3d12-998d-75df59f31da9">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "3591a342-5e1a-4210-b198-c97999b0343b", "value": "Ablation laser coupl\u00e9e \u00e0 une d\u00e9tection par spectrom\u00e9trie de masse \u00e0 plasma induit"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "74a3107b-1e27-4913-b34c-203ed3c81221", "value": "61182"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8065fc1a-68b3-370b-bf58-6706fd35700e">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0afc1b1a-5c00-3824-a96b-b4834c373b00">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "f0dfa537-4d05-4f3d-b480-5550eb143047", "value": "61095"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "716391c7-88f2-4b72-99c5-c2a2600f7676", "value": "Photographie infrarouge"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/434dea6a-0cb2-3b0f-ae1d-235626408f86">
+        <skos:prefLabel xml:lang="fr">{"id": "f81ca615-602f-435c-875d-85041635d81e", "value": "Photogramm\u00e9trie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "d52bacd9-a78e-4df8-b654-a7c5fb1fd841", "value": "61093"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/a4a30f3e-b265-327f-86ab-852caac194ee"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/28a7e7e0-f53e-3d6b-b310-0420c22058af"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1f75e787-4fe0-37cd-8c33-d29553890689">
+        <skos:prefLabel xml:lang="fr">{"id": "70e56fff-1af3-45cf-8750-00b3d431a983", "value": "St\u00e9r\u00e9ophotographie"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "4e392b97-369e-423f-a29b-d080501fb714", "value": "61098"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "776f160e-b9bf-47f2-9edb-253eaa5cb22b", "value": "Photographie"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e306a613-d7aa-36ec-b62a-8ac4b2543410">
+        <dcterms:identifier xml:lang="en">{"id": "fef58886-268c-4d33-8b4f-457c8f805a62", "value": "61096"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "188a0cbd-22da-4c4a-b3bb-c027ff56b767", "value": "Photographie spectrozonale"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "63818a5f-ec77-4415-b6b9-e080b7ac684d", "value": "61082"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/713f8e17-1575-30cd-8847-2cd52d85b498"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/8f643619-77f0-3c45-b933-91e8a195ef2f">
+        <skos:prefLabel xml:lang="fr">{"id": "9d4af73d-2bf4-48c8-a4ad-820c2c07ec00", "value": "Photographie uv"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "d51ebc6b-42ff-44e1-af04-4a7c407131f9", "value": "61097"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/4eba539b-c223-38b0-8343-53966f655c17"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c87eaaec-3bfd-3a58-b65f-026d3285eb19">
+    <skos:prefLabel xml:lang="fr">{"id": "ae4203ed-0040-471d-a13c-23bf0bd3129c", "value": "Endoscopie"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/04665a66-bd5f-3e6f-b40d-fe9c6a417ef3"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "e36a947c-bc71-4cc6-825d-00c5eec110ae", "value": "61048"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b7205f8d-08a9-37db-8539-de3704c84d0e">
+    <dcterms:identifier xml:lang="en">{"id": "d78d83d9-a13d-461a-b759-9c065a99ce57", "value": "61113"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "e278eb34-fdd0-4906-a980-44adadb2dd46", "value": "Tomographie assist\u00e9e par ordinateur"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/39897506-55c9-3224-9c2e-26b42e0038bf">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/8563bb96-dc17-3ec3-b7d0-db32c9eed016">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "a5087df7-2f46-46df-9b60-7d65bf284174", "value": "\u00c9lectroluminescence"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "3d373a51-5bb4-4998-af01-de35dee37694", "value": "61226"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "7edf2caa-7cdb-45be-90d1-e098fbbb5d15", "value": "61221"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c62971ed-b55b-3c2d-83cf-5b200dc78a8a">
+        <skos:prefLabel xml:lang="fr">{"id": "8dd373f6-dcd7-4fe7-a996-13eced483b0f", "value": "Cathodoluminescence"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "8aa52078-5e81-4511-8a2f-b0f787d855b1", "value": "61224"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ada668a3-b036-39bc-ab96-f052deca97a3">
+        <skos:prefLabel xml:lang="fr">{"id": "b03d914f-a783-48fe-8a41-cc4f193493bf", "value": "Triboluminescence"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "421ec854-d0d6-44d1-907e-2ed3d0af7c56", "value": "61231"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f261ee89-ab58-399c-af7c-269050f5f857">
+        <dcterms:identifier xml:lang="en">{"id": "02ce7ee4-6a1d-4204-9871-3e92f93a3aa9", "value": "61225"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "f7e29c8a-960e-43fa-b652-fe069d6d7abc", "value": "Chimiluminescence"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/80104c72-1428-3005-9bdb-c2b826cf5e51">
+        <dcterms:identifier xml:lang="en">{"id": "08d457a6-a25d-45bb-9483-222b45340611", "value": "61230"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "2cf778f5-f406-456e-95ad-22d138ca4f57", "value": "Thermoluminescence"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a8adbf75-fb24-375a-8bb1-df13586def51">
+        <skos:prefLabel xml:lang="fr">{"id": "428b7d89-6f2a-4e41-94e3-3d5c684314f6", "value": "Bioluminescence"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "32e2ca83-da95-4905-a462-222f0fe0c327", "value": "61222"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "fae6e9dd-46ff-40e1-be4e-9c096615a09f", "value": "Luminescence"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a4731361-8fb7-341d-ae29-c8e0c114e9bc">
+        <dcterms:identifier xml:lang="en">{"id": "0454c215-dce9-4945-bf47-6743dd83f458", "value": "61228"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "2de79fd1-4356-4113-9977-b5fd2a5187e6", "value": "Photoluminescence"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5d0ff190-2b33-3995-9523-9ec0838ad1b0">
+        <dcterms:identifier xml:lang="en">{"id": "0e5460c6-1808-4311-98bb-4f5c0bd9f334", "value": "61229"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "e229a51b-4c81-46d9-afd1-0b3928e9d318", "value": "Radioluminescence"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4931a2f0-7377-3a99-81fb-8588820f7c57">
+        <skos:prefLabel xml:lang="fr">{"id": "4358178b-832d-4363-bc0a-b11ec4e61040", "value": "Luminescence stimul\u00e9e optiquement"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "6bb32bc2-a35b-47ac-a21a-2ce4ea385ba8", "value": "61227"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9f62be52-524b-3c7d-8958-d7f0796bfdfe">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "e26d39ed-305b-4992-8be9-29459723ddde", "value": "Candoluminescence"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "3c1bb242-3d9e-4073-b028-0c901fbeb7f9", "value": "61223"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/25c15fbb-87cb-3d37-8d0c-6ed5245963d6">
+    <dcterms:identifier xml:lang="en">{"id": "3fb426cd-3bb1-45d9-b500-3b3a96d62852", "value": "61205"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "9b37e665-6273-4593-ba2c-50c774ba103c", "value": "Fluorescence UV"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f84f1a71-acc4-390c-8f49-7efd9c71bbf9">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "6efc86d3-4b61-4e43-a452-8747790f3fb3", "value": "61206"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "62df6803-cd51-4d00-bf6e-580dd7b533a0", "value": "Fluorescence UV VIS"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3f3ea75f-8e1f-328e-b7e1-b9c4528dae64">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/856645c8-fbc1-3ae6-b3a0-8bf8eaf632f2">
+        <dcterms:identifier xml:lang="en">{"id": "122e8408-b684-4c59-90c5-a073d20299d7", "value": "61102"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "52d52f48-6c58-42c0-879a-907097d370f8", "value": "Gammagraphie"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4b789288-e941-3c28-aa57-da2a2b517a74">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "b4a718b8-5b83-44a7-8f25-1d1cdee15cad", "value": "Autoradiographie"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "d810d657-6cd7-4490-af4b-14c9275f275a", "value": "61100"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/02f704b1-b51e-3454-b420-54da282b3c34">
+        <dcterms:identifier xml:lang="en">{"id": "5605f22f-47b1-412b-b2c2-ee76efecdf72", "value": "61103"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "68d47070-0ec3-407a-abb1-ffdbd5914e2e", "value": "Neutronographie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "671a0888-301e-41e9-8250-125b9a25dac0", "value": "Radiographie"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/43e06d01-2eac-3c27-a5df-839e1c85f36c">
+        <dcterms:identifier xml:lang="en">{"id": "4a6f89d5-e3a2-4be9-9880-75791f030414", "value": "61104"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "e8c97a15-b96d-4352-aecf-65c6deac4e0c", "value": "Radiom\u00e9trie infrarouge thermique"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/32e7ef64-c06a-3602-88af-e190ccacf33c">
+        <dcterms:identifier xml:lang="en">{"id": "71405790-36a2-4c24-80b1-6ad507943192", "value": "61106"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "f0479d0c-ff25-486c-a528-14e47bb391c6", "value": "X\u00e9roradiographie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/412962b3-4d7b-3a6c-9513-5cc5fcd79dda">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "8f1b995a-66ad-4e1e-a4b0-651642813df9", "value": "61105"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "59854e19-875e-4fbd-b2bd-b29d76be86a7", "value": "St\u00e9r\u00e9oradiographie"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "04fffdb1-d169-4a34-99b1-d1efffbb7d7a", "value": "61099"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9b34c18e-a45f-3983-9788-39a8fc073144">
+        <skos:prefLabel xml:lang="fr">{"id": "8aafbe72-aef3-40da-a676-4405e081dfd4", "value": "B\u00eata-radiographie"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "17411dca-e1af-4928-ae89-e5f3afc1e8c6", "value": "61101"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/40cbe68c-74eb-3ec8-bffd-30ddbfa431c0">
+    <skos:prefLabel xml:lang="fr">{"id": "37e5a17a-b77a-4516-b222-326b5832d103", "value": "\u00c9lectrophor\u00e8se capillaire de zone"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "ca989af3-a233-4e4c-8f25-e6e5c3248eaf", "value": "61130"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/73548bac-31e9-3315-a6b1-c4c4b8d2f0af">
+    <skos:narrower rdf:resource="http://localhost:8000/e1c3f592-214c-3eef-82c2-e88a0b50ff84"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/22d1722f-3077-376b-8394-ed395e678c03">
+        <dcterms:identifier xml:lang="en">{"id": "4ca0bb33-2f94-4966-920a-46ef8cbea8f8", "value": "61134"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "b5d35852-e0d4-4c10-a592-c986ba65656b", "value": "Voltamp\u00e9rom\u00e9trie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "4af01deb-cd43-4e77-8a77-e66b0448003e", "value": "61121"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3c4055bb-ac22-3cae-afcc-85353400f1c2">
+        <dcterms:identifier xml:lang="en">{"id": "97524cc5-1a69-4792-bd3d-7df6c941a13d", "value": "61122"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "0a634693-a06f-49fa-9208-6e1935c62d88", "value": "Chronopotentiom\u00e9trie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/19c7284e-111c-3357-a301-091825f51cdd">
+        <skos:prefLabel xml:lang="fr">{"id": "6b138f62-2dba-477c-99ef-52d643c5a325", "value": "Microbalance \u00e0 crystal de quartz"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "80e234af-ec97-4139-9654-4d0df561b51a", "value": "61132"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/dfa81dc9-d660-3640-8125-6d683e9cd9da">
+        <skos:prefLabel xml:lang="fr">{"id": "c4d635b4-36ba-4544-8ff5-91bf3c92f9b0", "value": "\u00c9lectrodialyse"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "2c431e14-d2ea-4e6a-a8d1-7094da12359e", "value": "61124"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "74310432-7b5b-4bfb-ba64-5623f533bc84", "value": "\u00c9lectrochimie"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3a4419d6-0f92-31bd-8d16-2c9e751ac0cb">
+        <skos:prefLabel xml:lang="fr">{"id": "febc4d3b-bfc1-4c26-bd6e-28fa1f0e7bc1", "value": "Coulom\u00e9trie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "4dd01a3f-d6b4-4131-a106-80f7bb4193eb", "value": "61123"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/10252758-fb90-3fd3-9883-cd54a8af1602">
+        <dcterms:identifier xml:lang="en">{"id": "48337c8c-c0cc-471b-a500-b126a3a91af5", "value": "61128"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/ba2a5ebe-d79e-32b3-9bba-00ddb82da858"/>
+        <skos:prefLabel xml:lang="fr">{"id": "43971859-be81-42ad-b93a-27f3b0d12627", "value": "\u00c9lectrophor\u00e8se"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/7614dbcb-7322-3dd4-acf4-c91c698b282e"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4fca9bef-89a4-3e75-b7f9-f10a431a8cb4">
+        <skos:prefLabel xml:lang="fr">{"id": "a560914a-b96b-47b3-8a39-88e499c54a6a", "value": "Microscopie \u00e0 force atomique \u00e9lectrochimique"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "d4d9b6e5-a07e-4efb-88e3-0a4ebd0eb507", "value": "61133"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5d71b3f1-bce9-3f80-9324-10bf7c02c21b">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "d2f4fd03-054c-4ef2-b699-e41064aaad73", "value": "Microscopie Raman"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "019d0e81-529b-4d1a-8205-aac5948e71c2", "value": "61078"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f6a756bf-4409-3f4e-9f52-020980d9ce07">
+    <skos:prefLabel xml:lang="fr">{"id": "a2b8facd-e643-4936-8d1b-a1f92de6edb9", "value": "Microscopie \u00e9lectronique en transmission avec filtrage d'\u00e9nergie"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "17813f5f-0b90-42ae-922d-3c5193207429", "value": "61072"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/06f8a9a0-8a20-3a4b-98ae-90be68676f47">
+    <skos:prefLabel xml:lang="fr">{"id": "bf1bd4c0-0bde-426c-bc05-f1113d3f3ac9", "value": "Chromatographie sur couche mince \u00e0 haute performance"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "baf67457-301b-4ed9-8536-32882f7d960b", "value": "61036"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2fe5191b-296f-31d1-aa37-0ecaa18eeeaf">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6c81f4fc-15a1-35fe-9082-cad955c18793">
+        <dcterms:identifier xml:lang="en">{"id": "e8d6e0b6-bb1c-4ff3-bb8a-a323665ad50a", "value": "61313"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "e674cb85-ad7a-4e1e-a380-cd5900f7ee99", "value": "Spectrom\u00e9trie MicroIRRS"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f021c6c2-9b1c-3b14-b4d0-20e7be2e1c7d">
+        <skos:prefLabel xml:lang="fr">{"id": "e494a828-4e19-4f05-97f1-38e6ffb63a46", "value": "Spectrom\u00e9trie moyen infrarouge"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "9b9df556-ef58-483c-9684-edf36abbeff8", "value": "61314"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6c8b9db7-709e-3631-bfc9-a8ad429247d9">
+        <dcterms:identifier xml:lang="en">{"id": "3ded6fc9-2040-409f-9aa8-5558a97141ea", "value": "61315"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "2f21cd53-4579-4200-aa15-1ecf72ac526a", "value": "Spectrom\u00e9trie proche infrarouge"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/44f1eded-7f04-31f4-a36a-adbd3ef38f80">
+        <dcterms:identifier xml:lang="en">{"id": "2daa77f9-c1a6-44c9-9739-374011f29ff2", "value": "61310"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "e2a94d02-ff15-4358-b7fa-1204c0b35e16", "value": "Spectrom\u00e9trie infrarouge \u00e0 r\u00e9flexion diffuse"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3e8fbf96-68f4-3dc5-9e41-5d270940cddf">
+        <skos:narrower rdf:resource="http://localhost:8000/de75e16e-deb5-3eef-b342-2cf4818439f0"/>
+        <dcterms:identifier xml:lang="en">{"id": "570d75b5-ecf9-4bee-83d8-05bc2a3e62c3", "value": "61308"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "87bc493c-e24c-46db-a46e-8f9e1a86ffce", "value": "IRTF"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "1015c71a-1beb-40a1-9d55-45e69acbd6b8", "value": "61307"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0855e4dc-795c-31e4-a050-d2101e0f1c06">
+        <skos:narrower rdf:resource="http://localhost:8000/e0a4fb46-d619-3f19-be79-c688e727e27e"/>
+        <dcterms:identifier xml:lang="en">{"id": "4f18684f-d1c6-4177-b24f-91d38c658c6e", "value": "61311"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "1340bfbc-4c79-4950-a1bb-b67e3800e640", "value": "Spectrom\u00e9trie infrarouge d'absorption r\u00e9flexion"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/86b42db2-bf11-3adf-98a3-8dcb12b493c3">
+        <dcterms:identifier xml:lang="en">{"id": "b304ef17-2225-4b8a-abed-8d2981dac845", "value": "61316"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "05769816-7d4b-48aa-82b2-9cb98ce16c3e", "value": "Spectrom\u00e9trie SEIRA"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "a590ea4f-f8d9-44ab-8836-2faac6d59225", "value": "Spectrom\u00e9trie infrarouge"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7c7df6e4-e557-3607-88da-711fe3328504">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "d936d495-8e7e-4c7e-83b5-87432ed01b52", "value": "Spectrom\u00e9trie FTIIS"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "77a994dd-bd38-472c-996f-47f37951b46e", "value": "61306"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8a6eadfd-fd9f-3e7c-bc4c-ae6e0a831356">
+    <dcterms:identifier xml:lang="en">{"id": "0e159332-a0ef-451c-992d-d6b4cb760235", "value": "61037"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "ae2b66ab-9b82-46a1-846b-ea2387d63e04", "value": "Chromatographie sur papier"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/68791bc9-736c-3266-8509-de52681a09de">
+    <skos:narrower rdf:resource="http://localhost:8000/7a7e8591-94f0-3fe2-b7ea-b4dde33dcbfb"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6ac671e3-dcfe-30c4-a61b-4973ffeb58dc">
+        <skos:prefLabel xml:lang="fr">{"id": "e4571113-f718-4746-80d3-1bd79902ad73", "value": "Spectrom\u00e9trie d'\u00e9lectrons Auger"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "baf5bad3-26f6-44ff-8878-bd2ccf157d07", "value": "61257"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/ab8796a1-b760-3e25-80e5-412c7d04585a"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/e1474f64-f7d8-36c3-88d3-9c3db7bf9573"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ba555cdc-9c07-35f2-8779-96d3e823fd6b">
+        <dcterms:identifier xml:lang="en">{"id": "864f1527-6179-4dd1-9820-cbb952d180d5", "value": "61303"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "222a1f78-e909-4cec-9afe-60321662c0f6", "value": "Spectrom\u00e9trie dispersive en longueur d'onde"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/8e4f1cbf-e45c-3d99-a0fe-c87733550b7c">
+        <skos:prefLabel xml:lang="fr">{"id": "08999e73-b68d-4cc2-9582-46af37ac5488", "value": "Spectrom\u00e9trie ED XRDF"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "7edfb81e-1e0e-4cb7-a64b-16c46e61afcc", "value": "61304"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/51b206c9-6b8f-3984-8223-a4c0a989b6d8">
+        <dcterms:identifier xml:lang="en">{"id": "cf711a70-c3f4-4c1d-86ff-af32e7816345", "value": "61318"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "a5dfe7ea-6a6a-48cb-9c8d-fb71e387959b", "value": "Spectrom\u00e9trie par s\u00e9lection d'\u00e9nergie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/710e9abf-6f07-3b3f-94ff-12dd9d53c12c">
+        <skos:prefLabel xml:lang="fr">{"id": "997560a7-8867-4aba-a81e-1d691ee45893", "value": "Spectrom\u00e9trie des rayons gamma"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "14a107d7-a010-4d06-9f29-bfb1d16c3633", "value": "61301"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/add7b0da-e20d-3a94-a31c-6731c9a38f74">
+        <skos:prefLabel xml:lang="fr">{"id": "06b5acfb-e6b8-407f-912b-22b24d1068ad", "value": "Spectrom\u00e9trie \u00e0 dispersion d'\u00e9nergie"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "548af938-a476-47a6-aa2f-5b47d0ae51d3", "value": "61243"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/f3764e72-a135-3f9c-99c7-51f2bbfd56ae"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/10afc5c0-e45d-3d39-98c9-6ee3c4586e76">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "e88c6fed-6059-4fbd-9c6c-41fe766b617e", "value": "61319"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "4ac98ed1-b07f-438d-b09c-6ee30bb2713c", "value": "Spectrom\u00e9trie portable"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/104f3d14-f0fa-3d92-938f-8d512b44d12b"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/12ddaa76-d0e6-38f2-a34d-b566f979ad4b">
+        <skos:narrower rdf:resource="http://localhost:8000/5dc93f3e-c811-39da-9748-ceb574d7bb40"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/d35a8f0a-4fdd-3733-abbe-3e13e3ba5d26"/>
+        <skos:narrower rdf:resource="http://localhost:8000/0dcec4bf-202b-3498-824f-cd0917453764"/>
+        <skos:narrower rdf:resource="http://localhost:8000/9535ef43-dd71-329b-8f8c-75fe8e862efa"/>
+        <skos:narrower rdf:resource="http://localhost:8000/5ca353af-510a-30ea-92b8-525cece33096"/>
+        <skos:narrower rdf:resource="http://localhost:8000/cd5d7e30-d904-3503-a1f4-3c52b86a2642"/>
+        <skos:prefLabel xml:lang="fr">{"id": "7edaff3e-5790-402e-9fe3-d9af00961c54", "value": "Fluorescence"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/25c15fbb-87cb-3d37-8d0c-6ed5245963d6"/>
+        <dcterms:identifier xml:lang="en">{"id": "0f8a2670-4aed-407b-959f-512d3aa7285d", "value": "61202"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "867d2ef3-2906-4c43-9473-f93970c18607", "value": "61180"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9be7b747-b788-3492-99ac-3db88ad85aa2">
+        <skos:prefLabel xml:lang="fr">{"id": "9e4b882b-8f55-4323-8d7f-9ca09186e612", "value": "Spectrom\u00e9trie di\u00e9lectrique"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "430f675b-3c43-415c-acbe-54a07e04800c", "value": "61302"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/65ea330e-e7ef-3cee-8266-35dc71321421">
+        <skos:prefLabel xml:lang="fr">{"id": "4ed48264-12d6-4b67-b214-1940dc53410d", "value": "Spectrom\u00e9trie de r\u00e9flectance par fibre optique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "1ec4c4d8-5fa9-40a4-a6bd-2e8ea5717304", "value": "61296"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/48d3a300-705a-3264-93bb-a583f85e0b16">
+        <dcterms:identifier xml:lang="en">{"id": "ed5ebb3e-c1f9-4f6f-8712-58d7132ebe54", "value": "61184"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/966226ac-7d75-3265-bec6-6b70691fc174"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "caa0ce43-c71a-4e7c-836f-bed7e45b7510", "value": "Colorim\u00e9trie"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7f82d1b9-d04c-3aed-90d1-49f47eb41abb">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "3aef212a-23d6-4a5c-8b0d-bffd2ea317d8", "value": "61320"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "6dcb77b8-67c9-4dc5-9caa-d7c09e65ab51", "value": "Spectrom\u00e9trie Raman"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/912673fa-641e-3e20-8e79-053c1bb0232f"/>
+        <skos:narrower rdf:resource="http://localhost:8000/72e9c5d5-f5ad-3de0-b7f9-a50d0ed79fb8"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/21710571-830d-3f9b-a969-d90e03f4d409">
+        <dcterms:identifier xml:lang="en">{"id": "7e1cd79a-9956-4cd7-8acf-734e819941b4", "value": "61236"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "8d2e987c-3363-420c-9641-53f37522f009", "value": "Microspectrophotom\u00e9trie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ce6124d7-2e65-31c5-8d6e-26a136e37cae">
+        <skos:prefLabel xml:lang="fr">{"id": "bea32434-daef-4e63-bb82-28e5ecaf15b6", "value": "R\u00e9sonance paramagn\u00e9tique \u00e9lectronique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "96bb7d42-b10a-4ffa-ba08-b1195af21d7c", "value": "61242"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c6bfd961-57ec-3ad2-b7e8-333415fb3a89">
+        <skos:prefLabel xml:lang="fr">{"id": "4fe82884-3787-46b2-a043-845cee008635", "value": "Spectrom\u00e9trie de r\u00e9trodiffusion Rutherford"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "5c780599-a9e4-4271-b8e0-296b24d1fe32", "value": "61297"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "6c8f8ca9-d4ab-42f2-aff3-f89e6fe8796e", "value": "Spectrom\u00e9trie"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/7c7df6e4-e557-3607-88da-711fe3328504"/>
+    <skos:definition xml:lang="en">{"id": "43601288-1a5c-4fc0-89bc-c545bcc2a052", "value": "measurement of the interactions between light and matter, and the reactions and measurements of radiation intensity and wavelength"}</skos:definition>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/87707538-86b5-3962-b0fd-efe197fa3340">
+        <skos:narrower rdf:resource="http://localhost:8000/8efe4d7b-5b84-344d-b514-0643d5ae1c5b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/1bff6942-ad66-3d8b-bb0f-efef73cbe248"/>
+        <skos:narrower rdf:resource="http://localhost:8000/cba4844c-1271-37a4-ba90-b5d16c924cac"/>
+        <dcterms:identifier xml:lang="en">{"id": "7f6a6ad2-b59d-4a87-a838-051638673ad7", "value": "61249"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/77593eb2-9956-3cb3-a8b8-c244352ecd80"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "134f7b05-dc26-4209-816f-e7971978215c", "value": "Spectrom\u00e9trie d'absorption"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "c2637f5d-16dd-4531-aba3-5aec934833a4", "value": "spectrometry"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/08ab9f34-30ff-3178-a198-f400c5d2a076">
+        <skos:narrower rdf:resource="http://localhost:8000/74a26dd8-7318-338c-bdeb-d10fd5da8062"/>
+        <skos:narrower rdf:resource="http://localhost:8000/cec73b35-073c-3933-baca-f4cf33a79372"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "9aa1efba-3fef-49d3-a29e-e445713cf218", "value": "Spectrom\u00e9trie des photo\u00e9lectrons"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "2a1c5e31-71bc-44bc-8fba-cf1b5cd1e234", "value": "61298"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/96a2af5e-a558-3bec-aef0-56e968510d3f">
+        <dcterms:identifier xml:lang="en">{"id": "d188144d-4e60-4ca2-bbd1-5e5d1d5631fa", "value": "61245"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "04fbf8e4-8135-4c16-b991-e4cdcb3ea987", "value": "Spectrom\u00e9trie \u00e0 mobilit\u00e9 ionique"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:definition xml:lang="fr">{"id": "b9949772-c3c4-4009-b9c7-1dcc1a7d25f3", "value": "mesure des interactions entre lumi\u00e8re et mati\u00e8re"}</skos:definition>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/097cdd2d-5a5d-35db-a496-241b35c0d9f5">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "c9c98829-bd15-4bcb-809b-460f0fb3b45e", "value": "61327"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "dc09f5b7-3402-4b62-b9d7-59c1f7ae0caa", "value": "Spectromicroscopie"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/629cb495-a81b-3bb2-ae6c-f21eb569548f"/>
+        <skos:narrower rdf:resource="http://localhost:8000/a43b2c27-dbfa-3eeb-b940-e125c8abb919"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5d2ed50f-c8ef-375d-8b69-ea2a65cc2363">
+        <skos:narrower rdf:resource="http://localhost:8000/7463e5bb-6064-3bf8-bad1-b67c3b56267f"/>
+        <dcterms:identifier xml:lang="en">{"id": "89f0e538-5629-4c3b-9288-bf07b9ebc46a", "value": "61259"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/b8a8031e-4d30-3e6a-b538-c51fd4a20be7"/>
+        <skos:narrower rdf:resource="http://localhost:8000/155c2db1-e9fa-39fc-8de8-5da6d46ded17"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "7cfa033c-e5e4-4a7a-b008-aca7168c81a7", "value": "Spectrom\u00e9trie d'\u00e9mission"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/11a78a37-45e8-398b-8d76-0beccc61b20c"/>
+        <skos:narrower rdf:resource="http://localhost:8000/1af43165-69b1-3265-9738-d86a2a363dff"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/25ca139a-59de-3d82-90da-200213254d2c"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/51d55653-d49b-3ea7-9c04-b4bbd04e1fdd">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "6788944e-29e0-4b04-9734-99dedad97a54", "value": "61317"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "741dfcf8-97af-4dd0-899a-f6a3eb5336c2", "value": "Spectrom\u00e9trie M\u00f6ssbauer"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/24a9366e-69b3-3f9b-b526-469a19db8e93">
+        <skos:prefLabel xml:lang="fr">{"id": "f7e227b4-6a2f-46d0-8a12-2be421ba81f8", "value": "Spectrophotom\u00e9trie"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "fe7de939-40b3-4725-b328-23f5d3bf3871", "value": "61330"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/5de301f7-350a-33d8-8c9d-e9d5793b5c0c"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/f53d9c69-7dd3-3123-93c1-27ecc5af5cb3"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/2fe5191b-296f-31d1-aa37-0ecaa18eeeaf"/>
+    <skos:narrower rdf:resource="http://localhost:8000/39897506-55c9-3224-9c2e-26b42e0038bf"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2cf35d30-fddf-3bd7-a3ce-ca669115476a">
+        <skos:prefLabel xml:lang="fr">{"id": "6328004f-2362-4903-af24-726729142785", "value": "Spectrom\u00e9trie en transmission"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "4309191d-5c85-4727-bf9e-7f95a1e7671b", "value": "61305"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9d2698af-4491-3411-a443-945af644964d">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "cd9c52db-29d2-428a-ba54-483c7377e7ea", "value": "Spectrom\u00e9trie de perte d'\u00e9nergie des \u00e9lectrons"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "08a75906-594d-4793-9622-a4723becae88", "value": "61295"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/5ff53d67-a8b1-3aba-b059-c9f300663c39"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/18f6bf7b-d36d-3588-ba89-1051f63807a6">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "0c07f01f-7ffc-442b-bb51-8b855a63643b", "value": "61275"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "3eb775e6-7661-451e-942f-a497f5487c8b", "value": "Spectrom\u00e9trie d'imp\u00e9dance \u00e9lectrochimique"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/049cd7b1-1aed-3e65-a133-08f239997a0e">
+        <skos:narrower rdf:resource="http://localhost:8000/9048faf1-802a-3d12-998d-75df59f31da9"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "0e020839-1e0b-4a29-825b-749518424a34", "value": "Ablation laser"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "35342840-4359-4358-97d2-957317ea4618", "value": "61181"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/c4d046de-5b04-3e60-9ddf-aa6cb899ce45"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7f04f43a-568d-3b04-b94d-0160293c966c">
+        <skos:prefLabel xml:lang="fr">{"id": "7fcf69ea-3a35-4a5e-98d6-f61b2aeb3ec7", "value": "R\u00e9sonance magn\u00e9tique nucl\u00e9aire"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/1fe4622a-f998-3a06-b0a1-7d60ea6364d4"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "b214538f-abdb-4d04-aea6-d337fc524fc4", "value": "61240"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1b9a1258-78b9-3e4f-bab4-08aef803ffc5">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "ec2692ed-31f9-4326-a915-c065ccf30faa", "value": "Spectrom\u00e9trie visible"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "45ac8240-c5ee-4e64-9ceb-6ffaf8e9a3a6", "value": "61326"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a586c6ec-75b3-318b-9dd6-3d0416fce73d">
+        <skos:narrower rdf:resource="http://localhost:8000/4e6f375f-d7d1-3ba0-ad7b-cbcc9830f975"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/cc113e64-e9eb-3832-b2fd-e46b71f3def2"/>
+        <skos:narrower rdf:resource="http://localhost:8000/bf1d5332-5dc5-3108-a934-c78e880f421f"/>
+        <skos:prefLabel xml:lang="fr">{"id": "f5994c78-eeae-40f6-a902-8079ab3acf8e", "value": "Diffraction"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "5a157568-1803-429e-a4af-dc6cbc9dc906", "value": "61186"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/19d1dc99-ee66-3b46-bcb8-01d668465847"/>
+        <skos:narrower rdf:resource="http://localhost:8000/24f0bed4-70a6-3462-af4a-9aac0df7f0c9"/>
+        <skos:narrower rdf:resource="http://localhost:8000/2956a3e1-cff8-3f4c-97c2-61a5483cae11"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7e3c1b8a-001c-3546-86ca-dff8a6bb87b5">
+        <skos:narrower rdf:resource="http://localhost:8000/49dfead4-68a5-3d78-bc1c-180f77022d14"/>
+        <dcterms:identifier xml:lang="en">{"id": "7ca66c40-1e85-407e-a638-38941366627a", "value": "61246"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "71c1ba20-d1c2-466c-b61d-f1081dfb1fbe", "value": "Spectrom\u00e9trie \u00e0 plasma"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/ac0efba0-ca21-3c9d-82f7-24dde26d9c53"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ba2a5ebe-d79e-32b3-9bba-00ddb82da858">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "38922069-229f-474d-8243-f46eb1e2cd80", "value": "61131"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "e3210c91-b422-4168-9587-d47cb28e09b6", "value": "\u00c9lectrophor\u00e8se SDS PAGE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/140d5700-16e4-39fb-8a34-effbf5333334">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "f83c8bd0-2258-44c5-a9c2-d2ef388aaefa", "value": "61172"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "9aa00882-2f26-402e-b626-9ae74ebdbf5e", "value": "An\u00e9mom\u00e8tre doppler laser"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/36e15a88-e9f3-3349-bf9c-943f7e42dd99">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "0daf9220-eeb6-4db6-8b51-70a6b624c979", "value": "Microscopie \u00e0 force atomique \u00e9lectrochimique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ed95e556-4cfb-40d8-b072-f105d7e7d214", "value": "61053"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/040443fe-43c8-3cff-b74e-8d819d09e8fb">
+    <dcterms:identifier xml:lang="en">{"id": "daf22c65-f5ed-48db-90da-51041eca4b40", "value": "61060"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "903cc817-e820-413e-af2b-36a4bba75f7f", "value": "Microscopie de fibre optique"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/07e3df54-ac1c-3fb5-a24f-349b8cd49096">
+    <dcterms:identifier xml:lang="en">{"id": "1cf7a91c-86d1-4390-8557-8269b47468c6", "value": "61208"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "cc57e9a2-48ce-4191-bd8d-ee2e5395b835", "value": "Fluorescence UV VIS"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/02ebf238-42f2-35b5-aeed-799c39d9abff">
+    <dcterms:identifier xml:lang="en">{"id": "2a858881-f11b-4dd8-97c7-7f69b362300f", "value": "61153"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "f9aef8bf-1c7b-48d7-9ecc-0e61f857a2ad", "value": "Sismique haute r\u00e9solution"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/81a52ed1-5897-3577-ae68-f6e15634206e">
+    <dcterms:identifier xml:lang="en">{"id": "fd0d1963-630f-4ecb-82cd-f538fec2562e", "value": "61027"}</dcterms:identifier>
+    <skos:definition xml:lang="en">{"id": "3f445c22-ce5a-4b4d-9124-ed869e8e02cf", "value": "a form of normal phase chromatography that uses a supercritical fluid such as carbon dioxide as the mobile phase"}</skos:definition>
+    <skos:prefLabel xml:lang="it">{"id": "2d288841-e689-44e2-b3da-242127052056", "value": "cromatografia a fluido supercritico"}</skos:prefLabel>
+    <skos:note xml:lang="fr"><![CDATA[{"id": "ef95242f-83b0-455a-9380-5b5a43b5145b", "value": "La <strong>chromatographie en phase supercritique</strong> (SFC ou CPS) est une m\u00e9thode de chromatographie utilisant un fluide supercritique comme phase mobile"}]]></skos:note>
+    <skos:prefLabel xml:lang="fr">{"id": "7b3d2956-157f-46c1-9793-54499842fe0c", "value": "Chromatographie en phase supercritique"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="en">{"id": "2bb75382-fd15-4d43-a01c-58b5d4dea279", "value": "supercritical fluid chromatography"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2c5fe81a-0de4-3b27-964a-1db22ee723a8">
+    <skos:prefLabel xml:lang="fr">{"id": "c4cac08f-3fb7-4e55-816e-a474b11e5331", "value": "Diffraction des \u00e9lectrons de faible \u00e9nergie"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "d85e3414-0e23-4e91-a130-d7e509ff39f6", "value": "61188"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2dfba4b2-8d06-326b-8d03-6ab6d3d09480">
+    <dcterms:identifier xml:lang="en">{"id": "4517dbab-1cec-4e07-8314-a14d02b6f17b", "value": "61235"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "399dba92-85ce-447d-be4f-cae84f567f4b", "value": "Microspectrom\u00e9trie Raman laser"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d02eb668-0df3-3f81-be81-40ce5a3f4500">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2af3e641-9977-3f35-91a8-da554b903724">
+        <dcterms:identifier xml:lang="en">{"id": "223a6b73-6bf5-4640-aa83-0cea51b623d8", "value": "61136"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "5cc50e73-92cc-4525-a4cc-852afdc63d2e", "value": "M\u00e9thode \u00e9lectrocin\u00e9tique"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "284aedfd-1e4f-4f56-bd11-b8c23d088106", "value": "61135"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "225a162b-22ff-4d20-9843-cfefe457a74a", "value": "\u00c9lectrocin\u00e9tique"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/155c2db1-e9fa-39fc-8de8-5da6d46ded17">
+    <skos:prefLabel xml:lang="fr">{"id": "7b108c94-21b7-40e1-93be-ef76e6ebab59", "value": "Spectrom\u00e9trie d'\u00e9mission d'ions secondaires"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3146a58d-16f4-49fb-ad18-40090473788d", "value": "61267"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c4d046de-5b04-3e60-9ddf-aa6cb899ce45">
+    <skos:prefLabel xml:lang="fr">{"id": "93647796-5408-43f0-8d75-678d316b3eba", "value": "Ablation laser puls\u00e9"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "3bd2b124-c9a0-4d21-bddd-7a42c7f3ca22", "value": "61183"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/62647dc9-3231-3ca3-b88e-3d0ee1962bc7">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "9eba1253-302a-4b77-a509-5a7b306570d3", "value": "61035"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "fb9fc17a-40fb-44d4-928e-ef3845adf9ee", "value": "Chromatographie sur couche mince"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/06f8a9a0-8a20-3a4b-98ae-90be68676f47"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fb51e3ce-fa75-3249-8b3f-fe330923faf5">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "4ce6232d-33eb-4daa-a5d5-647d2a3f32fc", "value": "Tomographie g\u00e9o\u00e9lectrique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0ba6322d-4d53-46c2-b192-2b903d754d35", "value": "61116"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9b3dc475-7e3b-3e0e-befe-38b8f6ff264a">
+    <dcterms:identifier xml:lang="en">{"id": "ee5bf6ba-479f-4491-a6ad-cce0e4e7157d", "value": "61051"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "8074edf7-9002-4f78-b3d5-01d5762008b4", "value": "Microscopie \u00e0 \u00e9pifluorescence"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/63c97180-94e8-39c2-bcc8-b3d3a30e1632">
+    <skos:prefLabel xml:lang="fr">{"id": "690d5082-3e2d-4f80-ac24-173fbe9ade68", "value": "Sismique"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower rdf:resource="http://localhost:8000/02ebf238-42f2-35b5-aeed-799c39d9abff"/>
+    <dcterms:identifier xml:lang="en">{"id": "99230714-c854-4c84-9442-dd6e1ed2fee1", "value": "61152"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/60a022e1-3f26-3bfc-ae88-43d43fdf0b9a">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a046f954-db78-3805-b107-9e8e20797fde">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "12c8c26e-0775-463d-b479-8442dd6e0658", "value": "Microscopie confocale de fluorescence X"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "a154a208-6ddf-4316-9970-96b71d7d6ef4", "value": "61058"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "a8b7ef2b-ab6c-4bf8-a019-f4c30b066b75", "value": "61056"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "3618a19d-feba-4c02-9971-361899ead72b", "value": "Microscopie confocale"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/af3cc3f7-b750-3b1d-9341-dfcef24fd80e">
+        <dcterms:identifier xml:lang="en">{"id": "e800566e-431c-4c9f-85c7-fadf5a31594a", "value": "61057"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "9ae26ecf-0ff5-48fe-a08f-717fbdc4e5c8", "value": "Microscopie confocale \u00e0 balayage laser"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f60b2fbe-fe30-3c2f-80a5-557637d9fdd4">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower rdf:resource="http://localhost:8000/36e15a88-e9f3-3349-bf9c-943f7e42dd99"/>
+    <skos:prefLabel xml:lang="fr">{"id": "98db435c-46db-4564-8a44-21d960713e3f", "value": "Microscopie \u00e0 force atomique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "bf788e80-86fd-4f33-a39c-0bfc8abc55e1", "value": "61052"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8efe4d7b-5b84-344d-b514-0643d5ae1c5b">
+    <skos:prefLabel xml:lang="fr">{"id": "71f79bab-d52d-4b4b-9fb4-3af641078f34", "value": "Spectrom\u00e9trie d'absorption dans l'infrarouge"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "0c9e00b0-8889-4833-80cb-82878547e6a8", "value": "61251"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1fe4622a-f998-3a06-b0a1-7d60ea6364d4">
+    <skos:prefLabel xml:lang="fr">{"id": "20c30c27-2b3f-4f21-9d2f-013c5f1667b4", "value": "R\u00e9sonance magn\u00e9tique nucl\u00e9aire \u00e0 transform\u00e9e de Fourrier"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "1894c2c3-d720-4677-a152-1acf3a6989b4", "value": "61241"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/58b315e7-07ae-309b-a368-48ba20edfc3f">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "2fb12baf-e3a8-4b5a-a047-bdbddbfeed8c", "value": "Succion"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7e1b8f17-128a-4e2a-bdfe-0e4698786810", "value": "61157"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a04c3a4a-d786-3324-afa3-d5590c8122c4">
+    <dcterms:identifier xml:lang="en">{"id": "7825c127-4de5-4c66-982a-e9c65a05e3df", "value": "61173"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "69b7d8be-f11d-44a4-859c-216d26f253c6", "value": "Vibrom\u00e9trie doppler laser"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9f2968e0-40a3-34d0-ac79-bbaf783e5e15">
+    <dcterms:identifier xml:lang="en">{"id": "7dcb366e-e435-4107-bb6e-3730b4e7cda9", "value": "61043"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "c36f53db-74d6-42a2-b52a-51195d87c3fb", "value": "Lame mince"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0c67412a-7b15-30cb-a15c-14e982cbd1fa">
+    <skos:prefLabel xml:lang="fr">{"id": "7a5a2899-71f5-40fd-88ff-9ed7566181df", "value": "Fluorescence X \u00e0 dispersion d'\u00e9nergie semi portable"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a07573fb-98bf-4f1a-a0b4-f91ce21f3510", "value": "61211"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d6aee3b1-20ec-35fc-9623-201c1f57563c">
+    <skos:prefLabel xml:lang="fr">{"id": "6d916cd5-a9a8-420d-8390-e37c15c631e0", "value": "Microgravim\u00e9trie"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "fecce5fe-209e-4b86-8817-38260d4cbbcc", "value": "61149"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2834268e-300c-3568-9a02-0d2772f29898">
+    <dcterms:identifier xml:lang="en">{"id": "15523cb6-b101-47f8-b1b6-bc598036a049", "value": "61161"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "fedcd299-173c-4fab-9ff0-a72be6bbfd1d", "value": "Masse volumique apparente"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9085b668-4a0e-3439-9b58-86d260fcc038">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "a163853f-9952-4b50-bf7f-0f46ee4e2dd7", "value": "Spectrom\u00e9trie d'\u00e9mission UV \u00e0 arc \u00e9lectrique ou \u00e9tincelage"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "63a42643-9fd4-43cf-835a-92e86e58dcff", "value": "61269"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/49dfead4-68a5-3d78-bc1c-180f77022d14">
+    <skos:prefLabel xml:lang="fr">{"id": "db24ef0b-db3e-447f-82f3-eecdf68dfe8f", "value": "Spectrom\u00e9trie de plasma induit par laser \u00e0 r\u00e9solution temporelle"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "2d7dd3fd-ac1a-468b-a01c-acc5b7b75599", "value": "61248"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5e7d1117-fa6d-325f-b1c7-250b2e7409f9">
+    <skos:prefLabel xml:lang="fr">{"id": "89302379-8edb-4407-81a7-60221bc19e15", "value": "Num\u00e9risation laser 3D"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c7ee4986-31c7-420c-a6a8-6d2a077cc17d", "value": "61081"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5de301f7-350a-33d8-8c9d-e9d5793b5c0c">
+    <skos:prefLabel xml:lang="fr">{"id": "1730299c-de57-4b8c-8d5e-a356d25bb7da", "value": "Spectrophotom\u00e9trie EDXRF"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "8d6af69b-a681-4a0b-976c-ec5a490de2bf", "value": "61332"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4059f249-d537-304f-a6b0-8cb2dab3e6a7">
+    <dcterms:identifier xml:lang="en">{"id": "2e1c27c0-9756-4334-b68a-dd60f1e550ce", "value": "61064"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "009a8f2d-0e18-4071-b5a5-998705a572bc", "value": "Microscopie \u00e9lectronique \u00e0 balayage associ\u00e9e \u00e0 une microsonde \u00e0 dispersion d'\u00e9nergie"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/84173959-4be0-321d-a193-39c16afb6dc4">
+    <skos:prefLabel xml:lang="fr">{"id": "bfe4e8f0-ff2d-4233-881d-00eb91bc9fb9", "value": "Techniques d'analyse et d'examen"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "f544271f-19ec-4d9e-ab98-7aa64352e154", "value": "41921"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1aeb6ffd-d2ef-3548-a857-7677d07ae17e">
+    <dcterms:identifier xml:lang="en">{"id": "324a9f26-932f-486b-bbd9-283f333f8c6c", "value": "61169"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "5a0260f0-48c4-4293-962f-3894bed5dee5", "value": "Vieillissement anhydride sulfureux"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e6cda11e-00e1-37b9-98d1-b541b2ed1ada">
+    <skos:prefLabel xml:lang="fr">{"id": "eb87a3fd-cee3-4066-8ca6-1081e10fcc18", "value": "Spectrom\u00e9trie d'\u00e9mission UV ICP"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "a73c7325-2709-4796-b3b9-710065b33662", "value": "61270"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/966226ac-7d75-3265-bec6-6b70691fc174">
+    <dcterms:identifier xml:lang="en">{"id": "3787184b-1b96-41a5-a5d8-2e7c4657d09e", "value": "61185"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "7c96ccfb-cc2d-457c-b84c-700ae6aeeceb", "value": "Spectrocolorim\u00e9trie"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d357cb8b-835d-30cb-bf27-f697a9d5e389">
+    <dcterms:identifier xml:lang="en">{"id": "cef8b2c3-ea19-45f1-b2ce-deb7efb5d9ce", "value": "61137"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/5bbf8d87-b1d0-337c-81e3-97ae64a8020e"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/01a723df-440c-38da-a676-f4c87d04feb6">
+        <skos:narrower rdf:resource="http://localhost:8000/d6aee3b1-20ec-35fc-9623-201c1f57563c"/>
+        <dcterms:identifier xml:lang="en">{"id": "07938f43-c057-4b99-9f31-b6614d482880", "value": "61148"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "9adbdd09-c818-4af5-b7c8-3648c671e4de", "value": "Gravim\u00e9trie"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/63c97180-94e8-39c2-bcc8-b3d3a30e1632"/>
+    <skos:narrower rdf:resource="http://localhost:8000/195ec12d-1a0d-3bab-b70c-1a2dbe31b63b"/>
+    <skos:prefLabel xml:lang="fr">{"id": "931925c7-b262-492b-b6d1-73861cc7de3c", "value": "Mesure physique"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/46ad3c76-f575-3c0a-9d6a-e85549475067"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/47bd78cf-e9c0-39ad-abde-2886e5e1a5e8">
+        <skos:narrower rdf:resource="http://localhost:8000/e4fc6bed-4768-37d9-96e7-ac4d7fc9a8ab"/>
+        <skos:prefLabel xml:lang="fr">{"id": "3fd0f812-0d3e-4551-b584-c8cfc73c0b2e", "value": "Profilom\u00e9trie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "ae4c9ba6-fb82-43b5-a0aa-2b475bb751ee", "value": "61150"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0866b82f-120f-3069-ab41-61a129d2e319">
+        <skos:narrower rdf:resource="http://localhost:8000/a04c3a4a-d786-3324-afa3-d5590c8122c4"/>
+        <skos:prefLabel xml:lang="fr">{"id": "b383c3c4-0a93-4af1-8560-0bfc258493d8", "value": "Vibrom\u00e9trie doppler"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "788dc2a1-8d7c-4a2b-9e57-4c62e40b9a49", "value": "61171"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/03a655fb-d33e-38ed-9cc6-e6f9b47bd038"/>
+        <skos:narrower rdf:resource="http://localhost:8000/140d5700-16e4-39fb-8a34-effbf5333334"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e6aebe73-99e3-3e08-83ed-0daee39cf96e">
+        <skos:narrower rdf:resource="http://localhost:8000/941a07a0-ef1e-3182-a2fb-316860fa3ef0"/>
+        <dcterms:identifier xml:lang="en">{"id": "d4162763-47d8-479a-8ebc-054af22f4aa0", "value": "61143"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/f0cbebb4-90e0-39d3-bebd-86f2e22b3a0d"/>
+        <skos:narrower rdf:resource="http://localhost:8000/03431a5d-f153-3fc6-ae39-2b1dc25a5b65"/>
+        <skos:prefLabel xml:lang="fr">{"id": "c87cb15b-c0df-49df-aa86-82d1a6e0f644", "value": "Datation"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/06b74f8b-1d52-3c1a-9f90-80d2f1f3f551"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/161ae506-0797-3512-872d-00f3ec9ee742">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "38d73001-44cc-4985-867e-d22d37927ec9", "value": "61054"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "533d3131-b85e-4907-a611-92838e292c34", "value": "Microscopie \u00e0 lumi\u00e8re polarisante"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/03431a5d-f153-3fc6-ae39-2b1dc25a5b65">
+    <skos:prefLabel xml:lang="fr">{"id": "9a2b00d2-3af1-4366-967b-bb068cb7f62a", "value": "Fusion d'un crystal unique au laser"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "172f8475-0da9-4197-9352-aa01cc35a8ce", "value": "61146"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6774bca7-cbe6-3db7-943f-256fd8dda025">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "db05c1a7-77e9-4400-a9d9-464daa5e72e9", "value": "Mesure chimique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c0f52d92-3615-412a-8296-db54a24f6cab", "value": "61120"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/73548bac-31e9-3315-a6b1-c4c4b8d2f0af"/>
+    <skos:narrower rdf:resource="http://localhost:8000/d02eb668-0df3-3f81-be81-40ce5a3f4500"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/72e9c5d5-f5ad-3de0-b7f9-a50d0ed79fb8">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "00b5a96b-7fca-4a11-9363-e712212d9255", "value": "Spectrom\u00e9trie SERS"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "cf1edcdb-6a09-4c4e-b3a4-99e51e051bce", "value": "61322"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c92c365c-6453-323a-9aa2-a1c6420d949c">
+    <dcterms:identifier xml:lang="en">{"id": "62828541-fbb5-436f-b5c4-7e9f030b26dd", "value": "61062"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "d2190a41-5cb3-4b37-ac29-b0c938426fce", "value": "Microscopie \u00e9lectronique \u00e0 balayage \u00e0 effet tunnel"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4f1c8bf3-57fc-3988-87c6-f0e8bbc565f1">
+    <skos:prefLabel xml:lang="fr">{"id": "7e30e89e-0612-484f-9cd7-66eae9ce08b0", "value": "Tomographie"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1d7e5c29-f171-3fa4-8003-f1548d657de7">
+        <skos:prefLabel xml:lang="fr">{"id": "a386d17c-c7a5-4619-991d-04d26eaf0e59", "value": "Microtomographie assist\u00e9e par ordinateur"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "68868d2b-8eba-4077-b9e7-ed5330d95504", "value": "61111"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c2f00a23-1665-3fff-85fe-7c013c050b78">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "10fa0e5f-17bd-4872-83be-9cdecf1cc42b", "value": "61119"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "99401cd1-9853-4d2a-b17a-5f4f92bb7be6", "value": "Tomographie X assist\u00e9e par ordinateur"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4b42119b-c50d-3002-95ac-1f4266d97e87">
+        <skos:prefLabel xml:lang="fr">{"id": "a61f49ba-b270-46fa-b615-cdc61d415177", "value": "Tomographie de r\u00e9sistivit\u00e9 \u00e9lectrique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "e74f5830-a04b-47fc-acfc-d1c2e15221aa", "value": "61115"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cacdd58c-1e3e-3945-9a72-cb31ac1b1647">
+        <skos:prefLabel xml:lang="fr">{"id": "c6079b07-f60d-45f1-ac96-94c4f4f51c68", "value": "Tomographie de coh\u00e9rence optique"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "7599c11b-5dc3-45af-a04a-e004d1d3612e", "value": "61114"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/06d85540-7e23-38ee-8f5d-2a35a3ba6a62">
+        <skos:prefLabel xml:lang="fr">{"id": "bc3426d5-3540-447b-a733-079181abadfe", "value": "Microtomographie des rayons X"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "3d1f04b6-2afa-48d5-826f-dadf499fbc41", "value": "61112"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/10be710e-5b62-3ae9-8a6e-f5358d74cb0a">
+        <skos:prefLabel xml:lang="fr">{"id": "0f963d09-4a95-4c33-9185-587f2d38e60b", "value": "Tomographie MCT"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "90011302-d251-4d08-8b0c-2b4b8ffb29cf", "value": "61117"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0dca6fb5-6a35-393e-ab24-5ea871c9cd37">
+        <dcterms:identifier xml:lang="en">{"id": "7dbf529c-cde1-4208-86ec-e979a2b054dd", "value": "61118"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "3b4907f6-f627-4888-92d2-a04a32dc2c63", "value": "Tomographie ultrasonique"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/b7205f8d-08a9-37db-8539-de3704c84d0e"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "d43d8e27-3d32-4a48-97b2-a07f9365778d", "value": "61110"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/fb51e3ce-fa75-3249-8b3f-fe330923faf5"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f76ccbd5-13b3-36ca-9d0a-367072832f2d">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "9d5d309e-fef9-4625-9713-bb9ba4365160", "value": "61033"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "366e8aa7-da72-473c-a6b2-0faac777daff", "value": "Chromatographie d'exclusion st\u00e9rique haute pression"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7b945b1b-4cc4-38a3-8fe5-91a22f345ae9">
+    <dcterms:identifier xml:lang="en">{"id": "9594a6e5-96b1-459e-a246-57c908b417d7", "value": "61168"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "f32c2e4c-9493-4cce-961e-1d169f25d506", "value": "Vieillissement \u00e0 brouillard salin"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0514f753-0ffe-3cd8-87c2-dd218497c5bc">
+    <dcterms:identifier xml:lang="en">{"id": "99fbacde-532e-4978-ad28-ce8ed4d1836a", "value": "61044"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "2ac16181-93cc-4387-b8e3-604b0fb3cfb8", "value": "M\u00e9thode non destructive"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ebe81522-eab4-3d73-8a24-a32bb043d1a9">
+    <dcterms:identifier xml:lang="en">{"id": "8e0a44e7-eaeb-49a4-bb5b-7cae6fd7c174", "value": "61070"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower rdf:resource="http://localhost:8000/f6a756bf-4409-3f4e-9f52-020980d9ce07"/>
+    <skos:prefLabel xml:lang="fr">{"id": "c1c6d655-1b09-485c-8a7d-5a4a15336304", "value": "Microscopie \u00e9lectronique \u00e0 transmission"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d7d040b0-2f40-3955-a813-53f51e740a51">
+        <dcterms:identifier xml:lang="en">{"id": "53791bc6-32ab-46ac-b5a7-14ce5dc9b177", "value": "61071"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "2cb81e04-1432-4c18-85fe-4625132e989a", "value": "Microscopie \u00e9lectronique en transmission \u00e0 balayage"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a44d1d65-d778-3d2c-a384-166cdd0476b3">
+    <dcterms:identifier xml:lang="en">{"id": "c1500d25-228e-40ba-b193-0052e730baab", "value": "61156"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "af8a3ce5-8a85-49f0-8269-8c124c7ca12e", "value": "Porom\u00e9trie au mercure"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3469ef3b-3d40-35ab-8167-cf3b98f2516e">
+    <dcterms:identifier xml:lang="en">{"id": "d51b33e0-bbaa-4aaf-9b29-1a410d3e9488", "value": "61061"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "821981ad-265d-4859-968f-2c01f1f39d07", "value": "Microscopie \u00e9lectronique \u00e0 balayage"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d53cd399-fb85-307f-8b66-02473d9d6013">
+        <dcterms:identifier xml:lang="en">{"id": "e62ace8d-cda7-44c0-86d0-d32ce5a80ab1", "value": "61066"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "a1b7afd6-411a-4309-b612-91d940ce16a0", "value": "Microscopie \u00e9lectronique \u00e0 balayage \u00e9quip\u00e9e d'un microanalyseur X \u00e0 dispersion d'\u00e9nergie"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/30cc1507-c826-32fb-9e0f-205f241c11fd">
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "667e9c16-f0e0-47f4-8323-369aa3ea28e0", "value": "Microscopie \u00e9lectronique \u00e0 balayage environnementale"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "b704319f-29f1-4fbf-aa54-1704af80e6e4", "value": "61065"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/c92c365c-6453-323a-9aa2-a1c6420d949c"/>
+    <skos:narrower rdf:resource="http://localhost:8000/4059f249-d537-304f-a6b0-8cb2dab3e6a7"/>
+    <skos:narrower rdf:resource="http://localhost:8000/015658b6-82fd-3e08-9680-47cb4c4f151f"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f6bb6a06-f0a0-35b6-bb3b-cdcd91ac9a3a">
+        <dcterms:identifier xml:lang="en">{"id": "dd9ef837-d408-4e9c-87f5-b406aa6c84af", "value": "61063"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "602d8d1f-a107-4b5c-8004-171828bc21b1", "value": "Microscopie \u00e9lectronique \u00e0 balayage \u00e0 \u00e9mission de champs"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4e6f375f-d7d1-3ba0-ad7b-cbcc9830f975">
+    <skos:narrower rdf:resource="http://localhost:8000/2c5fe81a-0de4-3b27-964a-1db22ee723a8"/>
+    <skos:prefLabel xml:lang="fr">{"id": "cc11dae9-26d9-465a-98c6-0250e558aed4", "value": "Diffraction des \u00e9lectrons"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e5af1415-57ea-4b67-b755-4236b96fffb7", "value": "61187"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f7c1fd36-27ea-35f4-b5b5-68892837c238">
+        <dcterms:identifier xml:lang="en">{"id": "f32044ee-9afc-4825-b6ff-e951a7f7195f", "value": "61189"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "bad616bb-9781-43fe-9fd1-07d4f3b35749", "value": "Diffraction des \u00e9lectrons r\u00e9trodiffus\u00e9s"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f3764e72-a135-3f9c-99c7-51f2bbfd56ae">
+    <dcterms:identifier xml:lang="en">{"id": "c26c6f68-f4e3-4478-b80d-54619f035993", "value": "61244"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "af0001c3-a48d-4b2b-9aae-aabfa1c746ad", "value": "Spectrom\u00e9trie de rayon X \u00e0 dispersion d'\u00e9nergie"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0a8bb02c-a57d-3486-b733-b6ac3e91bdae">
+    <dcterms:identifier xml:lang="en">{"id": "e791ae96-22c3-479f-b182-8459c54202ad", "value": "61170"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "943b509a-1fa5-43ca-9d0a-823a27336a29", "value": "Vieillissement enceinte climatique"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/03a655fb-d33e-38ed-9cc6-e6f9b47bd038">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "10318490-729e-4832-a639-537768e357d6", "value": "Vibrom\u00e9trie doppler laser \u00e0 balayage"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "5691a372-7e45-4cfe-b042-586d42044e9d", "value": "61174"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/44d11cd9-b380-3004-b987-46727a42c2a7">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d6693edf-7e7a-3564-894e-51691e8e679a">
+        <skos:prefLabel xml:lang="fr">{"id": "d8a7c55b-eb9c-4b40-82ca-0b0842564d6e", "value": "Thermographie"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/26e870e7-7b78-318c-8c11-f8a64768b705"/>
+        <dcterms:identifier xml:lang="en">{"id": "9e9d3b00-262b-461a-8a37-cb1405f88e0e", "value": "61107"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/6f663b4f-a7a4-3503-9fd4-3b87fed47b48"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/261feba5-3e3d-31f7-ae90-f3d26afcf8a2">
+        <skos:narrower rdf:resource="http://localhost:8000/2dfdad2d-9911-37ee-a87a-26b30c45a81f"/>
+        <skos:prefLabel xml:lang="fr">{"id": "ae0f29a3-263b-422c-974c-25304f0ce4b6", "value": "Microscopie"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/3469ef3b-3d40-35ab-8167-cf3b98f2516e"/>
+        <skos:narrower rdf:resource="http://localhost:8000/c3712d2a-3504-3e74-90eb-2f1d09ee6762"/>
+        <dcterms:identifier xml:lang="en">{"id": "877ae0fb-8a79-4963-af5d-0e02d9c063bd", "value": "61050"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/161ae506-0797-3512-872d-00f3ec9ee742"/>
+        <skos:narrower rdf:resource="http://localhost:8000/040443fe-43c8-3cff-b74e-8d819d09e8fb"/>
+        <skos:narrower rdf:resource="http://localhost:8000/ae69ad30-63a2-350b-9aa6-3de00c614820"/>
+        <skos:narrower rdf:resource="http://localhost:8000/0233ee87-52db-3db0-a85f-6a7c4b96bec7"/>
+        <skos:narrower rdf:resource="http://localhost:8000/f60b2fbe-fe30-3c2f-80a5-557637d9fdd4"/>
+        <skos:narrower rdf:resource="http://localhost:8000/e758185e-255d-3754-9aa2-20e8ae91de12"/>
+        <skos:narrower rdf:resource="http://localhost:8000/04fa34b0-3c23-3679-89e4-b824206047cc"/>
+        <skos:narrower rdf:resource="http://localhost:8000/5d71b3f1-bce9-3f80-9324-10bf7c02c21b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/ebe81522-eab4-3d73-8a24-a32bb043d1a9"/>
+        <skos:narrower rdf:resource="http://localhost:8000/6ceb30ac-07b2-37fa-85e2-a591567a2023"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/976d4f74-9c39-3762-8d31-92e2e13a36f4"/>
+        <skos:narrower rdf:resource="http://localhost:8000/9b3dc475-7e3b-3e0e-befe-38b8f6ff264a"/>
+        <skos:narrower rdf:resource="http://localhost:8000/60a022e1-3f26-3bfc-ae88-43d43fdf0b9a"/>
+        <skos:narrower rdf:resource="http://localhost:8000/ecb04e10-6be7-3edc-9c27-88a515b0a035"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/c87eaaec-3bfd-3a58-b65f-026d3285eb19"/>
+    <dcterms:identifier xml:lang="en">{"id": "f7b5555b-ef52-4bde-8260-7d60466a4e7d", "value": "61047"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/3f3ea75f-8e1f-328e-b7e1-b9c4528dae64"/>
+    <skos:narrower rdf:resource="http://localhost:8000/8065fc1a-68b3-370b-bf58-6706fd35700e"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower rdf:resource="http://localhost:8000/4f1c8bf3-57fc-3988-87c6-f0e8bbc565f1"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/152e94eb-aadb-3b9f-bfeb-ad813d1219f6">
+        <dcterms:identifier xml:lang="en">{"id": "eedb746c-4d23-41bd-9970-b8802390d65f", "value": "61079"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/5e7d1117-fa6d-325f-b1c7-250b2e7409f9"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "da3f83e5-026b-4081-b096-265bc9f5f407", "value": "Num\u00e9risation laser"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/9b6aad9b-6b00-303d-90b8-e303dc9427f8"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="fr">{"id": "71dd8ec5-6115-4b46-b488-18232accfef6", "value": "Imagerie"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6b9a83b6-24d3-34e0-a521-6dfc472ba9e7">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "51f84cd0-64ce-46d6-b8a8-9024def5d007", "value": "Ablation laser coupl\u00e9e \u00e0 une d\u00e9tection par spectrom\u00e9trie de masse \u00e0 plasma induit"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "f16021b3-c554-4e1d-a129-443a283a972a", "value": "61284"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b8a8031e-4d30-3e6a-b538-c51fd4a20be7">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/71469e35-e876-3f58-8dd9-e84eb6151f3e">
+        <dcterms:identifier xml:lang="en">{"id": "45c9dab0-bd4f-471b-8a65-1110df1ec1f5", "value": "61272"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="fr">{"id": "6e412f1f-e3bb-4990-b5d4-9926e09589f7", "value": "Spectrom\u00e9trie d'\u00e9mission X induite par protons PIA"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "dc17ce22-bd6c-41b0-bf90-4c1063bee2b6", "value": "Spectrom\u00e9trie d'\u00e9mission X induite par protons"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/5d54371f-d225-36fd-ab70-290d596b6f56"/>
+    <dcterms:identifier xml:lang="en">{"id": "00c3db96-b55f-45f0-b535-7ffe31e59b9d", "value": "61271"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6baae5b6-ad77-35d5-96d0-65ac80cdbef9">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "858a286c-4b0b-4888-aca9-032ef3349f34", "value": "61025"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "5527b47c-3e0b-47a0-86d4-bcbdeec74e8b", "value": "Chromatographie en phase gazeuse \u00e0 pyrolyse coupl\u00e9e \u00e0 la spectrom\u00e9trie de masse"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6a07c5e2-1847-32fa-887c-14bd520cca5a">
+    <dcterms:identifier xml:lang="en">{"id": "8b51d7ea-86f4-470d-b161-2e1af25a5cda", "value": "61164"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "b544d76d-758a-410f-ba35-e69707dc2f34", "value": "Perm\u00e9abilit\u00e9 \u00e0 l'air"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6ceb30ac-07b2-37fa-85e2-a591567a2023">
+    <dcterms:identifier xml:lang="en">{"id": "ef2be162-8cdc-4537-b502-735ca70cf9b7", "value": "61059"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "8dd9b5bd-9e9e-4bcd-b63e-3d59c8280304", "value": "Microscopie d'\u00e9lectrons Auger"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/de75e16e-deb5-3eef-b342-2cf4818439f0">
+    <skos:prefLabel xml:lang="fr">{"id": "1066a7e6-6da9-4c70-991a-eedbffdfcf23", "value": "Spectrom\u00e9trie infrarouge \u00e0 transform\u00e9e de Fourier polarisante"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "5e2a3b1c-0c63-46b4-8788-e047411c9d81", "value": "61309"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/04fa34b0-3c23-3679-89e4-b824206047cc">
+    <skos:prefLabel xml:lang="fr">{"id": "276c817a-e1b0-424d-b502-713d5c58a505", "value": "Microscopie m\u00e9tallographique"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "ee890192-ab3f-4b4e-865f-02ed4de31c30", "value": "61074"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a43b2c27-dbfa-3eeb-b940-e125c8abb919">
+    <skos:prefLabel xml:lang="fr">{"id": "bcb00010-5a10-4927-b388-5dc6b7e85c2c", "value": "Spectromicroscopie infrarouge"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d91f32d2-b32b-4b87-ae42-406769ca4577", "value": "61329"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c3712d2a-3504-3e74-90eb-2f1d09ee6762">
+    <skos:prefLabel xml:lang="fr">{"id": "87c0fe8a-ace0-40aa-beaa-a807a2a851b2", "value": "Microscopie photonique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7d930440-732c-4fc1-b598-dfa1671cb168", "value": "61077"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b3fd2363-4d79-3148-a14b-806547d6c714">
+    <skos:prefLabel xml:lang="it">{"id": "510c7cd4-7bb2-4d34-b5cf-291c29e3cb23", "value": "Gas chromatography\u2013mass spectrometry"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "1c247931-60a1-4e27-95ae-c54082ce770c", "value": "61023"}</dcterms:identifier>
+    <skos:definition xml:lang="en">{"id": "a0147d0a-d13f-4405-b983-4ec783fa658b", "value": "analytical method"}</skos:definition>
+    <skos:prefLabel xml:lang="fr">{"id": "b612b30d-6807-4507-bfa8-4abcbc2c709b", "value": "Chromatographie en phase gazeuse coupl\u00e9e \u00e0 la spectrom\u00e9trie de masse"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "8534e67d-3f56-4d6f-bc87-98bb99e7b8de", "value": "gas chromatography-mass spectrometry"}</skos:prefLabel>
+    <skos:definition xml:lang="fr">{"id": "3097e406-49e9-4807-b23b-53f2b3863ea1", "value": "technique d'analyse"}</skos:definition>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/557ae987-2730-3d37-badb-56ff8c386b5a">
+    <skos:narrower rdf:resource="http://localhost:8000/9f2968e0-40a3-34d0-ac79-bbaf783e5e15"/>
+    <skos:narrower rdf:resource="http://localhost:8000/0514f753-0ffe-3cd8-87c2-dd218497c5bc"/>
+    <dcterms:identifier xml:lang="en">{"id": "a987a016-5685-48a8-90da-d9ae3be77c75", "value": "61041"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/99041675-8cbd-36e2-9547-e555a493eefa">
+        <skos:prefLabel xml:lang="fr">{"id": "e62184ed-1710-4f0c-bee5-d19d5ead31e0", "value": "Test lingette"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <dcterms:identifier xml:lang="en">{"id": "7161f03a-07c7-4d2d-92bf-97108547850f", "value": "61046"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "3bc911cd-8c22-40b9-947c-0cf2a9838300", "value": "\u00c9chantillonnage"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/03ef28e4-72d6-30b2-aa2e-05b51ce24cbb">
+        <dcterms:identifier xml:lang="en">{"id": "c5e6776b-e281-4ffe-8208-df0e306158d3", "value": "61042"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+        <skos:prefLabel xml:lang="fr">{"id": "a164e7ca-7bee-4c4e-8aca-a3f821a89f88", "value": "Coupe stratigraphique"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/95be91d5-bdf5-3b6c-8b68-dd9318af8f2c"/>
+    <skos:prefLabel xml:lang="en">{"id": "6f595497-8291-4a3f-bb80-8891a66f6284", "value": "Sample Taking Technique"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cba4844c-1271-37a4-ba90-b5d16c924cac">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "94be79a5-4035-4029-adfe-bd32d5051f6a", "value": "Spectrom\u00e9trie d'absorption atomique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "6425722c-94da-40db-991d-c02c795398d4", "value": "61250"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cc113e64-e9eb-3832-b2fd-e46b71f3def2">
+    <dcterms:identifier xml:lang="en">{"id": "b5a26156-3965-4f35-890d-cf30364e228a", "value": "61190"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "9b20f8be-9b88-45f5-9d0c-409bbfcc9b44", "value": "Diffraction \u00e9lectronique en faisceau convergent"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/74a26dd8-7318-338c-bdeb-d10fd5da8062">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "2f1b5fd1-12b8-4572-af9f-5aa57269daa7", "value": "Spectrom\u00e9trie des photo\u00e9lectrons X"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ecc159b6-a620-4121-9a05-6095332a561d", "value": "61300"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7463e5bb-6064-3bf8-bad1-b67c3b56267f">
+    <dcterms:identifier xml:lang="en">{"id": "18c6edf3-13fc-41fb-ac47-d3819b171ea8", "value": "61268"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/e6cda11e-00e1-37b9-98d1-b541b2ed1ada"/>
+    <skos:prefLabel xml:lang="fr">{"id": "58566cd1-51f5-4943-a78f-f24fc4c69827", "value": "Spectrom\u00e9trie d'\u00e9mission UV"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower rdf:resource="http://localhost:8000/9085b668-4a0e-3439-9b58-86d260fcc038"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f0cbebb4-90e0-39d3-bebd-86f2e22b3a0d">
+    <skos:prefLabel xml:lang="fr">{"id": "2577ac4a-d7e5-4265-9e76-115e3118602e", "value": "Trace de fission"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "7afacd5d-dcaa-4927-b3a4-fab4daff9f44", "value": "61147"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f53d9c69-7dd3-3123-93c1-27ecc5af5cb3">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "9102184a-c588-48fb-8108-2f8897fa092b", "value": "Spectrophotom\u00e9trie d'absorption en r\u00e9flexion diffuse"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a8bca89f-2c68-401b-aeb7-ef120ab16775", "value": "61331"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5dc93f3e-c811-39da-9748-ceb574d7bb40">
+    <skos:prefLabel xml:lang="fr">{"id": "426270fb-f405-4e39-9cfe-b0e5d9f87373", "value": "Fluorescence 3D"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "555894ab-9daa-471e-b097-f03de3b7c389", "value": "61203"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/06b74f8b-1d52-3c1a-9f90-80d2f1f3f551">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "ced094ec-826e-48c5-abdd-9ed5e9947dc2", "value": "61145"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "801f14a2-2f50-4caf-b3ad-7615fe11ccad", "value": "Dendrochronologie"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e758185e-255d-3754-9aa2-20e8ae91de12">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "5cc5e9c9-00c5-4122-8aa2-81a29a601a49", "value": "61076"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "a9704980-d401-4a0c-a715-c2d6e118d788", "value": "Microscopie p\u00e9trographique"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bf1d5332-5dc5-3108-a934-c78e880f421f">
+    <skos:prefLabel xml:lang="fr">{"id": "39f810cd-c8a1-4ec3-93c8-24e1d9423992", "value": "Diffraction neutronique"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "648476ea-d79a-472a-bc6c-3a585d5aba7e", "value": "61191"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/40a7532d-4ef3-3f89-85ef-477db97ead30"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0dcec4bf-202b-3498-824f-cd0917453764">
+    <dcterms:identifier xml:lang="en">{"id": "06e641de-10e0-4c0b-a0cb-6172d07eb0ac", "value": "61204"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "e6462013-88b1-4f0c-95a0-4f31e592db12", "value": "Fluorescence induite par laser"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/629cb495-a81b-3bb2-ae6c-f21eb569548f">
+    <dcterms:identifier xml:lang="en">{"id": "4eb4ff70-6d3d-41ed-80e0-1052d478d639", "value": "61328"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "29ac33b1-9b83-4d01-897b-04bbbb560f74", "value": "Spectromicroscopie Auger induite par des \u00e9lectrons"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cec73b35-073c-3933-baca-f4cf33a79372">
+    <skos:prefLabel xml:lang="fr">{"id": "a600bf12-182c-4f7e-8633-2ee6139e1bcc", "value": "Spectrom\u00e9trie des photo\u00e9lectrons en ultraviolet"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "ea655a2b-8ebb-4df6-b55a-95fd8e59014a", "value": "61299"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/30b4915e-e8d7-3539-9ea5-62b6ce8c4bb5">
+    <skos:prefLabel xml:lang="fr">{"id": "04a979f9-6b2a-444e-bb3b-070ce23d45a1", "value": "Chromatographie en phase liquide \u00e0 haute performance coupl\u00e9e \u00e0 la spectrom\u00e9trie de masse"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "193d74ca-96fb-4e55-b60f-f2563a2afc87", "value": "61039"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/912673fa-641e-3e20-8e79-053c1bb0232f">
+    <skos:prefLabel xml:lang="fr">{"id": "476f9ab9-be95-4bd4-8e81-b738ca0c0473", "value": "Spectrom\u00e9trie Raman \u00e0 transform\u00e9e de fourier"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7d36a587-e6c2-4ad2-b760-5b0b710bcc95", "value": "61321"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/58a4712d-b5ef-30bd-adc7-a2102a9a2223">
+    <skos:narrower rdf:resource="http://localhost:8000/3b6d70cc-f983-350d-8b7c-895a27090cc7"/>
+    <skos:prefLabel xml:lang="fr">{"id": "92e70ea9-5481-44f4-8837-02f9f20ba398", "value": "Chromatographie en phase gazeuze \u00e0 pyrolyse"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "45efedff-a9f3-4741-8790-18a86c5f59ef", "value": "61024"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/6baae5b6-ad77-35d5-96d0-65ac80cdbef9"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cd5d7e30-d904-3503-a1f4-3c52b86a2642">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "cca632c7-a271-4397-ad7a-46720d16a596", "value": "Fluorescence visible"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/07e3df54-ac1c-3fb5-a24f-349b8cd49096"/>
+    <dcterms:identifier xml:lang="en">{"id": "10a4856e-3668-4f60-b593-50d8d495cf2e", "value": "61207"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ecb04e10-6be7-3edc-9c27-88a515b0a035">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "2643d7cb-b63a-4e3e-ad17-fa2b42ba14dd", "value": "Microscopie \u00e9lectronique \u00e0 pression variable"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "de75f8b0-a33d-43a1-bbe7-0f7211b16b62", "value": "61069"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9b6aad9b-6b00-303d-90b8-e303dc9427f8">
+    <skos:prefLabel xml:lang="fr">{"id": "02dde33f-5d09-44e8-8a80-a20961e8cd44", "value": "Num\u00e9risation laser 2D"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "0bcc258f-0da5-4064-ad59-4ac263202316", "value": "61080"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6f663b4f-a7a4-3503-9fd4-3b87fed47b48">
+    <skos:prefLabel xml:lang="fr">{"id": "1c9a4780-7e25-41da-a07d-49d31f084173", "value": "Thermographie infrarouge"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a29bad4d-9f8e-4dbc-8963-e0272c0b6292", "value": "61109"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a4a30f3e-b265-327f-86ab-852caac194ee">
+    <skos:prefLabel xml:lang="fr">{"id": "5cb4eef7-8814-4d05-af99-ee328e2a9165", "value": "St\u00e9r\u00e9ophotogramm\u00e9trie"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "970fd860-bb60-4a8d-b85b-9e10d8bb1de2", "value": "61094"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/976d4f74-9c39-3762-8d31-92e2e13a36f4">
+    <skos:prefLabel xml:lang="fr">{"id": "75667a21-bbb3-40f5-b0b9-f3e7db5f4356", "value": "Microscopie optique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "f50f3684-a3d1-43ae-b62e-7fb8d545fc16", "value": "61075"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0233ee87-52db-3db0-a85f-6a7c4b96bec7">
+    <skos:prefLabel xml:lang="fr">{"id": "455e4396-8927-481b-a2d7-1e9ba4cfd3d5", "value": "Microscopie infrarouge"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "464b8c48-38fc-47e7-ad7f-8901688564dd", "value": "61073"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/31fc324d-4a92-368a-b959-a4b458b1b715">
+    <skos:prefLabel xml:lang="fr">{"id": "b1fbf1b6-bec8-4971-b615-581d652fe01f", "value": "Masse volumique r\u00e9elle"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "5a133bbe-449b-42bd-a8c1-87374f3542f4", "value": "61162"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/631bcea1-16f2-3a54-941f-0edbc8f7e5bd">
+    <skos:prefLabel xml:lang="fr">{"id": "50c90f41-e344-4471-a317-f21513ef1852", "value": "Essai au v\u00e9rin plat"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "bcf351b0-35a2-444e-99c6-be1f79079fa0", "value": "61159"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/941a07a0-ef1e-3182-a2fb-316860fa3ef0">
+    <skos:prefLabel xml:lang="fr">{"id": "c65bc8a4-46b3-4205-b1fe-53ef3d1ff9c6", "value": "Carbone 14"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "157efa03-7b0b-4567-8c0a-c1cbf7606ed1", "value": "61144"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/fe7ad643-d0ba-32fe-abc3-ae45333c80cb"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4f57e92d-0e38-3c4c-adf4-89b738cef709">
+        <dcterms:identifier xml:lang="en">{"id": "5510aca2-4d95-4561-abbf-6fe8cc7366f5", "value": "45166"}</dcterms:identifier>
+        <skos:altLabel xml:lang="fr">{"id": "2b65eaf5-9562-4883-b3b2-4cd8916c562e", "value": "Spectrom\u00e9trie de Masse par Acc\u00e9l\u00e9rateur (SMA)"}</skos:altLabel>
+        <skos:prefLabel xml:lang="fr">{"id": "d06a7cb9-b9d1-45c9-837e-ce8b450f0a67", "value": "SMA"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/24f0bed4-70a6-3462-af4a-9aac0df7f0c9">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "5f014a99-21cd-4a18-9327-504f4613afab", "value": "61200"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "abbe942e-52e9-47f7-b0c0-d85652cb7017", "value": "Diffractom\u00e9trie sur poudre"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/90529322-0af4-3e31-a7f4-2a8f22755cde">
+    <skos:prefLabel xml:lang="fr">{"id": "0719ed65-3601-4f8a-a815-51bfa5cc8997", "value": "microphone bi-sonique"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c1a0aa46-33d4-407f-990d-00121a37eee5", "value": "76821"}</dcterms:identifier>
+    <skos:definition xml:lang="fr">{"id": "b9e7001d-b603-4c97-8c35-e15185a13ec5", "value": "Microphone \u00e0 deux t\u00eates"}</skos:definition>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2dfdad2d-9911-37ee-a87a-26b30c45a81f">
+    <skos:prefLabel xml:lang="fr">{"id": "3a009349-0f67-4235-8856-0c89b4ff6c04", "value": "Microscopie \u00e9lectronique \u00e0 photo\u00e9mission"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "a1b2b0f0-a164-4692-bbe4-2a387662b599", "value": "61068"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7614dbcb-7322-3dd4-acf4-c91c698b282e">
+    <skos:prefLabel xml:lang="fr">{"id": "c13add99-951c-45ff-b1ca-86b5e062bb82", "value": "\u00c9lectrophor\u00e8se capillaire"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:narrower rdf:resource="http://localhost:8000/40cbe68c-74eb-3ec8-bffd-30ddbfa431c0"/>
+    <dcterms:identifier xml:lang="en">{"id": "6f6f2e82-acaf-40ab-9f1a-36ec7f90c636", "value": "61129"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ac2460fd-e2e8-3539-ad56-3406aa119bb9">
+    <skos:prefLabel xml:lang="fr">{"id": "821e8208-fabb-4a70-93a1-c7f62673d41d", "value": "Calorim\u00e9trie \u00e0 balayage diff\u00e9rentiel"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "49fcadb6-d8db-451f-b1a8-28b051aecc74", "value": "61142"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ae69ad30-63a2-350b-9aa6-3de00c614820">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "d490be84-0b4b-4f89-b8e4-a7e9695bf96c", "value": "61055"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr">{"id": "daed0d23-f62b-4bb8-bca6-3cfc605c935e", "value": "Microscopie acoustique"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e4fc6bed-4768-37d9-96e7-ac4d7fc9a8ab">
+    <skos:prefLabel xml:lang="fr">{"id": "b932c4e8-8370-4794-8a44-d765eccfd194", "value": "Microprofilom\u00e9trie"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <dcterms:identifier xml:lang="en">{"id": "2ee6f1a1-5675-4367-aa0c-3d660cb20c76", "value": "61151"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1bff6942-ad66-3d8b-bb0f-efef73cbe248">
+    <skos:inScheme rdf:resource="http://localhost:8000/676af2b8-6c30-3a23-b5b2-ddb30b89bfc6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "65a5e19e-d24e-4af5-80b0-d4e8c34aa73f", "value": "Spectrom\u00e9trie d'absorption dans l'ultraviolet et le visible"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "fb9d1ecb-f399-4f31-819b-6e9ed890b91e", "value": "61252"}</dcterms:identifier>
+  </skos:Concept>
+</rdf:RDF>

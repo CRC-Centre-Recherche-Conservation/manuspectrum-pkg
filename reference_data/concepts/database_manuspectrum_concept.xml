@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept rdf:about="http://localhost:8000/b6bf86d1-c810-4d23-a54b-d09bd9fcca3b">
+    <dcterms:identifier xml:lang="en">{"id": "1211866b-baa6-4739-a874-da771130e45b", "value": "http://vocab.getty.edu/aat/300404493"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9e1f6c14-9e1f-43ee-aeac-041ba01e1e82"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/258b5b68-0b17-4001-a9bf-7fd18afa25d4"/>
+        <dcterms:title xml:lang="en">{"id": "4e138112-4856-4d4d-8c87-95f3ee881ac8", "value": "Database Thesaurus"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:scopeNote xml:lang="en">{"id": "2bda6069-a057-4413-b76e-2dfa5c62eb03", "value": "Century in the proleptic Gregorian calendar including the years 1 to 99 (or 1 to 100)."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "fa807fb5-ec4c-48de-8a8c-1f7517f60fc9", "value": "first century (dates CE)"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5d0d33df-a36f-4efc-86ea-597991ac0c6c">
+    <dcterms:identifier xml:lang="en">{"id": "a3342302-0acc-4073-85a7-7fe170ebe238", "value": "http://vocab.getty.edu/aat/300404551"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/51c94a0b-0988-43b5-bd79-73a8dc64cc64">
+        <skos:scopeNote xml:lang="en">{"id": "d8e39029-add6-4fdb-93b6-fdc0f488f9bd", "value": "Century in the proleptic Gregorian calendar including the years 1700 to 1799 (or 1701 to 1800)."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:prefLabel xml:lang="en">{"id": "4f34a3bb-916e-4c26-a52d-35bc16019588", "value": "eighteenth century (dates CE)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ddd8c437-3955-4010-a453-862fd11aabfc", "value": "http://vocab.getty.edu/aat/300404512"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4a5c2d33-fb1d-4d10-8b19-209cc1e1f701">
+        <skos:scopeNote xml:lang="en">{"id": "d046734e-13c6-413b-acec-f462fb385510", "value": "Century in the proleptic Gregorian calendar including the years 1300 to 1399 (or 1301 to 1400)."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "04886db4-0ba7-4d85-8e7c-d52e9b292c49", "value": "fourteenth century (dates CE)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <dcterms:identifier xml:lang="en">{"id": "4e1bdb84-6566-4767-86c8-f067d5c49860", "value": "http://vocab.getty.edu/aat/300404506"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "df47406c-4cfd-4435-a7a0-f7a39c952d3f", "value": "Millennium in the proleptic Gregorian calendar including the years 1000 to 1999 (or 1001 to 2000)."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1ba18362-4781-49eb-aae6-adc62785d89e">
+        <skos:scopeNote xml:lang="en">{"id": "ffca5961-82f0-44cd-8c95-d250cd7f0d82", "value": "Century in the proleptic Gregorian calendar including the years 1000 to 1099 (or 1001 to 1100)."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <dcterms:identifier xml:lang="en">{"id": "a748ce05-0450-40bc-8ecd-056e8721a0b4", "value": "http://vocab.getty.edu/aat/300404503"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "785e4d9f-5261-4f61-9dc5-90dd2e70b9d6", "value": "eleventh century (dates CE)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2fe2bca9-cde9-4ff8-a34f-8650cc44f506">
+        <dcterms:identifier xml:lang="en">{"id": "7b72c9bb-cfbf-444e-9613-d52dead646fd", "value": "http://vocab.getty.edu/aat/300404511"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "fdb7f210-e19d-4840-8042-06de2adbb8ac", "value": "Century in the proleptic Gregorian calendar including the years 1600 to 1699 (or 1601 to 1700)."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:prefLabel xml:lang="en">{"id": "72dc8104-f0fa-4105-94ee-00d8b8884291", "value": "seventeenth century (dates CE)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/77ce09c3-c6f1-410b-961b-25793d6e32fc">
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:scopeNote xml:lang="en">{"id": "bbe51719-2eb9-48fc-927f-8afc0a0242b4", "value": "Century in the proleptic Gregorian calendar including the years 1100 to 1199 (or 1101 to 1200)."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "94438164-2bcc-416a-970e-c22451214c43", "value": "http://vocab.getty.edu/aat/300404504"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "838d278a-97da-4893-98a3-05eee17cb861", "value": "twelfth century (dates CE)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/97e22566-ced1-43f6-89ad-0d5c9e9920b4">
+        <skos:scopeNote xml:lang="en">{"id": "3858b477-35cd-46ac-9150-7d45d842eb64", "value": "Century in the proleptic Gregorian calendar including the years 1200 to 1299 (or 1201 to 1300)."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:prefLabel xml:lang="en">{"id": "be5281d4-20a5-48b2-844c-2ad9ecedfcd2", "value": "thirteenth century (dates CE)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "d968881e-7dc0-4e47-93d2-0d5bbe92b6fc", "value": "http://vocab.getty.edu/aat/300404505"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/60256d33-63e2-4ded-90d4-81cd05d8d853">
+        <dcterms:identifier xml:lang="en">{"id": "a24db344-c486-4057-9095-6126b5eb9100", "value": "http://vocab.getty.edu/aat/300404510"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "5b6edbe2-774f-465e-87b0-69d09bf03891", "value": "sixteenth century (dates CE)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "89a81fe6-0513-43f9-a2f0-d552090a50bf", "value": "Century in the proleptic Gregorian calendar including the years 1500 to 1599 (or 1501 to 1600)."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "75354d90-9e19-415a-bae3-bda91a24f67c", "value": "second millennium (dates CE)"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/824e6208-5cb6-42da-a260-da88d07cf8eb">
+        <skos:scopeNote xml:lang="en">{"id": "cdc2d674-193f-472b-8c45-063a09191c10", "value": "Century in the proleptic Gregorian calendar including the years 1800 to 1899 (or 1801 to 1900)."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "01267cf7-0982-4083-87cb-fa744ad1fb7c", "value": "nineteenth century (dates CE)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "3e81b762-bf60-4d1c-aa80-bce90302ebcd", "value": "http://vocab.getty.edu/aat/300404513"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a95efa09-c9c6-4f91-ba19-c2ccb073aa65">
+        <skos:scopeNote xml:lang="en">{"id": "d1f70f2b-0c3f-4923-a153-c3fbff7fbfc7", "value": "Century in the proleptic Gregorian calendar including the years 1900 to 1999 (or 1901 to 2000)."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "2cc8fc33-435d-479e-a63e-c273718637d3", "value": "twentieth century (dates CE)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "166c52cc-cee1-487e-b71f-04ff1c09132e", "value": "http://vocab.getty.edu/aat/300404514"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c3693cc8-49dd-4093-a339-9f8459a71dc5">
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:scopeNote xml:lang="en">{"id": "cbeeb772-3df8-4202-9c15-e78b48b24217", "value": "Century in the proleptic Gregorian calendar including the years 1400 to 1499 (or 1401 to 1500)."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "91584147-55d7-4253-8157-faa048e166a4", "value": "fifteenth century (dates CE)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "96aac1fd-486b-49e3-93bb-c86cb4bcf1f3", "value": "http://vocab.getty.edu/aat/300404465"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/452b74ac-14e7-4c9e-a0be-d0a978567009">
+    <skos:prefLabel xml:lang="en">{"id": "4f493141-b001-41d4-9c73-dcf637266432", "value": "eighth millennium BCE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <dcterms:identifier xml:lang="en">{"id": "101d8dec-2c09-4214-85a0-fb2e49b2f4ec", "value": "http://vocab.getty.edu/aat/300404560"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "064137bb-549e-4cc1-8705-67fd47256b44", "value": "Millennium in the proleptic Gregorian calendar including the years 7999 to 7000 (or 8000 to 7001) Before Common Era."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/258b5b68-0b17-4001-a9bf-7fd18afa25d4">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ddb2860d-5d89-4fb1-bb59-97564d405fbf">
+        <skos:prefLabel xml:lang="en">{"id": "a894c790-87f0-4a88-bbd4-4f2ebb20b096", "value": "fifth millennium BCE"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "7e948405-cbb5-4eb1-814b-e6bb89be59f6", "value": "http://vocab.getty.edu/aat/300404557"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:scopeNote xml:lang="en">{"id": "980f796e-49dc-454b-be9e-5e3478c4c06c", "value": "Millennium in the proleptic Gregorian calendar including the years 4999 to 4000 (or 5000 to 4001) Before Common Era."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2f5e7712-c07b-43fe-bbf1-5d28610f8a19">
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <dcterms:identifier xml:lang="en">{"id": "1cc693cc-4c4a-4c54-9d54-c0a23800301c", "value": "http://vocab.getty.edu/aat/300404553"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "9718fe41-f87a-4bd4-807a-4cbe60c1f892", "value": "second millennium BCE"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "44675f11-c840-4240-a7cf-a34a45fc4a7e", "value": "Millennium in the proleptic Gregorian calendar including the years 1999 to 1000 (or 2000 to 1001) Before Common Era."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/198b6040-da99-450b-bf4f-33609bad3fc1">
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:prefLabel xml:lang="en">{"id": "0f32dc4a-a64f-43c7-864e-fba7ee6327ea", "value": "eleventh millennium BCE"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "8221de41-eca2-4a7d-b2c0-7df60cc9d21b", "value": "http://vocab.getty.edu/aat/300404563"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "b8d8a86c-bc7b-47c8-b800-4c3780643f76", "value": "Millennium in the proleptic Gregorian calendar including the years 10,999 to 10,000 (or 11,000 to 10,001) Before Common Era."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/5d0d33df-a36f-4efc-86ea-597991ac0c6c"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d802b081-8f14-40e6-9a91-ecd2d4b607fe">
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:prefLabel xml:lang="en">{"id": "a857bdf6-0d52-4b3b-a4ef-25a0b9af37ea", "value": "tenth millennium BCE"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ae7ac6c9-55c8-4cb4-90f1-915add488a42", "value": "http://vocab.getty.edu/aat/300404562"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "ae2ee983-e617-4a62-bc95-a3cbf65136a6", "value": "Millennium in the proleptic Gregorian calendar including the years 9999 to 9000 (or 10,000 to 9001) Before Common Era."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7e533743-f2ef-4b8c-a280-76fdc96a94ad">
+        <skos:narrower rdf:resource="http://localhost:8000/bb16be3f-70f6-4ec0-b8a6-80adfe1b6b43"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/8157f471-7664-41ad-a4ab-13c9fce94f8d"/>
+        <skos:prefLabel xml:lang="en">{"id": "477546bd-c7bd-4fe4-b578-1ad2b9f7e2e4", "value": "first millennium BCE"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/2745b7e6-51c4-4806-81e6-f7a780081b43"/>
+        <dcterms:identifier xml:lang="en">{"id": "dce91d7f-f6d1-4658-89b3-787bae0fb874", "value": "http://vocab.getty.edu/aat/300404554"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "6cd4964d-d6a9-46b6-8115-7aea28e04538", "value": "Millennium in the proleptic Gregorian calendar including the years 999 to 1 (or 2000 to 1) Before Common Era."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/eba9963b-0be6-4df9-906c-b6b35e77277c"/>
+        <skos:narrower rdf:resource="http://localhost:8000/64932060-e220-4a61-b9e2-31f03f2fa528"/>
+        <skos:narrower rdf:resource="http://localhost:8000/65bda895-4a3a-406c-b015-c699bd12212b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/e0138cb4-0b1c-4e3c-a969-51809573accf"/>
+        <skos:narrower rdf:resource="http://localhost:8000/28ceb62a-91fc-4312-825f-e2fbf6d566e6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/4d548795-8fa8-4d59-bdf4-742d2a51067b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/8a01cdb0-238d-4305-a6c6-707a0bcc6533"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6cf3badf-c12d-41e1-8e56-38f0fcce3cb3">
+        <skos:scopeNote xml:lang="en">{"id": "0a7d8e2d-499c-491a-ba9a-838aad003d1d", "value": "Millennium in the proleptic Gregorian calendar including the years 2999 to 2000 (or 3000 to 2001) Before Common Era."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "19f8a70f-7732-423d-bb54-9e873eaa8d96", "value": "third millennium BCE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/e1f33766-b0fd-4769-a50b-5ae83b6e42b9"/>
+        <dcterms:identifier xml:lang="en">{"id": "533f7c4a-61e3-4bd9-aa1e-247f64c738a1", "value": "http://vocab.getty.edu/aat/300404555"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/79f89df1-b050-401b-bf2a-f2a14f366a3b">
+        <skos:scopeNote xml:lang="en">{"id": "bda7f5fa-ca96-49e6-8729-7814211f771e", "value": "Millennium in the proleptic Gregorian calendar including the years 6999 to 6000 (or 7000 to 6001) Before Common Era."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "a4586fbe-4742-4c9d-a134-0671089eb12a", "value": "seventh millennium BCE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <dcterms:identifier xml:lang="en">{"id": "1c66a326-3ad2-4d84-859c-74b6bd78c73b", "value": "http://vocab.getty.edu/aat/300404559"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e66634d0-7ffc-47f9-af66-0e3c425d5935">
+        <skos:prefLabel xml:lang="en">{"id": "be0a74e1-7d97-49db-9425-9ba8ef4636f0", "value": "sixth millennium BCE"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "d53b7273-d324-415a-a5c4-320a3fe82f5a", "value": "Millennium in the proleptic Gregorian calendar including the years 5999 to 5000 (or 6000 to 5001) Before Common Era."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <dcterms:identifier xml:lang="en">{"id": "045eba57-8c5a-4c9a-ae24-91f11837fec4", "value": "http://vocab.getty.edu/aat/300404558"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a4f970c1-4267-412a-9ec4-cad9b27e128e">
+        <dcterms:identifier xml:lang="en">{"id": "1471303a-90f6-4d26-bc30-f871c9ca1075", "value": "http://vocab.getty.edu/aat/300404550"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/b328365a-3108-4930-a907-ff0c57b8911e"/>
+        <skos:narrower rdf:resource="http://localhost:8000/94c106b5-43d2-479c-8bd5-4203a7e9d926"/>
+        <skos:scopeNote xml:lang="en">{"id": "417353a0-a50f-48a3-9030-3db5244bfe6c", "value": "Millennium in the proleptic Gregorian calendar including the years 1 to 999 (or 1 to 1000)."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://localhost:8000/5b22bedb-907f-45ed-99ab-edde6b1b0223"/>
+        <skos:narrower rdf:resource="http://localhost:8000/810e4f93-c745-4470-b9fc-16a806d829d9"/>
+        <skos:narrower rdf:resource="http://localhost:8000/9a1dc4c6-3549-43b7-9ec7-1e2f560bdc18"/>
+        <skos:narrower rdf:resource="http://localhost:8000/97206c84-3a07-4aa0-9370-6e20f4a9a07c"/>
+        <skos:prefLabel xml:lang="en">{"id": "445df160-56fc-4c16-9fd6-a2537bb18208", "value": "first millennium (dates CE)"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/9f070200-6391-4982-86ab-239b8f96f0ef"/>
+        <skos:narrower rdf:resource="http://localhost:8000/7081b5cb-6cbd-4bc5-b8cd-216df7ee3880"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:narrower rdf:resource="http://localhost:8000/dcc97cb2-4d61-42c9-9dbd-80f32463b710"/>
+        <skos:narrower rdf:resource="http://localhost:8000/b6bf86d1-c810-4d23-a54b-d09bd9fcca3b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/452b74ac-14e7-4c9e-a0be-d0a978567009"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b0ec03cd-1c19-4e19-9c5b-dce89d91a79e">
+        <dcterms:identifier xml:lang="en">{"id": "2ebd57bf-f012-4549-8141-e8aa290eb2ef", "value": "http://vocab.getty.edu/aat/300404561"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "e14d225c-7877-4afb-b692-088ecdab1f73", "value": "Millennium in the proleptic Gregorian calendar including the years 8999 to 8000 (or 9000 to 8001) Before Common Era."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:prefLabel xml:lang="en">{"id": "0f0bb9c1-7b1d-47b3-aab9-bd4508f283d2", "value": "ninth millennium BCE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7e25b3fb-a9e5-4d83-a71b-e1a8825462d7">
+        <skos:scopeNote xml:lang="en">{"id": "a471f56b-d767-43d0-8e11-2a5030f431ad", "value": "Millennium in the proleptic Gregorian calendar including the years 2000 to 2999 (or 2001 to 3000)."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <dcterms:identifier xml:lang="en">{"id": "86a643b9-b65d-4210-9308-1392f305913f", "value": "http://vocab.getty.edu/aat/300404552"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7700b85b-cd6a-4e91-82c9-efc64e45aad8", "value": "third millennium (dates CE)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6c28c517-85a5-4160-bed1-c01930d98831">
+        <dcterms:identifier xml:lang="en">{"id": "f8ce81d0-f358-46d1-a13b-0d76fc8472ae", "value": "http://vocab.getty.edu/aat/300404556"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "6a32e9b5-57ec-42e5-a37a-4e7085bac5b1", "value": "fourth millennium BCE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:scopeNote xml:lang="en">{"id": "91573632-c000-42bc-95ca-28424ca75259", "value": "Millennium in the proleptic Gregorian calendar including the years 3999 to 3000 (or 4000 to 3001) Before Common Era."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "ba8e3b91-17d4-43d2-bbc0-d8a5fff6c591", "value": "Frantiq - absolute dating"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2745b7e6-51c4-4806-81e6-f7a780081b43">
+    <skos:scopeNote xml:lang="en">{"id": "8cc234bf-d57b-4ae7-8a43-913bae471ebe", "value": "Century in the proleptic Gregorian calendar including the years 999 to 900 (or 1000 to 901) Before Common Era."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "f7c8dadb-a91c-4729-ab79-df2fb3d89ff7", "value": "http://vocab.getty.edu/aat/300404530"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:prefLabel xml:lang="en">{"id": "f0715d8c-1da5-49b5-9b79-38562397a254", "value": "tenth century BCE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ac959a73-3eee-4b42-b55b-bb02b5b5ef0c">
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "e1b963c0-414e-4ce7-8de3-06f6c1ced4cc", "value": "Activit\u00e9 en cours"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "55317106-832f-4a3f-a37f-cc08b54f68e2", "value": "Activity in progress"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/dcc97cb2-4d61-42c9-9dbd-80f32463b710">
+    <dcterms:identifier xml:lang="en">{"id": "c42d14e8-f8d1-4109-9270-33a47e1d35ed", "value": "http://vocab.getty.edu/aat/300404501"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:prefLabel xml:lang="en">{"id": "3abea288-2f12-4e5c-8ab0-dad01b34d084", "value": "ninth century (dates CE)"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "eeadf5d5-31b2-4e2c-82c2-82b9945e3fb3", "value": "Century in the proleptic Gregorian calendar including the years 800 to 899 (or 801 to 900)."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/28ceb62a-91fc-4312-825f-e2fbf6d566e6">
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <dcterms:identifier xml:lang="en">{"id": "8c8ee1f1-0580-4f95-adb3-4d65a7636bda", "value": "http://vocab.getty.edu/aat/300404518"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "ed515146-0581-4481-bf43-7d2049db2a95", "value": "first century BCE"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "8bceb6c2-5976-4df9-8619-3e8b40b96187", "value": "Century in the proleptic Gregorian calendar including the years 99 to 1 (or 100 to 1) Before Common Era."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8a01cdb0-238d-4305-a6c6-707a0bcc6533">
+    <skos:prefLabel xml:lang="en">{"id": "978dfb1a-103f-4217-bf7a-c03c9f920ca7", "value": "fifth century BCE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <dcterms:identifier xml:lang="en">{"id": "48510af6-93e6-476b-aec6-0df65221adf9", "value": "http://vocab.getty.edu/aat/300404525"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "83ab78c6-afaa-48c2-acef-752389bd7dcb", "value": "Century in the proleptic Gregorian calendar including the years 499 to 400 (or 500 to 401) Before Common Era."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9e1f6c14-9e1f-43ee-aeac-041ba01e1e82">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b4ff02b3-4294-48d9-8fec-ce6dc612f1e8">
+        <skos:prefLabel xml:lang="fr">{"id": "fb59e952-0b3f-49d0-89b9-65637c644f0b", "value": "Activit\u00e9 suspendue"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:prefLabel xml:lang="en">{"id": "44040696-de33-4ee1-85ca-bf3cfedaa62e", "value": "Discontinued activity"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:prefLabel xml:lang="fr">{"id": "aeec7e10-b4aa-4cb5-a352-c8f7064b531a", "value": "Statut de l'activit\u00e9"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "d41bd098-c0d1-4280-8988-04223b5d5057", "value": "Status Activity"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/ac959a73-3eee-4b42-b55b-bb02b5b5ef0c"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4a3b17ae-3dac-44fb-9d4d-bba9e138d7be">
+        <skos:prefLabel xml:lang="fr">{"id": "750bcf80-be59-4197-98c2-3fe7195b8ad5", "value": "Activit\u00e9 termin\u00e9e"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "9634b2a4-1875-48e3-8de3-d812573449e3", "value": "Activity completed"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "d9509297-d223-4a2e-ac95-05302e985a4f", "value": "Description of activity status"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/bfd2e60e-fa1b-4f52-849f-7dbf411882f5">
+        <skos:prefLabel xml:lang="fr">{"id": "c60dba81-6e41-4972-b33c-0bb1146a5f36", "value": "En pr\u00e9paration"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+        <skos:prefLabel xml:lang="en">{"id": "99fd84be-ec64-4f08-897f-d07898e89908", "value": "In preparation"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5b22bedb-907f-45ed-99ab-edde6b1b0223">
+    <skos:prefLabel xml:lang="en">{"id": "18b663f7-b091-4c29-8724-b41fd356cfb9", "value": "eighth century (dates CE)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7190b083-8d27-4ca3-9ebe-473ed6b4b719", "value": "http://vocab.getty.edu/aat/300404500"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "31c001fd-8b32-4a09-b82f-6618dbbe8417", "value": "Century in the proleptic Gregorian calendar including the years 700 to 799 (or 701 to 800)."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9f070200-6391-4982-86ab-239b8f96f0ef">
+    <dcterms:identifier xml:lang="en">{"id": "de5f0f02-695c-418e-b0af-38109d447e65", "value": "http://vocab.getty.edu/aat/300404495"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3ea9f781-3994-4afe-b6e8-4373da12fb75", "value": "third century (dates CE)"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "db70d66b-11bb-49d3-8d5a-d300151c6826", "value": "Century in the proleptic Gregorian calendar including the years 200 to 299 (or 201 to 300)."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bb16be3f-70f6-4ec0-b8a6-80adfe1b6b43">
+    <dcterms:identifier xml:lang="en">{"id": "89620abe-bd20-43f0-96c6-fecd9a943b13", "value": "http://vocab.getty.edu/aat/300404524"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "e4b54b8e-e3bd-4033-bf63-6327fde93fd5", "value": "Century in the proleptic Gregorian calendar including the years 399 to 300 (or 400 to 301) Before Common Era."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "0c6c01c7-2a2f-4f06-b6d2-9e3e70a2cd2e", "value": "fourth century BCE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/65bda895-4a3a-406c-b015-c699bd12212b">
+    <dcterms:identifier xml:lang="en">{"id": "464a7897-27c0-4d59-be48-f33a0178a5b5", "value": "http://vocab.getty.edu/aat/300404529"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "fa569dbe-b9e0-407f-9390-4eeef4e7b225", "value": "Century in the proleptic Gregorian calendar including the years 899 to 800 (or 900 to 801) Before Common Era."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:prefLabel xml:lang="en">{"id": "9b445327-1451-4f40-94d0-88a0dafeca75", "value": "ninth century BCE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/94c106b5-43d2-479c-8bd5-4203a7e9d926">
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:scopeNote xml:lang="en">{"id": "5da8ad07-c24b-4f36-8593-09cb9733e35c", "value": "Century in the proleptic Gregorian calendar including the years 400 to 499 (or 401 to 500)."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "faa89515-a2f0-4cbb-a77c-0b7510961322", "value": "fifth century (dates CE)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ff46d3a1-2db4-41e8-b0b2-ebddfc5be5fb", "value": "http://vocab.getty.edu/aat/300404497"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8157f471-7664-41ad-a4ab-13c9fce94f8d">
+    <dcterms:identifier xml:lang="en">{"id": "804194aa-0dce-440b-85cc-e43d916fc0f0", "value": "http://vocab.getty.edu/aat/300404522"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "977abcdc-ee0a-4cd4-93f9-a170ba4fc3a7", "value": "Century in the proleptic Gregorian calendar including the years 199 to 100 (or 200 to 101) Before Common Era."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "987d8e13-a0e7-4f41-841b-e5fd82e06a5d", "value": "second century BCE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7081b5cb-6cbd-4bc5-b8cd-216df7ee3880">
+    <skos:prefLabel xml:lang="en">{"id": "52263d9f-a977-4d18-9727-b9f020984ff7", "value": "second century (dates CE)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c0540c2a-25a1-48c4-9d24-a901e9cda1b5", "value": "http://vocab.getty.edu/aat/300404494"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "d2ccde47-f9be-445d-a7f6-37dd87085e3c", "value": "Century in the proleptic Gregorian calendar including the years 100 to 199 (or 101 to 200)."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4d548795-8fa8-4d59-bdf4-742d2a51067b">
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <dcterms:identifier xml:lang="en">{"id": "54ebe651-0644-4ffe-8ad1-bf234d989a00", "value": "http://vocab.getty.edu/aat/300404527"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "84077030-4e17-4925-b4ac-a61cd6cd99fa", "value": "Century in the proleptic Gregorian calendar including the years 699 to 600 (or 700 to 601) Before Common Era."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "845f03d5-27cd-40c4-8a6d-3a6cce9df66c", "value": "seventh century BCE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/810e4f93-c745-4470-b9fc-16a806d829d9">
+    <skos:prefLabel xml:lang="en">{"id": "4e23e890-185f-49c9-be0b-8c363cbbdcd5", "value": "seventh century (dates CE)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:scopeNote xml:lang="en">{"id": "199be1e3-11d4-4900-9ae2-cdea38b5d8b7", "value": "Century in the proleptic Gregorian calendar including the years 600 to 699 (or 601 to 700)."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "6958e194-6fcb-4ed9-a966-b846ad2bfb63", "value": "http://vocab.getty.edu/aat/300404499"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9a1dc4c6-3549-43b7-9ec7-1e2f560bdc18">
+    <skos:prefLabel xml:lang="en">{"id": "398c7aea-3ee5-4795-9e31-99d1a9f360b6", "value": "sixth century (dates CE)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "fc50eac2-079b-484f-b51f-7f2f9073f23e", "value": "http://vocab.getty.edu/aat/300404498"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "89884ee4-a26c-41da-9e67-f5f8ced691a7", "value": "Century in the proleptic Gregorian calendar including the years 500 to 599 (or 501 to 600)."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/eba9963b-0be6-4df9-906c-b6b35e77277c">
+    <dcterms:identifier xml:lang="en">{"id": "75ea4183-6ee0-4bd2-8ee5-0cacba5cc132", "value": "http://vocab.getty.edu/aat/300404526"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3146d5dd-83f6-463b-bbd5-d396dfce7c41", "value": "sixth century BCE"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9d958175-ab19-4329-a008-7e00d41856cc", "value": "Century in the proleptic Gregorian calendar including the years 599 to 500 (or 600 to 501) Before Common Era."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b328365a-3108-4930-a907-ff0c57b8911e">
+    <skos:scopeNote xml:lang="en">{"id": "496b241f-048d-43d1-bbf9-099e055732b3", "value": "Century in the proleptic Gregorian calendar including the years 300 to 399 (or 301 to 400)."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:prefLabel xml:lang="en">{"id": "22287602-1424-4374-b2cf-e3d260e6e515", "value": "fourth century (dates CE)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ea44fb24-4868-40ab-b787-1c08998e9047", "value": "http://vocab.getty.edu/aat/300404496"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/64932060-e220-4a61-b9e2-31f03f2fa528">
+    <skos:prefLabel xml:lang="en">{"id": "10f3af19-290a-4ac5-8d7c-63a726a52439", "value": "third century BCE"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "c95853f9-3a5c-43e6-bf57-0086c0bc172f", "value": "Century in the proleptic Gregorian calendar including the years 299 to 200 (or 300 to 201) Before Common Era."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <dcterms:identifier xml:lang="en">{"id": "1cc764c3-a688-45a0-b962-4876a86c7ccc", "value": "http://vocab.getty.edu/aat/300404523"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/97206c84-3a07-4aa0-9370-6e20f4a9a07c">
+    <skos:scopeNote xml:lang="en">{"id": "cb0ccb43-afcf-40f5-a0ef-9b2ee3c03874", "value": "Century in the proleptic Gregorian calendar including the years 900 to 999 (or 901 to 1000)."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "07effbad-72e4-482d-bf8c-faab44f3ffea", "value": "http://vocab.getty.edu/aat/300404502"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <skos:prefLabel xml:lang="en">{"id": "b5d618b5-546e-41ef-b574-64005a84fe79", "value": "tenth century (dates CE)"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e0138cb4-0b1c-4e3c-a969-51809573accf">
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <dcterms:identifier xml:lang="en">{"id": "cc2de324-977d-44d7-9283-73b51626f3bc", "value": "http://vocab.getty.edu/aat/300404528"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "6e353846-d619-49e9-a273-404a21a33ef3", "value": "Century in the proleptic Gregorian calendar including the years 799 to 700 (or 800 to 701) Before Common Era."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c9640352-26da-4eb7-8318-126b015c7ecd", "value": "eighth century BCE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e1f33766-b0fd-4769-a50b-5ae83b6e42b9">
+    <skos:scopeNote xml:lang="en">{"id": "d4d9f801-d5a1-46e0-aa49-6ac5ac19f21a", "value": "Century in the proleptic Gregorian calendar including the years 2000 to 2099 (or 2001 to 2100)."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/bc53dba3-bc80-4165-9ac2-c90512c8d7c6"/>
+    <dcterms:identifier xml:lang="en">{"id": "79da59c0-dc79-4d01-b4d6-cd300475374c", "value": "http://vocab.getty.edu/aat/300404515"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "1e06f754-29d3-40a8-a13e-340b457dd319", "value": "twenty-first century (dates CE)"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
