@@ -1,6 +1,25 @@
 # ManuSpectrum Package
 
+## Install (alpha)
 
+```shell
+wget https://github.com/CRC-Centre-Recherche-Conservation/manuspectrum-pkg/archive/master.zip
+```
+
+```shell
+unzip master.zip -d manuspectrum/
+mv manuspectrum-pkg-main/ pkg/
+```
+
+add this params in settings.py
+```python
+PACKAGE_DIR = os.path.join(os.path.dirname(APP_ROOT),'pkg')
+```
+
+
+```shell
+python manage.py packages -o load_package -s pkg -db -y
+```
 
 ## Credits
 
