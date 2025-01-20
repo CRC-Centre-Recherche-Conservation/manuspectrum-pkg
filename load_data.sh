@@ -9,6 +9,7 @@ cd $ARCHESPATH
 python manage.py packages -o setup_db
 
 # Load Liverpool specific Arches defaut thesauri and collections
+python manage.py packages -o import_reference_data -s $MSPATH/reference_data/arches_thesaurus.xml -ow overwrite -st keep
 python manage.py packages -o import_reference_data -s $MSPATH/reference_data/aat_thesaurus.xml -ow overwrite -st keep
 python manage.py packages -o import_reference_data -s $MSPATH/reference_data/agorha_material_description_characteristics.xml -ow overwrite -st keep
 python manage.py packages -o import_reference_data -s $MSPATH/reference_data/agorha_materials.xml -ow overwrite -st keep
