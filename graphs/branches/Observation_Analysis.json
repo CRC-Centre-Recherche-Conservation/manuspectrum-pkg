@@ -1,0 +1,208 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "738019c0-a8db-11ef-8106-d32727aece17",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Observation_Analysis"
+                    },
+                    "nodegroup_id": "738019bf-a8db-11ef-8106-d32727aece17",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [],
+            "color": "rgba(104,194,62,1)",
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "738019bf-a8db-11ef-8106-d32727aece17",
+                    "edgeid": "738019c3-a8db-11ef-8106-d32727aece17",
+                    "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "738019c1-a8db-11ef-8106-d32727aece17"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "738019bf-a8db-11ef-8106-d32727aece17",
+                    "edgeid": "738019c4-a8db-11ef-8106-d32727aece17",
+                    "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/extensions/crmsci/O24i_was_measured_by",
+                    "rangenode_id": "738019c2-a8db-11ef-8106-d32727aece17"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "738019be-a8db-11ef-8106-d32727aece17",
+            "iconclass": "fa fa-paint-brush",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": "https://cidoc-crm.org/rdfs/7.1.2/CIDOC_CRM_v7.1.2_JSON-LD_Context.jsonld",
+            "name": {
+                "en": "Observation_Analysis"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "738019bf-a8db-11ef-8106-d32727aece17",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "observable_analysis",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Observation_Analysis",
+                    "nodegroup_id": "738019bf-a8db-11ef-8106-d32727aece17",
+                    "nodeid": "738019bf-a8db-11ef-8106-d32727aece17",
+                    "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "note_observation_analysis",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Note_Observation_Analysis",
+                    "nodegroup_id": "738019bf-a8db-11ef-8106-d32727aece17",
+                    "nodeid": "738019c1-a8db-11ef-8106-d32727aece17",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "analysis_observed",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "60c85aba-f079-45bc-997f-21cdd4f77b6d",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Analysis",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Analysis_Reference",
+                    "nodegroup_id": "738019bf-a8db-11ef-8106-d32727aece17",
+                    "nodeid": "738019c2-a8db-11ef-8106-d32727aece17",
+                    "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S21_Measurement",
+                    "parentproperty": "http://www.cidoc-crm.org/extensions/crmsci/O24i_was_measured_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "1db91156-c84e-4488-a62f-bc2f6947e064",
+            "publication": {
+                "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                "notes": null,
+                "publicationid": "77183ffc-a8db-11ef-8106-d32727aece17",
+                "published_time": "2024-11-22T08:10:02.115"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "observable_analysis",
+                "config": {
+                    "en": ""
+                },
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Observation_Analysis",
+                "nodegroup_id": "738019bf-a8db-11ef-8106-d32727aece17",
+                "nodeid": "738019bf-a8db-11ef-8106-d32727aece17",
+                "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Linux",
+        "os version": "5.15.0-130-generic"
+    }
+}
