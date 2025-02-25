@@ -1,74 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:ConceptScheme rdf:about="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414">
-    <dcterms:title xml:lang="fr">{"id": "440ab74a-3415-4d5c-aa47-5038fd112922", "value": "AGORHA type of material description"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/7678d93c-deb7-4021-8440-28c0f6898ab2">
-        <skos:scopeNote xml:lang="fr-fr">{"id": "1d5629ec-5493-44fc-8110-a244884ce19e", "value": "Trace mat\u00e9rielle r\u00e9sultant de l'enregistrement du langage sous la forme de marques visibles conventionnelles ou de signes graphiques sur une surface."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "552bc2f9-3a08-43c9-9251-57b7e82085a7", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7678d93c-deb7-4021-8440-28c0f6898ab2"}</dcterms:identifier>
-        <skos:altLabel xml:lang="en-uk">{"id": "a0576f50-4b11-4dba-9612-29981563c131", "value": "Writing"}</skos:altLabel>
-        <skos:prefLabel xml:lang="en-uk">{"id": "81842932-0491-422d-b70a-2ef76e034786", "value": "Script"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
-        <skos:prefLabel xml:lang="fr-fr">{"id": "e7524dbc-b4b3-46b1-b92a-295b92f6b53e", "value": "\u00c9criture"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:identifier xml:lang="en">{"id": "da8efad3-c7cf-4964-91cd-7ccfba120965", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/16bdfaec-15a7-409c-b91c-84d9bf8e2414"}</dcterms:identifier>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/35a7f767-24f5-4e0f-bc8f-6998b82b8a85">
-        <skos:scopeNote xml:lang="fr-fr">{"id": "de9185b6-2c0d-4fd6-bb7a-bf066e2be06c", "value": "Surface sur laquelle est appliqu\u00e9e une couche de peinture ou un enduit supportant celle-ci. Substratum de la peinture, elle lui conf\u00e8re sa stabilit\u00e9."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="fr-fr">{"id": "177cd35a-fcb7-48b5-8e2a-1aaa32c409dd", "value": "Support"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
-        <dcterms:identifier xml:lang="en">{"id": "e2e1e6f6-1ff0-4add-b09e-a39f894a7683", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/35a7f767-24f5-4e0f-bc8f-6998b82b8a85"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en-uk">{"id": "53f39363-f17d-4880-b71b-3ce2c86791a6", "value": "Support"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "050b24d4-0c9c-4fbe-abb7-f13995bf3aa8", "value": "AGORHA type of material description"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/c19f3196-d1e9-4f08-9917-4d627e61e153">
-        <skos:prefLabel xml:lang="fr-fr">{"id": "3ff3726d-2a5a-450e-a558-105e065bb60f", "value": "D\u00e9cor"}</skos:prefLabel>
-        <skos:prefLabel xml:lang="en-uk">{"id": "4063b4aa-c50b-4101-947c-d8094eed6e25", "value": "Decoration"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
-        <skos:scopeNote xml:lang="fr-fr">{"id": "dcdd7c9a-bb8d-4d64-8270-e8ea4e90fa4d", "value": "Ornement, hors polychromie, plus ou moins en relief, sculpt\u00e9, moul\u00e9, incis\u00e9 et/ou rapport\u00e9 \u00e0 la surface d'un objet."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "079b0c16-8c94-4528-b7ca-e4d9a2f3255d", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c19f3196-d1e9-4f08-9917-4d627e61e153"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/d38a9db0-00d6-4a55-b221-8faf24a57d1a">
-        <skos:prefLabel xml:lang="fr-fr">{"id": "becc68c6-0336-46f7-bbce-77c038b422df", "value": "Dispositif annexe"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="fr-fr">{"id": "b981f0ff-e713-4062-9a36-edee995c4deb", "value": "Tout dispositif permettant un maintien m\u00e9canique de l'\u0153uvre/ l'objet. Indique un \u00e9l\u00e9ment associ\u00e9 sans pour autant faire partie du corps de l'\u0153uvre. Concerne les cadres, ch\u00e2ssis, les socles, etc."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "93275a7e-7d32-4e91-8124-8c0a1c8883ed", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d38a9db0-00d6-4a55-b221-8faf24a57d1a"}</dcterms:identifier>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept rdf:about="http://localhost:8000/b6c7e3dc-38dd-42f9-98fd-eb1827b3c37b">
+    <skos:prefLabel xml:lang="fr">{"id": "49460a6a-1f29-4655-b603-7f64c3d6b4d2", "value": "lettrine"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c19f3196-d1e9-4f08-9917-4d627e61e153"/>
+        <dcterms:title xml:lang="fr">{"id": "440ab74a-3415-4d5c-aa47-5038fd112922", "value": "AGORHA type of material description"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/56c61948-5505-4da5-8e2f-17cbd75a28cc"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7678d93c-deb7-4021-8440-28c0f6898ab2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d38a9db0-00d6-4a55-b221-8faf24a57d1a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/40a69b4b-2477-4c60-b301-4fc97cb6bcc8"/>
+        <dcterms:title xml:lang="en">{"id": "050b24d4-0c9c-4fbe-abb7-f13995bf3aa8", "value": "AGORHA type of material description"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/bc60360f-5eb6-4034-97e9-9ceade0d7907"/>
+        <dcterms:identifier xml:lang="en">{"id": "da8efad3-c7cf-4964-91cd-7ccfba120965", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/16bdfaec-15a7-409c-b91c-84d9bf8e2414"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/35a7f767-24f5-4e0f-bc8f-6998b82b8a85"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "31158e76-817a-447d-a40c-3963731296a8", "value": "initial"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "85604884-0cd6-4a7b-9128-c27d01e9b8e0", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c0fbb18e-d7ea-44cd-b4aa-2d36e3af687f"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/eb7913a7-2a1d-42e5-8054-5cc6583ff975">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f7e90346-986a-4295-a303-693392f87499">
+        <skos:prefLabel xml:lang="en">{"id": "7a832b9f-3257-4acc-9fc0-0491cd07c294", "value": "out-of-text board"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">{"id": "ed381823-a110-4b2a-9a3e-baf507ffb135", "value": "planche hors-texte"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "d4d66303-f82b-4d42-94c1-36fa9836c921", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1ff1c7d3-b469-4c33-9467-587787462008"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
       </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/40a69b4b-2477-4c60-b301-4fc97cb6bcc8">
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7e288ab9-ccc9-4f32-a8c6-125e495a095e">
+        <skos:prefLabel xml:lang="en">{"id": "04344559-3b62-4591-a650-f57fe31c758f", "value": "out-of-text illustration"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
-        <skos:prefLabel xml:lang="fr-fr">{"id": "e3c3fe7c-b28c-4a00-8227-40e51d40486d", "value": "Couche color\u00e9e"}</skos:prefLabel>
-        <skos:altLabel xml:lang="en-uk">{"id": "942683c1-08b4-4795-a1dd-a4f3ea79ff9c", "value": "Paint layer"}</skos:altLabel>
-        <dcterms:identifier xml:lang="en">{"id": "26fd9602-28de-42e2-8831-1697af4170a4", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/40a69b4b-2477-4c60-b301-4fc97cb6bcc8"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en-uk">{"id": "c87b3c5f-8cb0-40ba-b556-bf56b9145422", "value": "Colored layer"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="fr-fr">{"id": "a4a5b667-3cfb-422d-88eb-c7fe49c709a7", "value": "Couche constitu\u00e9e d\u2019une mati\u00e8re colorante et d\u2019un liant."}</skos:scopeNote>
-        <skos:altLabel xml:lang="fr-fr">{"id": "39e72535-afd1-4d0b-a66d-5b7304f25477", "value": "Couche peinte"}</skos:altLabel>
+        <skos:prefLabel xml:lang="fr">{"id": "2f7040bf-5937-4096-9d17-8afcc4524eef", "value": "illustration hors-texte"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "32551a40-756d-4539-87da-b7d5c72915c3", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0179d4f9-78f0-46ce-8437-5a6d2f2f1a69"}</dcterms:identifier>
       </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/56c61948-5505-4da5-8e2f-17cbd75a28cc">
-        <skos:scopeNote xml:lang="fr-fr">{"id": "e9ea73a6-e1c9-4181-a8cd-c11db98b4c75", "value": "Une couche autre qu\u2019une couche peinte. Elle comprend des couches translucides, couches d\u2019adh\u00e9sifs, couches de mixtion (dont on a perdu les dorures), couches de matage, vernis, couches de protection."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
-        <dcterms:identifier xml:lang="en">{"id": "df9ab167-c2ec-474f-9bf0-2ac30b35bb14", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/56c61948-5505-4da5-8e2f-17cbd75a28cc"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="fr-fr">{"id": "e8e77456-7cf2-47f3-9396-71d9a649d056", "value": "Couche non-peinte"}</skos:prefLabel>
-        <skos:altLabel xml:lang="fr-fr">{"id": "0e24d141-69c4-4a88-ba93-88baefbac506", "value": "Couche additionnelle"}</skos:altLabel>
-        <skos:prefLabel xml:lang="en-uk">{"id": "6c0d8910-66a3-4a2b-9015-541619eede7d", "value": "Non-painted layer"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/bc60360f-5eb6-4034-97e9-9ceade0d7907">
-        <skos:scopeNote xml:lang="fr-fr">{"id": "7b741437-1b97-41e9-917f-0070f4182bc6", "value": "Couche destin\u00e9e \u00e0 pr\u00e9parer un support souple ou rigide, \u00e0 recevoir un d\u00e9cor polychrom\u00e9 (pr\u00e9paration, encollage, appr\u00eat)."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "87ab717c-d38b-4b4a-bcd0-6556195a037f", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/bc60360f-5eb6-4034-97e9-9ceade0d7907"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en-uk">{"id": "844258ee-0a8b-4732-99ef-f06cbed139f5", "value": "Preparatory layer"}</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr-fr">{"id": "e0b74d23-aa5a-440e-8773-bc4011053953", "value": "Couche pr\u00e9paratoire"}</skos:prefLabel>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/61a8ac03-c6e5-480c-ba6f-afe8c2aafb1f">
+        <skos:prefLabel xml:lang="fr">{"id": "fe120cb4-7261-491c-ba12-a70535a773d3", "value": "filigrane"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "c3168cc7-23d3-4ddb-9eac-38383b852f5a", "value": "watermark"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "a664c2aa-27cd-43b9-9049-a94205e84fe6", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/aab1286f-1aee-4281-8127-070a8c3bfd38"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
       </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/55a03018-27ff-4746-bdb1-53f2fdf42f2b">
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+        <skos:prefLabel xml:lang="en">{"id": "72fe7169-5395-49e3-91dd-22e217b40dc1", "value": "color illustration"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">{"id": "eedea18f-5e67-48d1-a772-885fd0fad558", "value": "illustration en couleur"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "5ad40433-a252-45dd-85a5-4494cd6c09f4", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/07a96dab-c139-4248-a5ef-3eee6d76727f"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/b6c7e3dc-38dd-42f9-98fd-eb1827b3c37b"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6ca33fec-ea82-44a0-ac0f-2f9cf07bfaaa">
+        <skos:prefLabel xml:lang="en">{"id": "0805a584-1395-48df-8e84-4ae4b25cdeae", "value": "frontispiece"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">{"id": "ec4e51ac-a9e5-4975-ae60-a9f5ffd03df6", "value": "frontispice"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "3fb4b586-bd5a-451e-9238-004ca322ba71", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/912d797b-1f44-4330-9956-7d62e8d0b340"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/97111c29-6689-4a00-9f13-c8e2a39e0cee">
+        <skos:prefLabel xml:lang="fr">{"id": "b2836c6a-19ed-4efd-9fac-3100f60fbbab", "value": "photographie"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "85e458af-0292-4ecb-84b9-5715071d45e1", "value": "photography"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "e7d74c8c-7e5c-42e2-9291-263af8772a3a", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/4210567c-8cec-4bc5-9924-8be4e894430f"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b4a3fe54-2d82-4361-9adf-8b6b780f3aa4">
+        <skos:prefLabel xml:lang="en">{"id": "3ecd8040-7c4b-4b1d-88f7-379297358f66", "value": "illumination"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">{"id": "107c573f-9a16-42ce-9f17-2ab612898ada", "value": "enluminure"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ea502c6e-46b2-4393-b251-77ebcca92240", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/16a7299a-9b83-484e-9e7c-536bd7e76a86"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/25c02c17-ec80-46fa-96a2-19cf97bdd236">
+        <skos:prefLabel xml:lang="fr">{"id": "53dac065-e70b-4b48-970e-d5abb4aa2c0e", "value": "illustration plein-texte"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+        <skos:prefLabel xml:lang="en">{"id": "804ad604-9bea-4e3b-80fe-326612704250", "value": "full-text illustration"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "1c7971db-d841-451d-bb00-62a668b44ac4", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7d0cdd17-5d6f-4e01-9d1a-c9deb30806d5"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/56505060-781b-4d12-b0f2-a7efab68fae0">
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+        <skos:prefLabel xml:lang="en">{"id": "2f5df709-4f32-40b4-8858-d0d54ba25d61", "value": "decorated letter"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">{"id": "ecff0c68-6eb9-4e3e-9c71-9a06d6c073af", "value": "lettre orn\u00e9e"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "611839d6-bd46-4cbe-a985-2f0fe4fa5026", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f58018c9-9697-4ce8-98b4-7bf5a4b8b618"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "44b94436-2b8d-4c76-8c46-a1a713b9c732", "value": "Decorative book"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/dbd13b3e-b2ba-4558-a931-6d8e6a62fc3f">
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+        <skos:prefLabel xml:lang="fr">{"id": "3dc2be62-b852-4e92-aa54-0f51c5caadee", "value": "planche"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "36a20d43-f316-4d0f-bf58-ec8a2cb71d0a", "value": "board"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "043266b5-8873-4b04-8fea-d1501803f282", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/08e18735-8423-4c83-a941-edc8205618b5"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9d280558-fb7e-4ea0-a582-2df2b425ee57">
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+        <skos:prefLabel xml:lang="fr">{"id": "066f4c6f-8c1a-46ed-b5d3-e3b2a349c101", "value": "miniature"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "63bc98e3-57de-48fc-a656-8d6f9a9acf40", "value": "miniature"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "db5e0c23-3e44-4af2-9a68-b68688d812e3", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/5633cb77-954f-4101-8524-f4c162c359b4"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="fr">{"id": "f01d71f7-4046-47b6-bee3-1476c051d2bd", "value": "Types de d\u00e9cors pr\u00e9sents dans un ouvrage imprim\u00e9 ou manuscrit. "}</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">{"id": "991ff674-a497-44c7-8a43-f1172f415352", "value": "Types of decoration present in a printed or manuscript work. "}</skos:scopeNote>
+    <skos:prefLabel xml:lang="fr">{"id": "dc8c4fb5-6914-4a8e-ad3e-9697967c27ce", "value": "D\u00e9cor d'ouvrage"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2124a1ad-236e-41cc-b270-df368f459a84">
+        <skos:prefLabel xml:lang="fr">{"id": "f4683730-2527-4cba-a9c0-db65e33b2409", "value": "vignette"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "29167061-2645-4d86-8f30-9206c1f83297", "value": "vignette"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+        <dcterms:identifier xml:lang="en">{"id": "db1e57a2-4451-4e48-8db6-d19b585919ef", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/fd5813c7-d0e5-4d90-9b75-7fbdfd9b9fb6"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7678d93c-deb7-4021-8440-28c0f6898ab2">
+    <skos:scopeNote xml:lang="fr-fr">{"id": "1d5629ec-5493-44fc-8110-a244884ce19e", "value": "Trace mat\u00e9rielle r\u00e9sultant de l'enregistrement du langage sous la forme de marques visibles conventionnelles ou de signes graphiques sur une surface."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+    <skos:altLabel xml:lang="en-uk">{"id": "a0576f50-4b11-4dba-9612-29981563c131", "value": "Writing"}</skos:altLabel>
+    <skos:prefLabel xml:lang="fr-fr">{"id": "e7524dbc-b4b3-46b1-b92a-295b92f6b53e", "value": "\u00c9criture"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "552bc2f9-3a08-43c9-9251-57b7e82085a7", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7678d93c-deb7-4021-8440-28c0f6898ab2"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en-uk">{"id": "81842932-0491-422d-b70a-2ef76e034786", "value": "Script"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d38a9db0-00d6-4a55-b221-8faf24a57d1a">
+    <skos:prefLabel xml:lang="en">{"id": "d74e8114-fb42-40d7-b72f-c9374a9a2c71", "value": "Auxiliary device"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "a36b04df-3689-40fc-a7ee-44990004daaf", "value": "Any device enabling the work/object to be held in place mechanically. Indicates an associated element that is not part of the body of the work. Includes frames, chassis, pedestals, etc. "}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "93275a7e-7d32-4e91-8124-8c0a1c8883ed", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d38a9db0-00d6-4a55-b221-8faf24a57d1a"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="fr-fr">{"id": "b981f0ff-e713-4062-9a36-edee995c4deb", "value": "Tout dispositif permettant un maintien m\u00e9canique de l'\u0153uvre/ l'objet. Indique un \u00e9l\u00e9ment associ\u00e9 sans pour autant faire partie du corps de l'\u0153uvre. Concerne les cadres, ch\u00e2ssis, les socles, etc."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+    <skos:prefLabel xml:lang="fr-fr">{"id": "becc68c6-0336-46f7-bbce-77c038b422df", "value": "Dispositif annexe"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c19f3196-d1e9-4f08-9917-4d627e61e153">
+    <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+    <skos:narrower rdf:resource="http://localhost:8000/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <dcterms:identifier xml:lang="en">{"id": "079b0c16-8c94-4528-b7ca-e4d9a2f3255d", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c19f3196-d1e9-4f08-9917-4d627e61e153"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en-uk">{"id": "4063b4aa-c50b-4101-947c-d8094eed6e25", "value": "Decoration"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr-fr">{"id": "3ff3726d-2a5a-450e-a558-105e065bb60f", "value": "D\u00e9cor"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr-fr">{"id": "dcdd7c9a-bb8d-4d64-8270-e8ea4e90fa4d", "value": "Ornement, hors polychromie, plus ou moins en relief, sculpt\u00e9, moul\u00e9, incis\u00e9 et/ou rapport\u00e9 \u00e0 la surface d'un objet."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/40a69b4b-2477-4c60-b301-4fc97cb6bcc8">
+    <skos:altLabel xml:lang="en-uk">{"id": "942683c1-08b4-4795-a1dd-a4f3ea79ff9c", "value": "Paint layer"}</skos:altLabel>
+    <skos:altLabel xml:lang="fr-fr">{"id": "39e72535-afd1-4d0b-a66d-5b7304f25477", "value": "Couche peinte"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+    <skos:scopeNote xml:lang="fr-fr">{"id": "a4a5b667-3cfb-422d-88eb-c7fe49c709a7", "value": "Couche constitu\u00e9e d\u2019une mati\u00e8re colorante et d\u2019un liant."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-uk">{"id": "c87b3c5f-8cb0-40ba-b556-bf56b9145422", "value": "Colored layer"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "26fd9602-28de-42e2-8831-1697af4170a4", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/40a69b4b-2477-4c60-b301-4fc97cb6bcc8"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="fr-fr">{"id": "e3c3fe7c-b28c-4a00-8227-40e51d40486d", "value": "Couche color\u00e9e"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/35a7f767-24f5-4e0f-bc8f-6998b82b8a85">
+    <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+    <skos:prefLabel xml:lang="fr-fr">{"id": "177cd35a-fcb7-48b5-8e2a-1aaa32c409dd", "value": "Support"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr-fr">{"id": "de9185b6-2c0d-4fd6-bb7a-bf066e2be06c", "value": "Surface sur laquelle est appliqu\u00e9e une couche de peinture ou un enduit supportant celle-ci. Substratum de la peinture, elle lui conf\u00e8re sa stabilit\u00e9."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "e2e1e6f6-1ff0-4add-b09e-a39f894a7683", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/35a7f767-24f5-4e0f-bc8f-6998b82b8a85"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en-uk">{"id": "53f39363-f17d-4880-b71b-3ce2c86791a6", "value": "Support"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bc60360f-5eb6-4034-97e9-9ceade0d7907">
+    <skos:prefLabel xml:lang="fr-fr">{"id": "e0b74d23-aa5a-440e-8773-bc4011053953", "value": "Couche pr\u00e9paratoire"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+    <skos:scopeNote xml:lang="fr-fr">{"id": "7b741437-1b97-41e9-917f-0070f4182bc6", "value": "Couche destin\u00e9e \u00e0 pr\u00e9parer un support souple ou rigide, \u00e0 recevoir un d\u00e9cor polychrom\u00e9 (pr\u00e9paration, encollage, appr\u00eat)."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-uk">{"id": "844258ee-0a8b-4732-99ef-f06cbed139f5", "value": "Preparatory layer"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "87ab717c-d38b-4b4a-bcd0-6556195a037f", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/bc60360f-5eb6-4034-97e9-9ceade0d7907"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/56c61948-5505-4da5-8e2f-17cbd75a28cc">
+    <skos:scopeNote xml:lang="fr-fr">{"id": "e9ea73a6-e1c9-4181-a8cd-c11db98b4c75", "value": "Une couche autre qu\u2019une couche peinte. Elle comprend des couches translucides, couches d\u2019adh\u00e9sifs, couches de mixtion (dont on a perdu les dorures), couches de matage, vernis, couches de protection."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "df9ab167-c2ec-474f-9bf0-2ac30b35bb14", "value": "https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/56c61948-5505-4da5-8e2f-17cbd75a28cc"}</dcterms:identifier>
+    <skos:altLabel xml:lang="fr-fr">{"id": "0e24d141-69c4-4a88-ba93-88baefbac506", "value": "Couche additionnelle"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en-uk">{"id": "6c0d8910-66a3-4a2b-9015-541619eede7d", "value": "Non-painted layer"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/16bdfaec-15a7-409c-b91c-84d9bf8e2414"/>
+    <skos:prefLabel xml:lang="fr-fr">{"id": "e8e77456-7cf2-47f3-9396-71d9a649d056", "value": "Couche non-peinte"}</skos:prefLabel>
+  </skos:Concept>
 </rdf:RDF>
