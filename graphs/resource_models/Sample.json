@@ -159,7 +159,7 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Statement about Sample Taking activity"
+                        "en": "Statement about sample taking activity"
                     },
                     "nodegroup_id": "43041d43-a8ec-11ef-8106-d32727aece17",
                     "sortorder": null,
@@ -240,7 +240,7 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Sample Object"
+                        "en": "Sample object"
                     },
                     "nodegroup_id": "648c5484-a8c4-11ef-8106-d32727aece17",
                     "sortorder": null,
@@ -267,7 +267,7 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Sample Taking"
+                        "en": "Sample taking"
                     },
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "sortorder": null,
@@ -347,27 +347,6 @@
                     "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
-                },
-                {
-                    "card_id": "275abdd2-a8c4-11ef-8106-d32727aece17",
-                    "config": {
-                        "defaultResourceInstance": [],
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Source",
-                        "placeholder": {
-                            "en": ""
-                        }
-                    },
-                    "id": "275abdda-a8c4-11ef-8106-d32727aece17",
-                    "label": {
-                        "en": "Source"
-                    },
-                    "node_id": "275abdd6-a8c4-11ef-8106-d32727aece17",
-                    "sortorder": 3,
-                    "visible": false,
-                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "895b6ad8-3c52-46e3-8794-f5f30db202d9",
@@ -1146,7 +1125,7 @@
                 "tabs": [
                     {
                         "icon": "fa fa-info",
-                        "name": "New Tab",
+                        "name": "Summary",
                         "nodegroup_ids": [
                             "275abdd1-a8c4-11ef-8106-d32727aece17",
                             "648c5484-a8c4-11ef-8106-d32727aece17"
@@ -1154,14 +1133,14 @@
                     },
                     {
                         "icon": "fa fa-folder-open",
-                        "name": "",
+                        "name": "Sample Description",
                         "nodegroup_ids": [
                             "a3756884-a8ce-11ef-8106-d32727aece17"
                         ]
                     },
                     {
                         "icon": "fa fa-align-justify",
-                        "name": "",
+                        "name": "Details",
                         "nodegroup_ids": [
                             "3119fc01-a8c4-11ef-8106-d32727aece17",
                             "3c3722f3-a8c4-11ef-8106-d32727aece17",
@@ -1238,15 +1217,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "rangenode_id": "275abdd4-a8c4-11ef-8106-d32727aece17"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "275abdd1-a8c4-11ef-8106-d32727aece17",
-                    "edgeid": "275abddd-a8c4-11ef-8106-d32727aece17",
-                    "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "rangenode_id": "275abdd6-a8c4-11ef-8106-d32727aece17"
                 },
                 {
                     "description": null,
@@ -1600,7 +1570,30 @@
                     "rangenode_id": "7dff0f10-a8c4-11ef-8106-d32727aece17"
                 }
             ],
-            "functions_x_graphs": [],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "",
+                                "string_template": "<content_of_statement_about_sample_taking_activity>"
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "",
+                                "string_template": "<label_of_name>"
+                            },
+                            "name": {
+                                "nodegroup_id": "",
+                                "string_template": "<label_of_name>"
+                            }
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "00b2d15a-fda0-4578-b79a-784e4138664b",
+                    "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
+                    "id": "9cf1f9d4-d43c-4dbf-87d8-d1bd9087d132"
+                }
+            ],
             "graphid": "7a5eda79-6b48-49d0-826d-931d5681e84e",
             "iconclass": "fa fa-share-alt",
             "is_editable": true,
@@ -1611,19 +1604,19 @@
             },
             "nodegroups": [
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "275abdd1-a8c4-11ef-8106-d32727aece17",
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "3119fc01-a8c4-11ef-8106-d32727aece17",
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "3762d94d-a8c4-11ef-8106-d32727aece17",
                     "parentnodegroup_id": null
@@ -1710,7 +1703,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Language of Name",
+                    "name": "Language of name",
                     "nodegroup_id": "275abdd1-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "275abdd3-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
@@ -1725,7 +1718,7 @@
                     },
                     "datatype": "string",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -1733,7 +1726,7 @@
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Label of Name",
+                    "name": "Label of name",
                     "nodegroup_id": "275abdd1-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "275abdd4-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
@@ -1756,37 +1749,12 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Type of Name",
+                    "name": "Type of name",
                     "nodegroup_id": "275abdd1-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "275abdd5-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
-                    "sourcebranchpublication_id": null
-                },
-                {
-                    "alias": "source_of_name",
-                    "config": {
-                        "graphs": [],
-                        "searchDsl": "",
-                        "searchString": ""
-                    },
-                    "datatype": "resource-instance-list",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": false,
-                    "istopnode": false,
-                    "name": "Source of Name",
-                    "nodegroup_id": "275abdd1-a8c4-11ef-8106-d32727aece17",
-                    "nodeid": "275abdd6-a8c4-11ef-8106-d32727aece17",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "sortorder": 3,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1819,7 +1787,7 @@
                     },
                     "datatype": "string",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -1827,7 +1795,7 @@
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Value of Identifier",
+                    "name": "Value of identifier",
                     "nodegroup_id": "3119fc01-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3119fc03-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
@@ -1838,7 +1806,7 @@
                 {
                     "alias": "source_of_identifier",
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40"
                     },
                     "datatype": "concept-list",
                     "description": "database origin (Biblissima, BNF, etc)",
@@ -1848,9 +1816,9 @@
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
-                    "issearchable": true,
+                    "issearchable": false,
                     "istopnode": false,
-                    "name": "Source of Identifier",
+                    "name": "Source of identifier",
                     "nodegroup_id": "3119fc01-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3119fc04-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
@@ -1861,7 +1829,7 @@
                 {
                     "alias": "type_of_identifier",
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "5cae2276-c40a-44c0-9e13-8e94f02ab40d"
                     },
                     "datatype": "concept-list",
                     "description": null,
@@ -1871,9 +1839,9 @@
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
-                    "issearchable": true,
+                    "issearchable": false,
                     "istopnode": false,
-                    "name": "Type of Identifier",
+                    "name": "Type of identifier",
                     "nodegroup_id": "3119fc01-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3119fc05-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
@@ -1919,7 +1887,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Name of Statement",
+                    "name": "Name of statement",
                     "nodegroup_id": "3762d94f-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3762d94f-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
@@ -1934,7 +1902,7 @@
                     },
                     "datatype": "string",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -1942,7 +1910,7 @@
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Content of Statement",
+                    "name": "Content of statement",
                     "nodegroup_id": "3762d94d-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3762d951-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1965,7 +1933,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Language of Name Statement",
+                    "name": "Language of name statement",
                     "nodegroup_id": "3762d94f-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3762d952-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
@@ -1988,7 +1956,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Label of Name Statement",
+                    "name": "Label of name statement",
                     "nodegroup_id": "3762d94f-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3762d953-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
@@ -2011,7 +1979,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Language of Statement",
+                    "name": "Language of statement",
                     "nodegroup_id": "3762d94d-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3762d954-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
@@ -2034,7 +2002,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Type of Name Statement",
+                    "name": "Type of name statement",
                     "nodegroup_id": "3762d94f-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3762d955-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
@@ -2045,19 +2013,19 @@
                 {
                     "alias": "type_of_statement",
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"
                     },
                     "datatype": "concept-list",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
-                    "issearchable": false,
+                    "issearchable": true,
                     "istopnode": false,
-                    "name": "Type of Statement",
+                    "name": "Type of statement",
                     "nodegroup_id": "3762d94d-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3762d956-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
@@ -2080,7 +2048,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Source of Statement",
+                    "name": "Source of statement",
                     "nodegroup_id": "3762d94d-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "3762d957-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
@@ -2123,7 +2091,7 @@
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Dimension value",
@@ -2137,7 +2105,7 @@
                 {
                     "alias": "dimension_type",
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -2147,7 +2115,7 @@
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
-                    "issearchable": true,
+                    "issearchable": false,
                     "istopnode": false,
                     "name": "Dimension type",
                     "nodegroup_id": "3c3722f3-a8c4-11ef-8106-d32727aece17",
@@ -2169,7 +2137,7 @@
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
                     "is_collector": false,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Dimension unit",
@@ -2195,7 +2163,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Statement about Sample Taking activity",
+                    "name": "Statement about sample taking activity",
                     "nodegroup_id": "43041d43-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d43-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
@@ -2218,7 +2186,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Name of Statement about Sample Taking activity",
+                    "name": "Name of Statement about sample taking activity",
                     "nodegroup_id": "43041d45-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d45-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
@@ -2233,15 +2201,15 @@
                     },
                     "datatype": "string",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": true,
-                    "issearchable": false,
+                    "issearchable": true,
                     "istopnode": false,
-                    "name": "Content of Statement about Sample Taking activity",
+                    "name": "Content of statement about sample taking activity",
                     "nodegroup_id": "43041d43-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d47-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -2264,7 +2232,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Name language of Statement about Sample Taking activity",
+                    "name": "Name language of statement about sample taking activity",
                     "nodegroup_id": "43041d45-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d48-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
@@ -2287,7 +2255,7 @@
                     "isrequired": true,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Name label of Statement about Sample Taking activity",
+                    "name": "Name label of statement about sample taking activity",
                     "nodegroup_id": "43041d45-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d49-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
@@ -2310,7 +2278,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Language of Statement about Sample Taking activity",
+                    "name": "Language of statement about sample taking activity",
                     "nodegroup_id": "43041d43-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d4a-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
@@ -2333,7 +2301,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Name type of Statement about Sample Taking activity",
+                    "name": "Name type of statement about sample taking activity",
                     "nodegroup_id": "43041d45-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d4b-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
@@ -2344,7 +2312,7 @@
                 {
                     "alias": "type_of_statement_about_sample_taking_activity",
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"
                     },
                     "datatype": "concept-list",
                     "description": null,
@@ -2356,7 +2324,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Type of Statement about Sample Taking activity",
+                    "name": "Type of statement about sample taking activity",
                     "nodegroup_id": "43041d43-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d4c-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
@@ -2379,7 +2347,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Source of Statement about Sample Taking activity",
+                    "name": "Source of statement about sample taking activity",
                     "nodegroup_id": "43041d43-a8ec-11ef-8106-d32727aece17",
                     "nodeid": "43041d4d-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
@@ -2390,11 +2358,11 @@
                 {
                     "alias": "type_of_sample_taking",
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "f0cd17a1-4521-4799-af1d-19a19bbb5746"
                     },
                     "datatype": "concept-list",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2402,7 +2370,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Type of Sample Taking",
+                    "name": "Type of sample taking",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "4e012bd0-a8ed-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
@@ -2425,7 +2393,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "TimeSpan of Sample Taking",
+                    "name": "TimeSpan of sample taking",
                     "nodegroup_id": "5a33e6b7-a8ea-11ef-8106-d32727aece17",
                     "nodeid": "5a33e6b7-a8ea-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
@@ -2440,7 +2408,7 @@
                     },
                     "datatype": "date",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2448,7 +2416,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Date end of Sample Taking",
+                    "name": "Date end of sample taking",
                     "nodegroup_id": "5a33e6b7-a8ea-11ef-8106-d32727aece17",
                     "nodeid": "5a33e6c3-a8ea-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -2463,7 +2431,7 @@
                     },
                     "datatype": "date",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2471,7 +2439,7 @@
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Date start of of Sample Taking",
+                    "name": "Date start of of sample taking",
                     "nodegroup_id": "5a33e6b7-a8ea-11ef-8106-d32727aece17",
                     "nodeid": "5a33e6c5-a8ea-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -2497,7 +2465,7 @@
                     },
                     "datatype": "resource-instance",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2505,7 +2473,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Location of Sampling Taking activity",
+                    "name": "Location of sampling taking activity",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "5bb2d77a-a8ec-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
@@ -2528,7 +2496,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Sample Object",
+                    "name": "Sample object",
                     "nodegroup_id": "648c5484-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "648c5484-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
@@ -2539,11 +2507,11 @@
                 {
                     "alias": "technique_used_by_sample_taking",
                     "config": {
-                        "rdmCollection": "e87c8d03-a2df-4b39-a7ee-9377c32d0013"
+                        "rdmCollection": "78080ed9-d78e-4d88-8df6-66f69e63e509"
                     },
                     "datatype": "concept-list",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2551,7 +2519,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Technique used by Sample Taking",
+                    "name": "Technique used by sample taking",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "6cd58966-a8ed-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure",
@@ -2577,7 +2545,7 @@
                     },
                     "datatype": "resource-instance",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2585,7 +2553,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Location of Sample object",
+                    "name": "Location of sample object",
                     "nodegroup_id": "648c5484-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "7dff0f10-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
@@ -2619,7 +2587,7 @@
                     },
                     "datatype": "resource-instance",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2627,7 +2595,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Owner of Sample object",
+                    "name": "Owner of sample object",
                     "nodegroup_id": "648c5484-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "95423652-a8c4-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
@@ -2653,7 +2621,7 @@
                     },
                     "datatype": "resource-instance-list",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2661,7 +2629,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Instrument used by Sample Taking",
+                    "name": "Instrument used by sample taking",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "9c723a2a-a8ed-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
@@ -2684,7 +2652,7 @@
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Sample Taking",
+                    "name": "Sample taking",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S2_Sample_Taking",
@@ -2710,7 +2678,7 @@
                     },
                     "datatype": "resource-instance-list",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2718,7 +2686,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Carried out of Sample Taking by Person",
+                    "name": "Carried out of sample taking by Person",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "a5f73184-a8ea-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
@@ -2775,7 +2743,7 @@
                     },
                     "datatype": "resource-instance-list",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2783,7 +2751,7 @@
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Sampling Taking from Object",
+                    "name": "Sampling taking from Object",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "aff93962-a8ee-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
@@ -2806,7 +2774,7 @@
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
-                    "name": "Property type of Sample object",
+                    "name": "Property type of sample object",
                     "nodegroup_id": "648c5484-a8c4-11ef-8106-d32727aece17",
                     "nodeid": "bfec6c6e-a8e8-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S9_Property_Type",
@@ -2832,7 +2800,7 @@
                     },
                     "datatype": "resource-instance",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2840,7 +2808,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Sample Taking motivated by Project",
+                    "name": "Sample taking motivated by Project",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "c2f076ec-a8ea-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
@@ -2855,7 +2823,7 @@
                     },
                     "datatype": "annotation",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "7a5eda79-6b48-49d0-826d-931d5681e84e",
                     "hascustomalias": false,
@@ -2863,7 +2831,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Location in object of Sampling Taking",
+                    "name": "Location in object of sampling taking",
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
                     "nodeid": "e0583658-a8ee-11ef-8106-d32727aece17",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S23_Position_Determination",
@@ -2898,7 +2866,7 @@
                 "sortorder": 0,
                 "sourcebranchpublication_id": null
             },
-            "slug": null,
+            "slug": "sample",
             "subtitle": {
                 "en": "Sampling activity from heritage object"
             },
@@ -2907,9 +2875,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "db": "PostgreSQL 14.15 (Ubuntu 14.15-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
         "os": "Linux",
-        "os version": "5.15.0-130-generic"
+        "os version": "5.15.0-131-generic"
     }
 }
