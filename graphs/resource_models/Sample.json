@@ -27,7 +27,7 @@
                         "en": "Name"
                     },
                     "nodegroup_id": "275abdd1-a8c4-11ef-8106-d32727aece17",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true
                 },
                 {
@@ -54,7 +54,7 @@
                         "en": "Identifier"
                     },
                     "nodegroup_id": "3119fc01-a8c4-11ef-8106-d32727aece17",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true
                 },
                 {
@@ -81,7 +81,7 @@
                         "en": "Statement"
                     },
                     "nodegroup_id": "3762d94d-a8c4-11ef-8106-d32727aece17",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -135,7 +135,7 @@
                         "en": "Dimension"
                     },
                     "nodegroup_id": "3c3722f3-a8c4-11ef-8106-d32727aece17",
-                    "sortorder": null,
+                    "sortorder": 5,
                     "visible": true
                 },
                 {
@@ -243,14 +243,16 @@
                         "en": "Sample object"
                     },
                     "nodegroup_id": "648c5484-a8c4-11ef-8106-d32727aece17",
-                    "sortorder": null,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
                     "active": true,
                     "cardid": "d93c3af8-6acc-44e7-a870-68c8c4517c96",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
+                    "config": {
+                        "defaultManifest": ""
+                    },
                     "constraints": [],
                     "cssclass": null,
                     "description": null,
@@ -270,7 +272,7 @@
                         "en": "Sample taking"
                     },
                     "nodegroup_id": "a3756884-a8ce-11ef-8106-d32727aece17",
-                    "sortorder": null,
+                    "sortorder": 4,
                     "visible": true
                 }
             ],

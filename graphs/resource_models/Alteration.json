@@ -5,6 +5,35 @@
             "cards": [
                 {
                     "active": true,
+                    "cardid": "0bc8d0e4-10e6-4b85-b32c-92a295bc1848",
+                    "component_id": "2ed3f508-4e8e-11ea-b975-5b976cab10db",
+                    "config": {
+                        "defaultManifest": ""
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "7554cd18-3cb9-4754-b5d2-a27631997385",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Literal location of document alteration"
+                    },
+                    "nodegroup_id": "0ad7601c-b230-11ef-a32a-9fa3cbd72e36",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "1d2eb76f-f1f2-47b6-a4e1-b9e719b7b4d5",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -358,7 +387,9 @@
                     "active": true,
                     "cardid": "f37b5837-199e-4317-be1d-69af329dde07",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
+                    "config": {
+                        "defaultManifest": ""
+                    },
                     "constraints": [],
                     "cssclass": null,
                     "description": null,
@@ -451,11 +482,11 @@
                     "card_id": "f37b5837-199e-4317-be1d-69af329dde07",
                     "config": {
                         "defaultManifest": "",
-                        "label": "Localisation"
+                        "label": "Location"
                     },
                     "id": "2f52b1b2-b342-4b6c-8419-5b3cd1afd36d",
                     "label": {
-                        "en": "Localisation"
+                        "en": "Location"
                     },
                     "node_id": "0ad7601c-b230-11ef-a32a-9fa3cbd72e36",
                     "sortorder": 2,
@@ -899,6 +930,21 @@
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
                 {
+                    "card_id": "0bc8d0e4-10e6-4b85-b32c-92a295bc1848",
+                    "config": {
+                        "defaultManifest": "",
+                        "label": "Literal location of document alteration"
+                    },
+                    "id": "6cc07e33-b95f-4bb2-ae13-8d2bfa3ec791",
+                    "label": {
+                        "en": "Literal location of document alteration"
+                    },
+                    "node_id": "0ad7601c-b230-11ef-a32a-9fa3cbd72e36",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "aae743b8-4c48-11ea-988b-2bc775672c81"
+                },
+                {
                     "card_id": "f37b5837-199e-4317-be1d-69af329dde07",
                     "config": {
                         "defaultResourceInstance": [],
@@ -1291,6 +1337,27 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "0bc8d0e4-10e6-4b85-b32c-92a295bc1848",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Annotator of literal location alteration",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "ee31abb8-6444-4204-b85c-e73ac8631f1b",
+                    "label": {
+                        "en": "Annotator of literal location alteration"
+                    },
+                    "node_id": "388493ae-b230-11ef-a32a-9fa3cbd72e36",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 }
             ],
             "color": "rgba(174,150,214,1)",
@@ -1810,6 +1877,12 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
+                    "nodegroupid": "0ad7601c-b230-11ef-a32a-9fa3cbd72e36",
+                    "parentnodegroup_id": "918ff142-b22f-11ef-a32a-9fa3cbd72e36"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
                     "nodegroupid": "166420f0-b253-11ef-a32a-9fa3cbd72e36",
                     "parentnodegroup_id": null
                 },
@@ -1904,12 +1977,12 @@
                     "fieldname": null,
                     "graph_id": "7554cd18-3cb9-4754-b5d2-a27631997385",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Literal location of document alteration",
-                    "nodegroup_id": "918ff142-b22f-11ef-a32a-9fa3cbd72e36",
+                    "nodegroup_id": "0ad7601c-b230-11ef-a32a-9fa3cbd72e36",
                     "nodeid": "0ad7601c-b230-11ef-a32a-9fa3cbd72e36",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S23_Position_Determination",
                     "parentproperty": "http://www.cidoc-crm.org/extensions/crmsci/O32i_was_located_by",
@@ -1966,7 +2039,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Annotator of literal location alteration",
-                    "nodegroup_id": "918ff142-b22f-11ef-a32a-9fa3cbd72e36",
+                    "nodegroup_id": "0ad7601c-b230-11ef-a32a-9fa3cbd72e36",
                     "nodeid": "388493ae-b230-11ef-a32a-9fa3cbd72e36",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",

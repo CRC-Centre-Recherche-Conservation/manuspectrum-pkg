@@ -5,6 +5,35 @@
             "cards": [
                 {
                     "active": true,
+                    "cardid": "3d7f7e5b-ce0e-430f-8cef-e54b32f9280a",
+                    "component_id": "2ed3f508-4e8e-11ea-b975-5b976cab10db",
+                    "config": {
+                        "defaultManifest": ""
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Literal location of document modification"
+                    },
+                    "nodegroup_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "5f3f8420-ae4c-11ef-8dd2-3b6c98a10134",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -24,7 +53,7 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Modification date"
+                        "en": "Modification Date"
                     },
                     "nodegroup_id": "5f3f841f-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 7,
@@ -61,7 +90,9 @@
                     "active": true,
                     "cardid": "89978a94-4ed8-434c-b5f6-d2c71ba2987b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
+                    "config": {
+                        "defaultManifest": ""
+                    },
                     "constraints": [],
                     "cssclass": null,
                     "description": null,
@@ -81,7 +112,7 @@
                         "en": "Document modified"
                     },
                     "nodegroup_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 5,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -189,7 +220,7 @@
                         "en": "Technique"
                     },
                     "nodegroup_id": "442f37a8-ae44-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 3,
+                    "sortorder": 4,
                     "visible": true
                 },
                 {
@@ -297,7 +328,7 @@
                         "en": "Description process"
                     },
                     "nodegroup_id": "68172686-ae4d-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 4,
+                    "sortorder": 5,
                     "visible": true
                 },
                 {
@@ -384,6 +415,21 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "3d7f7e5b-ce0e-430f-8cef-e54b32f9280a",
+                    "config": {
+                        "defaultManifest": "",
+                        "label": "Location of Document modification"
+                    },
+                    "id": "2cfc7eee-8ab0-46e3-acfd-9fa9f8d39b24",
+                    "label": {
+                        "en": "Location of Document modification"
+                    },
+                    "node_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "aae743b8-4c48-11ea-988b-2bc775672c81"
                 },
                 {
                     "card_id": "b4309698-df14-4c57-af55-642b0dcb0411",
@@ -570,13 +616,34 @@
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
+                    "card_id": "3d7f7e5b-ce0e-430f-8cef-e54b32f9280a",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Annotator",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "776e3359-f910-40d5-8396-c8634b9c5998",
+                    "label": {
+                        "en": "Annotator"
+                    },
+                    "node_id": "35f13734-ae50-11ef-8dd2-3b6c98a10134",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
                     "card_id": "89978a94-4ed8-434c-b5f6-d2c71ba2987b",
                     "config": {
                         "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Features object modified",
+                        "label": "Features Object modified",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -584,7 +651,7 @@
                     },
                     "id": "950d8282-4148-4d23-b270-76e8314106c7",
                     "label": {
-                        "en": "Features object modified"
+                        "en": "Features Object modified"
                     },
                     "node_id": "b1c57fde-ae4e-11ef-8dd2-3b6c98a10134",
                     "sortorder": 2,
@@ -1105,14 +1172,14 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Annotator of location modification",
+                        "label": "Annotator of Location modification",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "c57da776-a9d0-49e1-b44f-e67f41f54578",
                     "label": {
-                        "en": "Annotator of location modification"
+                        "en": "Annotator of Location modification"
                     },
                     "node_id": "35f13734-ae50-11ef-8dd2-3b6c98a10134",
                     "sortorder": 1,
@@ -1174,11 +1241,11 @@
                     "card_id": "89978a94-4ed8-434c-b5f6-d2c71ba2987b",
                     "config": {
                         "defaultManifest": "",
-                        "label": "Literal location of document modification"
+                        "label": "Literal Location of Document modification"
                     },
                     "id": "f8f9a203-8814-4ae2-affa-29f660323970",
                     "label": {
-                        "en": "Literal location of document modification"
+                        "en": "Literal Location of Document modification"
                     },
                     "node_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
                     "sortorder": 3,
@@ -1712,6 +1779,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "df3834c2-ae4c-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
+                    "parentnodegroup_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134"
                 }
             ],
             "nodes": [
@@ -1765,7 +1838,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Annotator of literal location modification",
-                    "nodegroup_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
+                    "nodegroup_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
                     "nodeid": "35f13734-ae50-11ef-8dd2-3b6c98a10134",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
@@ -2771,12 +2844,12 @@
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Literal location of document modification",
-                    "nodegroup_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
+                    "nodegroup_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
                     "nodeid": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S23_Position_Determination",
                     "parentproperty": "http://www.cidoc-crm.org/extensions/crmsci/O32i_was_located_by",

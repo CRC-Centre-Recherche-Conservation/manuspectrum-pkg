@@ -32,7 +32,7 @@
                         "en": "Profession activity"
                     },
                     "nodegroup_id": "5655822a-701e-11ef-8753-0575b5bada34",
-                    "sortorder": 9,
+                    "sortorder": 8,
                     "visible": true
                 },
                 {
@@ -113,7 +113,7 @@
                         "en": "Temporality of Person"
                     },
                     "nodegroup_id": "cb20e20e-701c-11ef-8753-0575b5bada34",
-                    "sortorder": 1,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -356,7 +356,7 @@
                         "en": "Identifier of Person"
                     },
                     "nodegroup_id": "943a2c65-701c-11ef-8753-0575b5bada34",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true
                 },
                 {
@@ -383,7 +383,7 @@
                         "en": "Statement"
                     },
                     "nodegroup_id": "992678d7-701c-11ef-8753-0575b5bada34",
-                    "sortorder": 8,
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -434,10 +434,10 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "People Membership"
+                        "en": "Area Cultural"
                     },
                     "nodegroup_id": "b0ef9130-edff-11ef-9a8f-89acc4447d22",
-                    "sortorder": 3,
+                    "sortorder": 9,
                     "visible": true
                 },
                 {
@@ -898,7 +898,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "People",
+                        "label": "Culture",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -906,7 +906,7 @@
                     },
                     "id": "22469b4d-49fb-4e12-9d37-d66d40c05cc9",
                     "label": {
-                        "en": "People"
+                        "en": "Culture"
                     },
                     "node_id": "b0ef9130-edff-11ef-9a8f-89acc4447d22",
                     "sortorder": 0,

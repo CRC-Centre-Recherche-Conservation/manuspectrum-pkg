@@ -143,7 +143,7 @@
                 {
                     "active": true,
                     "cardid": "6f29583a-c63a-47f4-9601-7ad76bd1dbe1",
-                    "component_id": "2ed3f508-4e8e-11ea-b975-5b976cab10db",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": {
                         "defaultManifest": ""
                     },
@@ -756,17 +756,17 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Author of Analysis's annotation",
+                        "label": "Annotator",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "47e4d18e-9c47-47d1-ad7b-9260a366e8c6",
                     "label": {
-                        "en": "Author of Analysis's annotation"
+                        "en": "Annotator"
                     },
                     "node_id": "993a4020-7b50-11ef-ba46-5b6797b92ed6",
-                    "sortorder": 3,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
@@ -859,14 +859,14 @@
                     "card_id": "6f29583a-c63a-47f4-9601-7ad76bd1dbe1",
                     "config": {
                         "defaultManifest": "",
-                        "label": "Localisation of Analysis in Object observed"
+                        "label": "Annotation of Location"
                     },
                     "id": "6701bec6-b206-4f8f-8705-455fccd43c0b",
                     "label": {
-                        "en": "Localisation of Analysis in Object observed"
+                        "en": "Annotation of Location"
                     },
                     "node_id": "ffbd0630-7b4f-11ef-ba46-5b6797b92ed6",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "aae743b8-4c48-11ea-988b-2bc775672c81"
                 },
@@ -903,7 +903,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Label of Analysis's annotation",
+                        "label": "Label of Annotation",
                         "maxLength": null,
                         "placeholder": {
                             "en": "Enter text"
@@ -913,10 +913,10 @@
                     },
                     "id": "7faa1110-1c1d-406b-abc5-547b77784dc6",
                     "label": {
-                        "en": "Label of Analysis's annotation"
+                        "en": "Label of Annotation"
                     },
                     "node_id": "bfd966d4-7b50-11ef-ba46-5b6797b92ed6",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1449,7 +1449,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Note about location analysis",
+                        "label": "Note about Location of Analysis",
                         "maxLength": null,
                         "placeholder": {
                             "en": "Enter text"
@@ -1459,10 +1459,10 @@
                     },
                     "id": "c06215eb-6ef0-4f50-a338-c48b01987c1d",
                     "label": {
-                        "en": "Note about location analysis"
+                        "en": "Note about Location of Analysis"
                     },
                     "node_id": "30d677e4-e88b-11ef-9bfc-0debd0685137",
-                    "sortorder": 4,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1473,14 +1473,14 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Component observed by Analysis",
+                        "label": "Component observed",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "c640d384-8592-461f-89d8-318c0d3bba5a",
                     "label": {
-                        "en": "Component observed by Analysis"
+                        "en": "Component observed"
                     },
                     "node_id": "9c807052-7b4f-11ef-ba46-5b6797b92ed6",
                     "sortorder": 0,

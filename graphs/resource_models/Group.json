@@ -24,7 +24,7 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Dissolution timespan"
+                        "en": "Dissolution Time-Span"
                     },
                     "nodegroup_id": "f6fe2c7d-7019-11ef-8753-0575b5bada34",
                     "sortorder": null,
@@ -51,10 +51,10 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Member of"
+                        "en": "Member of Group"
                     },
                     "nodegroup_id": "86e02cce-7019-11ef-8753-0575b5bada34",
-                    "sortorder": 4,
+                    "sortorder": 6,
                     "visible": true
                 },
                 {
@@ -81,7 +81,7 @@
                         "en": "Type of Group"
                     },
                     "nodegroup_id": "62d3dca4-7019-11ef-8753-0575b5bada34",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -162,7 +162,7 @@
                         "en": "Formation"
                     },
                     "nodegroup_id": "a2167bec-7019-11ef-8753-0575b5bada34",
-                    "sortorder": 7,
+                    "sortorder": 8,
                     "visible": true
                 },
                 {
@@ -186,7 +186,7 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Formation timespan"
+                        "en": "Formation Time-Span"
                     },
                     "nodegroup_id": "b6b6fd43-7019-11ef-8753-0575b5bada34",
                     "sortorder": null,
@@ -216,7 +216,7 @@
                         "en": "Location of Group"
                     },
                     "nodegroup_id": "636b1b3e-ae2e-11ef-8dd2-3b6c98a10134",
-                    "sortorder": null,
+                    "sortorder": 5,
                     "visible": true
                 },
                 {
@@ -321,10 +321,10 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "People Membership"
+                        "en": "Area Cultural"
                     },
                     "nodegroup_id": "035b9f36-ee00-11ef-9a8f-89acc4447d22",
-                    "sortorder": null,
+                    "sortorder": 7,
                     "visible": true
                 },
                 {
@@ -351,7 +351,7 @@
                         "en": "Identifier of Group"
                     },
                     "nodegroup_id": "eda9eee7-7018-11ef-8753-0575b5bada34",
-                    "sortorder": 3,
+                    "sortorder": 1,
                     "visible": true
                 },
                 {
@@ -378,7 +378,7 @@
                         "en": "Dissolution"
                     },
                     "nodegroup_id": "e1754228-7019-11ef-8753-0575b5bada34",
-                    "sortorder": 8,
+                    "sortorder": 9,
                     "visible": true
                 },
                 {
@@ -405,7 +405,7 @@
                         "en": "Statement"
                     },
                     "nodegroup_id": "f260a20f-7018-11ef-8753-0575b5bada34",
-                    "sortorder": 5,
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -459,7 +459,7 @@
                         "en": "Temporality of Group"
                     },
                     "nodegroup_id": "39b33af4-7019-11ef-8753-0575b5bada34",
-                    "sortorder": 1,
+                    "sortorder": 4,
                     "visible": true
                 }
             ],
@@ -491,7 +491,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "People",
+                        "label": "Culture",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -499,7 +499,7 @@
                     },
                     "id": "2ad2511f-c4d4-45aa-af10-4aaa7c1499ab",
                     "label": {
-                        "en": "People"
+                        "en": "Culture"
                     },
                     "node_id": "035b9f36-ee00-11ef-9a8f-89acc4447d22",
                     "sortorder": 0,
