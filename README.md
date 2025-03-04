@@ -21,6 +21,12 @@ PACKAGE_DIR = os.path.join(os.path.dirname(APP_ROOT),'pkg')
 python manage.py packages -o load_package -s pkg -db -y
 ```
 
+
+add in settings (and other extensions of instrument files)
+```python
+FILE_TYPES += ["txt", "..."]
+```
+
 ## Credits
 
 This project uses [Arches](https://www.archesproject.org/), an open-source platform for cultural heritage data management developed by the Getty Conservation Institute and the World Monuments Fund.
