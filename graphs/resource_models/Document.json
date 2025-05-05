@@ -2648,7 +2648,7 @@
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
-                    "issearchable": true,
+                    "issearchable": false,
                     "istopnode": false,
                     "name": "Literal of current location",
                     "nodegroup_id": "a53152c8-703e-11ef-8753-0575b5bada34",
@@ -3143,7 +3143,7 @@
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
-                    "issearchable": true,
+                    "issearchable": false,
                     "istopnode": false,
                     "name": "Literal location of production",
                     "nodegroup_id": "fb5d903b-7052-11ef-8753-0575b5bada34",
@@ -3379,6 +3379,6 @@
         "db": "PostgreSQL 14.15 (Ubuntu 14.15-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
         "git hash": "fatal: not a git repository (or any of the parent directories): .git",
         "os": "Linux",
-        "os version": "5.15.0-131-generic"
+        "os version": "5.15.0-133-generic"
     }
 }
