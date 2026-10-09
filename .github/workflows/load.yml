@@ -147,13 +147,15 @@ jobs:
           docker exec ms-postgres pg_isready -U "$PGUSERNAME" -d postgres
 
           # template_postgis as Arches' ubuntu_setup.sh creates it; setup_db
-          # creates the application database from it.
+          # creates the application database from it. The postgis image may
+          # already have created it, so every statement is idempotent.
           docker exec -i ms-postgres psql -v ON_ERROR_STOP=1 -U "$PGUSERNAME" -d postgres <<'SQL'
-          CREATE DATABASE template_postgis TEMPLATE template0 ENCODING 'UTF8' LOCALE 'en_US.utf8';
+          SELECT 'CREATE DATABASE template_postgis TEMPLATE template0 ENCODING ''UTF8'' LOCALE ''en_US.utf8'''
+            WHERE NOT EXISTS (SELECT 1 FROM pg_database WHERE datname = 'template_postgis') \gexec
           UPDATE pg_database SET datistemplate = true WHERE datname = 'template_postgis';
           \connect template_postgis
-          CREATE EXTENSION postgis;
-          CREATE EXTENSION "uuid-ossp";
+          CREATE EXTENSION IF NOT EXISTS postgis;
+          CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
           GRANT ALL ON geometry_columns TO PUBLIC;
           GRANT ALL ON geography_columns TO PUBLIC;
           GRANT ALL ON spatial_ref_sys TO PUBLIC;
