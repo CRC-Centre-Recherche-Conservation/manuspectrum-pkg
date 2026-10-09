@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed">
+    <dcterms:title>AGORHA - Color</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0bfbc388-6da7-4209-995d-33c72c08fb9f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0bfbc388-6da7-4209-995d-33c72c08fb9f</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Pink</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Rose</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Une couleur pastel préparée en mélangeant du rouge et du blanc, qui présente une teinte d'un rouge très pâle. Qui rappelle la couleur des plumes de flamant rose, la peau du cochon ou les fleurs de cerisier japonais.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0e604a6e-3c95-4608-a7b8-5f99fcd506e5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0e604a6e-3c95-4608-a7b8-5f99fcd506e5</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Violet</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Violet</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">L'une des couleurs de base du spectre de la lumière visible. Le violet est une couleur produite par une lumière dont le spectre est dominé par l'énergie avec une longueur d'onde d'environ 400-450nm. Elle est considérée comme une couleur secondaire dans le système RYB, obtenue en mélangeant le bleu et le rouge. Qui rappelle la couleur de la violette, de la lavande, de l’améthyste.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/163d790d-859f-4a9d-92ae-2f759a1d8b6b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/163d790d-859f-4a9d-92ae-2f759a1d8b6b</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Silvery</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Argenté</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Qui a la couleur et l'éclat de l'argent métallique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2259f089-935b-46ec-af76-cdb5156ee311">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2259f089-935b-46ec-af76-cdb5156ee311</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Blanche</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">White</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Blanc</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Perception visuelle par un œil humain obtenue par un spectre continu de lumière visible. Le blanc est une couleur qui se définit comme la réflexion totale de toutes les fréquences de la lumière visible. Synthèse optique additive de toutes les couleurs. Elle se qualifie aussi par une absence de teinte.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/23d3e025-d192-44a3-b402-8e7549cad396">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/23d3e025-d192-44a3-b402-8e7549cad396</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Yellow</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Jaune</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">L’une des couleurs de base du spectre de la lumière visible. Le jaune est une couleur produite par une lumière dont le spectre est dominé par une énergie dont la longueur d'onde est d'environ 560-590 nm. Le jaune est considéré comme une couleur secondaire dans le système de couleurs RGB et comme une couleur primaire dans le modèle RYB. Qui constitue la couleur la plus chaude et la plus lumineuse et rappelle notamment la couleur du citron, de l'or, des blés mûrs.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/28b1b584-6607-49cf-acff-67e7f16dae68">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/28b1b584-6607-49cf-acff-67e7f16dae68</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Green</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Vert</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">L’une des couleurs de base du spectre de la lumière visible. Le vert est une couleur produite par une lumière dont le spectre est dominé par une énergie dont la longueur d'onde est d'environ 490-560 nm. Il est considéré comme une couleur primaire dans le modèle de couleur additif RVB, mais il est une couleur secondaire dans la roue de couleur traditionnelle RYB faite en mélangeant le bleu et le jaune. Qui se trouve entre le bleu et le jaune, et qui rappelle la couleur de l’herbe ou du feuillage des arbres au printemps.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3219663b-bd8b-4e14-8dc8-02eaf6e1f793">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3219663b-bd8b-4e14-8dc8-02eaf6e1f793</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Coppery</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Cuivré</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Qui a la couleur et l'éclat du cuivre métallique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/65911707-7503-4511-a7f8-50d7950e8178">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/65911707-7503-4511-a7f8-50d7950e8178</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Orange</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Orange</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">L’une des couleurs de base du spectre de la lumière visible. L'orange est une couleur produite par une lumière dont le spectre est dominé par une énergie dont la longueur d'onde est d'environ 590-630 nm. Il est considéré comme une couleur secondaire dans le système RYB, obtenue en mélangeant le rouge et le jaune. D'une couleur semblable à celle de l'orange, de la citrouille.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/71aa53c3-0322-4111-bf82-98fa14f62393">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/71aa53c3-0322-4111-bf82-98fa14f62393</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Beige</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Beige</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couleur de la laine naturelle et de fibres textiles non teintes, entre le blanc cassé et le marron très clair.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8fea5a73-2d20-4fcf-a1a5-84c886c25152">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/8fea5a73-2d20-4fcf-a1a5-84c886c25152</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Red</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Rouge</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">L’une des couleurs de base du spectre de la lumière visible. Le rouge est une couleur produite par une lumière dont le spectre est dominé par l’énergie avec une longueur d’onde d’environ 630-700nm. Elle est considérée comme une couleur primaire à la fois dans le système RGB et dans le système RYB. Elle rappelle notamment la couleur du coquelicot, du rubis, du sang.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/aa134bc0-36d8-4156-a1f6-8f3241f70a93">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/aa134bc0-36d8-4156-a1f6-8f3241f70a93</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Grey</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Gris</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Synthèse optique obtenue par addition de blanc et de noir en proportions variées ou de diverses couleurs en proportions précises.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b4028a43-aafc-4d54-bdf7-8c901c693d14">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/b4028a43-aafc-4d54-bdf7-8c901c693d14</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Black</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Noir</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Apparence visuelle, pour l'œil humain, d'un objet qui n'émet ou ne reflète aucune composante du spectre lumineux visible. En tant que tel, le noir se caractérise par l'absence de réflexion par laquelle aucune lumière visible n'atteint l'œil. Absence de couleur et de teinte.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c1e1850f-9eb1-48f4-b8b8-6154a3a1623c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c1e1850f-9eb1-48f4-b8b8-6154a3a1623c</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Golden</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Doré</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Qui a la couleur et l'éclat de l'or métallique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c3c194f1-5237-4e1c-ad3d-38cb2351b8eb">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c3c194f1-5237-4e1c-ad3d-38cb2351b8eb</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Marron</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Brown</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Brun</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Le brun est une couleur à faible luminance qui est généralement produite en ajoutant du noir ou ses couleurs complémentaires à une peinture rouge, orange ou jaune. Il est considéré comme un ton terreux. Synthèse optique obtenue par l’addition de trois couleurs (rouge, bleu et jaune) dans des proportions variées. Le brun est plus ou moins chaud ou froid et de valeur moyenne ou sombre. D'une couleur qui rappelle celle des feuilles mortes, de la terre.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d549884f-ed29-4a28-87c8-07311d9a14ad">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d549884f-ed29-4a28-87c8-07311d9a14ad</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6deb67b5-e18a-45d8-879e-0f4b466db9ed"/>
+    <skos:prefLabel xml:lang="en">Blue</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Bleu</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">L’une des couleurs de base du spectre de la lumière visible. Le bleu est une couleur produite par une lumière dont le spectre est dominé par une énergie dont la longueur d'onde est comprise entre 450 et 490 nm. Elle est considérée comme une couleur primaire à la fois le système RGB et dans le système RYB. Qui, parmi les sept couleurs fondamentales du spectre, se situe entre le vert et l'indigo, et rappelle notamment la couleur diurne du ciel sans nuage, celle de l'eau profonde et claire, etc.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

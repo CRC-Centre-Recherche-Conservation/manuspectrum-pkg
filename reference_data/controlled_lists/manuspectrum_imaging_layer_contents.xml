@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/f604c40d-8646-4bd0-bdf6-353c17d29914">
+    <dcterms:title>ManuSpectrum - Imaging layer contents</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/846f704d-0b90-4960-bbbc-2caaef7183aa">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/846f704d-0b90-4960-bbbc-2caaef7183aa</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f604c40d-8646-4bd0-bdf6-353c17d29914"/>
+    <skos:prefLabel xml:lang="en">Classification map</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Carte de classification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Pixels assigned to classes (spectral angle mapper, clustering, endmember maps): name the method in the processing fields. Related reference term: image classification, Wikidata &lt;http://www.wikidata.org/entity/Q98526763&gt;.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Pixels affectés à des classes (spectral angle mapper, partitionnement, cartes d'endmembers) : nommer la méthode dans les champs de traitement. Terme de référence proche : image classification, Wikidata &lt;http://www.wikidata.org/entity/Q98526763&gt;.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a66a25d0-1b1d-422e-abb9-e1a53fa21ccf">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/a66a25d0-1b1d-422e-abb9-e1a53fa21ccf</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f604c40d-8646-4bd0-bdf6-353c17d29914"/>
+    <skos:prefLabel xml:lang="en">Element distribution</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Répartition élémentaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Map of one chemical element, or of several (composite): list the element(s), and the emission line for X-ray maps. Related reference term: elements (chemical substances), AAT &lt;http://vocab.getty.edu/aat/300246929&gt;.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Carte d'un élément chimique, ou de plusieurs (composite) : lister le ou les éléments, et la raie d'émission pour les cartes de rayons X. Terme de référence proche : elements (chemical substances), AAT &lt;http://vocab.getty.edu/aat/300246929&gt;.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d17d4e18-b940-4c9f-90a4-3f138bddd2d8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/d17d4e18-b940-4c9f-90a4-3f138bddd2d8</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f604c40d-8646-4bd0-bdf6-353c17d29914"/>
+    <skos:prefLabel xml:lang="en">Spectral band</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Bande spectrale</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Image at one wavelength, wavenumber or energy band, or a band range: fill the band value(s) and unit. Related reference term: wavelength, AAT &lt;http://vocab.getty.edu/aat/300443987&gt;.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Image dans une bande de longueur d'onde, de nombre d'onde ou d'énergie, ou un intervalle : renseigner la ou les valeurs et l'unité. Terme de référence proche : wavelength, AAT &lt;http://vocab.getty.edu/aat/300443987&gt;.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/db83ee47-6a28-49dc-92ea-892fafd140b7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/db83ee47-6a28-49dc-92ea-892fafd140b7</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f604c40d-8646-4bd0-bdf6-353c17d29914"/>
+    <skos:prefLabel xml:lang="en">Statistical component</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Composante statistique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">One component of a multivariate transform of the data cube (PCA, MNF, ICA): fill the processing method and the component index. Related reference term: principal component analysis, AAT &lt;http://vocab.getty.edu/aat/300379555&gt;.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Une composante d'une transformation multivariée du cube de données (ACP, MNF, ICA) : renseigner la méthode et le rang de la composante. Terme de référence proche : principal component analysis, AAT &lt;http://vocab.getty.edu/aat/300379555&gt;.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f0f17fdb-64ef-4509-99c0-cf72cb22cb99">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/f0f17fdb-64ef-4509-99c0-cf72cb22cb99</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f604c40d-8646-4bd0-bdf6-353c17d29914"/>
+    <skos:prefLabel xml:lang="en">Total signal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Signal total</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Sum of the whole signal per pixel (total counts, sum map), not tied to one element or band. No reference term found.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Somme de tout le signal par pixel (comptes totaux, carte somme), sans élément ni bande particulière. Aucun terme de référence trouvé.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f303cc97-981c-4acc-9487-df57628b702b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/f303cc97-981c-4acc-9487-df57628b702b</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f604c40d-8646-4bd0-bdf6-353c17d29914"/>
+    <skos:prefLabel xml:lang="en">Photographic reference</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Référence photographique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Photograph, video frame or mosaic of the scanned area, in visible, ultraviolet or infrared light: the analysis technique says which. Related reference term: photographs, AAT &lt;http://vocab.getty.edu/aat/300046300&gt;.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Photographie, image vidéo ou mosaïque de la zone scannée, en lumière visible, ultraviolette ou infrarouge : la technique de l'analyse le précise. Terme de référence proche : photographs, AAT &lt;http://vocab.getty.edu/aat/300046300&gt;.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

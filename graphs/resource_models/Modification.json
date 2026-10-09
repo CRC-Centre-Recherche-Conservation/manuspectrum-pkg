@@ -5,35 +5,6 @@
             "cards": [
                 {
                     "active": true,
-                    "cardid": "3d7f7e5b-ce0e-430f-8cef-e54b32f9280a",
-                    "component_id": "2ed3f508-4e8e-11ea-b975-5b976cab10db",
-                    "config": {
-                        "defaultManifest": ""
-                    },
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
-                    "helptext": {
-                        "en": ""
-                    },
-                    "helptitle": {
-                        "en": ""
-                    },
-                    "instructions": {
-                        "en": ""
-                    },
-                    "is_editable": true,
-                    "name": {
-                        "en": "Literal location of document modification"
-                    },
-                    "nodegroup_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "5f3f8420-ae4c-11ef-8dd2-3b6c98a10134",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -41,22 +12,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>A modification is usually dated approximately, so give a range: \u00ab between 1850 and 1900 \u00bb is the earliest possible date in <strong>Date</strong> (required, the begin) and the latest possible date in <strong>Date (end of the end)</strong>, here <code>1850</code> and <code>1900</code>. A date is a year or a month, e.g. <code>1850</code> or <code>1850-03</code>. Choose \u00ab Approximative \u00bb in the first field when the dates are not certain, \u00ab Confirmed \u00bb when they are.</p><p>For a finer reading, the four fields are: begin (<strong>Date</strong>), latest begin (<strong>Date (end of the begin)</strong>), earliest end (<strong>Date (end approximative)</strong>) and latest end (<strong>Date (end of the end)</strong>). When only the period is known, complete the sub-card \u00ab Modification period \u00bb.</p>",
+                        "fr": "<p>Une modification est le plus souvent dat\u00e9e de fa\u00e7on approximative : donnez donc une fourchette. \u00ab Entre 1850 et 1900 \u00bb se saisit en mettant la date la plus ancienne possible dans <strong>Date</strong> (obligatoire, le d\u00e9but) et la plus r\u00e9cente possible dans <strong>Date (fin de la fin)</strong>, ici <code>1850</code> et <code>1900</code>. Une date est une ann\u00e9e ou un mois, ex. <code>1850</code> ou <code>1850-03</code>. Choisissez \u00ab Approximative \u00bb dans le premier champ quand les dates ne sont pas certaines, \u00ab Confirmed \u00bb quand elles le sont.</p><p>Pour une lecture plus fine, les quatre champs sont : d\u00e9but (<strong>Date</strong>), fin du d\u00e9but (<strong>Date (fin du d\u00e9but)</strong>), d\u00e9but de la fin (<strong>Date (fin approximative)</strong>) et fin de la fin (<strong>Date (fin de la fin)</strong>). Si l'on ne conna\u00eet que la p\u00e9riode, compl\u00e9tez la sous-carte \u00ab P\u00e9riode de modification \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Dating the modification",
+                        "fr": "Dater la modification"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Modification Date"
+                        "en": "Modification date",
+                        "fr": "Date de modification"
                     },
                     "nodegroup_id": "5f3f841f-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 7,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -66,53 +40,57 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "characterizations that observed the modification",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Characterisation</strong>, choose the Characterization records that observed this modification, e.g. one identifying a pigment that did not exist when the document was made.</p><p>Create the Characterization records first; the link is entered from this side.</p>",
+                        "fr": "<p>Dans <strong>Caract\u00e9risation</strong>, choisissez les fiches Caract\u00e9risation qui ont observ\u00e9 cette modification, ex. l'une identifiant un pigment qui n'existait pas \u00e0 la cr\u00e9ation du document.</p><p>Cr\u00e9ez d'abord les fiches Caract\u00e9risation ; le lien se saisit de ce c\u00f4t\u00e9.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Characterizations of the modification",
+                        "fr": "Caract\u00e9risations de la modification"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Observed by Characterisation"
+                        "en": "Observed by Characterisation",
+                        "fr": "Observ\u00e9 par la caract\u00e9risation"
                     },
                     "nodegroup_id": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
                     "sortorder": 9,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
                     "active": true,
                     "cardid": "89978a94-4ed8-434c-b5f6-d2c71ba2987b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": {
-                        "defaultManifest": ""
-                    },
+                    "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "document or components that were modified",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Document/Component</strong> (required), choose the Document or Components that were modified; prefer the Component when the intervention is limited to it. <strong>Features object modified</strong> says which layer or part was changed: \u00ab Overpaint \u00bb, \u00ab Consolidation layer \u00bb, \u00ab Varnish layer \u00bb, \u00ab Book cover \u00bb, \u00ab Leaf \u00bb\u2026</p><p>In <strong>Literal location of document modification</strong>, open the image and draw the modified zone, and give its author in <strong>Annotator of location modification</strong>.</p>",
+                        "fr": "<p>Dans <strong>Document/Composant</strong> (obligatoire), choisissez le Document ou les Composants modifi\u00e9s ; pr\u00e9f\u00e9rez le Composant quand l'intervention s'y limite. <strong>Caract\u00e9ristiques modifi\u00e9es de l'objet</strong> dit quelle couche ou partie a \u00e9t\u00e9 chang\u00e9e : \u00ab Repeint \u00bb, \u00ab Couche de consolidation \u00bb, \u00ab Couche de vernis \u00bb, \u00ab Couvrure \u00bb, \u00ab Feuillet \u00bb\u2026</p><p>Dans <strong>Localisation litt\u00e9rale de la modification du document</strong>, ouvrez l'image et dessinez la zone modifi\u00e9e, puis indiquez son auteur dans <strong>Annotateur de la modification de localisation</strong>.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Locating the modified document",
+                        "fr": "Localiser le document modifi\u00e9"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Document modified"
+                        "en": "Document modified",
+                        "fr": "Document modifi\u00e9"
                     },
                     "nodegroup_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 3,
+                    "sortorder": 5,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -122,24 +100,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "{\"en\": \"\"}",
+                    "description": "named period in which the modification occurred (e.g. Age of Enlightenment)",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>Gives a coarse date when the exact one is unknown. <strong>Absolute period attribution</strong> (required) takes a century or a millennium, e.g. \u00ab 19th century \u00bb (the centuries of the 1st millennium read \u00ab 1st century AD \u00bb\u2026); <strong>Relative Period</strong> takes a named period of the FRANTIQ list, e.g. \u00ab Age of Enlightenment \u00bb. That list is large and worldwide: type to search and choose the most specific item.</p><p>To cite a period of the PeriodO gazetteer, use the sub-card \u00ab Alternative Period \u00bb.</p>",
+                        "fr": "<p>Donne une date approximative quand la date exacte est inconnue. <strong>Attribution de p\u00e9riode absolue</strong> (obligatoire) re\u00e7oit un si\u00e8cle ou un mill\u00e9naire, ex. \u00ab XIXe si\u00e8cle \u00bb ; <strong>P\u00e9riode relative</strong> re\u00e7oit une p\u00e9riode nomm\u00e9e de la liste FRANTIQ, ex. \u00ab si\u00e8cle des Lumi\u00e8res \u00bb. Cette liste est vaste et mondiale : tapez pour chercher et choisissez l'\u00e9l\u00e9ment le plus pr\u00e9cis.</p><p>Pour citer une p\u00e9riode du r\u00e9pertoire PeriodO, utilisez la sous-carte \u00ab P\u00e9riode alternative \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Placing in a period",
+                        "fr": "Situer dans une p\u00e9riode"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Modification period"
+                        "en": "Modification period",
+                        "fr": "P\u00e9riode de modification"
                     },
                     "nodegroup_id": "98efda1d-edf6-11ef-9a8f-89acc4447d22",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -151,22 +132,25 @@
                     "cssclass": null,
                     "description": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>Optional. To refer to a period defined in the PeriodO gazetteer, paste its full link in <strong>PeriodO (URI)</strong> (it looks like <code>https://n2t.net/ark:/99152/p0xxxxx</code>) and give the period's name in <strong>Appellation</strong>.</p><p>Set <strong>Source of Identifier</strong> to \u00ab PeriodO \u00bb; the <strong>Type of Identifier</strong> can stay empty because the Source says it all.</p>",
+                        "fr": "<p>Facultatif. Pour renvoyer \u00e0 une p\u00e9riode d\u00e9finie dans le r\u00e9pertoire PeriodO, collez son lien complet dans <strong>PeriodO (URI)</strong> (de la forme <code>https://n2t.net/ark:/99152/p0xxxxx</code>) et indiquez le nom de la p\u00e9riode dans <strong>Appellation</strong>.</p><p>Choisissez \u00ab PeriodO \u00bb comme <strong>Source de l'identifiant</strong> ; le <strong>Type d'identifiant</strong> peut rester vide, la Source disant tout.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Citing a PeriodO period",
+                        "fr": "Citer une p\u00e9riode PeriodO"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Alternative Period"
+                        "en": "Alternative Period",
+                        "fr": "P\u00e9riode alternative"
                     },
                     "nodegroup_id": "98efda1f-edf6-11ef-9a8f-89acc4447d22",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -178,22 +162,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>The <strong>Label</strong> is the name shown in search results; build it so it can be read alone: <code>&lt;intervention&gt; - &lt;zone&gt; &lt;folio&gt; - &lt;shelfmark&gt;</code>, with a plain hyphen between the three parts, the zone and the folio joined by a space, and the shelfmark written <code>BM Avranches MS 59</code> for this manuscript. The label can be entered in English and in French.</p><p>Set <strong>Type</strong> to \u00ab preferred terms \u00bb for the main name, and to \u00ab alternate titles \u00bb or \u00ab translated titles \u00bb for the others, one entry each. <strong>Language</strong> is rarely needed: fill it only for a name written in a language other than English or French.</p>",
+                        "fr": "<p>Le <strong>Libell\u00e9</strong> est le nom affich\u00e9 dans les r\u00e9sultats de recherche ; composez-le pour qu'il se lise seul, <code>&lt;intervention&gt; - &lt;zone&gt; &lt;folio&gt; - &lt;cote&gt;</code>, avec un trait d'union simple entre les trois parties, la zone et le folio joints par une espace, et la cote \u00e9crite <code>BM Avranches MS 59</code> pour ce manuscrit. Le libell\u00e9 peut \u00eatre saisi en anglais et en fran\u00e7ais.</p><p>Choisissez le <strong>Type</strong> \u00ab termes pr\u00e9f\u00e9rentiels \u00bb pour le nom principal, et \u00ab titres alternatifs \u00bb ou \u00ab titres traduits \u00bb pour les autres, une entr\u00e9e chacun. La <strong>Langue</strong> est rarement utile : ne la renseignez que pour un nom \u00e9crit dans une autre langue que l'anglais ou le fran\u00e7ais.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Naming the modification",
+                        "fr": "Nommer la modification"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Name"
+                        "en": "Name",
+                        "fr": "Nom"
                     },
                     "nodegroup_id": "9f06d133-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -203,24 +190,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "technique used to modify the document (e.g. paint application)",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Technique</strong> (required), type a word to search the list and choose the most specific item, reading its parent path because many labels exist under several groups. For a painted intervention, look under \u00ab painting technique \u00bb, e.g. \u00ab paint application \u00bb or \u00ab illuminated \u00bb; \u00ab varnishing technique \u00bb covers varnishes.</p><p>Beware: \u00ab retouching \u00bb is filed under \u00ab photographic technique \u00bb only. This is the technique used to modify the document, not an analytical technique: those belong to the Analysis records.</p>",
+                        "fr": "<p>Dans <strong>Technique</strong> (obligatoire), tapez un mot pour chercher dans la liste et choisissez l'\u00e9l\u00e9ment le plus pr\u00e9cis, en lisant son chemin hi\u00e9rarchique car de nombreux libell\u00e9s existent sous plusieurs groupes. Pour une intervention peinte, cherchez sous \u00ab technique peinture \u00bb, ex. \u00ab application de peinture \u00bb ou \u00ab enlumin\u00e9 \u00bb ; \u00ab technique vernissage \u00bb couvre les vernis.</p><p>Attention : \u00ab retouche \u00bb n'existe que sous \u00ab technique photographie \u00bb. C'est la technique employ\u00e9e pour modifier le document, pas une technique d'analyse : celles-ci rel\u00e8vent des fiches Analyse.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Technique of the modification",
+                        "fr": "Technique de la modification"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Technique"
+                        "en": "Technique",
+                        "fr": "Technique"
                     },
                     "nodegroup_id": "442f37a8-ae44-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 4,
+                    "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -230,24 +220,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "persons or groups responsible for the intervention",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Carried_Out_by_Actor</strong>, choose the Person or Group records responsible for the intervention, e.g. a restoration workshop or a later owner. Create them first if needed.</p><p>Leave it empty when the author is unknown: say so in a \u00ab Statement \u00bb.</p>",
+                        "fr": "<p>Dans <strong>R\u00e9alis\u00e9_par_Acteur</strong>, choisissez les fiches Personne ou Groupe responsables de l'intervention, ex. un atelier de restauration ou un propri\u00e9taire ult\u00e9rieur. Cr\u00e9ez-les d'abord si besoin.</p><p>Laissez vide si l'auteur est inconnu : pr\u00e9cisez-le dans une \u00ab D\u00e9claration \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Who carried out the modification",
+                        "fr": "Qui a r\u00e9alis\u00e9 la modification"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Carried out by Actor"
+                        "en": "Carried out by Actor",
+                        "fr": "R\u00e9alis\u00e9 par l'acteur"
                     },
                     "nodegroup_id": "df3834c2-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 6,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -259,22 +252,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>One entry per text, written in <strong>Content</strong> and classed by <strong>Type</strong>: \u00ab description \u00bb for what is seen, \u00ab note \u00bb for a remark, \u00ab conditions \u00bb for the circumstances of the intervention. E.g. type \u00ab note \u00bb: <em>later addition in an opaque paint over the original background</em>.</p><p>Give the <strong>Language</strong> of the text and, in <strong>Source</strong>, the full web address of the document it comes from, if any. The process itself is described in the card \u00ab Description process \u00bb.</p>",
+                        "fr": "<p>Une entr\u00e9e par texte, r\u00e9dig\u00e9 dans <strong>Contenu</strong> et class\u00e9 par <strong>Type</strong> : \u00ab description \u00bb pour ce qui se voit, \u00ab note \u00bb pour une remarque, \u00ab conditions \u00bb pour les circonstances de l'intervention. Ex. type \u00ab note \u00bb : <em>ajout post\u00e9rieur \u00e0 la peinture opaque sur le fond d'origine</em>.</p><p>Indiquez la <strong>Langue</strong> du texte et, dans <strong>Source</strong>, l'adresse web compl\u00e8te du document dont il provient, le cas \u00e9ch\u00e9ant. Le proc\u00e9d\u00e9 lui-m\u00eame se d\u00e9crit dans la carte \u00ab Description du processus \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Describing the modification",
+                        "fr": "D\u00e9crire la modification"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Statement"
+                        "en": "Statement",
+                        "fr": "D\u00e9claration"
                     },
                     "nodegroup_id": "af24c115-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -286,22 +282,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>Optional. A short title for the statement above, shown instead of its full text: <strong>Name</strong> and its <strong>Type</strong> (\u00ab preferred terms \u00bb); <strong>Language</strong> only when it is not English or French. E.g. <em>Opaque overpaint</em>.</p>",
+                        "fr": "<p>Facultatif. Un titre court pour la d\u00e9claration ci-dessus, affich\u00e9 \u00e0 la place de son texte complet : <strong>Nom</strong> et son <strong>Type</strong> (\u00ab termes pr\u00e9f\u00e9rentiels \u00bb) ; la <strong>Langue</strong> seulement si ce n'est ni l'anglais ni le fran\u00e7ais. Ex. <em>Repeint opaque</em>.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Title of the statement",
+                        "fr": "Titre de la d\u00e9claration"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Statement"
+                        "en": "Statement",
+                        "fr": "D\u00e9claration"
                     },
                     "nodegroup_id": "af24c117-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -311,24 +310,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "short description of how the intervention was carried out and with what",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Used_Process</strong>, describe in a few words how the intervention was carried out and with what, e.g. <em>repainting of the losses with an opaque water-based paint</em>.</p><p>Longer comments, sources and doubts go in a \u00ab Statement \u00bb.</p>",
+                        "fr": "<p>Dans <strong>Proc\u00e9d\u00e9_Utilis\u00e9</strong>, d\u00e9crivez en quelques mots comment l'intervention a \u00e9t\u00e9 men\u00e9e et avec quoi, ex. <em>reprise des lacunes \u00e0 la peinture opaque \u00e0 l'eau</em>.</p><p>Les commentaires plus longs, les sources et les doutes vont dans une \u00ab D\u00e9claration \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Describing the process used",
+                        "fr": "D\u00e9crire le proc\u00e9d\u00e9 employ\u00e9"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Description process"
+                        "en": "Description process",
+                        "fr": "Description du processus"
                     },
                     "nodegroup_id": "68172686-ae4d-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 5,
+                    "sortorder": 4,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -340,22 +342,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>One entry per persistent identifier. <strong>Value (URI)</strong> (required) holds the full URL of the modification, not a bare number or code; <strong>Source</strong> names the database that issued it; add <strong>Type</strong> only when the Source does not say it all.</p><p>E.g. an ARK such as <code>https://example.org/ark:/00000/xyz</code> (a placeholder) takes Type \u00ab ARK (Archival Resource Key) \u00bb and the Source that issued it, when it is in the list; a DOI written <code>https://doi.org/\u2026</code> takes Type \u00ab DOI (Digital Object Identifier) \u00bb. This card is not for local codes: the name of the record is entered in \u00ab Name \u00bb.</p>",
+                        "fr": "<p>Une entr\u00e9e par identifiant p\u00e9renne. <strong>Valeur (URI)</strong> (obligatoire) contient l'URL compl\u00e8te de la modification, pas un simple num\u00e9ro ou code ; la <strong>Source</strong> nomme la base qui l'a attribu\u00e9 ; ajoutez le <strong>Type</strong> seulement quand la Source ne dit pas tout.</p><p>Ex. un ARK comme <code>https://example.org/ark:/00000/xyz</code> (un exemple fictif) prend le Type \u00ab ARK (Archival Resource Key) \u00bb et la Source qui l'a attribu\u00e9, si elle figure dans la liste ; un DOI \u00e9crit <code>https://doi.org/\u2026</code> prend le Type \u00ab DOI (Digital Object Identifier) \u00bb. Cette carte n'accueille pas de code local : le nom de la fiche se saisit dans \u00ab Nom \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Identifiers of the modification",
+                        "fr": "Identifiants de la modification"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Identifier"
+                        "en": "Identifier",
+                        "fr": "Identifiant"
                     },
                     "nodegroup_id": "b3863f8b-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -365,24 +370,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "place where the intervention was carried out",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Place</strong>, choose the Place record where the intervention was carried out, e.g. a workshop or a library, by its town (Avranches, Paris, Mont-Saint-Michel\u2026). Then, in <strong>Literal location of Modification event</strong>, draw the position on the map: this is strongly recommended, because the map of the site shows records only through these drawings. A point is enough; use a line or a polygon for an area when you know it. The Place record ties the modification to the rest of the data.</p><p>This is not the place where the document is kept today.</p>",
+                        "fr": "<p>Dans <strong>Lieu</strong>, choisissez la fiche Lieu o\u00f9 l'intervention a \u00e9t\u00e9 men\u00e9e, ex. un atelier ou une biblioth\u00e8que, par sa ville (Avranches, Paris, Mont-Saint-Michel\u2026). Puis, dans <strong>Localisation litt\u00e9rale de l'\u00e9v\u00e9nement de modification</strong>, dessinez la position sur la carte : c'est fortement recommand\u00e9, car la carte du site ne montre les fiches que par ces dessins. Un point suffit ; utilisez une ligne ou un polygone pour une zone quand vous la connaissez. La fiche Lieu relie la modification au reste des donn\u00e9es.</p><p>Ce n'est pas le lieu o\u00f9 le document est conserv\u00e9 aujourd'hui.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Where the modification took place",
+                        "fr": "O\u00f9 la modification a eu lieu"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Took place at Place"
+                        "en": "Took place at Place",
+                        "fr": "A eu lieu au lieu"
                     },
                     "nodegroup_id": "93f12e1a-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 8,
+                    "source_identifier_id": null,
                     "visible": true
                 }
             ],
@@ -402,34 +410,22 @@
                         "label": "Used_Process",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "07dc4b0d-c2d4-4a0c-9ef6-ca46a7e59d1d",
                     "label": {
-                        "en": "Used_Process"
+                        "en": "Used_Process",
+                        "fr": "Proc\u00e9d\u00e9_Utilis\u00e9"
                     },
                     "node_id": "68172686-ae4d-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "3d7f7e5b-ce0e-430f-8cef-e54b32f9280a",
-                    "config": {
-                        "defaultManifest": "",
-                        "label": "Location of Document modification"
-                    },
-                    "id": "2cfc7eee-8ab0-46e3-acfd-9fa9f8d39b24",
-                    "label": {
-                        "en": "Location of Document modification"
-                    },
-                    "node_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "aae743b8-4c48-11ea-988b-2bc775672c81"
                 },
                 {
                     "card_id": "b4309698-df14-4c57-af55-642b0dcb0411",
@@ -471,10 +467,12 @@
                     },
                     "id": "31cc5cc6-8e91-4965-8001-75358b5d2d6b",
                     "label": {
-                        "en": "Literal location of Modification event"
+                        "en": "Literal location of Modification event",
+                        "fr": "Localisation litt\u00e9rale de l'\u00e9v\u00e9nement de modification"
                     },
                     "node_id": "bd01fc26-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
@@ -492,10 +490,12 @@
                     },
                     "id": "41950f7d-920d-4ed3-8c2b-0eaa6956f480",
                     "label": {
-                        "en": "Characterisation"
+                        "en": "Characterisation",
+                        "fr": "Caract\u00e9risation"
                     },
                     "node_id": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -513,10 +513,12 @@
                     },
                     "id": "5e38b323-e7b1-44ba-b81d-1c0b61b21dda",
                     "label": {
-                        "en": "Carried_Out_by_Actor"
+                        "en": "Carried_Out_by_Actor",
+                        "fr": "R\u00e9alis\u00e9_par_Acteur"
                     },
                     "node_id": "df3834c2-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -528,10 +530,12 @@
                     },
                     "id": "5f3f8433-ae4c-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Date type"
+                        "en": "Date type",
+                        "fr": "Type de date"
                     },
                     "node_id": "5f3f8428-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000006"
                 },
@@ -548,10 +552,12 @@
                     },
                     "id": "5f3f8434-ae4c-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Date"
+                        "en": "Date",
+                        "fr": "Date"
                     },
                     "node_id": "5f3f842d-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
@@ -568,10 +574,12 @@
                     },
                     "id": "5f3f8435-ae4c-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Date (end approximative)"
+                        "en": "Date (end approximative)",
+                        "fr": "Date (fin approximative)"
                     },
                     "node_id": "5f3f842b-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
@@ -588,10 +596,12 @@
                     },
                     "id": "5f3f8436-ae4c-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Date (end of the begin)"
+                        "en": "Date (end of the begin)",
+                        "fr": "Date (fin du d\u00e9but)"
                     },
                     "node_id": "5f3f842a-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
@@ -608,33 +618,14 @@
                     },
                     "id": "5f3f8437-ae4c-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Date (end of the end)"
+                        "en": "Date (end of the end)",
+                        "fr": "Date (fin de la fin)"
                     },
                     "node_id": "5f3f842c-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 4,
+                    "source_identifier_id": null,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "3d7f7e5b-ce0e-430f-8cef-e54b32f9280a",
-                    "config": {
-                        "defaultResourceInstance": [],
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Annotator",
-                        "placeholder": {
-                            "en": ""
-                        }
-                    },
-                    "id": "776e3359-f910-40d5-8396-c8634b9c5998",
-                    "label": {
-                        "en": "Annotator"
-                    },
-                    "node_id": "35f13734-ae50-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
                     "card_id": "89978a94-4ed8-434c-b5f6-d2c71ba2987b",
@@ -643,20 +634,22 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Features Object modified",
-                        "options": [],
+                        "label": "Features object modified",
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "950d8282-4148-4d23-b270-76e8314106c7",
                     "label": {
-                        "en": "Features Object modified"
+                        "en": "Features object modified",
+                        "fr": "Caract\u00e9ristiques modifi\u00e9es de l'objet"
                     },
                     "node_id": "b1c57fde-ae4e-11ef-8dd2-3b6c98a10134",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "98efda1e-edf6-11ef-9a8f-89acc4447d22",
@@ -666,19 +659,21 @@
                             "placeholder"
                         ],
                         "label": "Relative Period",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "98efda27-edf6-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Relative Period"
+                        "en": "Relative Period",
+                        "fr": "P\u00e9riode relative"
                     },
                     "node_id": "98efda1d-edf6-11ef-9a8f-89acc4447d22",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "98efda1e-edf6-11ef-9a8f-89acc4447d22",
@@ -688,19 +683,21 @@
                             "placeholder"
                         ],
                         "label": "Absolute period attribution",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "98efda28-edf6-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Absolute period attribution"
+                        "en": "Absolute period attribution",
+                        "fr": "Attribution de p\u00e9riode absolue"
                     },
                     "node_id": "98efda24-edf6-11ef-9a8f-89acc4447d22",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "98efda20-edf6-11ef-9a8f-89acc4447d22",
@@ -717,17 +714,20 @@
                         "label": "PeriodO (URI)",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "http://n2t.net/ark:/99152/p06c6g32vfg"
+                            "en": "http://n2t.net/ark:/99152/p06c6g32vfg",
+                            "fr": "http://n2t.net/ark:/99152/p06c6g32vfg"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "98efda29-edf6-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "PeriodO (URI)"
+                        "en": "PeriodO (URI)",
+                        "fr": "PeriodO (URI)"
                     },
                     "node_id": "98efda21-edf6-11ef-9a8f-89acc4447d22",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -735,25 +735,39 @@
                     "card_id": "98efda20-edf6-11ef-9a8f-89acc4447d22",
                     "config": {
                         "defaultValue": [
-                            "ccc6529d-c776-4d3a-8bc4-356cb4994887"
+                            {
+                                "labels": [
+                                    {
+                                        "id": "d77483cf-7bc1-40aa-95ec-591ea5bb10c6",
+                                        "language_id": "en",
+                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
+                                        "value": "PeriodO",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                                "uri": "https://perio.do/en/"
+                            }
                         ],
                         "i18n_properties": [
                             "placeholder"
                         ],
                         "label": "Source of Identifier",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "98efda2a-edf6-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Source of Identifier"
+                        "en": "Source of Identifier",
+                        "fr": "Source de l'identifiant"
                     },
                     "node_id": "98efda23-edf6-11ef-9a8f-89acc4447d22",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "98efda20-edf6-11ef-9a8f-89acc4447d22",
@@ -770,17 +784,20 @@
                         "label": "Appellation",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Charles III"
+                            "en": "Charles III",
+                            "fr": "Charles III"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "98efda2b-edf6-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Appellation"
+                        "en": "Appellation",
+                        "fr": "Appellation"
                     },
                     "node_id": "98efda25-edf6-11ef-9a8f-89acc4447d22",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -792,19 +809,21 @@
                             "placeholder"
                         ],
                         "label": "Type of Identifier",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "98efda2c-edf6-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Type of Identifier"
+                        "en": "Type of Identifier",
+                        "fr": "Type d'identifiant"
                     },
                     "node_id": "98efda26-edf6-11ef-9a8f-89acc4447d22",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "89978a94-4ed8-434c-b5f6-d2c71ba2987b",
@@ -820,10 +839,12 @@
                     },
                     "id": "9ca3c4d0-89bb-43e7-a81f-e59e7b255992",
                     "label": {
-                        "en": "Document/Component"
+                        "en": "Document/Component",
+                        "fr": "Document/Composant"
                     },
                     "node_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -842,17 +863,20 @@
                         "label": "Label",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9f06d139-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Label"
+                        "en": "Label",
+                        "fr": "Libell\u00e9"
                     },
                     "node_id": "9f06d136-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -864,19 +888,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "9f06d13a-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "9f06d137-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "9f06d134-ae43-11ef-8dd2-3b6c98a10134",
@@ -886,19 +912,21 @@
                             "placeholder"
                         ],
                         "label": "Language",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "9f06d13b-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Language"
+                        "en": "Language",
+                        "fr": "Langue"
                     },
                     "node_id": "9f06d135-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "b4309698-df14-4c57-af55-642b0dcb0411",
@@ -914,10 +942,12 @@
                     },
                     "id": "a85ff45c-6203-4244-b6d6-2c7ed38595f2",
                     "label": {
-                        "en": "Place"
+                        "en": "Place",
+                        "fr": "Lieu"
                     },
                     "node_id": "93f12e1a-ae4c-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
@@ -936,17 +966,20 @@
                         "label": "Content",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%%"
                     },
                     "id": "af24c121-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Content"
+                        "en": "Content",
+                        "fr": "Contenu"
                     },
                     "node_id": "af24c119-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -960,18 +993,22 @@
                         "label": "Source",
                         "link_color": "#0055a0",
                         "url_label_placeholder": {
-                            "en": "Enter URL Label... "
+                            "en": "Enter URL Label... ",
+                            "fr": "Saisir le libell\u00e9 de l'URL\u2026 "
                         },
                         "url_placeholder": {
-                            "en": "Enter URL... "
+                            "en": "Enter URL... ",
+                            "fr": "Saisir l'URL\u2026 "
                         }
                     },
                     "id": "af24c122-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Source"
+                        "en": "Source",
+                        "fr": "Source"
                     },
                     "node_id": "af24c11f-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
                 },
@@ -983,19 +1020,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "af24c123-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "af24c11e-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "af24c116-ae43-11ef-8dd2-3b6c98a10134",
@@ -1005,19 +1044,21 @@
                             "placeholder"
                         ],
                         "label": "Language",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "af24c124-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Language"
+                        "en": "Language",
+                        "fr": "Langue"
                     },
                     "node_id": "af24c11c-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "af24c118-ae43-11ef-8dd2-3b6c98a10134",
@@ -1027,19 +1068,21 @@
                             "placeholder"
                         ],
                         "label": "Language",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "af24c125-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Language"
+                        "en": "Language",
+                        "fr": "Langue"
                     },
                     "node_id": "af24c11a-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "af24c118-ae43-11ef-8dd2-3b6c98a10134",
@@ -1056,17 +1099,20 @@
                         "label": "Name",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "af24c127-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Name"
+                        "en": "Name",
+                        "fr": "Nom"
                     },
                     "node_id": "af24c11b-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1078,19 +1124,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "af24c128-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "af24c11d-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "b3863f8c-ae43-11ef-8dd2-3b6c98a10134",
@@ -1107,17 +1155,20 @@
                         "label": "Value (URI)",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%%"
                     },
                     "id": "b3863f90-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Value (URI)"
+                        "en": "Value (URI)",
+                        "fr": "Valeur (URI)"
                     },
                     "node_id": "b3863f8d-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1129,19 +1180,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "b3863f91-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "b3863f8f-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "b3863f8c-ae43-11ef-8dd2-3b6c98a10134",
@@ -1151,19 +1204,21 @@
                             "placeholder"
                         ],
                         "label": "Source",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "b3863f92-ae43-11ef-8dd2-3b6c98a10134",
                     "label": {
-                        "en": "Source"
+                        "en": "Source",
+                        "fr": "Source"
                     },
                     "node_id": "b3863f8e-ae43-11ef-8dd2-3b6c98a10134",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "89978a94-4ed8-434c-b5f6-d2c71ba2987b",
@@ -1172,48 +1227,21 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Annotator of Location modification",
+                        "label": "Annotator of location modification",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "c57da776-a9d0-49e1-b44f-e67f41f54578",
                     "label": {
-                        "en": "Annotator of Location modification"
+                        "en": "Annotator of location modification",
+                        "fr": "Annotateur de la modification de localisation"
                     },
                     "node_id": "35f13734-ae50-11ef-8dd2-3b6c98a10134",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
-                    "card_id": "b2dff7e8-84b7-4eac-a5d9-286ecf3b343b",
-                    "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Used_Process",
-                        "maxLength": null,
-                        "placeholder": {
-                            "en": "Enter text"
-                        },
-                        "uneditable": false,
-                        "width": "100%%"
-                    },
-                    "id": "cbfbd1a6-9fe4-4583-8f41-54ff25e845b7",
-                    "label": {
-                        "en": "Used_Process"
-                    },
-                    "node_id": "68172686-ae4d-11ef-8dd2-3b6c98a10134",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
                     "card_id": "a7bdae70-1af7-4851-a778-93d98191dfd5",
@@ -1223,39 +1251,44 @@
                             "placeholder"
                         ],
                         "label": "Technique",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "d5c415f3-3991-41db-8197-e4fe5c5d184a",
                     "label": {
-                        "en": "Technique"
+                        "en": "Technique",
+                        "fr": "Technique"
                     },
                     "node_id": "442f37a8-ae44-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "89978a94-4ed8-434c-b5f6-d2c71ba2987b",
                     "config": {
                         "defaultManifest": "",
-                        "label": "Literal Location of Document modification"
+                        "label": "Literal location of document modification",
+                        "multiFeature": false
                     },
                     "id": "f8f9a203-8814-4ae2-affa-29f660323970",
                     "label": {
-                        "en": "Literal Location of Document modification"
+                        "en": "Literal location of document modification",
+                        "fr": "Localisation litt\u00e9rale de la modification du document"
                     },
                     "node_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "aae743b8-4c48-11ea-988b-2bc775672c81"
                 }
             ],
             "color": "rgba(98,26,217,1)",
             "config": {
-                "activeTabIndex": 1,
+                "activeTabIndex": 0,
                 "tabs": [
                     {
                         "icon": "fa fa-info",
@@ -1296,7 +1329,8 @@
             "deploymentdate": null,
             "deploymentfile": null,
             "description": {
-                "en": "Modification of a physical object that changes it in a voluntary and controlled way. This includes experiments and conservation activities that physically modify the object in some way. Modification is voluntary and controlled. For example, changing an illumination color.\n\nOriginal:  Rob Sanderson (https://github.com/archesproject/arches-for-science/blob/master/afs/pkg/graphs/resource_models/Modification.json) from Linked Art Project."
+                "en": "Modification of a physical object that changes it in a voluntary and controlled way. This includes experiments and conservation activities that physically modify the object in some way. Modification is voluntary and controlled. For example, changing an illumination color.\n\nOriginal:  Rob Sanderson (https://github.com/archesproject/arches-for-science/blob/master/afs/pkg/graphs/resource_models/Modification.json) from Linked Art Project.",
+                "fr": "Modification d'un objet physique qui le change de mani\u00e8re volontaire et contr\u00f4l\u00e9e. Cela inclut les exp\u00e9riences et les activit\u00e9s de conservation qui modifient physiquement l'objet. La modification est volontaire et contr\u00f4l\u00e9e \u2014 par exemple, changer la couleur d'une enluminure.\n\nOriginal:  Rob Sanderson (https://github.com/archesproject/arches-for-science/blob/master/afs/pkg/graphs/resource_models/Modification.json) from Linked Art Project."
             },
             "edges": [
                 {
@@ -1306,7 +1340,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
-                    "rangenode_id": "df3834c2-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "df3834c2-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1315,7 +1350,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/extensions/crmsci/O8i_was_observed_by",
-                    "rangenode_id": "a17232a6-ae50-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1324,7 +1360,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "b1c57fde-ae4e-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "b1c57fde-ae4e-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1333,7 +1370,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4i_is_time-span_of",
-                    "rangenode_id": "98efda1d-edf6-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "98efda1d-edf6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1342,7 +1380,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P81b_begin_of_the_end",
-                    "rangenode_id": "5f3f842b-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "5f3f842b-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1351,7 +1390,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
-                    "rangenode_id": "5f3f842c-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "5f3f842c-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1360,7 +1400,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
-                    "rangenode_id": "5f3f842d-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "5f3f842d-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1369,7 +1410,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P81a_end_of_the_begin",
-                    "rangenode_id": "5f3f842a-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "5f3f842a-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1378,7 +1420,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "5f3f8428-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "5f3f8428-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1387,7 +1430,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
-                    "rangenode_id": "35f13734-ae50-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "35f13734-ae50-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1396,7 +1440,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "b3863f8b-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "b3863f8b-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1405,7 +1450,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
-                    "rangenode_id": "bd01fc26-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "bd01fc26-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1414,7 +1460,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
-                    "rangenode_id": "68172686-ae4d-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "68172686-ae4d-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1423,7 +1470,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
-                    "rangenode_id": "442f37a8-ae44-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "442f37a8-ae44-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1432,7 +1480,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
-                    "rangenode_id": "98efda24-edf6-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "98efda24-edf6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1441,7 +1490,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with",
-                    "rangenode_id": "98efda1f-edf6-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "98efda1f-edf6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1450,7 +1500,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "98efda25-edf6-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "98efda25-edf6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1459,7 +1510,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "98efda26-edf6-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "98efda26-edf6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1468,7 +1520,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "98efda21-edf6-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "98efda21-edf6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1477,7 +1530,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
-                    "rangenode_id": "98efda23-edf6-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "98efda23-edf6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1486,7 +1540,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "98efda22-edf6-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "98efda22-edf6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1495,7 +1550,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "9f06d135-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "9f06d135-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1504,7 +1560,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "9f06d136-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "9f06d136-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1513,7 +1570,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "9f06d137-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "9f06d137-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1522,7 +1580,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "af24c11d-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c11d-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1531,7 +1590,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
-                    "rangenode_id": "af24c117-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c117-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1540,7 +1600,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "rangenode_id": "af24c11f-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c11f-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1549,7 +1610,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "rangenode_id": "af24c11c-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c11c-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1558,7 +1620,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "af24c119-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c119-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1567,7 +1630,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "af24c11e-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c11e-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1576,7 +1640,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "af24c11a-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c11a-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1585,7 +1650,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "af24c11b-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c11b-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1594,7 +1660,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "b3863f8d-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "b3863f8d-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1603,7 +1670,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "b3863f8f-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "b3863f8f-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1612,7 +1680,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
-                    "rangenode_id": "b3863f8e-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "b3863f8e-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1621,7 +1690,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "rangenode_id": "af24c115-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "af24c115-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1630,7 +1700,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "9f06d133-ae43-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "9f06d133-ae43-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1639,7 +1710,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/extensions/crmsci/O32i_was_located_by",
-                    "rangenode_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1648,7 +1720,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
-                    "rangenode_id": "93f12e1a-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "93f12e1a-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1657,7 +1730,8 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P31_has_modified",
-                    "rangenode_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1666,130 +1740,119 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
-                    "rangenode_id": "5f3f841f-ae4c-11ef-8dd2-3b6c98a10134"
+                    "rangenode_id": "5f3f841f-ae4c-11ef-8dd2-3b6c98a10134",
+                    "source_identifier_id": null
                 }
             ],
-            "functions_x_graphs": [
-                {
-                    "config": {
-                        "descriptor_types": {
-                            "description": {
-                                "nodegroup_id": "",
-                                "string_template": "<content_of_statement>"
-                            },
-                            "map_popup": {
-                                "nodegroup_id": "",
-                                "string_template": "<label_of_name>"
-                            },
-                            "name": {
-                                "nodegroup_id": "",
-                                "string_template": "<label_of_name>"
-                            }
-                        },
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "00b2d15a-fda0-4578-b79a-784e4138664b",
-                    "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
-                    "id": "b29df80f-97db-4469-8840-2cda0fda1cd5"
-                }
-            ],
+            "functions_x_graphs": [],
             "graphid": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
+            "group_permissions": {},
+            "has_unpublished_changes": true,
             "iconclass": "fa fa-scissors",
-            "is_editable": true,
+            "is_active": true,
+            "is_copy_immutable": false,
             "isresource": true,
             "jsonldcontext": "https://cidoc-crm.org/rdfs/7.1.2/CIDOC_CRM_v7.1.2_JSON-LD_Context.jsonld",
             "name": {
-                "en": "Modification"
+                "en": "Modification",
+                "fr": "Modification"
             },
             "nodegroups": [
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "442f37a8-ae44-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "442f37a8-ae44-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "5f3f841f-ae4c-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "5f3f841f-ae4c-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "68172686-ae4d-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "68172686-ae4d-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "93f12e1a-ae4c-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "93f12e1a-ae4c-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "98efda1d-edf6-11ef-9a8f-89acc4447d22",
                     "legacygroupid": null,
                     "nodegroupid": "98efda1d-edf6-11ef-9a8f-89acc4447d22",
                     "parentnodegroup_id": "5f3f841f-ae4c-11ef-8dd2-3b6c98a10134"
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "98efda1f-edf6-11ef-9a8f-89acc4447d22",
                     "legacygroupid": null,
                     "nodegroupid": "98efda1f-edf6-11ef-9a8f-89acc4447d22",
                     "parentnodegroup_id": "98efda1d-edf6-11ef-9a8f-89acc4447d22"
                 },
                 {
                     "cardinality": "n",
+                    "grouping_node_id": "9f06d133-ae43-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "9f06d133-ae43-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
+                    "grouping_node_id": "af24c115-ae43-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "af24c115-ae43-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "af24c117-ae43-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "af24c117-ae43-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": "af24c115-ae43-11ef-8dd2-3b6c98a10134"
                 },
                 {
                     "cardinality": "n",
+                    "grouping_node_id": "b3863f8b-ae43-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "b3863f8b-ae43-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "df3834c2-ae4c-11ef-8dd2-3b6c98a10134",
                     "legacygroupid": null,
                     "nodegroupid": "df3834c2-ae4c-11ef-8dd2-3b6c98a10134",
                     "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
-                    "parentnodegroup_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134"
                 }
             ],
             "nodes": [
                 {
-                    "alias": null,
+                    "alias": "modification",
                     "config": {
                         "en": ""
                     },
@@ -1800,6 +1863,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
@@ -1809,6 +1873,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E11_Modification",
                     "parentproperty": "",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1828,35 +1893,39 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance",
-                    "description": null,
+                    "description": "person who drew the modified zone on the image",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Annotator of literal location modification",
-                    "nodegroup_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
+                    "nodegroup_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
                     "nodeid": "35f13734-ae50-11ef-8dd2-3b6c98a10134",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "technique",
                     "config": {
-                        "rdmCollection": "895ae6ce-2e33-4f16-88c8-b065d6d8ed02"
+                        "controlledList": "895ae6ce-2e33-4f16-88c8-b065d6d8ed02",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "technique used to modify the document (e.g. paint application)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1866,6 +1935,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1893,12 +1963,13 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance-list",
-                    "description": null,
+                    "description": "document or components that were modified",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1908,6 +1979,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P31_has_modified",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1922,6 +1994,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1931,6 +2004,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1954,6 +2028,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1963,6 +2038,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1971,12 +2047,13 @@
                         "dateFormat": "YYYY-MM"
                     },
                     "datatype": "date",
-                    "description": null,
+                    "description": "latest possible start of the modification",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1986,6 +2063,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P81a_end_of_the_begin",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1994,12 +2072,13 @@
                         "dateFormat": "YYYY-MM"
                     },
                     "datatype": "date",
-                    "description": null,
+                    "description": "earliest possible end of the modification",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2009,6 +2088,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P81b_begin_of_the_end",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2017,12 +2097,13 @@
                         "dateFormat": "YYYY-MM"
                     },
                     "datatype": "date",
-                    "description": null,
+                    "description": "latest possible end of the modification",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2032,6 +2113,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2040,12 +2122,13 @@
                         "dateFormat": "YYYY-MM"
                     },
                     "datatype": "date",
-                    "description": null,
+                    "description": "date of the modification, or its earliest possible start when uncertain",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -2055,6 +2138,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
                     "sortorder": 4,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2063,12 +2147,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "short description of how the intervention was carried out and with what",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2078,6 +2163,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2097,12 +2183,13 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance",
-                    "description": null,
+                    "description": "place where the intervention was carried out",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2112,21 +2199,24 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "modification_period",
                     "config": {
+                        "controlledList": "36c03e12-351b-4bbd-a52b-9d09f4d4adc0",
                         "en": "",
-                        "rdmCollection": "36c03e12-351b-4bbd-a52b-9d09f4d4adc0"
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": "{\"en\": \"\"}",
+                    "datatype": "reference",
+                    "description": "named period in which the modification occurred (e.g. Age of Enlightenment)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2136,6 +2226,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4i_is_time-span_of",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2150,6 +2241,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2159,6 +2251,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2167,12 +2260,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "PeriodO link identifying the period (e.g. https://n2t.net/ark:/99152/p0xxxxx)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -2182,6 +2276,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2196,6 +2291,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2205,20 +2301,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "source_of_alternative_modification_period",
                     "config": {
-                        "rdmCollection": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40"
+                        "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
+                    "datatype": "reference",
                     "description": "database origin (Biblissima, BNF, etc)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2228,20 +2327,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "absolute_modification_period_attribution",
                     "config": {
-                        "rdmCollection": "21b06442-8861-4322-80c0-fa1f6e1320e1"
+                        "controlledList": "21b06442-8861-4322-80c0-fa1f6e1320e1",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "century or millennium in which the modification occurred (e.g. 19th century)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -2251,6 +2353,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2259,12 +2362,13 @@
                         "rdmCollection": null
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "name of the period as given in the PeriodO gazetteer",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2274,20 +2378,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_alternative_modification_period",
                     "config": {
-                        "rdmCollection": "5cae2276-c40a-44c0-9e13-8e94f02ab40d"
+                        "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of identifier of the period (URI, ARK\u2026)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2297,6 +2404,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2311,6 +2419,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -2320,20 +2429,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "language_of_name",
                     "config": {
-                        "rdmCollection": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642"
+                        "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "language in which the name is written",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2343,6 +2455,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2351,12 +2464,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "name by which the modification is known (form: <intervention> - <zone> <folio> - <shelfmark>)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -2366,20 +2480,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_name",
                     "config": {
-                        "rdmCollection": "6c02daa3-c79c-41cf-bd46-c947a61104b9"
+                        "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of name: preferred, alternate or translated",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2389,6 +2506,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2408,12 +2526,13 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance-list",
-                    "description": null,
+                    "description": "characterizations that observed the modification",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2423,6 +2542,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S4_Observation",
                     "parentproperty": "http://www.cidoc-crm.org/extensions/crmsci/O8i_was_observed_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2437,6 +2557,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2446,6 +2567,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2460,6 +2582,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2469,6 +2592,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
                     "sortorder": 4,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2477,12 +2601,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "free text about the modification: description, note, conditions\u2026",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -2492,20 +2617,23 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "language_of_name_statement",
                     "config": {
-                        "rdmCollection": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642"
+                        "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "language in which the title is written",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2515,6 +2643,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2523,12 +2652,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "short title of the statement (e.g. Opaque overpaint)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2538,20 +2668,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "language_of_statement",
                     "config": {
-                        "rdmCollection": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642"
+                        "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "language in which the statement is written",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2561,20 +2694,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_name_statement",
                     "config": {
-                        "rdmCollection": "6c02daa3-c79c-41cf-bd46-c947a61104b9"
+                        "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of title: preferred, alternate or translated",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2584,20 +2720,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_statement",
                     "config": {
-                        "rdmCollection": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"
+                        "controlledList": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of statement (description, note, methodology\u2026)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2607,6 +2746,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2615,12 +2755,13 @@
                         "en": ""
                     },
                     "datatype": "url",
-                    "description": null,
+                    "description": "web address of the document the statement comes from",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2630,20 +2771,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "features_object_modified",
                     "config": {
-                        "rdmCollection": "a73da2b6-d68e-440f-ae86-7c541e7a88d9"
+                        "controlledList": "a73da2b6-d68e-440f-ae86-7c541e7a88d9",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "layer or part of the object that was changed (e.g. overpaint, varnish layer)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2653,6 +2797,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2667,6 +2812,7 @@
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2676,6 +2822,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2684,12 +2831,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "full URL of a persistent identifier of the modification (e.g. an ARK), not a local code",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -2699,20 +2847,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "source_of_identifier",
                     "config": {
-                        "rdmCollection": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40"
+                        "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
+                    "datatype": "reference",
                     "description": "database origin (Biblissima, BNF, etc)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2722,20 +2873,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_identifier",
                     "config": {
-                        "rdmCollection": "5cae2276-c40a-44c0-9e13-8e94f02ab40d"
+                        "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of identifier, when the source does not say it all (ARK, DOI, persistent identifiers\u2026)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2745,6 +2899,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2753,33 +2908,34 @@
                         "addToMap": false,
                         "advancedStyle": "",
                         "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
-                        "haloRadius": 4,
+                        "clusterDistance": 30,
+                        "clusterMaxZoom": 12,
+                        "clusterMinPoints": 2,
+                        "fillColor": "rgba(30,160,160,0.25)",
+                        "haloRadius": 8,
                         "haloWeight": 4,
                         "layerActivated": true,
                         "layerIcon": "",
                         "layerLegend": "",
                         "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineColor": "rgba(30,160,160,0.9)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineColor": "rgba(30,160,160,0.9)",
                         "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "radius": 2,
+                        "pointColor": "rgba(30,160,160,0.9)",
+                        "pointHaloColor": "rgba(30,160,160,0.35)",
+                        "radius": 5,
                         "simplification": 0.3,
                         "weight": 2
                     },
                     "datatype": "geojson-feature-collection",
-                    "description": null,
+                    "description": "position of the intervention, marked on the map",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2789,6 +2945,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2816,12 +2973,13 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance-list",
-                    "description": null,
+                    "description": "persons or groups responsible for the intervention",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2831,6 +2989,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -2839,32 +2998,101 @@
                         "en": ""
                     },
                     "datatype": "annotation",
-                    "description": null,
+                    "description": "modified zone, drawn on the document's IIIF image",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "hascustomalias": false,
-                    "is_collector": true,
+                    "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Literal location of document modification",
-                    "nodegroup_id": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
+                    "nodegroup_id": "4fb74570-ae4e-11ef-8dd2-3b6c98a10134",
                     "nodeid": "e99ab294-ae4e-11ef-8dd2-3b6c98a10134",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S23_Position_Determination",
                     "parentproperty": "http://www.cidoc-crm.org/extensions/crmsci/O32i_was_located_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "1db91156-c84e-4488-a62f-bc2f6947e064",
-            "publication": null,
+            "publication": {
+                "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
+                "most_recent_edit_id": null,
+                "notes": "Migrated concept/concept-list nodes to reference datatype",
+                "publicationid": "8fbde27b-c839-4cc5-bc78-a13cc8016636",
+                "published_time": "2026-08-04T06:27:40.224"
+            },
             "relatable_resource_model_ids": [
                 "7554cd18-3cb9-4754-b5d2-a27631997385"
             ],
             "resource_2_resource_constraints": [],
+            "resource_instance_lifecycle": {
+                "id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75",
+                "name": {
+                    "en": "Standard"
+                },
+                "resource_instance_lifecycle_states": [
+                    {
+                        "action_label": {
+                            "en": "Revert to Draft"
+                        },
+                        "can_delete_resource_instances": true,
+                        "can_edit_resource_instances": true,
+                        "id": "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f",
+                        "is_initial_state": true,
+                        "name": {
+                            "en": "Draft"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Make Active"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": true,
+                        "id": "f75bb034-36e3-4ab4-8167-f520cf0b4c58",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Active"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "d95d9c0e-0e2c-4450-93a3-d788b91abcc8"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [
+                            "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Retire"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": false,
+                        "id": "d95d9c0e-0e2c-4450-93a3-d788b91abcc8",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Retired"
+                        },
+                        "next_resource_instance_lifecycle_states": [],
+                        "previous_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    }
+                ]
+            },
             "root": {
-                "alias": null,
+                "alias": "modification",
                 "config": {
                     "en": ""
                 },
@@ -2875,6 +3103,7 @@
                 "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                 "hascustomalias": false,
                 "is_collector": false,
+                "is_immutable": false,
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
@@ -2883,20 +3112,18 @@
                 "nodeid": "326a7f74-ae43-11ef-8dd2-3b6c98a10134",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E11_Modification",
                 "sortorder": 0,
+                "source_identifier_id": null,
                 "sourcebranchpublication_id": null
             },
             "slug": "modification",
+            "source_identifier_id": null,
+            "spatial_views": [],
             "subtitle": {
                 "en": "A modification to a physical object that changes but does not destroy it"
             },
             "template_id": "50000000-0000-0000-0000-000000000004",
+            "user_permissions": {},
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 14.15 (Ubuntu 14.15-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "5.15.0-131-generic"
-    }
+    ]
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/f0cd17a1-4521-4799-af1d-19a19bbb5746">
+    <dcterms:title>Sampling Type</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/292a1175-1f2f-4542-b212-c16e68992d0f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/292a1175-1f2f-4542-b212-c16e68992d0f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ebae5ab2-8c43-47c7-b427-b9f90f563106"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f0cd17a1-4521-4799-af1d-19a19bbb5746"/>
+    <skos:prefLabel xml:lang="en">Invasive</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Invasif</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/47525341-7b21-43ed-8ff8-ac441cb36c3e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/47525341-7b21-43ed-8ff8-ac441cb36c3e</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f0cd17a1-4521-4799-af1d-19a19bbb5746"/>
+    <skos:prefLabel xml:lang="en">Unintentional Sampling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Échantillonnage non intentionnel</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d6965fb4-734f-434a-977d-17cc0e2e9434">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/d6965fb4-734f-434a-977d-17cc0e2e9434</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ebae5ab2-8c43-47c7-b427-b9f90f563106"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f0cd17a1-4521-4799-af1d-19a19bbb5746"/>
+    <skos:prefLabel xml:lang="en">Superficial</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Superficiel</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ebae5ab2-8c43-47c7-b427-b9f90f563106">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/ebae5ab2-8c43-47c7-b427-b9f90f563106</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/f0cd17a1-4521-4799-af1d-19a19bbb5746"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/292a1175-1f2f-4542-b212-c16e68992d0f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d6965fb4-734f-434a-977d-17cc0e2e9434"/>
+    <skos:prefLabel xml:lang="en">Intentional Sampling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Échantillonnage intentionnel</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

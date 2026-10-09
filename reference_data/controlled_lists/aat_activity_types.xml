@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/194f514f-9088-4152-b52e-3e7d938f9185">
+    <dcterms:title>AAT - Activity Types</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/54d2f763-34aa-4830-bc1d-f9ed627cf164">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300048788</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/194f514f-9088-4152-b52e-3e7d938f9185"/>
+    <skos:prefLabel xml:lang="en">project</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">projets</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Artistic concepts comprising proposed undertakings or creations, including the creation of works of art or architecture, or for the actual carrying out of such proposals. When emphasis is on specific conceptual schemes for the organization or appearance of graphic works, objects, structures, or systems, use "designs." For visual works and other physical items that are used to carry out the project, use "projects (object groupings)."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Concepts artistiques recouvrant des entreprises ou des créations projetées, y compris la création d'œuvres d'art ou d'architecture, ainsi que la réalisation effective de ces propositions. Lorsque l'accent porte sur des schémas conceptuels précis d'organisation ou d'aspect d'œuvres graphiques, d'objets, de structures ou de systèmes, employer « designs ». Pour les œuvres visuelles et autres objets matériels servant à réaliser le projet, employer « projects (object groupings) ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5b2762ac-b9de-4fe4-b410-fbf9d80a56e9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300137801</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/194f514f-9088-4152-b52e-3e7d938f9185"/>
+    <skos:prefLabel xml:lang="en">experiment</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">expérimentation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Testing a hypothesis or model. In science and related fields, refers to testing systematically under controlled conditions in order to discover the qualities, behavior, or effects of the subject of the experiment.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Mise à l'épreuve d'une hypothèse ou d'un modèle. En sciences et dans les domaines apparentés, désigne un essai mené systématiquement en conditions contrôlées afin de découvrir les propriétés, le comportement ou les effets de son objet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/66ac5ba5-c498-48fc-9a31-e132dce34883">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054687</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/194f514f-9088-4152-b52e-3e7d938f9185"/>
+    <skos:prefLabel xml:lang="en">research task</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tâche de recherche</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Conducting diligent and systematic inquiry or investigation into a subject or question, especially in order to discover or revise facts or theories.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Conduite d'une enquête ou d'une investigation méthodique et rigoureuse sur un sujet ou une question, en particulier afin de découvrir ou de réviser des faits ou des théories.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9">
+    <dcterms:title>AGORHA material description characteristics</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/00ac95f1-3a9d-43d9-b3ab-9abc6f6bf09f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/00ac95f1-3a9d-43d9-b3ab-9abc6f6bf09f</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Soiling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Encrassement</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0451e1bd-4332-45d3-891c-7d40dd8b6f48">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0451e1bd-4332-45d3-891c-7d40dd8b6f48</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Recessed decoration</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Décor en creux</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Décor réalisé par enlèvement de matière.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0dab4320-3512-4869-9f17-65fe76aeb001">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0dab4320-3512-4869-9f17-65fe76aeb001</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Folio</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/13aee70b-7a68-45cf-8353-8141a462331d"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Leaf</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Feuillet</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Une feuille de papier, parchemin, etc., constituée de deux faces recto verso. Ce terme est utilisé principalement pour les manuscrits, mais peut l’être aussi pour les imprimés.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0e8444eb-4591-45ff-90c1-d3872534be9e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0e8444eb-4591-45ff-90c1-d3872534be9e</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Coating</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/40931257-9830-4246-8426-f2f539d2a98a"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/1e95d7be-61ff-499f-bc03-b191f3cd6294"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/3c28e9e9-e066-4109-bebc-86d088a21b03"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e43636cd-94d8-4b06-8aab-77ce79913ae7"/>
+    <skos:prefLabel xml:lang="en">Protective layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche de protection</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche posée en surface d'une polychromie ou d'un objet pour le protéger, empêcher la dégradation, et qui n’a pas forcément de rôle esthétique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1105925d-055d-4c4d-bec3-0d7c20ccab66">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1105925d-055d-4c4d-bec3-0d7c20ccab66</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Planche</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d587302b-f532-4c21-b27f-4bd3c538dd87"/>
+    <skos:prefLabel xml:lang="en">Panel</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Panneau</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Support rigide mobile pour les peintures, généralement d’origine végétale. Correspond à l'ensemble des planches constituant le support d’une peinture.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/13aee70b-7a68-45cf-8353-8141a462331d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/13aee70b-7a68-45cf-8353-8141a462331d</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0dab4320-3512-4869-9f17-65fe76aeb001"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/57ee9f43-de93-4da0-814a-4588e9871129"/>
+    <skos:prefLabel xml:lang="en">Book block</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Corps d'ouvrage</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">L’ensemble de cahiers constitués de pages ou de feuillets dans un ouvrage relié ou non.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/13cc2795-b967-4a1a-806b-8e517c571cfe">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/13cc2795-b967-4a1a-806b-8e517c571cfe</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Mordant</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/84a55072-a45c-4452-9f0b-7c6241491b40"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Mordant</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Mixtion</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Matériau organique dont le rôle est de faire adhérer une feuille métallique. Elle est réalisée avec un adhésif restant pégueux le temps de poser la feuille (glaire d'œuf, jus d'ail). Elle peut être appliquée sur n'importe quelle surface. Les feuilles métalliques appliquée à la mixtion n'étaient pas polies et conservaient un aspect mat.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1cc2e716-aaf2-4293-afab-7dff78287cc7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1cc2e716-aaf2-4293-afab-7dff78287cc7</dcterms:identifier>
+    <skos:altLabel xml:lang="en">preparation layer</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Couche de préparation</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Ground layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Préparation</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche destinée à préparer un support à recevoir des couches de peinture, en vue d’isoler ce support de la peinture, de modifier sa couleur, son relief, sa texture ou son grain, et d'assurer l’adhérence de la couche picturale. Elle peut être appliquée en une ou plusieurs couches. Son liant peut varier et dépend de la technique d’exécution envisagée.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1e95d7be-61ff-499f-bc03-b191f3cd6294">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1e95d7be-61ff-499f-bc03-b191f3cd6294</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Matting agent</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0e8444eb-4591-45ff-90c1-d3872534be9e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Matting layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche de matage</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche organique posée sur une feuille métallique afin de la rendre mate. Elle est généralement protéique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2475a561-9881-4cf1-bff0-7b679134caa2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2475a561-9881-4cf1-bff0-7b679134caa2</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Lime-wash</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Chaulage</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche blanche recouvrant une paroi, une surface architecturale, souvent à base de chaux ou de plâtre.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2db76380-368c-4ac0-8657-90eb63c37dd3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2db76380-368c-4ac0-8657-90eb63c37dd3</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Textile</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Tissu</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Canvas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Toile</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Support d'une polychromie (peinture ou autre) à base de textile/tissu.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3ab80986-faab-46c3-b116-b3a26416d257">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3ab80986-faab-46c3-b116-b3a26416d257</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/695b7502-dbda-47ab-b587-9b8533796690"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7c2382cf-369c-4826-9173-d1b58900675f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8b354737-4c2a-4164-85fc-5f8f60b3efcc"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9b63d2b5-0fd7-4443-8d5f-5257885f31df"/>
+    <skos:prefLabel xml:lang="en">Pictorial layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche picturale</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche de l’œuvre matérialisant la figuration ou la composition abstraite, composée de pigments dispersés dans un liant. C’est sa fonction qui va différencier la couche picturale de la sous-couche : elle est chargée de transmettre l’image.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3c28e9e9-e066-4109-bebc-86d088a21b03">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3c28e9e9-e066-4109-bebc-86d088a21b03</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Varnish</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0e8444eb-4591-45ff-90c1-d3872534be9e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Varnish layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche de vernis</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche appliquée en surface d’une polychromie, d’une peinture ou d’un objet pour saturer les couleurs, protéger la surface et/ou donner un aspect doré ou brillant. À ce titre, un vernis joue un rôle esthétique autant que protecteur. Un vernis donne, après durcissement, un film lisse plus ou moins transparent et amorphe.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3c8cd342-7593-4830-a73a-fdc5f3cfd9ec">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3c8cd342-7593-4830-a73a-fdc5f3cfd9ec</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Whitewash</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">White-wash</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Badigeon</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche revêtant les sculptures, souvent monochrome, servant à recouvrir/masquer la polychromie ou le support.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/40931257-9830-4246-8426-f2f539d2a98a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/40931257-9830-4246-8426-f2f539d2a98a</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0e8444eb-4591-45ff-90c1-d3872534be9e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/4db90ee1-a94c-41fd-8894-7c08cda6a192"/>
+    <skos:prefLabel xml:lang="en">Translucid layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche translucide</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche transmettant la lumière et ainsi la couleur et les motifs d’une couche sous-jacente.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/49842425-d98e-4ec8-99fa-c68164ea06e0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/49842425-d98e-4ec8-99fa-c68164ea06e0</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Written text</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Texte écrit à la main</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Écriture manuelle</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Handwriting</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Écriture manuscrite</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Trace matérielle du fait d'écrire des lettres et des caractères à la main à l’aide d’un outil sur un support physique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4db90ee1-a94c-41fd-8894-7c08cda6a192">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9b63d2b5-0fd7-4443-8d5f-5257885f31df</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/40931257-9830-4246-8426-f2f539d2a98a"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Glaze</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Glacis</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Fine couche de couleur translucide à transparente ajoutée pour modifier la tonalité de la couche picturale ou du décor sous-jacent.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/517b009b-5dca-40d3-991a-6969558759bc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/517b009b-5dca-40d3-991a-6969558759bc</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Plaster</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Enduit</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche qui prépare un mur, une paroi, à être peint. Est utilisé en peinture murale.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/57ee9f43-de93-4da0-814a-4588e9871129">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/57ee9f43-de93-4da0-814a-4588e9871129</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/13aee70b-7a68-45cf-8353-8141a462331d"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Page</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Page</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Une seule face d’un feuillet. Ce terme est utilisé principalement pour les imprimés, mais peut l’être aussi pour les manuscrits.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/629ffec7-4d47-4a15-9c11-61e172904aae">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/629ffec7-4d47-4a15-9c11-61e172904aae</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Primer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Apprêt</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche qui favorise l’adhérence au support et accroît la stabilité de la peinture. Cette couche n’est présente qu’en peinture murale, où elle se trouve entre l'enduit et la préparation.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/695b7502-dbda-47ab-b587-9b8533796690">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/695b7502-dbda-47ab-b587-9b8533796690</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Contour drawing</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Cerne</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Dessin du contour</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/3ab80986-faab-46c3-b116-b3a26416d257"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Contour</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Contour</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tracé fin, continu ou non, délimitant la surface d'une forme, sans indication de détails ou de modèle. Réalisé avant ou après que soit posé le matériau coloré, il reste visible.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6cd0deee-9e3e-4e85-b279-d4eb59301dcc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/6cd0deee-9e3e-4e85-b279-d4eb59301dcc</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Strainer bar</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Barre</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Montant de châssis</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/a63af870-4a88-4be6-9abd-c953052ffb26"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Stretcher bar</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Montant</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Élément formant le pourtour d’un châssis.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/75c84582-9ee9-4653-8d75-bda05335e72d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/75c84582-9ee9-4653-8d75-bda05335e72d</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Bordure</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Corniche</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Moulure d'encadrement</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Frame</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Cadre</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Objet spécifiquement réalisé pour entourer une œuvre ou un autre objet. Le cadre a un rôle esthétique de présentation et un rôle technique structurel qui est de supporter, maintenir et protéger. Le cadre peut être partie intégrante de l’œuvre ou autonome de celle-ci.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/77dc9ad6-a38b-4449-8188-a360b0c19378">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/77dc9ad6-a38b-4449-8188-a360b0c19378</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Croisillon</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Entretoise</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/a63af870-4a88-4be6-9abd-c953052ffb26"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Cross-bar</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Traverse de châssis</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Pièce allongée et rigide située à l’intérieur du châssis à tableau pour le renforcer.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7b209ca8-bc2f-427d-b6fc-c353682c5c1a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7b209ca8-bc2f-427d-b6fc-c353682c5c1a</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Bol</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Bol d'Armenie</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/84a55072-a45c-4452-9f0b-7c6241491b40"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Bole</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Assiette</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche posée sur un support ou une préparation pour fixer une feuille métallique. Elle a deux fonctions : la première est de fournir une surface lisse et souple sur laquelle la feuille métallique peut être brunie, polie, et la seconde est de donner une tonalité au métal. Elle est composée d’une charge minérale mélangée à un liant protéique. Le bol ou bol d’Arménie, est une terre argileuse de couleur rouge à brun utilisée pour réaliser une assiette.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7c2382cf-369c-4826-9173-d1b58900675f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7c2382cf-369c-4826-9173-d1b58900675f</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Highlight</skos:altLabel>
+    <skos:altLabel xml:lang="en">Lowlight</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Lumière</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/3ab80986-faab-46c3-b116-b3a26416d257"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Heightening</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Rehaut</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Touche de peinture destinée à créer un contraste pour faire ressortir l’éclat de certaines parties et donner une impression de relief.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/84a55072-a45c-4452-9f0b-7c6241491b40">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/84a55072-a45c-4452-9f0b-7c6241491b40</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Metallic decoration</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/13cc2795-b967-4a1a-806b-8e517c571cfe"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7b209ca8-bc2f-427d-b6fc-c353682c5c1a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ad78dc00-18f3-4df5-b8af-f037a9103918"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d6acf5c6-0394-4470-b496-67808dccf6bc"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/fc73c97b-baec-4bcc-aab9-f53bda73ad87"/>
+    <skos:prefLabel xml:lang="en">Metal decoration</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Décor métallique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Zone de l’œuvre recouverte de métal ou d'un matériau comportant du métal, plane, en creux ou en relief.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/87b5bbc0-3d3a-487f-97ce-eda19f837eb1">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/87b5bbc0-3d3a-487f-97ce-eda19f837eb1</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Sizing</skos:altLabel>
+    <skos:altLabel xml:lang="en">imprimatura</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Couche d'isolation</skos:altLabel>
+    <skos:altLabel xml:lang="fr">couche d’imperméabilisation</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b4f482f5-b210-4bc7-9254-03eac6ee443c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Size</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Encollage</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Matériau appliqué, en surface ou dans la masse, pour isoler le support brut avant les autres couches préparatoires, notamment dans le but d’augmenter la résistance à la pénétration des supports (papier, bois, toile).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8b354737-4c2a-4164-85fc-5f8f60b3efcc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/8b354737-4c2a-4164-85fc-5f8f60b3efcc</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Repainting</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Surpeint</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/3ab80986-faab-46c3-b116-b3a26416d257"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Overpaint</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Repeint</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche de peinture recouvrant partiellement ou totalement la couche de peinture originale d'une œuvre. À ne pas confondre avec retouche en restauration (inpainting).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9b63d2b5-0fd7-4443-8d5f-5257885f31df">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9b63d2b5-0fd7-4443-8d5f-5257885f31df</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/3ab80986-faab-46c3-b116-b3a26416d257"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Glaze</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Glacis</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Fine couche de couleur translucide à transparente ajoutée pour modifier la tonalité de la couche picturale ou du décor sous-jacent.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9f07eefc-5d0b-4475-9b71-bdafc2e18e95">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9f07eefc-5d0b-4475-9b71-bdafc2e18e95</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Printed matter</skos:altLabel>
+    <skos:altLabel xml:lang="en">Printed text</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Texte imprimé</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Print scripts</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Écriture imprimée</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a63af870-4a88-4be6-9abd-c953052ffb26">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a63af870-4a88-4be6-9abd-c953052ffb26</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Strainer</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Châssis à tableau</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6cd0deee-9e3e-4e85-b279-d4eb59301dcc"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/77dc9ad6-a38b-4449-8188-a360b0c19378"/>
+    <skos:prefLabel xml:lang="en">Stretcher</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Châssis</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Structure périmétrique constituée de pièces longues et rigides permettant de tendre les supports souples qui y sont fixés.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a7c50e62-8abd-49b1-8156-cfe13cda0796">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a7c50e62-8abd-49b1-8156-cfe13cda0796</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Raised decoration</skos:altLabel>
+    <skos:altLabel xml:lang="en">embossed decoration</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Decor 'en relief'</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Décor en relief</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Décor réalisé par ajout de matière en épaisseur à la surface de la polychromie ou de l'objet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ad78dc00-18f3-4df5-b8af-f037a9103918">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ad78dc00-18f3-4df5-b8af-f037a9103918</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Couche constitutive de la masse du relief</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Masse</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Matière de remplissage</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/84a55072-a45c-4452-9f0b-7c6241491b40"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Filler</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Masse du relief</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche organique constituant la masse du brocart appliqué (aussi appelé décor moulé appliqué), présent sous la feuille d’étain qui elle-même supporte la feuille métallique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b4f482f5-b210-4bc7-9254-03eac6ee443c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/b4f482f5-b210-4bc7-9254-03eac6ee443c</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/87b5bbc0-3d3a-487f-97ce-eda19f837eb1"/>
+    <skos:prefLabel xml:lang="en">Adhesive layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche d'adhésif</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche dont la fonction est de coller ou faire adhérer deux surfaces.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cfef6878-10f2-452d-bebf-10d67273c82c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/cfef6878-10f2-452d-bebf-10d67273c82c</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Binding</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Cover</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Reliure</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Book cover</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couvrure</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ensemble des éléments qui protège extérieurement le bloc de cahiers reliés, comportant généralement deux plats et un dos. La couvrure peut être rigide ou souple et peut être décorée.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d31b5532-0005-4694-94a1-a3b7c29bd516">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d31b5532-0005-4694-94a1-a3b7c29bd516</dcterms:identifier>
+    <skos:example xml:lang="fr">à utiliser avec parcimonie, lorsque les données permettent d’être certain de la fonction de la couche, sinon utiliser couche picturale.</skos:example>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Under-layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Sous-couche</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche sous-jacente à une couche picturale. Elle est colorée en vue de modifier la couleur de la couche picturale, pour obtenir une troisième teinte.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d587302b-f532-4c21-b27f-4bd3c538dd87">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d587302b-f532-4c21-b27f-4bd3c538dd87</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Brace</skos:altLabel>
+    <skos:altLabel xml:lang="en">Cross-beam</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Traverse de panneau</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/1105925d-055d-4c4d-bec3-0d7c20ccab66"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Cross-brace</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Traverse</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Long élément de bois posé généralement à contre-fil du bois du support afin d’assurer le maintien d’ensemble des planches constitutives d'un panneau.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d6acf5c6-0394-4470-b496-67808dccf6bc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d6acf5c6-0394-4470-b496-67808dccf6bc</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Metal powder</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/84a55072-a45c-4452-9f0b-7c6241491b40"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">powdered metal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Poudre métallique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Fines particules de métal ou d'alliage métallique, obtenues selon divers procédés et appliquées au pinceau ou projetées sur une surface.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e43636cd-94d8-4b06-8aab-77ce79913ae7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/e43636cd-94d8-4b06-8aab-77ce79913ae7</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Consolidant</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0e8444eb-4591-45ff-90c1-d3872534be9e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Consolidation layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche de consolidation</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche posée en surface d'une polychromie ou d'un objet pour le protéger, empêcher la dégradation; elle peut avoir un rôle esthétique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/eb8d9de6-1005-4cff-821e-0f056e08eec8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/eb8d9de6-1005-4cff-821e-0f056e08eec8</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Preparatory drawing</skos:altLabel>
+    <skos:altLabel xml:lang="en">Preparatory sketch</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Dessin préparatoire</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Dessin sous-jacent</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Preparatory line</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Tracé préparatoire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Tracé déterminant les grandes lignes et les principaux éléments de la composition, portant éventuellement des indications de modelé.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f3645dc2-f613-4fb7-9925-36e0cc3ea703">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f3645dc2-f613-4fb7-9925-36e0cc3ea703</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Protection</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Protection</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fb71d9dd-aeb1-4e31-b68d-8d314fd3b712">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/fb71d9dd-aeb1-4e31-b68d-8d314fd3b712</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Mount</skos:altLabel>
+    <skos:altLabel xml:lang="en">Pedestal</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Piédestal</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Holder</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Socle</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Désigne une base, supposée solide, sur laquelle repose un objet (buste, croix, vase, etc.). Par extension, désigne un appareillage soutenant un objet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fc73c97b-baec-4bcc-aab9-f53bda73ad87">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/fc73c97b-baec-4bcc-aab9-f53bda73ad87</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Metal foil</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/84a55072-a45c-4452-9f0b-7c6241491b40"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/a73da2b6-d68e-440f-ae86-7c541e7a88d9"/>
+    <skos:prefLabel xml:lang="en">Metal leaf</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Feuille métallique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Métal ou alliage métallique battu ou laminé pour en réduire l’épaisseur, découpé en feuille. L’épaisseur de la feuille varie d’une centaine de nanomètres à une centaine de microns.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

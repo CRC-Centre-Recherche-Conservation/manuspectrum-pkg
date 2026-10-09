@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/b56aa8d9-62dd-40da-874a-5005cee53773">
+    <dcterms:title>ManuSpectrum - Spectral units</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/410be613-d3a6-40c9-8fc8-328db57e0f02">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://qudt.org/vocab/unit/EV</dcterms:identifier>
+    <skos:altLabel xml:lang="en">eV</skos:altLabel>
+    <skos:altLabel xml:lang="fr">eV</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/b56aa8d9-62dd-40da-874a-5005cee53773"/>
+    <skos:prefLabel xml:lang="en">Electronvolt</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Électronvolt</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7cc43110-6632-44f3-862f-2efd702bbb46">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://qudt.org/vocab/unit/KiloEV</dcterms:identifier>
+    <skos:altLabel xml:lang="en">keV</skos:altLabel>
+    <skos:altLabel xml:lang="fr">keV</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/b56aa8d9-62dd-40da-874a-5005cee53773"/>
+    <skos:prefLabel xml:lang="en">Kiloelectronvolt</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Kiloélectronvolt</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9d8e45ce-b134-4da0-8604-320d1f75bce2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://qudt.org/vocab/unit/NanoM</dcterms:identifier>
+    <skos:altLabel xml:lang="en">nm</skos:altLabel>
+    <skos:altLabel xml:lang="fr">nm</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/b56aa8d9-62dd-40da-874a-5005cee53773"/>
+    <skos:prefLabel xml:lang="en">Nanometre</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Nanomètre</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a459f8e7-375b-4a91-ae0b-322d8d1368ec">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://qudt.org/vocab/unit/MicroM</dcterms:identifier>
+    <skos:altLabel xml:lang="en">µm</skos:altLabel>
+    <skos:altLabel xml:lang="fr">µm</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/b56aa8d9-62dd-40da-874a-5005cee53773"/>
+    <skos:prefLabel xml:lang="en">Micrometre</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Micromètre</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/aeb76b74-bbd8-4b41-a3be-fe2de12b6123">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://qudt.org/vocab/unit/PER-CM</dcterms:identifier>
+    <skos:altLabel xml:lang="en">cm⁻¹</skos:altLabel>
+    <skos:altLabel xml:lang="fr">cm⁻¹</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/b56aa8d9-62dd-40da-874a-5005cee53773"/>
+    <skos:prefLabel xml:lang="en">Reciprocal centimetre</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Centimètre inverse</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b">
+    <dcterms:title>AAT - Physical Dimensions</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/191c70d0-82cd-4eeb-8a71-48f794f15211">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300055647</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="en">width</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">largeur</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The length of a straight horizontal line extending from one side to the other of a form. For the measure or distance of the extent across a surface, prefer "breadth," although usage overlaps.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Longueur d'une ligne horizontale droite allant d'un côté à l'autre d'une forme.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/37c5097c-6efe-4ff4-bc00-5053ae06f595">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404433</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="en">count (sum total)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">nombre</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Measurement indicating the the sum total or the numerical result of reckoning.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Mesure indiquant le total ou le résultat numérique d'un dénombrement.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7882a788-a6ba-42d7-bb02-7c2776d82353">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300055624</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="en">diameter</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">diamètre</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The length of a straight line passing through the center of a circle or sphere, terminated at each end by its circumference or surface.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Longueur d'une ligne droite passant par le centre d'un cercle ou d'une sphère et limitée à chaque extrémité par la circonférence ou la surface.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9624bcad-0f1a-4c78-a919-f9eb6c532da2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300055644</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="en">height</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hauteur</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The length of a straight vertical line extending from the bottom to the top of a form.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Longueur d'une ligne verticale droite allant du bas au haut d'une forme.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a54326da-26c3-4ac0-b675-21468ab02995">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300055649</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="en">volume (quantity or mass)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">volumen</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">volume</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The quantity or mass of an object or material that occupies space.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">La cantidad o masa de un objecto o material que ocupa espacio.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Quantité ou masse d'un objet ou d'un matériau occupant l'espace.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b391c967-2a6b-4972-9289-17130cf96557">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300056240</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="en">weight (heaviness attribute)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">poids</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Measurement of the relative heaviness of an object or other body; the force with which a body is attracted toward the earth or a celestial body by gravity.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Mesure de la lourdeur relative d'un objet ou d'un corps ; force avec laquelle un corps est attiré vers la Terre ou un autre corps céleste par la gravité.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/db1e5b21-dd84-489a-bf7b-020c1708beb0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300055621</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="en">area (measurement)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">área</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">aire</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The quantity of two-dimensional space that is contained within given limits. Area is typically measured in square units, for example square meters or  square miles.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">La cantidad de la superficie contenida dentro de límites dados.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Quantité d'espace à deux dimensions comprise dans des limites données. L'aire se mesure généralement en unités carrées, par exemple en mètres carrés.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/eb68b1f9-791f-408a-b427-ff1b384819e6">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300056307</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="de">Masstäblichkeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">scale (relative size)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">escala</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">échelle</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">An expression of the ratio between the size of the representation of something and that thing, such as the size of the drawn structure in an architectural drawing and the actual built work. May also refer in general to the concept of relative size.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Úsese para el concepto de tamaño relativo, especialmente de un elemento a otro o de un elemento al todo; también, la relación proporcional que una representación de un objeto u área conlleva al objeto o área a si mismo.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Expression du rapport entre la taille de la représentation d'une chose et celle de cette chose, par exemple entre la structure dessinée sur un plan d'architecte et l'ouvrage réellement bâti. Peut aussi désigner, de façon générale, la notion de taille relative.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f18613e5-aa77-4400-97b9-aaf6987de517">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300072633</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b"/>
+    <skos:prefLabel xml:lang="en">depth (size/dimension)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">profondeur</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Length of a straight line measured downward from a plane or surface, or inward from a plane or surface. For the measurement or extension through or between opposite surfaces, prefer "thickness," although usage overlaps.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Longueur d'une ligne droite mesurée vers le bas depuis un plan ou une surface, ou vers l'intérieur depuis un plan ou une surface. Pour la mesure entre deux faces opposées, préférer « épaisseur », bien que les usages se recoupent.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

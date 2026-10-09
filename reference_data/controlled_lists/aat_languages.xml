@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642">
+    <dcterms:title>AAT - Languages</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0870ac7d-edd3-4214-ba2b-185396528024">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389336</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Schwedisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Swedish (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">suédois</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0dfb95af-dcd3-4edd-8763-a3939e65f1e7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389525</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Vietnamesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Vietnamese (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">vietnamien</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/135ccd63-25ca-4e3e-919f-ff09bf062274">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389205</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Sanskrit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sanskrit (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sanskrit</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2b43ddad-7ab5-44c8-b943-020f7771de06">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389115</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Portugiesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Portuguese (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">portugais</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/38729dbe-6d1c-48ce-bf47-e2a18945600e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388277</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Englisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">English (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">anglais</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">West Germanic language of the Indo-European language family that is closely related to Frisian, German, and Dutch (in Belgium called Flemish) languages. It is spoken in England and also used in many varieties throughout the world.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Langue germanique occidentale de la famille indo-européenne, proche du frison, de l'allemand et du néerlandais (appelé flamand en Belgique). Elle est parlée en Angleterre et employée sous de nombreuses variétés dans le monde entier.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5ab6901a-1d94-4769-9a8c-3ca83d9aa519">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389365</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Tamil</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tamil (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tamoul</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5bb6ff4f-33c1-4804-9768-e1aa876d5150">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389645</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Nicht zu entscheiden</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">undetermined (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">indéterminée</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6195ff8c-5970-41b6-9480-e92ce21dc0df">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388401</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Hebräisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hebrew (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hébreu</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6d302f17-decd-4f33-9606-c1df25e306ee">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389168</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Russisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Russian (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">russe</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6d997904-184c-4825-8807-83e2dddb124f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388486</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Japanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Japanese (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">japonais</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">East Asian language spoken primarily in Japan. Held by many modern scholars to be a member of the Japonic (or Japanese-Ryukyuan) family of languages, while others maintain that it is a language isolate.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Langue d'Asie orientale parlée principalement au Japon. De nombreux chercheurs la rattachent aujourd'hui à la famille japonique (ou japonais-ryūkyū), tandis que d'autres la tiennent pour un isolat.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7894309c-220d-4a2f-910a-8f412095f9f7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300387843</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Arabisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Arabic (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">arabe</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7dcd9b95-ab41-4fb0-94ba-f6173d2e6e1a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388256</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Niederländisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dutch (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">néerlandais</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">West Germanic language that is the national language of the Netherlands; it largely developed in the historical province of Holland. Although it is basically the same language that is, with French and German, one of the three official languages of Belgium, for the language as used in Belgium prefer "Flemish."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Langue germanique occidentale, langue nationale des Pays-Bas ; elle s'est formée pour l'essentiel dans l'ancienne province de Hollande. Bien qu'il s'agisse pour l'essentiel de la même langue que l'une des trois langues officielles de la Belgique, avec le français et l'allemand, préférer « flamand » pour la langue telle qu'elle est employée en Belgique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7e6c493b-6434-4b3a-9513-02df44b78d24">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388344</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Deutsch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">German (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">allemand</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">West Germanic language that is the national language of Germany and Austria, one of the three official languages of Switzerland, and known in various communities in North and South America, South Africa, and Australia. As a written language German is quite uniform, although there are numerous regional differences in pronunciation and dialect.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Langue germanique occidentale, langue nationale de l'Allemagne et de l'Autriche, l'une des trois langues officielles de la Suisse, également présente dans diverses communautés d'Amérique du Nord et du Sud, d'Afrique du Sud et d'Australie. Langue écrite très homogène, elle connaît de nombreuses différences régionales de prononciation et de dialecte.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/825d0d98-cdd9-461e-8e96-609159286bd9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388693</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Latein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Latin (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">latin (language)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The Indo-European language in the Italic group that was originally spoken by small groups of people living along the lower Tiber River, and later spread around the world with the increase of Roman political power The oldest existing example of Latin dates to the 7th century BCE.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Langue indo-européenne du groupe italique, parlée à l'origine par de petits groupes établis le long du cours inférieur du Tibre, puis diffusée dans le monde avec l'expansion du pouvoir romain. Le plus ancien témoignage conservé du latin remonte au VIIe siècle avant notre ère.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/86d75104-eaba-4116-9201-0db856830aa4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389405</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Thailändisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Thai (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">thaï</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8ead46b7-39b3-4f6a-b9d0-08994a595bb7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388204</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Dänisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Danish (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">danois</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/90426117-4930-4fac-9c26-16aa06c451ac">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388299</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Finnisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Finnish (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">finnois</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a1d82c77-ebd6-4215-ab85-2c0b6a68a0e8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388306</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Französisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">French (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">français</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">General term for the French language.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Terme générique désignant la langue française.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a5e9ba49-12ce-4440-9db9-484c8519c785">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388412</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Hindi</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hindi (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hindi</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b9845f81-8de2-43be-a243-b91cc6924cdf">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300387827</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Griechisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ancient Greek (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">grec ancien (jusqu'à 1453)</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bdb42273-5581-4554-956f-c8f41c67798d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388474</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Italienisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Italian (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">italien</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c3c3b964-007c-434d-8df9-ac687a3be542">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388633</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Koreanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Korean (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">coréen</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c7954ef2-0053-400b-997c-d56a9f64940b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300388113</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Chinesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chinese (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">chinois</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ec0f84da-5fff-44d0-a539-ed7099fb75ce">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389311</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Spanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Spanish (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">espagnol</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Refers broadly to the Romance language that developed from Vulgar Latin with contributions from the pre-Roman languages that were spoken in the territory of the Astures, an ancient tribe of the Iberian peninsula. It is now spoken in Spain and as a first language by around 360 million people worldwide. Given that the Castilian dialect is the source from which modern standard Spanish developed, this language overall may be called "Castilian"; however, for the dialect spoken in Castile and elsewhere in northern and central Spain, use "Castilian Spanish."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Désigne largement la langue romane issue du latin vulgaire, avec des apports des langues préromaines parlées sur le territoire des Astures, peuple ancien de la péninsule Ibérique. Elle est aujourd'hui parlée en Espagne et comme première langue par environ 360 millions de personnes dans le monde. Le dialecte castillan étant la source dont procède l'espagnol standard moderne, cette langue peut dans son ensemble être appelée « castillan » ; pour le dialecte parlé en Castille et ailleurs dans le nord et le centre de l'Espagne, employer « castillan d'Espagne ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fea87de8-c1e5-4978-aa18-7df19382d7d6">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389470</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Türkisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Turkish (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">turc</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ffc79063-a21e-46b3-9441-0c8dac5b6161">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389109</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/27eb6c94-5cd0-46be-bd74-26b2d7bb4642"/>
+    <skos:prefLabel xml:lang="de">Polnisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Polish (language)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">polonais</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b">
+    <dcterms:title>ManuSpectrum - Imaging processing methods</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1d0fc5df-cba6-4316-a137-e99b2dbd9cfd">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>http://www.wikidata.org/entity/Q98526763</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">Classification</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Classification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Supervised or unsupervised classification of the pixels (spectral angle mapper, k-means…): name the method in the inputs.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Classification supervisée ou non des pixels (spectral angle mapper, k-means…) : nommer la méthode dans les entrées.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3985dd3a-7ecc-4ebe-bb60-d9edff93d499">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://www.wikidata.org/entity/Q1183700</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">Deconvolution / fitting</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Déconvolution / ajustement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Element map obtained by spectral deconvolution or peak fitting rather than by a plain region of interest.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Carte élémentaire obtenue par déconvolution spectrale ou ajustement de pics plutôt que par simple fenêtre d'intérêt.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3e09d759-f9b1-4058-9fce-94d365d064ba">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/3e09d759-f9b1-4058-9fce-94d365d064ba</dcterms:identifier>
+    <skos:altLabel xml:lang="en">MNF</skos:altLabel>
+    <skos:altLabel xml:lang="fr">MNF</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">Minimum noise fraction</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Fraction minimale de bruit</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">No reference term found (Green et al. 1988).</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Aucun terme de référence trouvé (Green et al. 1988).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5ed9d7b5-a2a1-4bca-9f7c-7e135fcd160d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://www.wikidata.org/entity/Q1259145</dcterms:identifier>
+    <skos:altLabel xml:lang="en">ICA</skos:altLabel>
+    <skos:altLabel xml:lang="fr">ICA</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">Independent component analysis</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Analyse en composantes indépendantes</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6935ef6d-b414-4a7b-bec9-6208cc076c18">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://www.wikidata.org/entity/Q1401269</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">False-colour composite</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Composite en fausses couleurs</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Several layers assigned to colour channels: give the channel assignment in the inputs (R=…, G=…, B=…). Related reference term: false color, AAT &lt;http://vocab.getty.edu/aat/300386602&gt;.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Plusieurs couches affectées à des canaux de couleur : donner l'affectation dans les entrées (R=…, V=…, B=…). Terme de référence proche : false color, AAT &lt;http://vocab.getty.edu/aat/300386602&gt;.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6bd81e01-dfb3-45c8-bb3b-e7061ee4646d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/6bd81e01-dfb3-45c8-bb3b-e7061ee4646d</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">Normalisation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Normalisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Intensities rescaled (per map, per spectrum or to a reference). No reference term found.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Intensités remises à l'échelle (par carte, par spectre ou sur une référence). Aucun terme de référence trouvé.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bc3cfa81-7746-4a2a-a124-9f569e272212">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/bc3cfa81-7746-4a2a-a124-9f569e272212</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">As acquired</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Tel qu'acquis</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">No processing beyond the instrument's own export. Related reference term: raw data, AAT &lt;http://vocab.getty.edu/aat/300419360&gt;.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Aucun traitement au-delà de l'export de l'instrument. Terme de référence proche : raw data, AAT &lt;http://vocab.getty.edu/aat/300419360&gt;.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cf5a683b-c2eb-4a14-9a2e-042448807fd3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379555</dcterms:identifier>
+    <skos:altLabel xml:lang="en">PCA</skos:altLabel>
+    <skos:altLabel xml:lang="fr">PCA</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">Principal component analysis</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Analyse en composantes principales</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f04c9451-5451-4625-bcc8-fa7cfbfd09e3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/f04c9451-5451-4625-bcc8-fa7cfbfd09e3</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/0228e92d-f971-4f2f-8cc7-7c3fe491489b"/>
+    <skos:prefLabel xml:lang="en">Ratio</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Rapport</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Pixel-wise ratio of two layers (band ratio, element ratio): name both inputs. No reference term found.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Rapport pixel à pixel de deux couches (rapport de bandes, d'éléments) : nommer les deux entrées. Aucun terme de référence trouvé.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

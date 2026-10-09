@@ -10,24 +10,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "kind of geopolitical unit (e.g. city-town, region, kingdom)",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>Choose in <strong>Type</strong> (required) the kind of geopolitical unit, e.g. \u00ab city-town \u00bb for Avranches or Paris, \u00ab region \u00bb for a region such as \u00ab France (nord) \u00bb. The list has 67 terms, some nested (\u00ab region \u00bb \u203a \u00ab province \u00bb): type to search and pick the most specific term that fits.</p><p>Choose the kind the place had in the period you describe; a place that changed status can be explained in a \u00ab Statement \u00bb.</p>",
+                        "fr": "<p>Choisissez dans <strong>Type</strong> (obligatoire) la nature de l'unit\u00e9 g\u00e9opolitique, ex. \u00ab cit\u00e9-ville \u00bb pour Avranches ou Paris, \u00ab r\u00e9gion \u00bb pour une r\u00e9gion comme \u00ab France (nord) \u00bb. La liste compte 67 termes, certains imbriqu\u00e9s (\u00ab r\u00e9gion \u00bb \u203a \u00ab province \u00bb) : tapez pour chercher et prenez le terme le plus pr\u00e9cis qui convient.</p><p>Retenez la nature qu'avait le lieu \u00e0 l'\u00e9poque d\u00e9crite ; un lieu qui a chang\u00e9 de statut peut \u00eatre expliqu\u00e9 dans une \u00ab D\u00e9claration \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Kind of place",
+                        "fr": "Nature du lieu"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Type of Place"
+                        "en": "Type of Place",
+                        "fr": "Type de lieu"
                     },
                     "nodegroup_id": "f90a6a98-7024-11ef-8753-0575b5bada34",
-                    "sortorder": 3,
+                    "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -37,24 +40,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "larger place in which this place falls (e.g. a town within a region)",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Part of Place</strong>, choose the Place records that contain this place, e.g. link a town to the region record \u00ab France (nord) \u00bb. Several are allowed, and the chain can go up level by level.</p><p>Choose only places that really contain it; for a place that merely resembles another, use \u00ab Similar of \u00bb.</p>",
+                        "fr": "<p>Dans <strong>Partie du lieu</strong>, choisissez les fiches Lieu qui contiennent celui-ci, ex. rattachez une ville \u00e0 la fiche de r\u00e9gion \u00ab France (nord) \u00bb. Plusieurs choix sont possibles, et la cha\u00eene peut monter niveau par niveau.</p><p>Ne choisissez que des lieux qui le contiennent vraiment ; pour un lieu qui ressemble seulement \u00e0 un autre, utilisez \u00ab Similaire \u00e0 \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Larger places",
+                        "fr": "Lieux plus grands"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Part of Places"
+                        "en": "Part of Places",
+                        "fr": "Partie des lieux"
                     },
                     "nodegroup_id": "825dc096-cc29-11ef-ab4e-a5507aed4a19",
-                    "sortorder": 5,
+                    "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -64,24 +70,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "geometry of the place drawn on the map (point, line or polygon)",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Localisation</strong>, draw the place on the map. This is strongly recommended: the map of the site shows records only through these drawings. A point is enough for a town or a site (e.g. Avranches); use a line for a road or a river, a polygon for a region or the extent of a kingdom.</p><p>Draw only what the sources support. For a vanished place, draw its best-documented extent and explain the choice in a \u00ab Statement \u00bb.</p>",
+                        "fr": "<p>Dans <strong>Localisation</strong>, dessinez le lieu sur la carte. C'est fortement recommand\u00e9 : la carte du site ne montre les fiches que par ces dessins. Un point suffit pour une ville ou un site (ex. Avranches) ; utilisez une ligne pour une route ou un fleuve, un polygone pour une r\u00e9gion ou l'\u00e9tendue d'un royaume.</p><p>Ne dessinez que ce que les sources permettent. Pour un lieu disparu, dessinez son \u00e9tendue la mieux document\u00e9e et expliquez ce choix dans une \u00ab D\u00e9claration \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Drawing the place on the map",
+                        "fr": "Dessiner le lieu sur la carte"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Defined by"
+                        "en": "Defined by",
+                        "fr": "D\u00e9fini par"
                     },
                     "nodegroup_id": "288758de-7026-11ef-8753-0575b5bada34",
                     "sortorder": 4,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -91,24 +100,28 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": null,
+                    "description": "existing or vanished place that this place approximates (e.g. a vanished kingdom with the modern country)",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>In <strong>Place</strong>, choose another Place record that this place approximates, e.g. link a record for a vanished kingdom with the modern country that covers most of it. It can be an existing or a vanished place.</p><p>This is not containment: use \u00ab Part of Places \u00bb when this place lies inside a larger one.</p>",
+                        "fr": "<p>Dans <strong>Lieu</strong>, choisissez une autre fiche Lieu dont celle-ci est proche, ex. reliez la fiche d'un royaume disparu au pays actuel qui en couvre l'essentiel. Ce peut \u00eatre un lieu existant ou disparu.</p><p>Il ne s'agit pas d'inclusion : utilisez \u00ab Partie des lieux \u00bb quand ce lieu se trouve \u00e0 l'int\u00e9rieur d'un plus grand.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Place it corresponds to",
+                        "fr": "Lieu auquel il correspond"
                     },
                     "instructions": {
-                        "en": "Existing or non-existing geopolitical entity(ies) to which the location can be linked. Example: Frankish Kingdom with France"
+                        "en": "Existing or non-existing geopolitical entity(ies) to which the location can be linked. Example: Frankish Kingdom with France",
+                        "fr": "Entit\u00e9(s) g\u00e9opolitique(s) existante(s) ou disparue(s) auxquelles la localisation peut \u00eatre rattach\u00e9e. Exemple : royaume franc avec la France"
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Similar of"
+                        "en": "Similar of",
+                        "fr": "Similaire \u00e0"
                     },
                     "nodegroup_id": "98b35454-7031-11ef-8753-0575b5bada34",
-                    "sortorder": 6,
+                    "sortorder": 7,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -120,22 +133,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>Enter one name per entry in <strong>Label</strong> (required), in the form your source gives. For the main name, add a qualifier in brackets when it removes doubt: <em>Avranches (Normandie)</em>, <em>France (nord)</em>. Other names of the same place (<em>Paris (France)</em>) go in further entries.</p><p>Set <strong>Type</strong> to \u00ab preferred terms \u00bb for the main name, \u00ab alternate titles \u00bb for variants and \u00ab translated titles \u00bb for translations. Fill <strong>Language</strong> when a form belongs to one language (e.g. \u00ab French (language) \u00bb); it is not needed otherwise. Use <strong>Source</strong> for the record that attests the name, when one exists.</p>",
+                        "fr": "<p>Saisissez un nom par entr\u00e9e dans <strong>Libell\u00e9</strong> (obligatoire), sous la forme donn\u00e9e par votre source. Pour le nom principal, ajoutez entre parenth\u00e8ses un qualificatif quand il l\u00e8ve un doute : <em>Avranches (Normandie)</em>, <em>France (nord)</em>. Les autres noms du m\u00eame lieu (<em>Paris (France)</em>) vont dans des entr\u00e9es suppl\u00e9mentaires.</p><p>Choisissez le <strong>Type</strong> \u00ab termes pr\u00e9f\u00e9rentiels \u00bb pour le nom principal, \u00ab titres alternatifs \u00bb pour les variantes et \u00ab titres traduits \u00bb pour les traductions. Renseignez la <strong>Langue</strong> quand une forme appartient \u00e0 une langue (ex. \u00ab fran\u00e7ais \u00bb) ; ce n'est pas n\u00e9cessaire sinon. Utilisez <strong>Source</strong> pour la fiche qui atteste le nom, quand il y en a une.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Naming the place",
+                        "fr": "Nommer le lieu"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Name of Place"
+                        "en": "Name of Place",
+                        "fr": "Nom du lieu"
                     },
                     "nodegroup_id": "e4513853-7024-11ef-8753-0575b5bada34",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -147,22 +163,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>One entry per persistent identifier. <strong>Value (URI)</strong> (required) holds the full URL of the place, not a bare number or code; <strong>Source</strong> names the database that issued it; add <strong>Type</strong> only when the Source does not say it all.</p><p>E.g. the Geonames page of Avranches (Normandie), <code>https://www.geonames.org/3035639/</code>, Source \u00ab Geonames \u00bb (no Type needed). Other sources of the list are used the same way (\u00ab Wikidata \u00bb, \u00ab Biblissima \u00bb\u2026).</p>",
+                        "fr": "<p>Une entr\u00e9e par identifiant p\u00e9renne. <strong>Valeur (URI)</strong> (obligatoire) contient l'URL compl\u00e8te du lieu, pas un simple num\u00e9ro ou code ; la <strong>Source</strong> nomme la base qui l'a attribu\u00e9 ; ajoutez le <strong>Type</strong> seulement quand la Source ne dit pas tout.</p><p>Ex. la page Geonames d'Avranches (Normandie), <code>https://www.geonames.org/3035639/</code>, Source \u00ab Geonames \u00bb (pas de Type n\u00e9cessaire). Les autres sources de la liste s'emploient de la m\u00eame fa\u00e7on (\u00ab Wikidata \u00bb, \u00ab Biblissima \u00bb\u2026).</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Identifier of the place",
+                        "fr": "Identifiant du lieu"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Identifier"
+                        "en": "Identifier",
+                        "fr": "Identifiant"
                     },
                     "nodegroup_id": "e7bf9151-7024-11ef-8753-0575b5bada34",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -174,22 +193,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>One entry per text about the place, written in <strong>Content</strong> (required) and classed by <strong>Type</strong>: \u00ab description \u00bb, \u00ab note \u00bb\u2026 E.g. type \u00ab description \u00bb: two sentences on the history and the extent of the place.</p><p>Give the <strong>Language</strong> of the text and, in <strong>source</strong>, the URL of the document it comes from, if any. Dates and identifiers have their own cards: do not repeat them here.</p>",
+                        "fr": "<p>Une entr\u00e9e par texte sur le lieu, r\u00e9dig\u00e9 dans <strong>Contenu</strong> (obligatoire) et class\u00e9 par <strong>Type</strong> : \u00ab description \u00bb, \u00ab note \u00bb\u2026 Ex. type \u00ab description \u00bb : deux phrases sur l'histoire et l'\u00e9tendue du lieu.</p><p>Indiquez la <strong>Langue</strong> du texte et, dans <strong>source</strong>, l'URL du document dont il provient, le cas \u00e9ch\u00e9ant. Les dates et les identifiants ont leurs propres cartes : ne les r\u00e9p\u00e9tez pas ici.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Writing a statement",
+                        "fr": "R\u00e9diger une d\u00e9claration"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Statement"
+                        "en": "Statement",
+                        "fr": "D\u00e9claration"
                     },
                     "nodegroup_id": "ec2d44bd-7024-11ef-8753-0575b5bada34",
-                    "sortorder": 2,
+                    "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -201,22 +223,25 @@
                     "cssclass": null,
                     "description": "{\"en\": \"\"}",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>Optional. A short title for the statement above, shown instead of its full text: <strong>Name</strong>, its <strong>Type</strong> (\u00ab preferred terms \u00bb) and <strong>Language</strong>. E.g. <em>History</em>.</p>",
+                        "fr": "<p>Facultatif. Un titre court pour la d\u00e9claration ci-dessus, affich\u00e9 \u00e0 la place de son texte complet : <strong>Nom</strong>, son <strong>Type</strong> (\u00ab termes pr\u00e9f\u00e9rentiels \u00bb) et sa <strong>Langue</strong>. Ex. <em>Historique</em>.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Title of the statement",
+                        "fr": "Titre de la d\u00e9claration"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Statement"
+                        "en": "Statement",
+                        "fr": "D\u00e9claration"
                     },
                     "nodegroup_id": "ec2d44bf-7024-11ef-8753-0575b5bada34",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -226,24 +251,27 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "{\"en\": \"\"}",
+                    "description": "named historical period of the place (e.g. Medieval Period)",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>Use this card to place the place in time, e.g. the period in which it existed. <strong>Absolute period attribution</strong> (required) is the broad slot: choose the century (e.g. \u00ab 11th century \u00bb) rather than the millennium above it. <strong>Relative Period</strong> is a named historical period of a tree of 340 terms (e.g. \u00ab Medieval Period \u00bb): type to search and pick the most specific.</p><p>If the period you need is not in the lists, describe it in the sub-card \u00ab Alternative Period \u00bb.</p>",
+                        "fr": "<p>Utilisez cette carte pour situer le lieu dans le temps, ex. la p\u00e9riode pendant laquelle il a exist\u00e9. L'<strong>Attribution de p\u00e9riode absolue</strong> (obligatoire) est la tranche large : choisissez le si\u00e8cle (ex. \u00ab XIe si\u00e8cle \u00bb) plut\u00f4t que le mill\u00e9naire qui le contient. La <strong>P\u00e9riode relative</strong> est une p\u00e9riode historique nomm\u00e9e d'une arborescence de 340 termes (ex. \u00ab \u00e9poque m\u00e9di\u00e9vale \u00bb) : tapez pour chercher et prenez la plus pr\u00e9cise.</p><p>Si la p\u00e9riode voulue n'est pas dans les listes, d\u00e9crivez-la dans la sous-carte \u00ab P\u00e9riode alternative \u00bb.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Period of the place",
+                        "fr": "P\u00e9riode du lieu"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Period"
+                        "en": "Period",
+                        "fr": "P\u00e9riode"
                     },
                     "nodegroup_id": "ffdad493-ede8-11ef-9a8f-89acc4447d22",
-                    "sortorder": 7,
+                    "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true
                 },
                 {
@@ -255,22 +283,25 @@
                     "cssclass": null,
                     "description": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "helpenabled": false,
+                    "helpenabled": true,
                     "helptext": {
-                        "en": ""
+                        "en": "<p>Only when the period is not in the lists of the card above. Give its <strong>PeriodO (URI)</strong> (required), e.g. <code>https://n2t.net/ark:/99152/p0\u2026</code>, and a readable name in <strong>Appellation</strong>, e.g. <em>Carolingian period</em>.</p><p>Set <strong>Source of Identifier</strong> to \u00ab PeriodO \u00bb; the <strong>Type of Identifier</strong> can stay empty because the Source says it all.</p>",
+                        "fr": "<p>Seulement si la p\u00e9riode ne figure pas dans les listes de la carte ci-dessus. Indiquez son <strong>PeriodO (URI)</strong> (obligatoire), ex. <code>https://n2t.net/ark:/99152/p0\u2026</code>, et un nom lisible dans <strong>Appellation</strong>, ex. <em>p\u00e9riode carolingienne</em>.</p><p>Choisissez \u00ab PeriodO \u00bb comme <strong>Source de l'identifiant</strong> ; le <strong>Type d'identifiant</strong> peut rester vide, la Source disant tout.</p>"
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "Period missing from the lists",
+                        "fr": "P\u00e9riode absente des listes"
                     },
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
                     "name": {
-                        "en": "Alternative Period"
+                        "en": "Alternative Period",
+                        "fr": "P\u00e9riode alternative"
                     },
                     "nodegroup_id": "ffdad495-ede8-11ef-9a8f-89acc4447d22",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true
                 }
             ],
@@ -283,19 +314,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "4e7c0bfd-a045-498c-a142-2d7bb7f73f12",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "f90a6a98-7024-11ef-8753-0575b5bada34",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "d79dbcc8-3c3f-4b04-9161-e31adb5af29d",
@@ -307,17 +340,20 @@
                         "label": "Place",
                         "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "5b9e92ce-6d79-4ba9-b510-f7d0133ba784",
                     "label": {
-                        "en": "Place"
+                        "en": "Place",
+                        "fr": "Lieu"
                     },
                     "node_id": "98b35454-7031-11ef-8753-0575b5bada34",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
                     "card_id": "c4744628-642d-4720-bb95-52969e367ef1",
@@ -333,10 +369,12 @@
                     },
                     "id": "8068c34f-1061-40ac-8adb-5166e7a01caf",
                     "label": {
-                        "en": "Part of Place"
+                        "en": "Part of Place",
+                        "fr": "Partie du lieu"
                     },
                     "node_id": "825dc096-cc29-11ef-ab4e-a5507aed4a19",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -380,10 +418,12 @@
                     },
                     "id": "ae65c0fc-a365-4eb4-a781-cdbc25e70179",
                     "label": {
-                        "en": "Localisation"
+                        "en": "Localisation",
+                        "fr": "Localisation"
                     },
                     "node_id": "288758de-7026-11ef-8753-0575b5bada34",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
@@ -402,17 +442,20 @@
                         "label": "Label",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "e4513859-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Label"
+                        "en": "Label",
+                        "fr": "Libell\u00e9"
                     },
                     "node_id": "e4513856-7024-11ef-8753-0575b5bada34",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -424,19 +467,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "e451385a-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "e4513857-7024-11ef-8753-0575b5bada34",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "e4513854-7024-11ef-8753-0575b5bada34",
@@ -446,19 +491,21 @@
                             "placeholder"
                         ],
                         "label": "Language",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "e451385b-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Language"
+                        "en": "Language",
+                        "fr": "Langue"
                     },
                     "node_id": "e4513855-7024-11ef-8753-0575b5bada34",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "e4513854-7024-11ef-8753-0575b5bada34",
@@ -474,10 +521,12 @@
                     },
                     "id": "e451385c-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Source"
+                        "en": "Source",
+                        "fr": "Source"
                     },
                     "node_id": "e4513858-7024-11ef-8753-0575b5bada34",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": false,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -496,17 +545,20 @@
                         "label": "Value (URI)",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%%"
                     },
                     "id": "e7bf9156-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Value (URI)"
+                        "en": "Value (URI)",
+                        "fr": "Valeur (URI)"
                     },
                     "node_id": "e7bf9153-7024-11ef-8753-0575b5bada34",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -518,19 +570,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "e7bf9157-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "e7bf9155-7024-11ef-8753-0575b5bada34",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "e7bf9152-7024-11ef-8753-0575b5bada34",
@@ -540,19 +594,21 @@
                             "placeholder"
                         ],
                         "label": "Source",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "e7bf9158-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Source"
+                        "en": "Source",
+                        "fr": "Source"
                     },
                     "node_id": "e7bf9154-7024-11ef-8753-0575b5bada34",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "ec2d44be-7024-11ef-8753-0575b5bada34",
@@ -569,17 +625,20 @@
                         "label": "Content",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%%"
                     },
                     "id": "ec2d44c9-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Content"
+                        "en": "Content",
+                        "fr": "Contenu"
                     },
                     "node_id": "ec2d44c1-7024-11ef-8753-0575b5bada34",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -593,18 +652,22 @@
                         "label": "source",
                         "link_color": "#0055a0",
                         "url_label_placeholder": {
-                            "en": "Enter URL Label... "
+                            "en": "Enter URL Label... ",
+                            "fr": "Saisir le libell\u00e9 de l'URL\u2026 "
                         },
                         "url_placeholder": {
-                            "en": "Enter URL... "
+                            "en": "Enter URL... ",
+                            "fr": "Saisir l'URL\u2026 "
                         }
                     },
                     "id": "ec2d44ca-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "source"
+                        "en": "source",
+                        "fr": "source"
                     },
                     "node_id": "ec2d44c7-7024-11ef-8753-0575b5bada34",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
                 },
@@ -616,19 +679,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "ec2d44cb-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "ec2d44c6-7024-11ef-8753-0575b5bada34",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "ec2d44be-7024-11ef-8753-0575b5bada34",
@@ -638,19 +703,21 @@
                             "placeholder"
                         ],
                         "label": "Language",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "ec2d44cc-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Language"
+                        "en": "Language",
+                        "fr": "Langue"
                     },
                     "node_id": "ec2d44c4-7024-11ef-8753-0575b5bada34",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "ec2d44c0-7024-11ef-8753-0575b5bada34",
@@ -660,19 +727,21 @@
                             "placeholder"
                         ],
                         "label": "Language",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "ec2d44cd-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Language"
+                        "en": "Language",
+                        "fr": "Langue"
                     },
                     "node_id": "ec2d44c3-7024-11ef-8753-0575b5bada34",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "ec2d44c0-7024-11ef-8753-0575b5bada34",
@@ -689,17 +758,20 @@
                         "label": "Name",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Enter text",
+                            "fr": "Saisir du texte"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "ec2d44cf-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Name"
+                        "en": "Name",
+                        "fr": "Nom"
                     },
                     "node_id": "ec2d44c2-7024-11ef-8753-0575b5bada34",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -711,19 +783,21 @@
                             "placeholder"
                         ],
                         "label": "Type",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "ec2d44d0-7024-11ef-8753-0575b5bada34",
                     "label": {
-                        "en": "Type"
+                        "en": "Type",
+                        "fr": "Type"
                     },
                     "node_id": "ec2d44c5-7024-11ef-8753-0575b5bada34",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "ffdad494-ede8-11ef-9a8f-89acc4447d22",
@@ -733,19 +807,21 @@
                             "placeholder"
                         ],
                         "label": "Relative Period",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "ffdad49d-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Relative Period"
+                        "en": "Relative Period",
+                        "fr": "P\u00e9riode relative"
                     },
                     "node_id": "ffdad493-ede8-11ef-9a8f-89acc4447d22",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "ffdad494-ede8-11ef-9a8f-89acc4447d22",
@@ -755,19 +831,21 @@
                             "placeholder"
                         ],
                         "label": "Absolute period attribution",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "ffdad49e-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Absolute period attribution"
+                        "en": "Absolute period attribution",
+                        "fr": "Attribution de p\u00e9riode absolue"
                     },
                     "node_id": "ffdad49a-ede8-11ef-9a8f-89acc4447d22",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "ffdad496-ede8-11ef-9a8f-89acc4447d22",
@@ -784,17 +862,20 @@
                         "label": "PeriodO (URI)",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "http://n2t.net/ark:/99152/p06c6g32vfg"
+                            "en": "http://n2t.net/ark:/99152/p06c6g32vfg",
+                            "fr": "http://n2t.net/ark:/99152/p06c6g32vfg"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "ffdad49f-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "PeriodO (URI)"
+                        "en": "PeriodO (URI)",
+                        "fr": "PeriodO (URI)"
                     },
                     "node_id": "ffdad498-ede8-11ef-9a8f-89acc4447d22",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -802,25 +883,39 @@
                     "card_id": "ffdad496-ede8-11ef-9a8f-89acc4447d22",
                     "config": {
                         "defaultValue": [
-                            "ccc6529d-c776-4d3a-8bc4-356cb4994887"
+                            {
+                                "labels": [
+                                    {
+                                        "id": "d77483cf-7bc1-40aa-95ec-591ea5bb10c6",
+                                        "language_id": "en",
+                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
+                                        "value": "PeriodO",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                                "uri": "https://perio.do/en/"
+                            }
                         ],
                         "i18n_properties": [
                             "placeholder"
                         ],
                         "label": "Source of Identifier",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "ffdad4a0-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Source of Identifier"
+                        "en": "Source of Identifier",
+                        "fr": "Source de l'identifiant"
                     },
                     "node_id": "ffdad499-ede8-11ef-9a8f-89acc4447d22",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 },
                 {
                     "card_id": "ffdad496-ede8-11ef-9a8f-89acc4447d22",
@@ -837,17 +932,20 @@
                         "label": "Appellation",
                         "maxLength": null,
                         "placeholder": {
-                            "en": "Charles III"
+                            "en": "Charles III",
+                            "fr": "Charles III"
                         },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "ffdad4a1-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Appellation"
+                        "en": "Appellation",
+                        "fr": "Appellation"
                     },
                     "node_id": "ffdad49b-ede8-11ef-9a8f-89acc4447d22",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -859,24 +957,26 @@
                             "placeholder"
                         ],
                         "label": "Type of Identifier",
-                        "options": [],
                         "placeholder": {
-                            "en": "Select an option"
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
                         }
                     },
                     "id": "ffdad4a2-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
-                        "en": "Type of Identifier"
+                        "en": "Type of Identifier",
+                        "fr": "Type d'identifiant"
                     },
                     "node_id": "ffdad49c-ede8-11ef-9a8f-89acc4447d22",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
                 }
             ],
             "color": "rgba(173,43,153,0.75)",
             "config": {
-                "activeTabIndex": 1,
+                "activeTabIndex": 0,
                 "tabs": [
                     {
                         "icon": "fa fa-info",
@@ -909,7 +1009,8 @@
             "deploymentdate": null,
             "deploymentfile": null,
             "description": {
-                "en": "An individual human person, alive or dead. This is used for artists or other creators, current staff and researchers, and anyone else.\n\n\nOriginal:  Rob Sanderson (https://github.com/archesproject/arches-for-science/blob/master/afs/pkg/graphs/resource_models/Place.json) from Linked Art Project."
+                "en": "A geographical place, current or historical, to which objects, people and events can be linked.\n\nOriginal:  Rob Sanderson (https://github.com/archesproject/arches-for-science/blob/master/afs/pkg/graphs/resource_models/Place.json) from Linked Art Project.",
+                "fr": "Un lieu g\u00e9ographique, existant ou historique, auquel objets, personnes et \u00e9v\u00e9nements peuvent \u00eatre rattach\u00e9s.\n\nOriginal:  Rob Sanderson (https://github.com/archesproject/arches-for-science/blob/master/afs/pkg/graphs/resource_models/Place.json) from Linked Art Project."
             },
             "edges": [
                 {
@@ -919,7 +1020,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P189_approximates",
-                    "rangenode_id": "98b35454-7031-11ef-8753-0575b5bada34"
+                    "rangenode_id": "98b35454-7031-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -928,7 +1030,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
-                    "rangenode_id": "e7bf9151-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e7bf9151-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -937,7 +1040,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "rangenode_id": "825dc096-cc29-11ef-ab4e-a5507aed4a19"
+                    "rangenode_id": "825dc096-cc29-11ef-ab4e-a5507aed4a19",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -946,7 +1050,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "e4513853-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e4513853-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -955,7 +1060,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P161i_is_spatial_projection_of",
-                    "rangenode_id": "ffdad493-ede8-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "ffdad493-ede8-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -964,7 +1070,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "rangenode_id": "ec2d44bd-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44bd-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -973,7 +1080,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "f90a6a98-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "f90a6a98-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -982,7 +1090,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
-                    "rangenode_id": "288758de-7026-11ef-8753-0575b5bada34"
+                    "rangenode_id": "288758de-7026-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -991,7 +1100,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "e4513855-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e4513855-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1000,7 +1110,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "e4513856-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e4513856-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1009,7 +1120,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "rangenode_id": "e4513858-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e4513858-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1018,7 +1130,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "e4513857-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e4513857-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1027,7 +1140,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "e7bf9153-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e7bf9153-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1036,7 +1150,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "e7bf9155-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e7bf9155-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1045,7 +1160,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
-                    "rangenode_id": "e7bf9154-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "e7bf9154-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1054,7 +1170,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "ec2d44c5-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44c5-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1063,7 +1180,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
-                    "rangenode_id": "ec2d44bf-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44bf-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1072,7 +1190,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
-                    "rangenode_id": "ec2d44c4-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44c4-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1081,7 +1200,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "rangenode_id": "ec2d44c7-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44c7-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1090,7 +1210,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "ec2d44c1-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44c1-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1099,7 +1220,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "ec2d44c6-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44c6-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1108,7 +1230,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "ec2d44c3-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44c3-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1117,7 +1240,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "ec2d44c2-7024-11ef-8753-0575b5bada34"
+                    "rangenode_id": "ec2d44c2-7024-11ef-8753-0575b5bada34",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1126,7 +1250,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
-                    "rangenode_id": "ffdad49a-ede8-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "ffdad49a-ede8-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1135,7 +1260,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with",
-                    "rangenode_id": "ffdad495-ede8-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "ffdad495-ede8-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1144,7 +1270,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "ffdad49b-ede8-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "ffdad49b-ede8-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1153,7 +1280,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "ffdad49c-ede8-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "ffdad49c-ede8-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1162,7 +1290,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "ffdad498-ede8-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "ffdad498-ede8-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1171,7 +1300,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
-                    "rangenode_id": "ffdad499-ede8-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "ffdad499-ede8-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -1180,7 +1310,8 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "ffdad497-ede8-11ef-9a8f-89acc4447d22"
+                    "rangenode_id": "ffdad497-ede8-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
                 }
             ],
             "functions_x_graphs": [
@@ -1193,7 +1324,7 @@
                             },
                             "map_popup": {
                                 "nodegroup_id": "",
-                                "string_template": "<label_of_name>"
+                                "string_template": "<label_of_name> <content_of_statement>"
                             },
                             "name": {
                                 "nodegroup_id": "",
@@ -1202,76 +1333,90 @@
                         },
                         "triggering_nodegroups": []
                     },
-                    "function_id": "00b2d15a-fda0-4578-b79a-784e4138664b",
+                    "function_id": "3969e977-9ee9-4b86-a4e4-2b7bb2b642bc",
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                    "id": "37327e4d-bcef-44b6-a5ee-5f911e06e878"
+                    "id": "a82969b3-1ce3-4bd8-8a01-fe50019ccf8e"
                 }
             ],
             "graphid": "3f2b036a-b65d-474d-b692-0b21903655c5",
+            "group_permissions": {},
+            "has_unpublished_changes": true,
             "iconclass": "fa fa-map-marker",
-            "is_editable": true,
+            "is_active": true,
+            "is_copy_immutable": false,
             "isresource": true,
             "jsonldcontext": "https://cidoc-crm.org/rdfs/7.1.2/CIDOC_CRM_v7.1.2_JSON-LD_Context.jsonld",
             "name": {
-                "en": "Place"
+                "en": "Place",
+                "fr": "Lieu"
             },
             "nodegroups": [
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "288758de-7026-11ef-8753-0575b5bada34",
                     "legacygroupid": null,
                     "nodegroupid": "288758de-7026-11ef-8753-0575b5bada34",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "825dc096-cc29-11ef-ab4e-a5507aed4a19",
                     "legacygroupid": null,
                     "nodegroupid": "825dc096-cc29-11ef-ab4e-a5507aed4a19",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "98b35454-7031-11ef-8753-0575b5bada34",
                     "legacygroupid": null,
                     "nodegroupid": "98b35454-7031-11ef-8753-0575b5bada34",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
+                    "grouping_node_id": "e4513853-7024-11ef-8753-0575b5bada34",
                     "legacygroupid": null,
                     "nodegroupid": "e4513853-7024-11ef-8753-0575b5bada34",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
+                    "grouping_node_id": "e7bf9151-7024-11ef-8753-0575b5bada34",
                     "legacygroupid": null,
                     "nodegroupid": "e7bf9151-7024-11ef-8753-0575b5bada34",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
+                    "grouping_node_id": "ec2d44bd-7024-11ef-8753-0575b5bada34",
                     "legacygroupid": null,
                     "nodegroupid": "ec2d44bd-7024-11ef-8753-0575b5bada34",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "ec2d44bf-7024-11ef-8753-0575b5bada34",
                     "legacygroupid": null,
                     "nodegroupid": "ec2d44bf-7024-11ef-8753-0575b5bada34",
                     "parentnodegroup_id": "ec2d44bd-7024-11ef-8753-0575b5bada34"
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "f90a6a98-7024-11ef-8753-0575b5bada34",
                     "legacygroupid": null,
                     "nodegroupid": "f90a6a98-7024-11ef-8753-0575b5bada34",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "ffdad493-ede8-11ef-9a8f-89acc4447d22",
                     "legacygroupid": null,
                     "nodegroupid": "ffdad493-ede8-11ef-9a8f-89acc4447d22",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "ffdad495-ede8-11ef-9a8f-89acc4447d22",
                     "legacygroupid": null,
                     "nodegroupid": "ffdad495-ede8-11ef-9a8f-89acc4447d22",
                     "parentnodegroup_id": "ffdad493-ede8-11ef-9a8f-89acc4447d22"
@@ -1281,38 +1426,39 @@
                 {
                     "alias": "literal_location",
                     "config": {
-                        "addToMap": false,
+                        "addToMap": true,
                         "advancedStyle": "",
                         "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
-                        "haloRadius": 4,
+                        "clusterDistance": 30,
+                        "clusterMaxZoom": 12,
+                        "clusterMinPoints": 2,
+                        "fillColor": "rgba(46,139,87,0.25)",
+                        "haloRadius": 8,
                         "haloWeight": 4,
                         "layerActivated": true,
                         "layerIcon": "",
                         "layerLegend": "",
                         "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineColor": "rgba(46,139,87,0.9)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineColor": "rgba(46,139,87,0.9)",
                         "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "radius": 2,
+                        "pointColor": "rgba(46,139,87,0.9)",
+                        "pointHaloColor": "rgba(46,139,87,0.35)",
+                        "radius": 5,
                         "simplification": 0.3,
                         "weight": 2
                     },
                     "datatype": "geojson-feature-collection",
-                    "description": null,
+                    "description": "geometry of the place drawn on the map (point, line or polygon)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
-                    "issearchable": false,
+                    "issearchable": true,
                     "istopnode": false,
                     "name": "Literal location",
                     "nodegroup_id": "288758de-7026-11ef-8753-0575b5bada34",
@@ -1320,6 +1466,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1339,12 +1486,13 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance-list",
-                    "description": null,
+                    "description": "larger place in which this place falls (e.g. a town within a region)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1354,20 +1502,33 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "similar_of_places",
                     "config": {
-                        "rdmCollection": null
+                        "graphs": [
+                            {
+                                "graphid": "3f2b036a-b65d-474d-b692-0b21903655c5",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Place",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
                     },
-                    "datatype": "concept",
-                    "description": null,
+                    "datatype": "resource-instance",
+                    "description": "existing or vanished place that this place approximates (e.g. a vanished kingdom with the modern country)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1377,10 +1538,11 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P189_approximates",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": null,
+                    "alias": "place",
                     "config": {
                         "en": ""
                     },
@@ -1391,6 +1553,7 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
@@ -1400,6 +1563,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1414,6 +1578,7 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1423,20 +1588,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "language_of_name",
                     "config": {
-                        "rdmCollection": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642"
+                        "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "language in which the name is written",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1446,6 +1614,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1454,12 +1623,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "name by which the place is known (e.g. Avranches (Normandie))",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1469,20 +1639,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_name",
                     "config": {
-                        "rdmCollection": "6c02daa3-c79c-41cf-bd46-c947a61104b9"
+                        "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of name: preferred, alternate or translated",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1492,6 +1665,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1502,12 +1676,13 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance-list",
-                    "description": null,
+                    "description": "record in which the name is attested",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1517,10 +1692,11 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": null,
+                    "alias": "identifier_n1",
                     "config": {
                         "en": ""
                     },
@@ -1531,6 +1707,7 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1540,6 +1717,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
                     "sortorder": 4,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1548,12 +1726,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "full URL of a persistent identifier of the place (e.g. a Geonames URL), not a local code",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1563,20 +1742,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "source_of_identifier",
                     "config": {
-                        "rdmCollection": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40"
+                        "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
+                    "datatype": "reference",
                     "description": "database origin (Biblissima, BNF, etc)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1586,20 +1768,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_identifier",
                     "config": {
-                        "rdmCollection": "5cae2276-c40a-44c0-9e13-8e94f02ab40d"
+                        "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of identifier, when the source does not say it all (ARK, DOI, persistent identifiers\u2026)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1609,10 +1794,11 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": null,
+                    "alias": "statement",
                     "config": {
                         "en": ""
                     },
@@ -1623,6 +1809,7 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1632,6 +1819,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
                     "sortorder": 7,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1646,6 +1834,7 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1655,6 +1844,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
                     "sortorder": 4,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1663,12 +1853,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "free text about the place: history, description, remarks",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1678,6 +1869,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1686,12 +1878,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "short title of the statement (e.g. History)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1701,20 +1894,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "language_of_name_statement",
                     "config": {
-                        "rdmCollection": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642"
+                        "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "language in which the title is written",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1724,20 +1920,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "language_of_statement",
                     "config": {
-                        "rdmCollection": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642"
+                        "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "language in which the statement is written",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1747,20 +1946,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_name_statement",
                     "config": {
-                        "rdmCollection": "6c02daa3-c79c-41cf-bd46-c947a61104b9"
+                        "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of title: preferred, alternate or translated",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1770,20 +1972,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_statement",
                     "config": {
-                        "rdmCollection": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"
+                        "controlledList": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of statement (note, description, biography\u2026)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1793,6 +1998,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 2,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1801,12 +2007,13 @@
                         "en": ""
                     },
                     "datatype": "url",
-                    "description": null,
+                    "description": "web address of the document the statement comes from",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1816,20 +2023,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
                     "sortorder": 3,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type",
                     "config": {
-                        "rdmCollection": "7a9a62f5-235e-4f7d-8c21-726adf064122"
+                        "controlledList": "7a9a62f5-235e-4f7d-8c21-726adf064122",
+                        "multiValue": false
                     },
-                    "datatype": "concept",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of geopolitical unit (e.g. city-town, region, kingdom)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1839,21 +2049,24 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 5,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "period",
                     "config": {
+                        "controlledList": "36c03e12-351b-4bbd-a52b-9d09f4d4adc0",
                         "en": "",
-                        "rdmCollection": "36c03e12-351b-4bbd-a52b-9d09f4d4adc0"
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": "{\"en\": \"\"}",
+                    "datatype": "reference",
+                    "description": "named historical period of the place (e.g. Medieval Period)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1863,6 +2076,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P161i_is_spatial_projection_of",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1877,6 +2091,7 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1886,6 +2101,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1900,6 +2116,7 @@
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -1909,6 +2126,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1917,12 +2135,13 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "PeriodO URI of the alternative period (e.g. https://n2t.net/ark:/99152/p0\u2026)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1932,20 +2151,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "source_of_identifier_n1",
                     "config": {
-                        "rdmCollection": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40"
+                        "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
+                    "datatype": "reference",
                     "description": "database origin (Biblissima, BNF, etc)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -1955,20 +2177,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "absolute_period_attribution",
                     "config": {
-                        "rdmCollection": "21b06442-8861-4322-80c0-fa1f6e1320e1"
+                        "controlledList": "21b06442-8861-4322-80c0-fa1f6e1320e1",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "broad dating of the place in absolute terms (millennium, century)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
@@ -1978,6 +2203,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -1986,12 +2212,13 @@
                         "rdmCollection": null
                     },
                     "datatype": "string",
-                    "description": null,
+                    "description": "name of a period missing from the lists (e.g. Carolingian period)",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -2001,20 +2228,23 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "type_of_identifier_n1",
                     "config": {
-                        "rdmCollection": "5cae2276-c40a-44c0-9e13-8e94f02ab40d"
+                        "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
+                        "multiValue": true
                     },
-                    "datatype": "concept-list",
-                    "description": null,
+                    "datatype": "reference",
+                    "description": "kind of identifier of the alternative period",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": false,
                     "istopnode": false,
@@ -2024,15 +2254,83 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 1,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "1db91156-c84e-4488-a62f-bc2f6947e064",
-            "publication": null,
+            "publication": {
+                "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
+                "most_recent_edit_id": null,
+                "notes": "Grouping cards reverted to Default Card",
+                "publicationid": "8ea10e9a-d43c-47a1-b2cf-de6a2ef0a8fe",
+                "published_time": "2026-09-15T08:34:53.681"
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
+            "resource_instance_lifecycle": {
+                "id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75",
+                "name": {
+                    "en": "Standard"
+                },
+                "resource_instance_lifecycle_states": [
+                    {
+                        "action_label": {
+                            "en": "Revert to Draft"
+                        },
+                        "can_delete_resource_instances": true,
+                        "can_edit_resource_instances": true,
+                        "id": "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f",
+                        "is_initial_state": true,
+                        "name": {
+                            "en": "Draft"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Make Active"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": true,
+                        "id": "f75bb034-36e3-4ab4-8167-f520cf0b4c58",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Active"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "d95d9c0e-0e2c-4450-93a3-d788b91abcc8"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [
+                            "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Retire"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": false,
+                        "id": "d95d9c0e-0e2c-4450-93a3-d788b91abcc8",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Retired"
+                        },
+                        "next_resource_instance_lifecycle_states": [],
+                        "previous_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    }
+                ]
+            },
             "root": {
-                "alias": null,
+                "alias": "place",
                 "config": {
                     "en": ""
                 },
@@ -2043,6 +2341,7 @@
                 "graph_id": "3f2b036a-b65d-474d-b692-0b21903655c5",
                 "hascustomalias": false,
                 "is_collector": false,
+                "is_immutable": false,
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
@@ -2051,20 +2350,18 @@
                 "nodeid": "b63858e2-7024-11ef-8753-0575b5bada34",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                 "sortorder": 0,
+                "source_identifier_id": null,
                 "sourcebranchpublication_id": null
             },
             "slug": "place",
+            "source_identifier_id": null,
+            "spatial_views": [],
             "subtitle": {
                 "en": "A geographic space on a map"
             },
             "template_id": "50000000-0000-0000-0000-000000000004",
+            "user_permissions": {},
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 14.15 (Ubuntu 14.15-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "5.15.0-133-generic"
-    }
+    ]
 }

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d">
+    <dcterms:title>AAT - Identifier Types</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0da6b75e-0443-454d-a17d-8f85867cad2c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/0da6b75e-0443-454d-a17d-8f85867cad2c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">ARK (Archival Resource Key)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ARK (Archival Resource Key)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Archival Resource Key (ARK) identifiers are persistent URLs designed to support long-term access to information objects. Introduced in 2001, ARK identifiers were designed to identify objects of any type: digital objects – documents, databases, images, software, websites, etc.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Les identifiants ARK (Archival Resource Key) sont des URL pérennes conçues pour garantir l'accès à long terme à des objets d'information. Introduits en 2001, ils peuvent identifier des objets de tout type : documents, bases de données, images, logiciels, sites web, etc.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/18fef3ab-5a0a-48f0-90b6-eea6d091e7ba">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404013</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">manuscript designations</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cotes de manuscrit</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Alphanumeric codes that are traditionally used to uniquely identify a given manuscript within a defined environment. Manuscript designations may be used as titles of manuscripts. An example would be "Ms. Ludwig II 7."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Codes alphanumériques traditionnellement employés pour identifier de façon unique un manuscrit au sein d'un ensemble défini. Ces cotes peuvent servir de titre au manuscrit. Exemple : « Ms. Ludwig II 7 ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/20d9c7e0-e193-48d1-97c9-5765e484f77f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300417432</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">DOI (Digital Object Identifier)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">DOI (Digital Object Identifier)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Unique alpha-numeric strings assigned by a regsitration agency to identify content and provide a persistent link to a location on the Internet.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Chaînes alphanumériques uniques attribuées par une agence d'enregistrement pour identifier un contenu et fournir un lien pérenne vers un emplacement sur internet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2b4f482c-f07c-4e76-87e2-e7be3d5abcd4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404629</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">uniform resource identifiers</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">identifiants de ressource uniformes (URI)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A URN (Uniform Resource Name) is an identifier that facilitates the unique identification and citation of the associated online publication in the long term regardless of where it is stored.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Un URN (Uniform Resource Name) est un identifiant qui permet d'identifier et de citer de manière unique et durable la publication en ligne associée, indépendamment de son lieu de stockage.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2cbf15b4-aa04-4b5b-bf4a-2594bbeb72ca">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404704</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">shelf marks</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cotes</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Identifying numeric or alpha codes found, usually on the spine, of a manuscript, book or other volume, giving the location where the item can be found in the library.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Codes numériques ou alphabétiques d'identification, généralement portés au dos d'un manuscrit, d'un livre ou d'un autre volume, et indiquant l'emplacement où le trouver dans la bibliothèque.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/31eb6be4-04ae-4e58-8df9-a96de385b947">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404630</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">uniform resource locators</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">localisateurs de ressource uniformes (URL)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Unique resource locators that, in addition to identifying a resource, provide the address of the internet document according to one of a variety of protocols.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Localisateurs uniformes de ressource qui, outre l'identification d'une ressource, fournissent l'adresse du document sur internet selon l'un des protocoles existants.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/40b8d852-4b18-497d-916f-a0a41e903613">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404012</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">unique identifiers</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">identifiants uniques</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Numbers or alphanumeric codes that are not repeated within a given environment and used to unambiguously and uniquely identify an object, record, or data element.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Numéros ou codes alphanumériques non répétés dans un environnement donné, employés pour identifier sans ambiguïté un objet, une notice ou une donnée.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/55801709-9719-473f-9608-949f08b32eb7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/55801709-9719-473f-9608-949f08b32eb7</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">Internal Identifier</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">identifiant interne</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Numeric, alphanumeric, or other identifying codes of various types assigned to an art object, book, other item, or group of works by the repository that holds that item or group. Any item or group in a repository may have multiple types of repository numbers. For numbers specifically assigned at the time of accession by a repository, prefer "accession numbers."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Codes numériques, alphanumériques ou autres, de types variés, attribués à un objet d'art, à un livre, à un autre bien ou à un ensemble d'œuvres par l'institution qui les conserve. Une pièce ou un ensemble peut porter plusieurs types de numéros d'institution. Pour les numéros attribués au moment de l'entrée en collection, préférer « numéro d'inventaire ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300387580</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0da6b75e-0443-454d-a17d-8f85867cad2c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/20d9c7e0-e193-48d1-97c9-5765e484f77f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2b4f482c-f07c-4e76-87e2-e7be3d5abcd4"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/31eb6be4-04ae-4e58-8df9-a96de385b947"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/fb39f64f-665b-4bc3-819f-2e73762e67b2"/>
+    <skos:prefLabel xml:lang="en">persistent identifiers</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">identifiants pérennes</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Unique numeric, alphabetic, alphanumeric, or other codes that identify or reference a thing, concept, or record, and that are reliable and longlasting. An example of a persistent identifier is as used for digital objects. Persistent identifier systems include "persistent object identifiers" (POIDs) and "digital object Identifiers" (DOIs).</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Codes numériques, alphabétiques, alphanumériques ou autres, uniques, fiables et durables, qui identifient ou référencent une chose, un concept ou une notice. Les identifiants d'objets numériques en sont un exemple. Parmi les systèmes existants figurent les POID (persistent object identifiers) et les DOI (digital object identifiers).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/72ae261c-5cf5-4c5b-a9b0-185be43ec314">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404621</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">repository numbers</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">numéros de l'institution de conservation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Numeric, alphanumeric, or other identifying codes of various types assigned to an art object, book, other item, or group of works by the repository that holds that item or group. Any item or group in a repository may have multiple types of repository numbers. For numbers specifically assigned at the time of accession by a repository, prefer "accession numbers."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Codes numériques, alphanumériques ou autres, de types variés, attribués à un objet d'art, à un livre, à un autre bien ou à un ensemble d'œuvres par l'institution qui les conserve. Une pièce ou un ensemble peut porter plusieurs types de numéros d'institution. Pour les numéros attribués au moment de l'entrée en collection, préférer « numéro d'inventaire ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b7929847-1bff-4ca6-b3f3-488b4a37db81">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300312355</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">Accession Number</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">numéro d'inventaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Numeric, alphanumeric, or other identifying codes assigned when an art object, book, or other item enters the collection of a museum, library, or other repository. Such codes are unique within the set of codes, and specifically identify the particular item at hand. The numbers may be marked on the objects or not.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Codes numériques, alphanumériques ou autres attribués lorsqu'un objet d'art, un livre ou un autre bien entre dans la collection d'un musée, d'une bibliothèque ou d'une autre institution de conservation. Ces codes sont uniques au sein de l'ensemble et identifient précisément la pièce concernée. Ils peuvent ou non être portés sur l'objet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/be56d99a-4be6-4e2e-ab58-2432d8a77e46">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404628</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">Lot Number</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">numéro de lot</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Distinguishing identification numbers or codes assigned to either a plot of land or a batch of items, such as at an auction.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Numéros ou codes d'identification attribués soit à une parcelle de terrain, soit à un lot d'objets, par exemple lors d'une vente aux enchères.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d2d7ac19-a9b6-436c-936a-3c6f314b2742">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300412177</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">Object Stock Number</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">numéro de stock de l'objet</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Numbers that firms such as commercial art dealers or galleries may assign to objects when taking them in to stock. These are typically written or affixed on the objects themselves, and can be used to associate particular objects with entries in a stock or sales book. These numbers are not necessarily unique, and objects may have multiple stock numbers.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Numéros que des maisons telles que les marchands d'art ou les galeries attribuent aux objets lors de leur entrée en stock. Généralement inscrits ou apposés sur les objets eux-mêmes, ils permettent de rapprocher un objet des entrées d'un livre de stock ou de vente. Ces numéros ne sont pas nécessairement uniques et un objet peut en porter plusieurs.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e10752d3-d8fa-47cb-92f9-dd7277dfc97a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300435704</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">record identifiers</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">identifiants d'enregistrement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Numbers or codes that uniquely identify a record or entity within a given area of a system. Such numbers are typically system-generated; the values may comprise sequential numbers or codes algorithmically constructed. A goal may be to ensure uniqueness across multiple systems, such as UUID or GUID.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Numéros ou codes identifiant de façon unique une notice ou une entité dans un périmètre donné d'un système. Généralement générés par le système, ils peuvent être séquentiels ou construits algorithmiquement. L'objectif peut être d'assurer l'unicité entre plusieurs systèmes, comme pour un UUID ou un GUID.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fb39f64f-665b-4bc3-819f-2e73762e67b2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300417435</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
+    <skos:prefLabel xml:lang="en">handles (identifiers)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">handles (identifiants)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Unique and persistent identifiers for digital objects, compliant with the Handle System developed by the Corporation for National Research Initiatives.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Identifiants uniques et pérennes d'objets numériques, conformes au Handle System développé par la Corporation for National Research Initiatives.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

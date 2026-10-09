@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40">
+    <dcterms:title>Identifier Sources</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/28238338-b793-425d-a4bd-1d7539190429">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://perio.do/en/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">PeriodO</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">PeriodO</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">PeriodO (https://perio.do/en/) is a public domain gazetteer of scholarly definitions of historical, art-historical, and archaeological periods. It eases the task of linking among datasets that define periods differently. It also helps scholars and students see where period definitions overlap or diverge. PeriodO uses a permanent url (http://n2t.net/ + ARK)</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">PeriodO (https://perio.do/en/) est un répertoire du domaine public rassemblant les définitions savantes des périodes historiques, historiques de l'art et archéologiques. Il facilite les liens entre jeux de données qui définissent les périodes différemment et permet de voir où ces définitions se recouvrent ou divergent. PeriodO emploie une URL pérenne (http://n2t.net/ + ARK).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/39124989-dfb1-4e2a-9d1a-4bff0827ed71">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://data.biblissima.fr/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">Biblissima</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Biblissima</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Biblissima authority ID (https://data.biblissima.fr/). Identifier of an entity in the Biblissima database</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Identifiant d'autorité Biblissima (https://data.biblissima.fr/). Identifiant d'une entité dans la base Biblissima</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3b78627a-c751-43df-b427-73e1dd11ec38">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://mandragore.bnf.fr/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">Mandragore</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Mandragore</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Mandragore is BNF database of manuscript decorations and illuminations (https://mandragore.bnf.fr/). </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Mandragore est la base des décors et enluminures de manuscrits de la BnF (https://mandragore.bnf.fr/).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/455c0199-abf2-4185-9f18-19f664af4265">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://arca.irht.cnrs.fr/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">ARCA</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ARCA</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">ARCA (https://arca.irht.cnrs.fr/), IRHT-CNRS database</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">ARCA (https://arca.irht.cnrs.fr/), base de données de l'IRHT-CNRS</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4b3c62c0-4f42-4a37-815b-478ff6ac7d7a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://www.wikidata.org/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">Wikidata</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Wikidata</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Wikidata (https://www.wikidata.org/)</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Wikidata (https://www.wikidata.org/).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6246341b-532e-4e89-a7be-7743c36f95c3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://id.loc.gov/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">Library of Congress authority ID</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">identifiant d'autorité de la Library of Congress</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Library of Congress name authority (https://id.loc.gov/) (persons, families, corporate bodies, events, places, works and expressions) and subject authority identifier [Format: 1-2 specific letters followed by 8-10 digits (see regex).</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Notice d'autorité de la Library of Congress (https://id.loc.gov/) — personnes, familles, collectivités, événements, lieux, œuvres et expressions — et identifiant d'autorité matière. Format : 1 à 2 lettres spécifiques suivies de 8 à 10 chiffres (voir l'expression régulière).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9f436703-91f9-48f0-a949-bcff9eb5b85b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://www.geonames.org/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">Geonames</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Geonames</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Geonames geographical database (https://www.geonames.org/).</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Base de données géographique Geonames (https://www.geonames.org/).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bd1fa4c5-c7e7-45d2-b58c-e5f54a1da34d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://catalogue.bnf.fr/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">BNF ID</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">identifiant BnF</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">BNF (https://catalogue.bnf.fr/). Identifier for the subject issued by BNF (Bibliothèque nationale de France). Format: 8 digits followed by a check-digit or letter, do not include the initial 'cb'.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">BnF (https://catalogue.bnf.fr/). Identifiant attribué au sujet par la Bibliothèque nationale de France. Format : 8 chiffres suivis d'un caractère de contrôle (chiffre ou lettre), sans le préfixe « cb ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cc430c59-8e7d-4a29-88f4-a821b6479945">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://isni.oclc.org/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">ISNI</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ISNI</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">International Standard Name Identifier (https://isni.oclc.org/). ISNI is a standardized international code used to uniquely identify people and organizations on a long-term, international scale. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">International Standard Name Identifier (https://isni.oclc.org/). L'ISNI est un code international normalisé permettant d'identifier de façon unique et durable les personnes et les organisations à l'échelle internationale.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e52071ad-a0d1-41d1-9dd3-a9855cb2a5b7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://orcid.org/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">ORCID</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ORCID</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Open Researcher and Contributor IDentifier, is an international system whose aim is to assign persistent digital identifiers to researchers in order to distinguish them unambiguously.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Open Researcher and Contributor IDentifier : système international visant à attribuer aux chercheurs des identifiants numériques pérennes afin de les distinguer sans ambiguïté.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fb586473-f205-4ca7-bf9b-0b7cb4a2fe68">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://viaf.org/</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/bd902d96-0d2b-4fa5-9d90-fb957e34ca40"/>
+    <skos:prefLabel xml:lang="en">VIAF</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">VIAF</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Virtual International Authority File. (https://viaf.org/)</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Virtual International Authority File (https://viaf.org/).</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

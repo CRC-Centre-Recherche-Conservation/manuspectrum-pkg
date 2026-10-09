@@ -1,0 +1,193 @@
+ManuSpectrum package - NOTICE
+=============================
+
+The original content of this package (graphs, branches, settings, and the
+lists named "ManuSpectrum - ...", "Sampling Type", "Status Activity" and
+"Names type - Generic" where the terms are project-made) is licensed under
+CC BY 4.0 (see LICENSE). The third-party vocabularies and ontologies listed
+below remain under the licence of their providers, which is stated here as
+the provider publishes it. Reusing the package means respecting both.
+
+Each vocabulary page below was consulted on 2026-10-08. Where a provider gives
+no version number, the consultation date is the version reference. Where a
+provider states no licence, this file says so and does not infer one.
+
+
+1. VOCABULARIES (reference_data/controlled_lists)
+-------------------------------------------------
+
+1.1 Getty Art & Architecture Thesaurus (AAT)
+
+  Producer:   J. Paul Getty Trust, Getty Research Institute.
+  Source:     Art & Architecture Thesaurus (AAT), http://vocab.getty.edu/aat/
+              (information page: https://www.getty.edu/research/tools/vocabularies/aat/)
+  Licence:    Open Data Commons Attribution License (ODC-By) 1.0,
+              https://opendatacommons.org/licenses/by/1.0/
+              Stated at https://www.getty.edu/research/tools/vocabularies/obtain/index.html
+              and https://www.getty.edu/research/tools/vocabularies/aat/about.html
+  Required attribution (credit line given by Getty):
+      "Contains information from the J. Paul Getty Trust, Getty Research
+      Institute, Art & Architecture Thesaurus, which is made available under
+      the ODC Attribution License"
+  Lists derived (AAT terms and URIs):
+      AAT - Activity types
+      AAT - Alteration
+      AAT - Document types
+      AAT - Document units
+      AAT - Genders
+      AAT - Identifier types
+      AAT - Languages
+      AAT - Physical dimensions
+      AAT - Statement types
+      AAT - Units, weights and lengths
+  Lists that also carry a few AAT terms:
+      Names type - Generic (3), Shared social entity (10),
+      Frollo - Analysis and examination techniques (TAPAC) (3).
+  Some scope notes of the "ManuSpectrum - ..." lists point to an AAT term by
+  URI as a related reference; they copy no AAT content.
+  Getty asks users to cite the contributors and sources of the data as well,
+  where appropriate. The AAT term sources are given on each AAT term page.
+
+1.2 INHA, AGORHA thesauri
+
+  Producer:   INHA (Institut national d'histoire de l'art), AGORHA.
+              https://thesaurus.inha.fr
+  Licence:    CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+  Schemes used and package lists:
+      AGORHA type d'oeuvre (branch "ecrit"):  AGORHA Type of work - written
+        https://thesaurus.inha.fr/thesaurus/page/ark:/54721/8e09cc44-abef-4f14-9761-6c9cb3f63b2d
+      AGORHA materiaux:  AGORHA materials
+        https://thesaurus.inha.fr/thesaurus/page/ark:/54721/2275eb81-6e47-4c3c-b1ee-96795edb046c
+      AGORHA techniques:  AGORHA - Thesaurus Techniques
+        https://thesaurus.inha.fr/thesaurus/page/ark:/54721/05085df9-7b57-4aca-b600-fa0309b0cb3c
+      AGORHA type de description materielle:  AGORHA type of material description
+        https://thesaurus.inha.fr/thesaurus/page/ark:/54721/16bdfaec-15a7-409c-b91c-84d9bf8e2414
+      AGORHA caracteristiques de description materielle:  AGORHA material
+      description characteristics, AGORHA - Color
+        https://thesaurus.inha.fr/thesaurus/page/ark:/54721/22b1b2e9-9241-4bda-ad66-52590a36c87b
+
+1.3 Frantiq, PACTOLS thesaurus
+
+  Producer:   Frantiq (Federation et ressources sur l'Antiquite, CNRS
+              thematic network); maintained by the Pactols working group.
+  Source:     PACTOLS, https://pactols.frantiq.fr ; concept identifiers
+              https://ark.frantiq.fr/ark:/26678/... resolve to
+              pactols.frantiq.fr (thesaurus Pactols_Sujets, id TH_1; four
+              places of the Geopolitical Units list come from Pactols_Lieux,
+              id th17).
+  Version:    Frantiq states "version 2.0, September 2022" as the current
+              release and that the thesaurus is updated almost daily; this
+              package uses the state of the live thesaurus at export time.
+  Licence:    Open Database License (ODbL) 1.0,
+              https://opendatacommons.org/licenses/odbl/1-0/
+              Stated at https://pactols.frantiq.fr/ ("diffuse sous licence
+              ouverte ODbL"), https://www.frantiq.fr/pactols/documentation/
+              and https://github.com/frantiq/pactols
+  Required credit (Frantiq documentation): "Credits: CNRS-Frantiq"
+              ("Credits : CNRS-Frantiq"). ODbL also requires that the licence
+              terms are kept for adapted databases.
+  Recommended citation: "Frantiq (CNRS), PACTOLS thesaurus, Pactols_Sujets
+              (TH_1) and Pactols_Lieux (th17), https://pactols.frantiq.fr,
+              ODbL 1.0, consulted 2026-10-08."
+  Lists derived:
+      Frantiq - Absolute dating
+      FRANTIQ - Geopolitical Units
+      FRANTIQ - Official role
+      FRANTIQ - Peoples
+      FRANTIQ - Periodization
+      Shared social entity (215 PACTOLS terms)
+
+1.4 Loterre, Periodic table of the elements (thesaurus)
+
+  Producer:   Institut de l'information scientifique et technique (Inist),
+              CNRS / UPS76 (Loterre platform).
+              Funding: ANR-10-IDEX-0004-02.
+  Source:     "Tableau periodique des elements (thesaurus)" / "Periodic table
+              of the elements (thesaurus)", version 1.0, created 14 Feb 2019,
+              last modified 11 Apr 2019.
+              Vocabulary page: https://skosmos.loterre.fr/8HQ/en/
+              URI: http://data.loterre.fr/ark:/67375/8HQ
+              DOI: https://doi.org/10.13143/lotr.7742
+  Licence:    CC BY 4.0, http://creativecommons.org/licenses/by/4.0/
+              Stated as "License" on the vocabulary page.
+  Attribution name given by Loterre: "Institut de l'information scientifique
+              et technique (Inist) - CNRS/UPS76".
+  Lists derived (terms and Loterre URIs, all in the 8HQ vocabulary):
+      LOTERRE - Periodic table structure
+      ManuSpectrum - Chemical elements (the 118 element URIs; labels and
+      other fields are the project's)
+
+1.5 Frollo, Thesaurus des Techniques d'analyses et d'examens (TAPAC)
+
+  Producer:   NDP Digital Data Working group, published on the Frollo
+              platform (Opentheso).
+  Source:     Thesaurus identifier th12, scheme
+              https://ark.notre-dame.science/ark:/35572/th12
+              https://frollo.notre-dame.science/opentheso/?idt=th12
+  Citation (as given by the project owner for this thesaurus):
+      NDP Digital Data Working group, Malavergne O., Bouiller L.,
+      Guillem A., Thesaurus des Techniques d'analyses et d'examens (TAPAC)
+      (th12), v.1, 2024 [dataset].
+      https://frollo.notre-dame.science/opentheso/?idt=th12
+  Licence:    licence not stated by the provider. The th12 scheme exported
+              by the Opentheso API (consulted 2026-10-08) carries only a
+              title, creator and language; no licence or rights statement.
+  Lists derived:
+      Frollo - Analysis and examination techniques (TAPAC)
+      Frollo - Sample Taking Technique
+  Both lists use the same thesaurus: the numeric identifiers of the eight
+  sample-taking terms (for example 61042, 61044, 61045) and of the 317 TAPAC
+  terms are all concepts of th12. A few concepts also carry AAT links
+  (see 1.1).
+
+1.6 Registries named in "Identifier Sources"
+
+  The list "Identifier Sources" only names external registries (Wikidata,
+  GeoNames, VIAF, PeriodO, Biblissima, Mandragore, ARCA, Library of Congress
+  authorities, BnF, ISNI, ORCID) and gives their home URL, so that a record can
+  say which registry an identifier comes from. No registry data is copied.
+  Short descriptions of ISNI, ORCID and the Library of Congress authority are
+  the project's own wording.
+
+1.7 Package's own lists (CC BY 4.0)
+
+  ManuSpectrum - Characterization relations, Chemical elements (labels and
+  structure), Confidence, Element level, Imaging layer contents, Imaging
+  processing methods, Layer types, Proportion units, Spectral units, X-ray
+  emission lines; Sampling Type; Status Activity; Names type - Generic (the
+  three AAT links excepted). These are licensed under CC BY 4.0 like the rest
+  of the package.
+
+
+2. ONTOLOGIES (ontologies/cidoc_crm)
+------------------------------------
+
+  The RDFS implementations below were produced by FORTH-ICS for the CIDOC
+  CRM Special Interest Group. Their file headers state "CC BY 4.0
+  https://creativecommons.org/licenses/by/4.0/legalcode".
+
+  - CIDOC Conceptual Reference Model (CIDOC CRM) 7.1.2, June 2022.
+    Editors: Chryssoula Bekiari, George Bruseker, Martin Doerr,
+    Christian-Emil Ore, Stephen Stead, Athanasios Velios. Copyright:
+    "Individual Contributors to CIDOC CRM 7.1.2", CC BY 4.0, as stated on
+    https://cidoc-crm.org/Version/version-7.1.2
+    File: CIDOC_CRM_v7.1.2.xml (RDFS implementation, September 2022, updated
+    January 2024 with French labels).
+  - CRMsci, Scientific Observation Model, 2.0 (March 2023). Maintained by
+    FORTH; contributors include Martin Doerr, Athina Kritsotaki, Yannis
+    Rousakis, Gerald Hiebel, Maria Theodoridou and Athanasios Velios.
+    https://cidoc-crm.org/crmsci/ModelVersion/version-2.0
+    File: CRMsci_v2.0.rdf.xml
+  - CRMtex, extension for ancient and handwritten texts, 2.0 (June 2023).
+    Editors: Francesca Murano, Achille Felicetti, Pavlos Fafalios.
+    https://cidoc-crm.org/crmtex/ModelVersion/version-2.0
+    File: CRMtex_v2.0.rdf.xml
+  - LRMoo, object-oriented definition and mapping of IFLA LRM, 0.9.6
+    (October 2023). Editors: Chryssoula Bekiari, Martin Doerr, Patrick Le
+    Boeuf, Pat Riva (IFLA LRMoo Working Group with the CIDOC CRM SIG).
+    https://cidoc-crm.org/lrmoo/ModelVersion/version-0.9.6
+    File: LRMoo_v0.9.6.rdf.xml
+
+  For CRMsci, CRMtex and LRMoo, the CC BY 4.0 statement comes from the RDFS
+  file headers; the version pages consulted do not repeat it.
+  Arches itself (AGPL-3.0) is not included in this package.

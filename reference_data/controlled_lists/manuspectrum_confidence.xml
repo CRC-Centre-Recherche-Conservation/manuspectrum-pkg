@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/28177a40-9e83-429e-bb9a-319e064cf26c">
+    <dcterms:title>ManuSpectrum - Confidence</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/439e0195-44c6-4a43-b535-b4e03ab7d30f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/439e0195-44c6-4a43-b535-b4e03ab7d30f</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/28177a40-9e83-429e-bb9a-319e064cf26c"/>
+    <skos:prefLabel xml:lang="en">Reliable</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Fiable</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/50eef352-c091-46c7-87d8-93ca5a31c527">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/50eef352-c091-46c7-87d8-93ca5a31c527</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/28177a40-9e83-429e-bb9a-319e064cf26c"/>
+    <skos:prefLabel xml:lang="en">Highly reliable</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Très fiable</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/80033584-5e67-402a-8a72-b4a4e90f111d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/80033584-5e67-402a-8a72-b4a4e90f111d</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/28177a40-9e83-429e-bb9a-319e064cf26c"/>
+    <skos:prefLabel xml:lang="en">Use with caution</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">À utiliser avec prudence</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/81ca5409-6aae-4e4b-93b0-14e21785cb80">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/81ca5409-6aae-4e4b-93b0-14e21785cb80</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/28177a40-9e83-429e-bb9a-319e064cf26c"/>
+    <skos:prefLabel xml:lang="en">Uncertain</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Incertain</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

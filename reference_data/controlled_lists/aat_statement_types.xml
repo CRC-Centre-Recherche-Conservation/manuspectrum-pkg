@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837">
+    <dcterms:title>AAT - Statement Types</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/052e3e0e-d685-4df6-a922-54b9ff54c274">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300435429</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">materials/technique description</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">description des matériaux/techniques</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">An indication of the substances or materials used in the creation of a work, as well as any implements, production or manufacturing techniques, processes, or methods incorporated in its fabrication, presented in a syntax suitable for display to the end-user and including any necessary indications of uncertainty, ambiguity, and nuance. For works on paper, descriptions of watermarks may also be included.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Indication des substances ou matériaux utilisés dans la création d'une œuvre, ainsi que des outils, techniques de production ou de fabrication, procédés ou méthodes incorporés dans sa fabrication, présentés dans une syntaxe adaptée à la présentation à l'utilisateur final et comprenant toutes les indications nécessaires d'incertitude, d'ambiguïté et de nuance. Pour les œuvres sur papier, la description des filigranes peut également être incluse. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0fff64d5-7aa5-4986-ae75-a684adec2dc6">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300055547</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">rights statement</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">déclaration de droits</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Social science concepts related to law.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Notions de sciences sociales relatives au droit.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/20d28e7a-0d4f-4055-b1cd-cf6f264e8432">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300027200</dcterms:identifier>
+    <skos:altLabel xml:lang="de">Notiz (Dokumentengattung)</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">note</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">note</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Kurze Angabe über eine Tatsache oder ein Erlebnis, niedergeschrieben zur Überprüfung oder als Erinnerungshilfe, oder um jemand anderen zu informieren; schließt auch kurze, formlose Briefe mit ein.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Brief statements of a fact or experience, written down for review, or as an aid to memory, or to inform someone else; also includes short, informal letters.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Brèves déclarations d'un fait ou d'une expérience, écrites pour examen, comme aide-mémoire ou pour informer quelqu'un d'autre ; comprend également les lettres courtes et informelles. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2731df8f-0742-4315-9c73-bc630838949c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300435434</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">copyright/licensing statement</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">déclaration de copyright/licence</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A formal statement of the copyright or licensing of a work, and/or any restrictions placed on it. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Déclaration formelle du droit d'auteur ou de la licence d'une œuvre, et/ou de toute restriction qui lui est imposée. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2d4c2463-5d61-44f1-b873-ef59cbedfb96">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054676</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">methodology</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">metodología</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">méthodologie</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A body of methods, procedures, working concepts, rules, and postulates employed by a science, art, or discipline.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Un cuerpo de métodos, procedimientos, conceptos de trabajo, reglas y postulados empleados por una ciencia, arte o disciplina.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Ensemble des méthodes, procédures, concepts de travail, règles et postulats utilisés par une science, un art ou une discipline. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/577466f6-540a-49c0-a9f0-527b80512f1a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389724</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">conditions</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">conditions</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Condition is the overall state of an object, being, or environment, including physical characteristics such as appearance, pristineness, level of damage, completeness, working order, or quality.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">L'état est l'état général d'un objet, d'un être ou d'un environnement, y compris les caractéristiques physiques telles que l'apparence, l'éclat, le niveau de dommage, l'exhaustivité, l'état de fonctionnement ou la qualité. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5b1a15d7-f4ce-48ec-871f-d09b330feeb1">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300055863</dcterms:identifier>
+    <skos:altLabel xml:lang="de">Provenienz</skos:altLabel>
+    <skos:altLabel xml:lang="fr">provenance</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">provenance statement</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">historique de provenance</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The history of the ownership and transmission of an object, including previous locations of a work. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">L'histoire de la propriété et de la transmission d'un objet, y compris les emplacements précédents d'une œuvre.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5d43136e-bf32-4858-8051-1e5dd4e2fcf8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/5d43136e-bf32-4858-8051-1e5dd4e2fcf8</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">hypothesis</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hypothèse</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b46c34b-124d-499a-8a89-b09f941d519b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379372</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">scientific analysis</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">analyse scientifique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Detailed examination principles and empirical processes of discovery and demonstration considered characteristic of scientific investigation, generally involving the observation, formulation of a hypothesis, experimentation, and development of a conclusion.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Examen détaillé des principes et des processus empiriques de découverte et de démonstration considérés comme caractéristiques de l'investigation scientifique, impliquant généralement l'observation, la formulation d'une hypothèse, l'expérimentation et l'élaboration d'une conclusion. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b498ba0-36ea-40c9-803b-76cf35ceb81f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300226216</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">examination (function)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">examinar (función)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">examen (fonction)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Scrutinizing a situation or object, usually in order to determine its nature, qualities, or current condition.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Analizar una situación u objeto, normalmente para determinar su naturaleza, cualidades, o condición actual.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">L'examen minutieux d'une situation ou d'un objet, généralement dans le but de déterminer sa nature, ses qualités ou son état actuel. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/77617e19-4102-4f2c-9a8c-4bb118d0d61d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300080102</dcterms:identifier>
+    <skos:altLabel xml:lang="de">Biografie (Dokument)</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">biography</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">biographie</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Schriftlicher Bericht über das Leben einer Person.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Written accounts of the lives of individuals. For the genre regardless of medium, prefer "biography (general genre)."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Récit écrit de la vie d'un individu. Pour le genre, quel que soit le support, préférez « biographie (genre général) ». </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/79f44e59-670d-408d-9439-0c6810523d5e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300266036</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">dimensions</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dimensions</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Measurable or spatial extent of any kind, such as length, breadth, thickness, area, volume, measure, magnitude, or size.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Une étendue mesurable ou spatiale de quelque nature que ce soit, telle que la longueur, la largeur, l'épaisseur, la surface, le volume, la mesure, la magnitude ou la taille. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7c355cac-8eb8-474a-b6d5-213767c6b2c1">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300077463</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">fieldwork (research)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">trabajo de campo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">champ de recherche</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Studying or investigating a particular subject in its natural setting.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Estudiar o investigar un tema en particular en su ambiente natural.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">L'étude ou la recherche d'un sujet particulier dans son environnement naturel.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f675a9f-975b-4313-87bf-32d6ed32c22c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300026687</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="de">Danksagung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">acknowledgments</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">remerciements</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Schriftliche Anerkennung für Handlungen oder Leistungen.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Written recognitions of acts or achievements.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Reconnaissance écrite d'actes ou de réalisations</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8d1180e7-b308-4402-b2a4-ed5322c2a90c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300010358</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">matériaux (materials concept)</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">materials / media</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">matériaux / médiums</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The matter or substance from which a thing is or may be made; the tangible substance that goes into the makeup of an art work or other physical object. Physical substances, either naturally or synthetically derived, range from specific materials to types of material. Materials may be designated by their properties, or by function or form. Included are raw materials and processed materials.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">La matière ou la substance à partir de laquelle une chose est ou peut être faite ; la substance tangible qui entre dans la composition d'une œuvre d'art ou d'un autre objet physique. Les substances physiques, qu'elles soient d'origine naturelle ou synthétique, vont des matériaux spécifiques aux types de matériaux. Les matériaux peuvent être désignés par leurs propriétés, leur fonction ou leur forme. Ils comprennent les matières premières et les matières transformées. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9076a3e5-06f5-4ed7-91e4-985914c7178b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300028702</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="de">Inschrift</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">inscriptions</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">inscripciones</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">inscriptions</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">iscrizione</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Beschriftung, mit der etwas markiert wird, insbesondere zur Dokumentation oder zum Gedenken. Bei einer Drucksache ist dies eine spezielle, in Buchstaben aufgedruckte Information, die für gewöhnlich nicht Teil eines größeren Textes ist. Bezüglich antiker Texte werden damit die meisten erhaltenen schriftlichen Äußerungen jeder Länge, außer Papyri, bezeichnet. Für standardisierte Symbole oder Bezeichnungen auf Objekten, die wichtige Informationen enthalten, siehe "Zeichen (Symbol)".</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Words, texts, lettering, or symbols marked on a work, including texts, legends, documentation notes, or commemoration. For standardized symbols or notations on objects that convey official information, use "marks (symbols)."</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Úsese para caracteres escritos en algo, especialmente para documentación o conmemoración. En impresiones, la información específica escrita en el impreso, que generalmente no forma parte de un texto mayor. Con respecto al material antiguo, incluye la mayor parte del material escrito preservado de cualquier longitud, no así los papiros. Para símbolos estandardizados o anotaciones en objetos que comunican información oficial, use " marca (símbolo)."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Mots, textes, lettrages ou symboles marqués sur une œuvre, y compris les textes, légendes, notes de documentation ou commémorations. Pour les symboles ou notations normalisés sur des objets qui transmettent des informations officielles, utiliser « marques (symboles) ».</skos:scopeNote>
+    <skos:scopeNote xml:lang="it">Parole, testi, lettere, o simboli segnati su un'opera, inclusi testi, leggende, documentazioni, o commemorazioni. Per simboli o notazioni standardizzati su oggetti che trasmettono informazioni ufficiali, utilizzare "marks (symbols)".</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/981b1779-dfb7-4ce2-89be-a44b11f92887">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/981b1779-dfb7-4ce2-89be-a44b11f92887</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">configuration</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">configuration</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/98ba0f36-ac6e-4a97-877c-b14cb26b600b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379429</dcterms:identifier>
+    <skos:altLabel xml:lang="en">sampling description</skos:altLabel>
+    <skos:altLabel xml:lang="fr">description de l'échantillon</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">sampling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">échantillonnage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In the sciences, taking of samples for technical analysis.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">En sciences, prélèvement d'échantillons en vue d'une analyse technique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9a51d30b-48e8-4f94-9344-cd2bb1d4b33a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300411780</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">description</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">description</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Written, digital, spoken, or signed representations of the attributes or qualities of something or someone.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Représentations écrites, numériques, orales ou signées des attributs ou des qualités de quelque chose ou de quelqu'un. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b2f45594-6c10-49d7-a4b7-24e5ca839838">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300418049</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">brief text</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">texte succinct</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Documents comprising texts that are relatively short in length, sometimes but not always abbreviated versions of longer texts.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Documents comprenant des textes relativement courts, parfois mais pas toujours des versions abrégées de textes plus longs. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b4b5a0c9-edce-41a5-8df0-94b7e0e9631c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300026032</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="de">Zusammenfassung (Dokumentversion)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">abstract / summary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">resumé</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Kurze Zusammenfassung, die die wesentlichen Punkte einer schriftlichen Arbeit angibt, wie beispielsweise den Inhalt einer Publikation oder einer Zeitschrift. </skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Brief summaries that provide the essential points of written works, such as the content of a publication or of a journal.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Brèves synthèses qui reprennent les points essentiels d'un travail écrit, comme le contenu d'une publication ou d'une revue. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b5948ab8-9354-416c-8509-c31793ca7a63">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379518</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">technical analysis</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">analyse technique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The application of testing methods to materials or objects in order to analyze their composition and manufacture. In a conservation science context, this may refer to movable art works and artifactual objects in a conservation lab. For a broader range of testing methods, prefer "scientific analysis." </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">L'application de méthodes d'essai à des matériaux ou à des objets afin d'analyser leur composition et leur fabrication. Dans le contexte de la science de la conservation, il peut s'agir d'œuvres d'art mobiles et d'objets artefactuels dans un laboratoire de conservation. Pour un éventail plus large de méthodes d'essai, préférez « analyse scientifique ». </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bbe4af0a-867a-407f-8531-3ec4f6240090">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300200294</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="de">Paginierung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pagination</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pagination</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Generally, the overall configuration of the numbering in the book. The ordering of pages of a book, microimages on a microfilm, etc., by placing placing of consecutive numbers, one on each page.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">De façon générale, organisation d'ensemble de la numérotation dans un livre. Ordonnancement des pages d'un livre, des microformes d'un microfilm, etc., par apposition de numéros consécutifs, un par page.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d2a8104a-312a-4f1d-acb7-3ecb1335e2fc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300137570</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">identification</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">identificar</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">identification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Recognizing or establishing someone or something as being a particular person or thing.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Reconocer o establecer alguien o algo como persona o cosa en particular.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Reconnaître ou établir que quelqu'un ou quelque chose est une personne ou une chose particulière. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d9de4418-386a-4563-a212-ed3994ef8fbe">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300200662</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">foliation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">foliation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The placing of consecutive numbers one on each folio of a book; may also refer to the overall configuration of the numbering in the book.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Le placement de numéros consécutifs sur chaque folio d'un livre ; peut également se référer à la configuration générale de la numérotation dans le livre.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e025d70c-9b3d-450a-9d03-c4b76b5e29e5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300028744</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">marks (identifying markings)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">marcas (símbolo)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">marques (symbols)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Standardized symbols, notations, or other markings applied to objects during or after creation, conveying information such as the object's origin or maker, its authenticity, or a change in its official status. For lettering marked on something for documentation or commemoration, use "inscriptions." For marks inherent in the paper support, not applied as part of the image or work, use "watermarks."</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Úsese para símbolos estandarizados, anotaciones, u otras marcas en objetos que transfieren información oficial, como su origen o fabricante, su autenticidad o un cambio en su categoría oficial. Para la rotulación sobre algo a fin de indicar documentación o conmemoración, use "inscripción".</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Symboles, notations ou autres marques normalisés apposés sur des objets pendant ou après leur création, et transmettant une information telle que l'origine ou l'auteur de l'objet, son authenticité ou un changement de son statut officiel. Pour un texte porté sur un objet à des fins de documentation ou de commémoration, employer « inscriptions ». Pour les marques inhérentes au support papier, non apposées dans le cadre de l'image ou de l'œuvre, employer « filigranes ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e7971cff-8252-4ff7-bb18-58962dd92be2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300121294</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="de">Auflage (editions)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">editions</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">éditions</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Gesamtheit der Reproduktionen eines einzigen Werks, beispielsweise eines Buches, Drucks, einer Fotografie oder einer gegossenen Skulptur. Alle Kopien eines Buches, Drucks etc. werden im Wesentlichen von der gleichen Vorlage erstellt und zur gleichen Zeit als Teil der gleichen Auflage veröffentlicht.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Groups of multiples of one work issued together, such as of a book, print, photograph, or cast sculpture. All copies of a book, print, etc., produced from substantially the same master, and issued at one time are part of the same edition.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Groupes de multiples d'une œuvre publiés ensemble, comme un livre, une estampe, une photographie ou une sculpture moulée. Tous les exemplaires d'un livre, d'une estampe, etc., produits à partir d'un même modèle et publiés en même temps font partie de la même édition. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f0410bb1-e290-4bb1-a12f-7d67b27ffc92">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/f0410bb1-e290-4bb1-a12f-7d67b27ffc92</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">instrument settings</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">paramètres instrumentaux</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f13a7e3f-0dcd-464c-a2e0-ea66e00431d4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300080091</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
+    <skos:prefLabel xml:lang="en">description (activity)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">describir</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">description (activité)</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The activity or function of representing in spoken, written, or signed language the attributes or qualities of something or someone.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Representar en lenguaje hablado, escrito o de señales los atributos o cualidades de algo o alguien.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Activité ou fonction consistant à représenter dans un langage parlé, écrit ou signé les attributs ou les qualités de quelque chose ou de quelqu'un.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

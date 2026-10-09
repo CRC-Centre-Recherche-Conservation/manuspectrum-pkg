@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad">
+    <dcterms:title>AAT - Units : Weights and Lengths</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/076513dd-d250-40dd-8d5c-e79b55a282d0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379101</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">feet (units of measurement)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pieds</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Standardized linear units of measure made up of twelve inches, 1/3 of a yard; equal to 0.3048 meters. It was a unit of length in both the imperial and US customary systems of measurement; since 1959, both units have been defined as the same by international agreement. Originally the unit was based on the length of a man's foot, varying in exact length at different periods and in different countries.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Unités linéaires normalisées composées de douze pouces, soit un tiers de yard, égales à 0,3048 mètre. Unité de longueur des systèmes impérial et usuel des États-Unis, définie de façon identique dans les deux systèmes par accord international depuis 1959. À l'origine, l'unité était fondée sur la longueur d'un pied humain, dont la valeur exacte a varié selon les époques et les pays.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1c55bd47-1895-4c3e-ba40-3dc0084cad2d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404161</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">braccia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">braccia</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">An historical Italian unit of length, equal to approximately 26/27 inches (66/68 cm), however usage varies.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Unité de longueur italienne historique, valant environ 66 à 68 cm (26 à 27 pouces), avec des usages variables.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2c276821-6d7b-421d-bea4-814669f7aa7f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379098</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">centimeters</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">centimètres</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In the metric system, units of length equal to 1/100 of a meter, or .3937 (nearly 2/5) of an inch. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dans le système métrique, unités de longueur valant 1/100 de mètre, soit 0,3937 pouce (près de 2/5 de pouce).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4583a363-ad2d-4dd9-8c7c-b1a433f53079">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379254</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">pounds (units for weight)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livres</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In avoirdupois measure, standardized units of weight and mass equal to 16 ounces (7000 grains, exactly 0.45359237 kg). The pound was originally made up of 12 ounces, as in the system of troy weight which is still used in stating the weight of precious metals.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dans le système avoirdupois, unités normalisées de poids et de masse valant 16 onces (7 000 grains, exactement 0,45359237 kg). La livre comptait à l'origine 12 onces, comme dans le système troy encore employé pour le poids des métaux précieux.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/48e06dbc-c0ea-4cc7-9588-f1ac2b53b46e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379225</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">grams (measurements)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">grammes</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In the Metric System, units of mass or weight used especially in the centimeter-gram-second system of measurement. One gram is equal to 0.001 kilogram.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dans le système métrique, unités de masse ou de poids employées en particulier dans le système centimètre-gramme-seconde. Un gramme vaut 0,001 kilogramme.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/56c052f1-df82-432b-a915-99a6a42e5c94">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379100</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">inches</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pouces</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Units of length in the imperial and United States customary systems of measurement, the twelfth part of a foot, 1/36 of a yard. Derived from the Old English ince, or ynce, and from the Latin unit uncia, one-twelfth of a Roman foot, or pes.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Unités de longueur des systèmes impérial et usuel des États-Unis, valant un douzième de pied et 1/36 de yard. Le terme vient du vieil anglais ince ou ynce, et du latin uncia, douzième du pied romain (pes).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/71f2308c-6d7e-423d-8d23-17a0df059a75">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379229</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">ounces (units for weight)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">onces</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Units of weight equal to 1/16 of a pound avoirdupois (approximately 28 grams). Originally equaled 1/12 of a pound in troy and apothecaries' measure, equal to 480 grains (approx. 31.1 grams).</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Unités de poids valant 1/16 de livre avoirdupois (environ 28 grammes). À l'origine, l'once valait 1/12 de livre dans les systèmes troy et des apothicaires, soit 480 grains (environ 31,1 grammes).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/96151ca8-8e58-4e07-a490-c6152e2c5048">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379226</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">kilograms</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kilogrammes</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Metric units of mass equal to about 2.205 pounds. One kilogram is approximately equal to the weight of 1000 cubic centimeters of water. The kilogram is the base unit of mass in the International System of Units (SI) (the Metric system); defined as being equal to the mass of the International Prototype of the Kilogram. It is the only SI unit that is still directly defined by an artifact rather than a fundamental physical property that can be reproduced in different laboratories.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Unités métriques de masse valant environ 2,205 livres. Un kilogramme équivaut approximativement à la masse de 1 000 centimètres cubes d'eau. Le kilogramme est l'unité de base de masse du Système international (SI) ; il a longtemps été défini comme égal à la masse du prototype international du kilogramme, seule unité SI définie par un artefact plutôt que par une propriété physique fondamentale reproductible en laboratoire.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ca88ef39-c76c-412a-bf9b-e9c8e3e89e08">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379099</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">meters (units for distance)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">mètres</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The fundamental units of length in the metric system (International Systems of Units, SI), equivalent to approximately 39.37 inches. Defined as the distance travelled by light in a vacuum in 1/299,792,458 second. Historically, the meter was defined by the French Academy of Sciences in 1791 as 1/10,000,000 of the quadrant of the Earth’s circumference from the North Pole through Paris to the equator. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Unités fondamentales de longueur du système métrique (Système international, SI), équivalant à environ 39,37 pouces. Le mètre est défini comme la distance parcourue par la lumière dans le vide en 1/299 792 458 seconde. Historiquement, il avait été défini par l'Académie des sciences en 1791 comme la dix-millionième partie du quart du méridien terrestre, du pôle Nord à l'équateur en passant par Paris.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d84ccdc7-6d77-4cf9-9285-82be3a24aa20">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300417377</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">percentage</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pourcentage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A rate, number or proportion considered in its quantitative relation to the whole; usually a quantity or amount reckoned as so many hundredth parts of another.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Taux, nombre ou proportion considéré dans son rapport quantitatif à l'ensemble ; généralement une quantité comptée en centièmes d'une autre.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e49f5b60-0a84-4004-980d-a6635b2f7b0b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300412070</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c66d1ab5-258a-45c8-84f3-e82ddf085dad"/>
+    <skos:prefLabel xml:lang="en">ells (units of length)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">aunes</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Units of length, now obsolete, used in several European countries. In England, one ell corresponded to approximately 45 inches. In Scotland, 37.2 inches. The Flemish ell corresponded to 27 inches. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Unités de longueur aujourd'hui désuètes, employées dans plusieurs pays d'Europe. En Angleterre, une aune valait environ 45 pouces ; en Écosse, 37,2 pouces ; l'aune de Flandre valait 27 pouces.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

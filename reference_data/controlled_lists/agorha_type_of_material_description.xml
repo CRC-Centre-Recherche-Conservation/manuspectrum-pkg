@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b">
+    <dcterms:title>AGORHA type of material description</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2124a1ad-236e-41cc-b270-df368f459a84">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/fd5813c7-d0e5-4d90-9b75-7fbdfd9b9fb6</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">vignette</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">vignette</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/25c02c17-ec80-46fa-96a2-19cf97bdd236">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7d0cdd17-5d6f-4e01-9d1a-c9deb30806d5</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">full-text illustration</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">illustration plein-texte</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/35a7f767-24f5-4e0f-bc8f-6998b82b8a85">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/35a7f767-24f5-4e0f-bc8f-6998b82b8a85</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">Support</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Support</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Surface sur laquelle est appliquée une couche de peinture ou un enduit supportant celle-ci. Substratum de la peinture, elle lui confère sa stabilité.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/40a69b4b-2477-4c60-b301-4fc97cb6bcc8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/40a69b4b-2477-4c60-b301-4fc97cb6bcc8</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Paint layer</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Couche peinte</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">Colored layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche colorée</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche constituée d’une matière colorante et d’un liant.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/55a03018-27ff-4746-bdb1-53f2fdf42f2b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/07a96dab-c139-4248-a5ef-3eee6d76727f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">color illustration</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">illustration en couleur</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/56505060-781b-4d12-b0f2-a7efab68fae0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f58018c9-9697-4ce8-98b4-7bf5a4b8b618</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">decorated letter</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">lettre ornée</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/56c61948-5505-4da5-8e2f-17cbd75a28cc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/56c61948-5505-4da5-8e2f-17cbd75a28cc</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">Couche additionnelle</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">Non-painted layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche non-peinte</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Une couche autre qu’une couche peinte. Elle comprend des couches translucides, couches d’adhésifs, couches de mixtion (dont on a perdu les dorures), couches de matage, vernis, couches de protection.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/61a8ac03-c6e5-480c-ba6f-afe8c2aafb1f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/aab1286f-1aee-4281-8127-070a8c3bfd38</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">watermark</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">filigrane</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6ca33fec-ea82-44a0-ac0f-2f9cf07bfaaa">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/912d797b-1f44-4330-9956-7d62e8d0b340</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">frontispiece</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">frontispice</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7678d93c-deb7-4021-8440-28c0f6898ab2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7678d93c-deb7-4021-8440-28c0f6898ab2</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Writing</skos:altLabel>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">Script</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Écriture</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Trace matérielle résultant de l'enregistrement du langage sous la forme de marques visibles conventionnelles ou de signes graphiques sur une surface.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7e288ab9-ccc9-4f32-a8c6-125e495a095e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0179d4f9-78f0-46ce-8437-5a6d2f2f1a69</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">out-of-text illustration</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">illustration hors-texte</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/97111c29-6689-4a00-9f13-c8e2a39e0cee">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/4210567c-8cec-4bc5-9924-8be4e894430f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">photography</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">photographie</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9d280558-fb7e-4ea0-a582-2df2b425ee57">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/5633cb77-954f-4101-8524-f4c162c359b4</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">miniature</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">miniature</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b4a3fe54-2d82-4361-9adf-8b6b780f3aa4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/16a7299a-9b83-484e-9e7c-536bd7e76a86</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">illumination</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">enluminure</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b6c7e3dc-38dd-42f9-98fd-eb1827b3c37b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c0fbb18e-d7ea-44cd-b4aa-2d36e3af687f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">initial</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">lettrine</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bc60360f-5eb6-4034-97e9-9ceade0d7907">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/bc60360f-5eb6-4034-97e9-9ceade0d7907</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">Preparatory layer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Couche préparatoire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Couche destinée à préparer un support souple ou rigide, à recevoir un décor polychromé (préparation, encollage, apprêt).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c19f3196-d1e9-4f08-9917-4d627e61e153">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c19f3196-d1e9-4f08-9917-4d627e61e153</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:prefLabel xml:lang="en">Decoration</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Décor</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Ornement, hors polychromie, plus ou moins en relief, sculpté, moulé, incisé et/ou rapporté à la surface d'un objet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d38a9db0-00d6-4a55-b221-8faf24a57d1a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d38a9db0-00d6-4a55-b221-8faf24a57d1a</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">Auxiliary device</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Dispositif annexe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Any device enabling the work/object to be held in place mechanically. Indicates an associated element that is not part of the body of the work. Includes frames, chassis, pedestals, etc. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Tout dispositif permettant un maintien mécanique de l'œuvre/ l'objet. Indique un élément associé sans pour autant faire partie du corps de l'œuvre. Concerne les cadres, châssis, les socles, etc.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/dbd13b3e-b2ba-4558-a931-6d8e6a62fc3f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/08e18735-8423-4c83-a941-edc8205618b5</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">board</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">planche</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c19f3196-d1e9-4f08-9917-4d627e61e153"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2124a1ad-236e-41cc-b270-df368f459a84"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/25c02c17-ec80-46fa-96a2-19cf97bdd236"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/55a03018-27ff-4746-bdb1-53f2fdf42f2b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/56505060-781b-4d12-b0f2-a7efab68fae0"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/61a8ac03-c6e5-480c-ba6f-afe8c2aafb1f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6ca33fec-ea82-44a0-ac0f-2f9cf07bfaaa"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7e288ab9-ccc9-4f32-a8c6-125e495a095e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/97111c29-6689-4a00-9f13-c8e2a39e0cee"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9d280558-fb7e-4ea0-a582-2df2b425ee57"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b4a3fe54-2d82-4361-9adf-8b6b780f3aa4"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b6c7e3dc-38dd-42f9-98fd-eb1827b3c37b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/dbd13b3e-b2ba-4558-a931-6d8e6a62fc3f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/f7e90346-986a-4295-a303-693392f87499"/>
+    <skos:prefLabel xml:lang="en">Decorative book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Décor d'ouvrage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Types of decoration present in a printed or manuscript work. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Types de décors présents dans un ouvrage imprimé ou manuscrit. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f7e90346-986a-4295-a303-693392f87499">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1ff1c7d3-b469-4c33-9467-587787462008</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/eb7913a7-2a1d-42e5-8054-5cc6583ff975"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/e85080b2-c39b-4e37-b6bc-b57d34092b7b"/>
+    <skos:prefLabel xml:lang="en">out-of-text board</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">planche hors-texte</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

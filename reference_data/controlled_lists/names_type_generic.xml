@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/6c02daa3-c79c-41cf-bd46-c947a61104b9">
+    <dcterms:title>Names type - Generic</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5f400d39-3b6b-4b8a-939b-4e49787c7444">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300404670</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6c02daa3-c79c-41cf-bd46-c947a61104b9"/>
+    <skos:prefLabel xml:lang="en">preferred terms</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">termes préférentiels</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Terms or names that are designated among all synonyms or lexical variants for a concept, to be used as the default term or name in displays and other situations; distinguished from "nonpreferred terms."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Termes ou noms désignés, parmi l'ensemble des synonymes ou variantes lexicales d'un concept, pour servir de forme par défaut dans les affichages et dans d'autres contextes ; à distinguer des « termes non retenus ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/77b29a43-4c3e-4f4e-be44-a5ec7a60e05f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300417194</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6c02daa3-c79c-41cf-bd46-c947a61104b9"/>
+    <skos:prefLabel xml:lang="en">translated titles</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">titres traduits</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Titles or names that have been translated into a language other than the original language, or expressed in a writing system other than the original.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Titres ou noms traduits dans une langue autre que la langue d'origine, ou transcrits dans un autre système d'écriture.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7cca3482-44b5-42ea-a1d7-120cd732b350">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300417227</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6c02daa3-c79c-41cf-bd46-c947a61104b9"/>
+    <skos:prefLabel xml:lang="en">alternate titles</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">titres alternatifs</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Titles that vary from the primary title. Distinguished from "alternative titles."</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Titres différant du titre principal. À distinguer des « titres alternatifs ».</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

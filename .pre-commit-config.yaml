@@ -1,0 +1,23 @@
+---
+repos:
+  # Runs the pinned gitleaks image on the staged changes (needs docker; fails
+  # closed without it). `SKIP=gitleaks git commit` is a deliberate bypass.
+  # The work tree and the Git directory are mounted at their own absolute
+  # paths, so a checkout whose `.git` is a file (the application's `pkg/`
+  # submodule) works too.
+  # A `git commit -a` or `git commit <path>` hands Git a temporary index that
+  # this hook does not follow; CI scans every commit of a pull request anyway.
+  - repo: local
+    hooks:
+      - id: gitleaks
+        name: gitleaks
+        entry: >-
+          bash -c 'top="$(git rev-parse --show-toplevel)";
+          gitdir="$(git rev-parse --absolute-git-dir)";
+          docker run --rm -u "$(id -u):$(id -g)" -e HOME=/tmp
+          -v "$top:$top:ro" -v "$gitdir:$gitdir:ro" -w "$top"
+          zricethezav/gitleaks:v8.30.1@sha256:c00b6bd0aeb3071cbcb79009cb16a60dd9e0a7c60e2be9ab65d25e6bc8abbb7f
+          git "$top" --pre-commit --staged --redact --verbose --no-banner'
+        language: system
+        pass_filenames: false
+        stages: [pre-commit]

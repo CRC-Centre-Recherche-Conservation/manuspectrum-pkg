@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509">
+    <dcterms:title>Frollo - Sample Taking Technique</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/03ef28e4-72d6-30b2-aa2e-05b51ce24cbb">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>61042</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509"/>
+    <skos:prefLabel xml:lang="en">stratigraphic cross-section</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Coupe stratigraphique</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0514f753-0ffe-3cd8-87c2-dd218497c5bc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>61044</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509"/>
+    <skos:prefLabel xml:lang="en">non-destructive method</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Méthode non destructive</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/51f4055f-9f07-39be-bc83-f301e531b9c0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>41175</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/95be91d5-bdf5-3b6c-8b68-dd9318af8f2c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509"/>
+    <skos:prefLabel xml:lang="en">on-site sampling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Prélèvement sur site</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8bab41e6-2f6d-36c7-a74c-e2214f0f478d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>45164</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/95be91d5-bdf5-3b6c-8b68-dd9318af8f2c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509"/>
+    <skos:prefLabel xml:lang="en">core drilling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Forage</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/95be91d5-bdf5-3b6c-8b68-dd9318af8f2c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>61045</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/51f4055f-9f07-39be-bc83-f301e531b9c0"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8bab41e6-2f6d-36c7-a74c-e2214f0f478d"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/97de7a0e-a466-3535-962d-cadb31fb07da"/>
+    <skos:prefLabel xml:lang="en">sampling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Prélèvement</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/97de7a0e-a466-3535-962d-cadb31fb07da">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>41176</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/95be91d5-bdf5-3b6c-8b68-dd9318af8f2c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509"/>
+    <skos:prefLabel xml:lang="en">laboratory sampling from the object</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Prélèvement sur objet en laboratoire</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/99041675-8cbd-36e2-9547-e555a493eefa">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>61046</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509"/>
+    <skos:prefLabel xml:lang="en">swab test</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Test lingette</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9f2968e0-40a3-34d0-ac79-bbaf783e5e15">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>61043</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/78080ed9-d78e-4d88-8df6-66f69e63e509"/>
+    <skos:prefLabel xml:lang="en">thin section</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Lame mince</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
