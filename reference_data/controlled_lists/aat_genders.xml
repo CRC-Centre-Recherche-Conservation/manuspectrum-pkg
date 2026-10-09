@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/d66b8a82-54fd-4f54-b4e1-5a43c0d954bc">
+    <dcterms:title>AAT - Genders</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/19b0fa01-3d14-43c5-afde-0662376fb3f2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300189559</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d66b8a82-54fd-4f54-b4e1-5a43c0d954bc"/>
+    <skos:prefLabel xml:lang="en">male</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">masculin</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Referring to the sex that in reproduction normally produces sperm cells or male gametes.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Se rapporte au sexe qui produit normalement, dans la reproduction, les spermatozoïdes ou gamètes mâles.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3b46f7de-75f7-4999-a0ab-3a8b6ca5b01a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300189557</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d66b8a82-54fd-4f54-b4e1-5a43c0d954bc"/>
+    <skos:prefLabel xml:lang="en">female</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">féminin</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Referring to the sex that normally produces eggs or female germ cells.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Se rapporte au sexe qui produit normalement les ovules ou cellules germinales femelles.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bd8f902a-454c-4122-9b3e-1bac24a66a06">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300417544</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d66b8a82-54fd-4f54-b4e1-5a43c0d954bc"/>
+    <skos:prefLabel xml:lang="en">intersexual</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">intersexe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Typified by or having some characteristics proper to the other sex, or having both male and female characteristics.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Caractérisé par la présence de caractères propres à l'autre sexe, ou par la présence de caractères à la fois masculins et féminins.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/caeb61cb-36b1-415e-b2a7-22aaecc62408">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300438738</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d66b8a82-54fd-4f54-b4e1-5a43c0d954bc"/>
+    <skos:prefLabel xml:lang="en">genderqueer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">genderqueer</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Describes the state of people who do not subscribe to conventional gender distinctions, but identify with neither, both, or a combination of male and female genders.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Décrit la situation des personnes qui ne se reconnaissent pas dans les distinctions de genre conventionnelles et ne s'identifient ni au genre masculin ni au genre féminin, ou aux deux à la fois, ou à une combinaison des deux.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e934914b-4aa9-433f-b7c8-9b5d3714586a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300417543</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d66b8a82-54fd-4f54-b4e1-5a43c0d954bc"/>
+    <skos:prefLabel xml:lang="en">nonbinary gender</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">genre non binaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Refers to gender identities that are not exclusively male or female‍, held by persons who gender-identify outside the male/female binary. This term may be used in addition to other gender identities.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Désigne les identités de genre qui ne sont pas exclusivement masculines ou féminines, revendiquées par des personnes dont l'identité de genre se situe hors du binaire masculin/féminin. Ce terme peut s'employer en complément d'autres identités de genre.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

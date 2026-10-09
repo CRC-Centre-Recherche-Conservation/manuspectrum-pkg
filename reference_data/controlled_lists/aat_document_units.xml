@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c">
+    <dcterms:title>AAT - Document Units</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1058af00-c0bb-49a6-bfcf-a5265cf79fc8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300194222</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
+    <skos:prefLabel xml:lang="de">Seite (Buchbindung)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pages (components)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">páginas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">page</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Einzelne Seite eines Blattes, Vorderseite oder Rückseite; auch die einzelne Seite, die durch das Falten eines Blattes entsteht. Eine Seite kann aus Papier oder Pergament, leer, beschrieben oder bedruckt sein. Unterschieden von einem "[Folio](300189604)", das nur auf der Vorderseite nummeriert ist.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Individual sides of a leaf, recto or verso; the individual sides of leaves resulting from folding a sheet, as of paper or parchment, whether blank or containing writing, printing, or other matter. Distinguished from a "folio" in that a folio is numbered on only the front side.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Les côtés individuels d'une feuille, recto ou verso ; les côtés individuels des feuilles résultant du pliage d'une feuille de papier ou de parchemin, qu'elle soit vierge ou qu'elle contienne de l'écriture, de l'impression ou d'autres éléments. Se distingue d'un « folio » par le fait qu'un folio n'est numéroté que sur le recto. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1bb66801-ae76-45ce-b6d0-7b10026196b8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300201054</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
+    <skos:prefLabel xml:lang="de">Falzbogen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">bifolia</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">bifolio</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">folio</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Die einzelnen Blätter, die zusammengefaltet eine Lage bilden.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">The individual sheets folded into two leaves that together form a gathering.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Feuilles individuelles pliées en deux feuillets qui, réunies, forment un cahier.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21a7214b-1b03-40c7-8bc2-270a40d1a9ed">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379890</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/49144b53-ba2e-4b42-8464-b7ac6a0a4219"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
+    <skos:prefLabel xml:lang="en">detached leaves</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">feuilles détachées</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Sheets, typically of paper or vellum, that were formerly parts of manuscripts or other volumes, but have been disconnected, separated, unattached, or otherwise removed from the volume.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Feuilles, généralement de papier ou de vélin, ayant appartenu à des manuscrits ou à d'autres volumes mais qui en ont été détachées ou séparées.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/302a45b8-a322-4045-a31e-e505fa69d8a3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300194226</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
+    <skos:prefLabel xml:lang="en">gatherings (gathered matter components)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">secciones</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cahier</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Groups of folded leaves suitable for arranging or arranged and fastened together to form a book. A gathering is each unit of folded leaves in sequential order comprising a book.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Groupes de feuilles pliées pouvant être arrangées ou arrangées et attachées ensemble pour former un livre. Chaque unité de feuilles pliées dans l'ordre séquentiel constitue un livre.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/49144b53-ba2e-4b42-8464-b7ac6a0a4219">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300115833</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/21a7214b-1b03-40c7-8bc2-270a40d1a9ed"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/4ebef5fd-5374-42c2-93f0-17167b3f36d0"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/779a05ab-7894-4fac-a931-746bca0bfef7"/>
+    <skos:prefLabel xml:lang="en">leaves (gathered matter)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">hojas (componentes de material unido)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">feuillet</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A leaf is a single sheet of paper or parchment, recto and verso, making two pages of a book; the basic bibliographical unit of a book. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Un feuillet est une feuille de papier ou de parchemin, recto et verso, formant les deux pages d'un livre ; c'est l'unité bibliographique de base d'un livre. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4ebef5fd-5374-42c2-93f0-17167b3f36d0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300189604</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/49144b53-ba2e-4b42-8464-b7ac6a0a4219"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
+    <skos:prefLabel xml:lang="en">folios (leaves)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">folios (hojas)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">folios</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The individual leaves of a book or manuscript numbered on the recto only. The two sides of the folio are typically numbered using 'r' for recto, meaning the front or righ-hand page, and 'v' for verso, meaning the back or left-hand side. Reference to a folio is distinguished from reference to a "page" in that a page is numbered on both sides.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Feuilles individuelles d'un livre ou d'un manuscrit numérotées au recto seulement. Les deux côtés du folio sont généralement numérotés en utilisant « r » pour recto, c'est-à-dire la page de droite, et « v » pour verso, c'est-à-dire la page de gauche. La référence à un folio se distingue de la référence à une « page » dans la mesure où une page est numérotée des deux côtés. </skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6bffc4fb-ae00-4db4-b483-b4621557087d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379391</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
+    <skos:prefLabel xml:lang="de">Teil (Aufteilung)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">sections (general, part)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sections</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Teile oder Teilmengen, die vom Übrigen getrennt oder separiert werden; Teile, in die eine Sache zerlegt oder aufgeteilt werden kann.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Parts or subdivisions separated or divided off from the remainder; portions into which a thing is cut or divided.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Parties ou subdivisions séparées du reste ; portions dans lesquelles une chose est coupée ou divisée.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/779a05ab-7894-4fac-a931-746bca0bfef7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300253107</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/49144b53-ba2e-4b42-8464-b7ac6a0a4219"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
+    <skos:prefLabel xml:lang="en">cancellanses</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">cancellanses</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cancellans</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Single or multiple leaves or slips printed and inserted to replace portions of the original printed matter that have been removed because of errors or defects. Distinguished from "cancellandums", the leaf or leaves removed because of errors or defects.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Feuillets ou bandes, isolés ou multiples, imprimés et insérés pour remplacer des parties du texte imprimé d'origine retirées en raison d'erreurs ou de défauts. À distinguer des « cancellandums », feuillets retirés pour ces mêmes raisons.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

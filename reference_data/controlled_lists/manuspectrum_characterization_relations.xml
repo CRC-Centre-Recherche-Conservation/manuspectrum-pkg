@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/8613f253-686b-4b8e-a5d5-ba1c552976d5">
+    <dcterms:title>ManuSpectrum - Characterization relations</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0b945de5-459c-4faa-8293-9e19da0ac6ba">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/0b945de5-459c-4faa-8293-9e19da0ac6ba</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/8613f253-686b-4b8e-a5d5-ba1c552976d5"/>
+    <skos:prefLabel xml:lang="en">Lies above</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Au-dessus de</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0e0d99fb-02ba-4603-a8e6-76fdd32ccb5a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/0e0d99fb-02ba-4603-a8e6-76fdd32ccb5a</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/8613f253-686b-4b8e-a5d5-ba1c552976d5"/>
+    <skos:prefLabel xml:lang="en">Contradicts</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Contredit</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/43469d52-e9e5-4dbc-94d3-403009554578">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/43469d52-e9e5-4dbc-94d3-403009554578</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/8613f253-686b-4b8e-a5d5-ba1c552976d5"/>
+    <skos:prefLabel xml:lang="en">Same material elsewhere</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Même matériau ailleurs</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/89a5626d-f698-4fd8-961c-4d73694462fb">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/89a5626d-f698-4fd8-961c-4d73694462fb</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/8613f253-686b-4b8e-a5d5-ba1c552976d5"/>
+    <skos:prefLabel xml:lang="en">Confirms</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Confirme</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/91ff20e4-c605-4005-bc84-2c20fc5c2e47">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/91ff20e4-c605-4005-bc84-2c20fc5c2e47</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/8613f253-686b-4b8e-a5d5-ba1c552976d5"/>
+    <skos:prefLabel xml:lang="en">Lies below</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">En dessous de</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c9ffe1a6-3ad2-48e9-bab8-3df85b81aaf3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/c9ffe1a6-3ad2-48e9-bab8-3df85b81aaf3</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/8613f253-686b-4b8e-a5d5-ba1c552976d5"/>
+    <skos:prefLabel xml:lang="en">Mixture or superposition (uncertain)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Mélange ou superposition (incertain)</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635">
+    <dcterms:title>AAT - Alteration</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/00a22d0e-35c2-40fb-a120-ced77ebb5cc9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300412052</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">interpolation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">interpolation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The action or method of inserting intermediate elements in a series, in that the quality of the new elements is ascertained by the known elements surrounding it.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Action ou méthode consistant à insérer des éléments intermédiaires dans une série, la nature des éléments ajoutés étant déduite des éléments connus qui les entourent.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300214735</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/18e1a7a0-6fcd-4c2b-bdae-f215a83beff9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a19253ff-0d2d-40fa-8200-07cfeebce11f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d1a17a1e-aa0b-48da-8dae-ea32d98c338d"/>
+    <skos:prefLabel xml:lang="en">decomposition</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">descomposición</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">décomposition</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Dissolution into separate parts, used especially of organic materials or of such changes at a molecular level.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Disolución en partes separadas, usado especialmente en materiales orgánicos o de tales cambios a nivel molecular.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dissociation en parties distinctes, se dit en particulier des matériaux organiques ou de transformations de cet ordre à l'échelle moléculaire.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300053045</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b19913bb-3ee8-4abd-9074-a4780a378938"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/199bce7d-f431-4559-919c-04233ef7e9ae"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a81d5b32-b2cf-443a-85d0-95d8ba25b293"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d298e5e1-398c-43b9-b297-eace2312ed72"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ec9f5054-e984-4125-bc99-84a3724bd710"/>
+    <skos:prefLabel xml:lang="en">discoloration</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">decoloración</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">décoloration</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Any change in the color of an object.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Cualquier cambio en el color de un objeto.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Toute modification de la couleur d'un objet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/094ac2bb-5c15-4403-af9d-124b03a1e79a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300438573</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">natural decay</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dégradation naturelle</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The world view and practice by which it is maintained that human remains and artifacts should be subject to laws of deterioration by natural processes, rather than being subject to intervention or preservation.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Conception et pratique selon lesquelles les restes humains et les artefacts doivent être soumis aux lois de la dégradation naturelle plutôt que faire l'objet d'une intervention ou d'une conservation.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/09abfe0f-b82c-47fc-b507-ed61052931c5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300237956</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5a2c9e25-6127-4d12-83dd-8605ee9bcd5e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">thermal expansion</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">expansión térmica</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dilatation thermique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The change in length or volume of a material or body due to change in temperature.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Cambio de longitud o volúmen de un material o cuerpo debido a un cambio en la temperatura.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Variation de longueur ou de volume d'un matériau ou d'un corps due à un changement de température.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0bbd0ddc-3497-4c5d-bc5a-73a8b9c723a1">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300155059</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9330fb82-32b5-4427-a5a6-826322a6d205"/>
+    <skos:prefLabel xml:lang="en">warping (structural change)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">combado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gauchissement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Bending or twisting out of shape, such as that caused by drying, dampness, or heat.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Curvatura o torsión fuera de forma, tales como por desecación, humedad o calor.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Déformation par flexion ou torsion, provoquée par exemple par le séchage, l'humidité ou la chaleur.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0dcedbb3-ccf4-4df0-8d39-7da393b2ed5c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300343527</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">dunting</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fissuration de cuisson</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In ceramics, cracking that occurs during firing or cooling due to a rapid changes in temperature; can occur in bisquits or glazed ware.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">En céramique, fissuration survenant pendant la cuisson ou le refroidissement sous l'effet de variations rapides de température ; peut affecter le biscuit comme les pièces émaillées.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0f69960a-b816-409d-9021-906f1a418c71">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300438822</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">bioerosion</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bioérosion</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The action of progressive removal of material from solid surfaces such as coral or rock, by the action of living organisms.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Enlèvement progressif de matière à la surface de matériaux solides tels que le corail ou la roche, sous l'action d'organismes vivants.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/10ec4b89-4448-4167-8d25-a4e795ce7ff6">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300343532</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">bloating</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">boursouflage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The swelling of clay objects during firing as gases are released in the vitrification process; sometimes caused by overfiring and occurs either generally or in small areas; generally considered a defect in pottery but sometimes desirable in nonbearing bricks for construction.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Boursouflement des objets en argile pendant la cuisson, sous l'effet des gaz libérés lors de la vitrification ; parfois dû à une surcuisson, il affecte soit l'ensemble de la pièce, soit de petites zones. Généralement considéré comme un défaut en céramique, il est parfois recherché pour les briques non porteuses.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/14643fa6-af14-48cf-a3c6-0b432c68b252">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054128</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/6df977c2-521a-4d44-9b6a-4a768ae678fa"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">delamination</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">delaminación</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">délamination</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Separation into constituent layers.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Separación en capas constituyentes.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Séparation en couches constitutives.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/146aab87-7247-4687-9169-4b2ec1577223">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379690</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">thermal degradation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dégradation thermique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In polymer science, refers to the molecular deterioration of polymers caused by overheating.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">En science des polymères, détérioration moléculaire des polymères provoquée par une surchauffe.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/17a0d61d-e333-4201-a16c-ae96f301bbff">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380018</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7d99ec98-1f1f-4976-ad98-9852be4d9ed8"/>
+    <skos:prefLabel xml:lang="en">dissolution (physical process)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dissolution</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Refers to the act of dissolving or the condition of being dissolved. In chemistry, molecular dispersion of a substance in a liquid, the transfer of a solid into a solution.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Action de dissoudre ou état de ce qui est dissous. En chimie, dispersion moléculaire d'une substance dans un liquide, passage d'un solide en solution.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/18e1a7a0-6fcd-4c2b-bdae-f215a83beff9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380318</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">chain scission</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">coupure de chaîne</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Refers to cleavage of the bonds that hold a polymer chain together, as in rubber as a result of heating.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Rupture des liaisons qui assurent la cohésion d'une chaîne polymère, par exemple dans le caoutchouc sous l'effet de la chaleur.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/199bce7d-f431-4559-919c-04233ef7e9ae">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379469</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">soiling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">encrassement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Making or becoming dirty, tarnished, or stained; damage to the surface or substrate of materials.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Fait de salir ou de se salir, de se ternir ou de se tacher ; dommage affectant la surface ou le support d'un matériau.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21822792-05eb-43f9-84da-6401ecf0fba8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300390002</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">wetting-drying cycle</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cycle d'humidification-séchage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Refers to a natural or manmade soil moisture regime and its effects on the physical, chemical, and biological properties of irrigated soils.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Désigne un régime d'humidité du sol, naturel ou anthropique, et ses effets sur les propriétés physiques, chimiques et biologiques des sols irrigués.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21c2dd05-f045-4326-be9e-713982f20e95">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054122</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="de">kochern</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">blistering (process)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">ampollado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cloquage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process that causes blisters, which are areas bulging out from the main mass or surface, such as paint.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Hinchazón de la masa o superficie principal, tal como pintura.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus à l'origine des cloques, zones qui font saillie par rapport à la masse ou à la surface, par exemple dans une couche picturale.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300229438</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0bbd0ddc-3497-4c5d-bc5a-73a8b9c723a1"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/10ec4b89-4448-4167-8d25-a4e795ce7ff6"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/21822792-05eb-43f9-84da-6401ecf0fba8"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/21c2dd05-f045-4326-be9e-713982f20e95"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/23a3c281-3f82-4e58-8211-3310de2a2778"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2459aba6-9a38-4c3a-ba00-d7749978ba98"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/26bfa74a-79ce-43cb-9ebc-8447bec50b32"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2f50b7e0-b596-4091-b5f8-bd6661839635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/4e8ba99d-e7c3-468a-ba31-f91bb5861885"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/4fe2c43d-06f6-43b0-a8b8-10d7d5207b02"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/58372100-e70d-4254-9cc3-a81649baa4a2"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/589ded00-4713-406e-a9c5-a99558170cb9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6b9c577c-7320-4524-8be0-6e3e47e84d07"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6c2f7582-0ebf-4053-a66f-794f796166b4"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6df977c2-521a-4d44-9b6a-4a768ae678fa"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6f800e41-2926-4920-8826-e768b4d241e4"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/732618a8-d54b-4dd1-b728-6abfcab2d02a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7f6b9efe-b0a6-413d-89da-2e1ad940f404"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/807c5064-009d-40e7-a800-573b5301d49a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8c4015aa-0923-4c94-8dcf-bcf127fc9a4a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a5e25602-fcbc-4331-bafd-9d16df29ec22"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a8787a32-f874-4aba-af26-0701c5a13942"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b10a0a76-69b7-4851-bf42-9bf3fe56f43e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b7dc1f1b-ba5b-43a9-b837-9676c17f49ce"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b872e616-20ae-4951-b3fe-8de42879b33b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/bba93780-ff2c-40fd-93e3-94127e703874"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d0b7bb72-c7ea-4e8c-83a0-562172797a28"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/df96111f-01ae-4d5b-8f8e-3b13b5e24f95"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e54efb7c-3b4b-49bc-aac4-fe3c937f8580"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e559ebc9-f42c-4907-bd92-74cd11ff32de"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ee5d14f0-8889-4471-b072-403fba8c032e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
+    <skos:prefLabel xml:lang="en">surface or structural changes</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">cambios superficiales o estructurales</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">changements de surface ou de structure</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Describes processes that transform the surface or structure of an object.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Désigne les processus qui transforment la surface ou la structure d'un objet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/23a3c281-3f82-4e58-8211-3310de2a2778">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379761</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">patination</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">patination</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The formation or creation of a patina, whether produced naturally as an effect of weathering or artifically induced in the lab.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Formation d'une patine, qu'elle résulte naturellement de l'exposition aux intempéries ou qu'elle soit provoquée artificiellement en laboratoire.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2459aba6-9a38-4c3a-ba00-d7749978ba98">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054130</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">pitting</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">picadura</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">piqûration</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The presence of small cavities or depressions in a surface caused by weathering, erosion, or other processes over time. For similar depressions in set plaster, see popping.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Úsese para la aparición de pequeñas cavidades o depresiones en una superficie causadas por la exposición a la interperie, erosión u otro proceso a través del tiempo.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Présence de petites cavités ou dépressions dans une surface, causées par les intempéries, l'érosion ou d'autres processus au fil du temps. Pour des dépressions comparables dans un enduit de plâtre pris, voir « éclatement ponctuel ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/26bfa74a-79ce-43cb-9ebc-8447bec50b32">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300228335</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">cockling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">ajado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gondolement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A process occurring in such materials as paper, paperboard, vellum, or cloth in which the material becomes wrinkled, puckered, warped, or rippled.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Proceso que ocurre en tales materiales como papel, cartón, vitela o tela en que el material se torna arrugado, fruncido, alabeado u ondeado.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus affectant des matériaux tels que le papier, le carton, le vélin ou le textile, par lequel le matériau se plisse, se gondole ou ondule.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2b68471b-9d81-4d8b-94df-041cae9b7b6f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300077803</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">embrittlement</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">fragilización</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fragilisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Process of becoming brittle; includes the loss of flexibilty or elasticity.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Proceso de tornarse quebradizo, incluye la pérdida de flexibilidad o elasticidad.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus par lequel un matériau devient cassant ; comprend la perte de souplesse ou d'élasticité.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2f50b7e0-b596-4091-b5f8-bd6661839635">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300252881</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">tearing</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">rasgadura</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">déchirure</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Creating separations in a flexible material by pulling or wrenching part from part.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Crear separaciones en un material flexible por tracción o torción de parte por parte.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Création de séparations dans un matériau souple en tirant ou en arrachant une partie de l'autre.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3302c766-5aa0-48de-a201-da6a54a220bf">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380084</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">fossilization</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fossilisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Process of being fossilized. Modes of fossilization include mineralization, impression, trace preservation, and exceptional preservation. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus de fossilisation. Ses modalités comprennent la minéralisation, l'empreinte, la conservation de traces et la conservation exceptionnelle.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3655ddfa-89cf-4186-8d36-fcc4edb88d9d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379409</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">photodegradation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">photodégradation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Degradation of a material caused by exposure to light, specifically the chemical changes to photodegradable molecules induced by absorption of photons, especially those wavelengths found in sunlight. The process by which a material is damaged due to prolonged exposure to ultraviolet radiation.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dégradation d'un matériau provoquée par l'exposition à la lumière, en particulier modifications chimiques des molécules photodégradables induites par l'absorption de photons, notamment aux longueurs d'onde du rayonnement solaire. Processus par lequel un matériau est endommagé par une exposition prolongée au rayonnement ultraviolet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/434a90fd-cec2-4a74-89e0-2d02a5dcc37e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300419490</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">arrested decay</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dégradation stabilisée</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The maintenance policy applied to buildings or sites to uphold their structural integrity, yet preserve their ruined appearance. May also be applied to objects. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Politique d'entretien appliquée à des bâtiments ou à des sites afin d'en maintenir l'intégrité structurelle tout en préservant leur aspect ruiné. Peut également s'appliquer à des objets.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/47449d92-2926-404d-baa0-9af023300a20">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054118</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5a59eb3c-e4fa-402d-b677-2d52a602f067"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d4515d02-0e08-48d8-8a9c-2d87097470e2"/>
+    <skos:prefLabel xml:lang="en">contraction (size-related change)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">contracción</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">contraction</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The action or process of becoming smaller, shorter, or pressed together.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Acción o proceso de tornarse más pequeño, corto o comprimido.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Action ou processus par lequel un corps devient plus petit, plus court ou plus compact.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4e8ba99d-e7c3-468a-ba31-f91bb5861885">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054107</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/50fc09e4-8fb0-4c92-88c9-4407dc4e905c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8732e51c-e81f-4ea2-ab69-434e3f127244"/>
+    <skos:prefLabel xml:lang="en">corrosion (condition changing process)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">corrosión</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">corrosion</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The deterioration of metal or other substances by chemical or electrochemical reaction resulting from exposure to weathering, moisture, chemicals, or other agents.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Deterioro de metal u otras sustancias por reacción química o electroquímica, resultado de la exposición a los agentes climáticos, humedad, químicos u otros agentes.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Détérioration d'un métal ou d'une autre substance par réaction chimique ou électrochimique consécutive à l'exposition aux intempéries, à l'humidité, à des produits chimiques ou à d'autres agents.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054106</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/094ac2bb-5c15-4403-af9d-124b03a1e79a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/434a90fd-cec2-4a74-89e0-2d02a5dcc37e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a2b87cfd-8fef-43be-94d3-f26b98e2af58"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/fcb82f9e-3b2e-4d0a-87f8-1766538c2827"/>
+    <skos:prefLabel xml:lang="en">deterioration</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">deterioro</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">détérioration</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Broadly, the action or process of growing worse or becoming impaired in quality, state, or condition.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Úsese en general para la acción o proceso de crecimiento deficiente o tornarse deficiente en calidad, estado o condición.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Au sens large, action ou processus par lequel la qualité, l'état ou la condition d'un objet s'altère.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4fe2c43d-06f6-43b0-a8b8-10d7d5207b02">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300400800</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">denting (surface changes)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bosselage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process or condition of making or having hollows or impressions in a surface, such as by a blow with a sharp or edged instrument.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus ou état correspondant à la formation de creux ou d'empreintes dans une surface, par exemple sous l'effet d'un coup porté avec un instrument pointu ou tranchant.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/50fc09e4-8fb0-4c92-88c9-4407dc4e905c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054108</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4e8ba99d-e7c3-468a-ba31-f91bb5861885"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">electrochemical corrosion</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">corrosión electroquímica</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">corrosion électrochimique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Corrosion that occurs when current flows between cathodic and anodic areas on metallic surfaces.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Corrosión que ocurre cuando corriente fluye entre áreas catódicas y anódicas en superficies metálicas.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Corrosion qui se produit lorsqu'un courant circule entre les zones cathodiques et anodiques d'une surface métallique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/58372100-e70d-4254-9cc3-a81649baa4a2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379824</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">powdering (condition changing process)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pulvérulence</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The act or process of reducing to powder, pulverization; in conservation science context refers to granular disintegration of stone and pigments.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Action ou processus de réduction en poudre, pulvérisation ; en science de la conservation, désigne la désagrégation granulaire de la pierre et des pigments.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/589ded00-4713-406e-a9c5-a99558170cb9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300261477</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">throw up (surface change)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">arqueado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">arquage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Refers to the arching up of the back of the bound text block of a book when the book is opened.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Úsese para el arqueado del lomo de un cuerpo de un libro encuadernado cuando el libro es abierto.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Arquage du dos du corps d'ouvrage relié d'un livre lorsque celui-ci est ouvert.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5948ede7-a410-46f4-bce1-53ea7c087347">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380391</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">kaolinization</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kaolinisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process of weathering or hydrothermal alteration by which minerals, especially feldspars and micas, are converted to kaolin.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus d'altération météorique ou hydrothermale par lequel des minéraux, en particulier les feldspaths et les micas, se transforment en kaolin.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5a2c9e25-6127-4d12-83dd-8605ee9bcd5e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054119</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5a59eb3c-e4fa-402d-b677-2d52a602f067"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/09abfe0f-b82c-47fc-b507-ed61052931c5"/>
+    <skos:prefLabel xml:lang="en">expansion (process or technique)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">expansión</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dilatation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The increase in length or volume of a material, or a body, caused by temperature, moisture, or other environmental condition.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Incremento en longitud o volúmen de un material, o un cuerpo, causado por temperatura, humedad u otra condición ambiental.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Augmentation de longueur ou de volume d'un matériau ou d'un corps, provoquée par la température, l'humidité ou d'autres conditions environnementales.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5a59eb3c-e4fa-402d-b677-2d52a602f067">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300229431</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/47449d92-2926-404d-baa0-9af023300a20"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/5a2c9e25-6127-4d12-83dd-8605ee9bcd5e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8dd9a753-446c-417a-9c15-fa6b8519d6ca"/>
+    <skos:prefLabel xml:lang="en">size-related changes</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">cambios relativos al tamaño</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">changements de dimension</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Describes processes that change the volume or length of an object resulting from temperature, moisture, or other environmental condition. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Désigne les processus qui modifient le volume ou la longueur d'un objet sous l'effet de la température, de l'humidité ou d'autres conditions environnementales.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b5ee13c-082f-42ba-ae0b-8a146d5ab114">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300072682</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">lateral buckling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">pandeo lateral</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">flambage latéral</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Buckling of a structural member involving lateral deflection and twist.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Pandeo de un miembro estructural involucrando desviación y torción lateral.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Flambage d'un élément de structure accompagné d'un déversement latéral et d'une torsion.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b9c577c-7320-4524-8be0-6e3e47e84d07">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054115</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">weathering</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">corrosión</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">altération atmosphérique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The action of weather elements in altering the color, texture, composition, or form of objects.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Acción de los elementos climáticos en la alteración del color, textura, composición o forma de los objetos.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Action des agents atmosphériques modifiant la couleur, la texture, la composition ou la forme des objets.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6c2f7582-0ebf-4053-a66f-794f796166b4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300251330</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">tenting</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">rasgado invertido</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">soulèvement en tente</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Vertical displacement between layers resulting in converging sides that resemble a tent.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Desplazamiento vertical entre las capas resultantes en los lados convergentes que se asemejan a una tienda.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Déplacement vertical entre des couches, produisant des bords convergents qui évoquent une tente.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6df977c2-521a-4d44-9b6a-4a768ae678fa">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054127</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/14643fa6-af14-48cf-a3c6-0b432c68b252"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7f13afc1-acb8-4079-934f-9121addb0d1c"/>
+    <skos:prefLabel xml:lang="en">peeling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">despegado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pelage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Detachment and lifting of a surface layer away from its substrate, often in sheets or strips.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Séparation et soulèvement d'une couche superficielle qui se détache de son support.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6ebc5e8e-5e38-44b4-af2b-de71f59fa11a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380234</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">mass wasting</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">mouvement de masse</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Downslope bulk movements of rock debris and soil in response to gravitational body forces.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Mouvements gravitaires de masse, vers l'aval, de débris rocheux et de sol.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6f800e41-2926-4920-8826-e768b4d241e4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300386687</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">chalking</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">farinage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The mechanism of "chalk" formation in the deterioration of paints or plastic triggered by oxidative degradation of the binder exposing a layer of pigment or filler. The process results in a dry, powdery surface appearance.  </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Mécanisme de formation d'une « poudre » dans la dégradation des peintures ou des plastiques, déclenché par la dégradation oxydative du liant qui met à nu une couche de pigment ou de charge. Le processus donne une surface sèche et pulvérulente.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/732618a8-d54b-4dd1-b728-6abfcab2d02a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379468</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">softening</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ramollissement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The action of making a substance more physically soft or pliable; to lessen hardness or rigidity. This may refer to applications of softening agents or processes in treatment of materials such as leather or parchment to increase softness, smoothness, or plasticity.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Action de rendre une substance plus souple ou plus malléable ; diminution de la dureté ou de la rigidité. Peut désigner l'emploi d'agents ou de procédés d'assouplissement dans le traitement de matériaux comme le cuir ou le parchemin, pour en accroître la souplesse, le lissé ou la plasticité.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7812e243-7a09-4130-92d3-5607e84c8571">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300072718</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">elastic buckling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">pandeo elástico</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">flambage élastique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Buckling in which the material returns to its original shape once the load is removed, the deformation remaining within the elastic range.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Flambage au cours duquel le matériau reprend sa forme initiale une fois la charge supprimée, la déformation restant dans le domaine élastique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7c50a2b1-b745-44ff-943f-cf7b298110c9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380016</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">rot</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pourriture</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Decay in plants and plant-derived materials such as timber marked by deterioration of tissues and caused chiefly by fungi and bacteria. By extension, decomposition of stone, leather, textiles.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Décomposition des végétaux et des matériaux qui en dérivent, comme le bois, marquée par la détérioration des tissus et due principalement aux champignons et aux bactéries. Par extension, décomposition de la pierre, du cuir, des textiles.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7d99ec98-1f1f-4976-ad98-9852be4d9ed8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300386480</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/17a0d61d-e333-4201-a16c-ae96f301bbff"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">deliquescence</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">déliquescence</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process in which a crystalline solid absorbs atmospheric water vapor until the crystal eventually melts or liquefies into a saturated solution. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus par lequel un solide cristallin absorbe la vapeur d'eau atmosphérique jusqu'à fondre ou se liquéfier en une solution saturée.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7e452b2c-b398-4784-a863-02f131184913">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379622</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">vinegar syndrome</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">syndrome du vinaigre</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Spontaneous decay of photographic film on a cellulose triacetate base characterized by a strong vinegar aroma. Such deterioration is irreversible. The term is used most often in the context of motion picture film.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dégradation spontanée des films photographiques à support en triacétate de cellulose, caractérisée par une forte odeur de vinaigre. Cette détérioration est irréversible. Le terme s'emploie le plus souvent à propos des films cinématographiques.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f13afc1-acb8-4079-934f-9121addb0d1c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054129</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/6df977c2-521a-4d44-9b6a-4a768ae678fa"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">flaking</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">desenconchado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">écaillage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Separating into thin flattened pieces or layers.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Separar en piezas o capas delgadas y achatadas.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Séparation en écailles ou en fines couches aplaties.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f6b9efe-b0a6-413d-89da-2e1ad940f404">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380182</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">isomerization</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">isomérisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Process or action of transforming a molecule into an isomer of itself, i.e. a molecule whose atoms remain the same but are differently arranged.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus ou action transformant une molécule en l'un de ses isomères, c'est-à-dire en une molécule dont les atomes restent les mêmes mais sont agencés différemment.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/807c5064-009d-40e7-a800-573b5301d49a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300053752</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">chipping</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">desportillado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ébréchure</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The separation of small pieces or fragments from an object or surface. May refer to accidental activity or process, or to intentional activity, as with the making of arrowheads.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Separación de pequeñas piezas de fragmentos desde un objeto o superficie, tal como en albañilería.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Détachement de petits fragments d'un objet ou d'une surface. Peut désigner un processus accidentel ou une action intentionnelle, comme dans la fabrication de pointes de flèche.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8355f3d9-eb58-4804-a93b-372d2e9c32d4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300443802</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">gelatinization</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gélatinisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process of becoming gelatinous. In conservation this may refer to a chemical deterioration of parchment and leather tanned with condensed vegetable tannins, where collagen turns into water-soluble gelatin. This occurs as a reaction to substantial fluctuations in temperature and moisture or when parchment and such materials are stored under acidic condition.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus par lequel une matière devient gélatineuse. En conservation, peut désigner une dégradation chimique du parchemin et du cuir tannés aux tanins végétaux condensés, où le collagène se transforme en gélatine soluble dans l'eau. Elle survient en réaction à de fortes fluctuations de température et d'humidité, ou lorsque ces matériaux sont conservés en milieu acide.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8732e51c-e81f-4ea2-ab69-434e3f127244">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300220580</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4e8ba99d-e7c3-468a-ba31-f91bb5861885"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">atmospheric corrosion</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">corrosión atmosférica</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">corrosion atmosphérique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Corrosion caused by pollutants in the atmosphere.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Corrosión causada por contaminantes en la atmósfera.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Corrosion provoquée par les polluants présents dans l'atmosphère.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8a39fcbe-ca8a-4d7a-ae73-2639f17dcb10">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300072726</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">inelastic buckling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">pandeo sin elasticidad</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">flambage inélastique</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Buckling in which the stress exceeds the elastic limit of the material, so that the deformation is permanent.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Flambage au cours duquel la contrainte dépasse la limite élastique du matériau, de sorte que la déformation est permanente.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8c4015aa-0923-4c94-8dcf-bcf127fc9a4a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379764</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">bioturbation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bioturbation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Disturbance of soil and sediment by flora or fauna; in an archaeological context, bioturbation serves to displace and move buried artifacts such as grave goods.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Perturbation du sol et des sédiments par la flore ou la faune ; en contexte archéologique, la bioturbation déplace les objets enfouis, tels que le mobilier funéraire.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8dd9a753-446c-417a-9c15-fa6b8519d6ca">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300228350</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5a59eb3c-e4fa-402d-b677-2d52a602f067"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">swelling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">hinchazón</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gonflement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process or condition of growing in bulk or size, as for example by inflation or accumulation of fluids. Refers also for the distended, protuberant, or thickened portion of something, such as the entasis of a column, the thickened portion of a gunstock, or the extra thickness on the back of the text block of a book caused by the sewing thread or extreme guarding.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Úsese para el proceso o condición de crecimiento en masa o tamaño, como por ejemplo por inflamación o acumulación de fluidos. Úsese también para la porción dilatada, protuberante o engrosada de algo, así como el entasis de una columna, o el grueso adicional en la parte posterior del bloque de texto de un libro causado por el hilo de rosca o el guardar extremo. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus ou état d'augmentation de volume ou de taille, par exemple par gonflement ou accumulation de fluides. Désigne aussi la partie renflée ou épaissie d'un objet : entasis d'une colonne, renflement d'une crosse de fusil, surépaisseur au dos du corps d'ouvrage d'un livre due au fil de couture ou à un onglet important.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/91da9665-525d-4ed7-8927-65cb6e61bda4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379603</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">salinization</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">salinisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Refers to impregnation of matter with salt. In the ecological context, refers to a land degradation process caused by excessive soil salinity in arid regions. The accumulation of salts in soil layers close to the surface produced by various causes (e.g., capillary transport of salts in the water table; fertilizers or excessive irrigation precipitating salts in the soil) can inhibit crop growth and may result in eventual desertification.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Imprégnation d'une matière par des sels. En écologie, désigne un processus de dégradation des terres provoqué par une salinité excessive des sols en région aride. L'accumulation de sels dans les horizons proches de la surface — remontée capillaire depuis la nappe, engrais ou irrigation excessive — peut inhiber la croissance des cultures et conduire à la désertification.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300228676</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/146aab87-7247-4687-9169-4b2ec1577223"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/3655ddfa-89cf-4186-8d36-fcc4edb88d9d"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7e452b2c-b398-4784-a863-02f131184913"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/bfda4a52-bd8f-4ad8-b64a-dc10c51f9f9d"/>
+    <skos:prefLabel xml:lang="en">degradation</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">degradación</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dégradation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Gradual loss of quality; can be without structural change.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Perdida gradual de calidad; puede ser sin cambio estructural.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Perte progressive de qualité ; peut survenir sans modification structurelle.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9330fb82-32b5-4427-a5a6-826322a6d205">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389996</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0bbd0ddc-3497-4c5d-bc5a-73a8b9c723a1"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">bowing</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">courbure</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A type of warping usually associated with wood when one face of a length of lumber shrinks more than the other, resulting in a bowed curvature. Less commonly this process may occur in stone such as marble, due to residual stresses, anisotropic thermal expansion of calcitic grains, variation of fluid contents, and dissolution processes.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Type de gauchissement généralement observé sur le bois, lorsqu'une face d'une pièce de débit se rétracte davantage que l'autre, ce qui produit une courbure. Plus rarement, ce phénomène affecte la pierre, comme le marbre, sous l'effet de contraintes résiduelles, de la dilatation thermique anisotrope des grains de calcite, de variations de teneur en fluides et de processus de dissolution.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9bc2159d-19f5-4450-8c42-00acd754ec3f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300228751</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">crackling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">resquebrajado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">craquelure</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Developing a network of fine cracks in a coating layer, such as a ground, paint layer, varnish, or glaze.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Desarrollo de una red de grietas finas en una capa cobertora, tales como una base, capa de pintura, barniz o vidriado.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Développement d'un réseau de fines fissures dans une couche de revêtement : préparation, couche picturale, vernis ou glaçure.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9efb0c28-f842-4451-8a6d-f751baf35df3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300242002</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">strain cracking</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fissuration sous contrainte</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Condition where a surface or material has cracked due to pressure, differential in temperature, or other strain of some kind. An example is in glassmaking, where fissures develop in the body of a vessel caused by internal strain resulting from inadequate annealing and/or accidental thermal shock.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">État dans lequel une surface ou un matériau s'est fissuré sous l'effet d'une pression, d'un écart de température ou d'une autre contrainte. Exemple en verrerie : des fissures se développent dans le corps d'un récipient sous l'effet de contraintes internes dues à un recuit insuffisant ou à un choc thermique accidentel.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9f2789f5-4abb-4816-b6e4-ec6ce7dd32f9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379860</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">carbonation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">carbonatation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Any infusion of carbon dioxide into a liquid. In geology, refers to interaction of dissolved carbon dioxide with minerals, especially limestone, in water; a form of chemical weathering. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dissolution de dioxyde de carbone dans un liquide. En géologie, désigne l'interaction du dioxyde de carbone dissous dans l'eau avec les minéraux, en particulier le calcaire ; forme d'altération chimique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a19253ff-0d2d-40fa-8200-07cfeebce11f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379990</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">denaturation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dénaturation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In biology, a modification of a protein’s structure brought about by heat, alkalis, and other factors, which causes it to collapse into a disordered mass. The process Is irreversible for most proteins. In conservation science, the denaturation of leather and parchment is studied by various analytical techniques.  </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">En biologie, modification de la structure d'une protéine provoquée par la chaleur, les alcalis ou d'autres facteurs, qui la fait s'effondrer en une masse désordonnée. Le processus est irréversible pour la plupart des protéines. En science de la conservation, la dénaturation du cuir et du parchemin est étudiée par diverses techniques analytiques.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a2b87cfd-8fef-43be-94d3-f26b98e2af58">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300219639</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">biodeterioration</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">biodeterioro</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">biodétérioration</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Biologically mediated loss of utilitarian or physical characteristics of a material caused by bacteria or other microorganisms. Biodeterioration includes only physical disintegration and cosmetic disfigurement. For deterioration that includes molecular changes to a material such that characteristic properties of the material are no longer evident, use 'biodegradation.'</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Deterioro causado por bacterias u otros microorganismos.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Perte, d'origine biologique, des caractéristiques physiques ou fonctionnelles d'un matériau, causée par des bactéries ou d'autres micro-organismes. La biodétérioration ne recouvre que la désagrégation physique et l'altération d'aspect. Pour une détérioration comportant des modifications moléculaires telles que les propriétés caractéristiques du matériau ne sont plus perceptibles, employer « biodégradation ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a5e25602-fcbc-4331-bafd-9d16df29ec22">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300256571</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">lifting (surface changing process)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">desprendimiento (proceso de cambio superficial)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">soulèvement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Partial rising of a topcoat such as a paint, solvent, or varnish layer, due to the break in adhesion to the undercoat or surface layer.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Elevación parcial de un acabado final como una capa de pintura, solvente o barniz, debido a una fractura en la adhesión del acabado a la capa superficial.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Soulèvement partiel d'une couche superficielle — peinture, solvant ou vernis — dû à une rupture d'adhérence avec la couche sous-jacente ou la surface.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a81d5b32-b2cf-443a-85d0-95d8ba25b293">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300225196</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">yellowing</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">amarilleo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">jaunissement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process or result of becoming yellow, such as in fabric or paper due to aging or environment.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Proceso o resultado de tornarse amarillo, tal como en telas o papel debido al envejecimiento o el ambiente.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus ou résultat du jaunissement, par exemple d'un textile ou d'un papier sous l'effet du vieillissement ou de l'environnement.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a8787a32-f874-4aba-af26-0701c5a13942">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300252872</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">crumpling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">estrujado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">froissement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Pressing or twisting into a compact mass of irregular folds or wrinkles.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Presionar o torcer dentro de una masa compacta de plieges y arrugas irregulares.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Compression ou torsion en une masse compacte de plis et de froissements irréguliers.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/adbb03e1-e189-4048-880f-eb2fcecf4df3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300389943</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fcb82f9e-3b2e-4d0a-87f8-1766538c2827"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">electric pulse disaggregation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">désagrégation par impulsions électriques</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Method of rock fragmentation which employs pulsed power in short, high power bursts of electrical energy to create high internal tensile stresses which fracture materials along grain boundaries. Electric pulse disaggregation (EPD) is an efficient method for separating a rock's constituents with applications that include separation of single crystals for isotopic measurement, and fossil preparation.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Méthode de fragmentation des roches utilisant des impulsions électriques de forte puissance et de courte durée pour créer des contraintes internes en traction qui fracturent le matériau le long des joints de grains. La désagrégation par impulsions électriques (EPD) sépare efficacement les constituants d'une roche : isolement de monocristaux pour la mesure isotopique, dégagement de fossiles.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b10a0a76-69b7-4851-bf42-9bf3fe56f43e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300053123</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">curling (structural change)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">ondulado (cambio estructural)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tuilage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The distortion of an object originally linear or planar so that it is curved or coiled in shape.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">La distorción de un objeto originalmente lineal o plano así que es curvado o arrollado en su forma.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Déformation d'un objet initialement linéaire ou plan, qui prend une forme courbe ou enroulée.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b1499655-e1ac-4616-b79d-023032f38981">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380198</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">solidification</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">solidification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Process or action of setting, hardening, solidifying.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus ou action de prise, de durcissement, de solidification.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b19913bb-3ee8-4abd-9074-a4780a378938">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300229421</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b850cbf6-68ca-438d-a4d7-5cf54349dae8"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/bdea5e54-3680-4dca-bb90-3c8eb667f859"/>
+    <skos:prefLabel xml:lang="en">color changes</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">cambios de color</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">changements de couleur</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Describes processes that transform the color of an object.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Désigne les processus qui transforment la couleur d'un objet.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b7dc1f1b-ba5b-43a9-b837-9676c17f49ce">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054104</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">crumbling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">desmenuzamiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">effritement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Breaking down into small fragments or powder through loss of cohesion.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Désagrégation d'un matériau en petits fragments ou en poussière.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b850cbf6-68ca-438d-a4d7-5cf54349dae8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054114</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b19913bb-3ee8-4abd-9074-a4780a378938"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">sulfiding</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">sulfurado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sulfuration</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A deteriorative process affecting silver photographic images, in which the silver reacts with sulfur from the air or from within the print itself to form silver sulfide, causing the print to yellow and fade.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Proceso de deterioro que afecta imágenes fotográficas de plata, en que la plata reacciona con sulfuro desde el aire o desde dentro del impreso mismo en forma de sulfuro de plata, causando el amarilleo y destinción del impreso.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus de dégradation affectant les images photographiques argentiques, dans lequel l'argent réagit avec le soufre présent dans l'air ou dans le tirage lui-même pour former du sulfure d'argent, ce qui fait jaunir et pâlir l'épreuve.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b872e616-20ae-4951-b3fe-8de42879b33b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300343504</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">livering</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">prise en masse</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process by which something becomes firm and rubbery; particularly used to describe the hardening of oil paints in the tube or can caused by impurities.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus par lequel une matière devient ferme et caoutchouteuse ; se dit en particulier du durcissement des peintures à l'huile dans leur tube ou leur boîte sous l'effet d'impuretés.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b8d78f2a-2027-4eac-a0cb-91618d654564">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300220569</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">cupping</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">acopación</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cuvettage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Formation of a concavity or cuplike hollow in a paint layer.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Formación de una concavidad o una depresión en forma de copa en una capa de pintura.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Formation d'une concavité ou d'un creux en forme de cuvette dans une couche picturale.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bb6cbc6f-a1ad-4e94-a3f5-2473af30aacf">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300220273</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">devitrification</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">desvitrificación</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dévitrification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In glass, the loss of transparency caused by crystallization or deposition of one or more of its ingredients.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">En vidrio, la pérdida de transparencia causada por la cristalización o deposición de uno o más de sus ingredientes.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dans le verre, perte de transparence causée par la cristallisation ou le dépôt d'un ou de plusieurs de ses constituants.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bba93780-ff2c-40fd-93e3-94127e703874">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300228803</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">creasing (process)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">plegado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pliure</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process of creating a crease or creases.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Proceso de crear una arruga o arrugas.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus de formation d'un ou de plusieurs plis marqués.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bdea5e54-3680-4dca-bb90-3c8eb667f859">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300053048</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b19913bb-3ee8-4abd-9074-a4780a378938"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">fading</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">destinción</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pâlissement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A gradual loss of color or intensity.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Perdida gradual de color o intencidad.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Perte progressive de couleur ou d'intensité.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bfda4a52-bd8f-4ad8-b64a-dc10c51f9f9d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300419379</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">biodegradation</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">biodegradación</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">biodégradation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Biologically mediated deterioration that includes molecular changes to a material such that characteristic properties of the material are no longer evident. For loss of utilitarian or physical characteristics of a material caused by bacteria or other microorganisms, use 'biodeterioration.'</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Deterioro causado por bacterias u otros microorganismos.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Détérioration d'origine biologique comportant des modifications moléculaires du matériau, telles que ses propriétés caractéristiques ne sont plus perceptibles. Pour la perte des caractéristiques physiques ou fonctionnelles d'un matériau causée par des bactéries ou d'autres micro-organismes, employer « biodétérioration ».</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d0b7bb72-c7ea-4e8c-83a0-562172797a28">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379952</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">opacification</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">opacification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">To become opaque, darken and lose clarity, mist up. In conservation context, refers to opacification of stained glass and enamels.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Fait de devenir opaque, de s'assombrir, de perdre sa transparence, de se voiler. En conservation, s'applique notamment à l'opacification des vitraux et des émaux.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d1a17a1e-aa0b-48da-8dae-ea32d98c338d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300380086</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">depolymerization</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dépolymérisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The action or process by which a polymer is decomposed into its constituent monomers.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Action ou processus par lequel un polymère se décompose en ses monomères constitutifs.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d298e5e1-398c-43b9-b297-eace2312ed72">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379491</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">darkening</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">assombrissement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">To make or become dark in shade, value, or color; a form of discoloration: the blackening or browning of materials due to such causes as chemical process, exposure to light, the passage of  time.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Fait de devenir plus sombre en nuance, en valeur ou en couleur ; forme de décoloration : noircissement ou brunissement des matériaux sous l'effet de processus chimiques, de l'exposition à la lumière ou du temps.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d4515d02-0e08-48d8-8a9c-2d87097470e2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054120</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/47449d92-2926-404d-baa0-9af023300a20"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">shrinkage</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">encogimiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">retrait</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Contracting or lessening of size, especially as a result of conditions of temperature or moisture.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Contracción o disminución de tamaño, especialmente como resultado de condiciones de temperatura o humedad.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Contraction ou diminution de taille, en particulier sous l'effet de la température ou de l'humidité.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300072663</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6b5ee13c-082f-42ba-ae0b-8a146d5ab114"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7812e243-7a09-4130-92d3-5607e84c8571"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8a39fcbe-ca8a-4d7a-ae73-2639f17dcb10"/>
+    <skos:prefLabel xml:lang="en">buckling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">pandeo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">flambage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Severe bending, warping, or bulging; in the case of a structural member, failure caused by lateral or torsional instability.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Curvatura, combadura o hinchazón severa; en el caso de un miembro estructural, falla causada por una inestabilidad lateral o de torsión.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Flexion, gauchissement ou bombement prononcé ; dans le cas d'un élément de structure, ruine provoquée par une instabilité latérale ou en torsion.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/df96111f-01ae-4d5b-8f8e-3b13b5e24f95">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054132</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">wrinkling</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">arrugamiento</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">plissement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The formation of small ridges or furrows on a formerly smooth surface.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Formación de pequeñas arrugas o surcos en una previamente superficie suave.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Formation de petites crêtes ou de sillons sur une surface auparavant lisse.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e38627b6-8bd0-473c-a82d-390fdd9501ca">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300053749</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">bleeding (seeping)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">correr el color</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">migration de colorant</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The loss or migration of colorant due to contact with liquids, especially water; also in painting the diffusion or migration of coatings or the pigments in them into surrounding layers or surfaces.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Pérdida o migración del colorante debido al contacto con líquidos, especialmente agua; también en pintura la difusión o migración de los revestimientos o los pigmentos que contienen en las capas o superficies que los rodean.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Perte ou migration d'un colorant au contact d'un liquide, en particulier de l'eau ; en peinture, diffusion ou migration des couches ou des pigments qu'elles contiennent vers les couches ou les surfaces voisines.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e54efb7c-3b4b-49bc-aac4-fe3c937f8580">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300379986</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">teasing (structural change)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">effilochage</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The process of separating, shredding, pulling asunder, carding, or back-combing fibers or hairs in order to draw fibers or hairs in a given direction for the purpose of separating, forming a nap, or increasing volume. Examples of use of the term include in fiber processing, weaving textiles, and in hairdressing.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus consistant à séparer, effilocher, tirer, carder ou crêper des fibres ou des cheveux afin de les orienter dans une direction donnée, pour les séparer, former un duvet ou augmenter le volume. Le terme s'emploie notamment dans le traitement des fibres, le tissage et la coiffure.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e559ebc9-f42c-4907-bd92-74cd11ff32de">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300419941</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">case hardening (rock surface change)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">durcissement superficiel</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Describes a process of weathering in which the outer shell of rock becomes more resistant to erosion than its interior. Case hardening occurs by strengthening the exterior shell of the rock or by weakening of the rock's interior. In materials such as sandstone a greater accumulation of cements holding individual grains together at the surface causes shell strengthening. Case hardening in crystalline rock takes place when bonds are broken in the interior through chemical weathering.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus d'altération par lequel la pellicule externe d'une roche devient plus résistante à l'érosion que son cœur, soit par renforcement de l'enveloppe, soit par affaiblissement de l'intérieur. Dans des matériaux comme le grès, le renforcement vient d'une accumulation de ciments liant les grains en surface. Dans les roches cristallines, il résulte de la rupture des liaisons internes par altération chimique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e67349d9-af99-44fc-a162-740ca8201dbb">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300387368</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">microerosion</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">microérosion</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Rock weathering processes whose effects can be seen only at the microscopic level.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus d'altération des roches dont les effets ne sont observables qu'à l'échelle microscopique.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054116</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0f69960a-b816-409d-9021-906f1a418c71"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6ebc5e8e-5e38-44b4-af2b-de71f59fa11a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e67349d9-af99-44fc-a162-740ca8201dbb"/>
+    <skos:prefLabel xml:lang="en">erosion</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">erosión</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">erosion</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Process whereby materials are worn away and removed by natural causes including weathering, solution, corrosion, or transportation.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Proceso por el cual los materiales son consumidos y removidos por causas naturales incluyendo la exposición a la interperie, solución, corrosión o transporte.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Processus par lequel les matériaux sont usés puis emportés par des causes naturelles : intempéries, dissolution, corrosion ou transport.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ec9f5054-e984-4125-bc99-84a3724bd710">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300254981</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">blue stain</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">azuleado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bleuissement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Bluish or grayish discoloration of timber caused by the growth of several types of moldlike fungi on the surface and in the interior of the sapwood.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Decoloración azulada o grísea de la madera causada por el crecimiento de muchos tipos de hongos o moho en la superficie y en el interior de la albura.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Décoloration bleutée ou grisâtre du bois causée par le développement de plusieurs types de champignons filamenteux à la surface et à l'intérieur de l'aubier.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ee5d14f0-8889-4471-b072-403fba8c032e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300343511</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:prefLabel xml:lang="en">popping</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">éclatement ponctuel</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">In plaster, the appearance of small, cone-shaped holes up to a quarter inch in diameter; caused by the expansion of lime or foreign material and occurring between three months and up to one year after the plaster has set.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dans le plâtre, apparition de petits cratères coniques pouvant atteindre six millimètres de diamètre, dus à l'expansion de la chaux ou de corps étrangers, et survenant entre trois mois et un an après la prise.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300054124</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0dcedbb3-ccf4-4df0-8d39-7da393b2ed5c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9bc2159d-19f5-4450-8c42-00acd754ec3f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9efb0c28-f842-4451-8a6d-f751baf35df3"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b8d78f2a-2027-4eac-a0cb-91618d654564"/>
+    <skos:prefLabel xml:lang="en">cracking</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">agrietado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fissuration</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Fracturing in a material or object, usually along a single or branched path.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Úsese para la fractura en un material u objeto, usualmente a lo largo de una huella única o bifurcada.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Rupture au sein d'un matériau ou d'un objet, généralement selon un tracé unique ou ramifié.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fcb82f9e-3b2e-4d0a-87f8-1766538c2827">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300214746</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/adbb03e1-e189-4048-880f-eb2fcecf4df3"/>
+    <skos:prefLabel xml:lang="en">disintegration</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">desintegración</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">désintégration</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Dissolution into separate parts, losing intactness or solidness.</skos:scopeNote>
+    <skos:scopeNote xml:lang="es">Disolución en partes separadas, perdiendo incolumnidad o solidez.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Dissociation en parties distinctes, avec perte d'intégrité ou de cohésion.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

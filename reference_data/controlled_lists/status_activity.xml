@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/549241a7-b4df-4759-ab9a-a6dbe208efa0">
+    <dcterms:title>Status Activity</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4a3b17ae-3dac-44fb-9d4d-bba9e138d7be">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/4a3b17ae-3dac-44fb-9d4d-bba9e138d7be</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/549241a7-b4df-4759-ab9a-a6dbe208efa0"/>
+    <skos:prefLabel xml:lang="en">Activity completed</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Activité terminée</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ac959a73-3eee-4b42-b55b-bb02b5b5ef0c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/ac959a73-3eee-4b42-b55b-bb02b5b5ef0c</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/549241a7-b4df-4759-ab9a-a6dbe208efa0"/>
+    <skos:prefLabel xml:lang="en">Activity in progress</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Activité en cours</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b4ff02b3-4294-48d9-8fec-ce6dc612f1e8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/b4ff02b3-4294-48d9-8fec-ce6dc612f1e8</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/549241a7-b4df-4759-ab9a-a6dbe208efa0"/>
+    <skos:prefLabel xml:lang="en">Discontinued activity</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Activité suspendue</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bfd2e60e-fa1b-4f52-849f-7dbf411882f5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/bfd2e60e-fa1b-4f52-849f-7dbf411882f5</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/549241a7-b4df-4759-ab9a-a6dbe208efa0"/>
+    <skos:prefLabel xml:lang="en">In preparation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">En préparation</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

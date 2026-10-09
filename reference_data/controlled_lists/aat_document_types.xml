@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac">
+    <dcterms:title>AAT - Document Types</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/22b51542-05e5-482f-97ba-0283336ef91b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300027349</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Serie (Gruppe)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">series (object groupings)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">série</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Gruppe von separaten bibliographischen Objekten, miteinander in Beziehung stehend,durch die Tatsache, dass jedes zusätzlich zu seinen eigenen Titel einen Sammeltitel für die Gruppe als Ganzes enthält; sie werden sukzessive herausgegeben; in der bildenden Kunst wird der Begriff für eine Gruppe von Werken eines einzelnen Künstlers verwendet, die eine spezifische und sinnhafte Beziehung zwischen den Arbeiten besitzen.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">A conceptual grouping of visual arts works, literary works, or performance art created in succession by the same author, artist, or studio and intended by the creator(s) to be seen together or in succession as a cycle of works. Works in a series typically share the same or related subjects, the same or similar media, or other characteristics, but their defining characteristic is that they were intended to be conceptually related as a series. Individual items in a series may be cataloged separately and linked to the series. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Regroupement conceptuel d'œuvres d'arts visuels, d'œuvres littéraires ou de performances créées successivement par le même auteur, artiste ou atelier, et destinées par leur créateur à être vues ensemble ou successivement comme un cycle. Les œuvres d'une série partagent souvent des sujets identiques ou liés, des techniques semblables ou d'autres caractères communs, mais leur trait déterminant est d'avoir été conçues comme conceptuellement liées. Les pièces d'une série peuvent être cataloguées séparément et rattachées à la série.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/24b56b86-97c4-4fe5-a6e2-4a7a5d5ba8f1">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300028579</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="en">manuscripts for publication</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">manuscrits pour publication</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Manuscripts that have been reviewed and prepared to be published.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Manuscrits ayant été expertisés et préparés en vue de leur publication.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2c1b54ac-bcba-48bc-975c-108961fe3036">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300060417</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="en">monographs</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">monographies</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Separate treatises on a particular subject, typically written expositions of a subject narrow enough in scope to exclude all but a single aspect of the subject, for example, a study of the works of a single artist. In book cataloging, non-serial bibliographic items complete in one part or in a finite number of separate parts.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Traités distincts consacrés à un sujet particulier, généralement des exposés écrits d'un sujet assez étroitement circonscrit pour n'en retenir qu'un seul aspect, par exemple l'étude de l'œuvre d'un artiste. En catalogage, documents bibliographiques non périodiques complets en une partie ou en un nombre fini de parties.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3ce7379e-24e2-4543-93be-d2a6353e197d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300048715</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Artikel (Dokument)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">articles</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">articles</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Literarisches Arbeit für die Veröffentlichung als eigenständiger Teil einer Zeitschrift, Zeitung, Enzyklopädie, oder andere Arbeiten vorbereitet.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Literary compositions prepared for publication as an independent portion of a magazine, newspaper, encyclopedia, or other work.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Compositions littéraires préparées pour être publiées comme partie autonome d'une revue, d'un journal, d'une encyclopédie ou d'un autre ouvrage.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4916b590-691a-4bcd-9fdd-bcc756484682">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300026685</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Akte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">records (documents)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dossiers</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Aufgezeichnete Information, nicht an ein bestimmtes Medium gebunden; produziert, empfangen und geführt von einer Behörde, Institution, Organisation oder Einzelperson, um gesetzlichen Verpflichtungen nachzukommen oder zur Aufrechterhaltung des Geschäftsbetriebes.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Recorded information, often standardized in format and content and treated as a unit. Records include such compilations of data regardless of medium, that are created, received, and maintained by a project, agency, institution, organization, or individual in pursuance of legal obligations, in the transaction of business, for the storage of research and knowledge, or for other purposes.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Informations enregistrées, souvent normalisées dans leur forme et leur contenu et traitées comme un ensemble. Quel qu'en soit le support, ces compilations de données sont créées, reçues et conservées par un projet, une administration, une institution, une organisation ou une personne, au titre d'obligations légales, dans le cours des affaires, pour conserver la recherche et le savoir, ou à d'autres fins.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5864a6e2-5d38-42d5-bfc3-e7a4972cebed">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300028045</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="en">audiovisual materials</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">documents audiovisuels</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Nonprint materials, such as slides, transparencies, motion pictures, or filmstrips, that make use of sight and sound to convey information; refers especially to such materials when used for instruction.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Documents non imprimés — diapositives, transparents, films, bandes fixes — qui recourent à l'image et au son pour transmettre une information ; se dit en particulier de tels documents employés à des fins pédagogiques.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/58800805-b0f0-4a6b-947a-8b98fec4c33a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300027168</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Register (list)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">registers (lists)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">registres</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Offizielle Liste von Einträgen mit Informationen, die als wichtig genug erachtet werden, um genau und in formeller Weise verzeichnet zu werden, in der Regel in numerischer oder chronologischer Reihenfolge.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Official lists of entries of any information considered sufficiently important to be exactly and formally recorded, typically maintained in numerical or chronological order in a regular manner.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Listes officielles d'entrées consignant toute information jugée assez importante pour être enregistrée de façon exacte et formelle, généralement tenues dans un ordre numérique ou chronologique régulier.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5a7be6de-f130-472a-931e-635d830be28e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300215390</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Zeitschrift</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">journals (periodicals)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">revues</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Periodische Veröffentlichung, meistens mit wissenschaftlichen Artikeln oder anderen, zur Verbreitung von Informationen über Entwicklungen in bestimmten Fachgebieten bestimmt.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Periodical publications, particularly those containing scholarly articles or otherwise disseminating information on developments in  a particular subject field.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Publications périodiques, en particulier celles qui contiennent des articles savants ou diffusent l'information sur les avancées d'un domaine donné.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6bea9a27-6b4b-4133-8ad9-105e9fee5dcb">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300264578</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Webseite</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Web pages (documents)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pages web</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Hypertextdokument mit Text oder Bildern, das über das World Wide Web abrufbar ist und auf einer Website gehostet wird.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Hypertext documents of text or images that are accessible via the World Wide Web, hosted on a web site.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Documents hypertextes, composés de texte ou d'images, accessibles par le World Wide Web et hébergés sur un site web.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6cf9b53f-7e44-4264-8fa4-5d828ff3de72">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300027832</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Patent (Regierungsakte)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">patents</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">brevets</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Das von einer Regierung an einen Erfinder erteilte alleinige Recht, die Erfindung für eine bestimmte Dauer zu produzieren, zu nutzen und zu verkaufen.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Grants made by a government to an inventor, assuring the inventor the sole right to make, use, and sell the invention for a certain period of time.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Titres délivrés par un État à un inventeur, lui garantissant le droit exclusif de fabriquer, d'utiliser et de vendre son invention pendant une durée déterminée.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6f91f3d7-bb19-4d23-9ba4-e18d37825054">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300189604</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="en">folios (leaves)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">folios</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The individual leaves of a book or manuscript numbered on the recto only. The two sides of the folio are typically numbered using 'r' for recto, meaning the front or righ-hand page, and 'v' for verso, meaning the back or left-hand side. Reference to a folio is distinguished from reference to a "page" in that a page is numbered on both sides.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Feuillets d'un livre ou d'un manuscrit numérotés au recto seulement. Les deux faces du folio sont généralement désignées par « r » pour le recto, face antérieure ou page de droite, et « v » pour le verso, face postérieure ou page de gauche. Le folio se distingue de la « page », qui est numérotée sur ses deux faces.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a45e32f8-3025-49d7-9ad3-f0f960b4f772">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300027316</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Tagungsbericht</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">proceedings (reports)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">actes</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Bericht über die Sitzungen einer Konferenz, Gesellschaft oder anderen Organisation, der normalerweise veröffentlicht wird, meist mit Kurzfassungen oder Berichten über die gehaltenen Vorträge.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Records of meetings, conferences, learned societies, or other organizations, usually published, and frequently accompanied by abstracts or reports of papers presented. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Comptes rendus de réunions, de congrès, de sociétés savantes ou d'autres organismes, généralement publiés et souvent accompagnés des résumés ou des textes des communications présentées.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a480c815-461a-470a-b012-81df75aef74e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300311699</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="en">chapters (layout features)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">chapitres</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Main divisions or sections of a book, typically designated in some way, such as with a special heading, title, number, or layout.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Divisions ou sections principales d'un livre, généralement signalées d'une manière ou d'une autre : intitulé particulier, titre, numéro ou mise en page.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a5ae03f5-d2c0-4336-b170-2019d7cae51b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300028028</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="en">theses</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">thèses</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Discourses advancing an original point of view as a result of research, especially as a requirement for an academic degree.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Exposés défendant un point de vue original issu d'une recherche, en particulier en vue de l'obtention d'un grade universitaire.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ac2a0b23-c92f-482e-8f55-292386f66b86">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300027323</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Technischer Bericht</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">technical reports</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">rapports techniques</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Bericht mit den Details und Ergebnissen einer Untersuchung über ein wissenschaftliches oder technisches Problem.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Reports giving details and results of a specific investigation of a scientific or technical problem.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Rapports exposant le détail et les résultats de l'étude d'un problème scientifique ou technique déterminé.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b42fd6eb-b396-4ae0-926c-09f9a516f873">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300026096</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Ausstellungskatalog</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">exhibition catalogs</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalogues d'exposition</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Druckwerk, das die in einer Ausstellung gezeigten Werke dokumentiert.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Publications that document the works displayed in an exhibition.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Publications documentant les œuvres présentées dans une exposition.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b4d7567c-09f8-4039-b15f-67cada5cb57d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300026061</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Werkverzeichnis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">catalogues raisonnés</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalogues raisonnés</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Vollständiges, systematisches und kritisches Verzeichnis aller bekannten Werke eines einzelnen Künstlers, das ausführliche Informationen über jedes Einzelwerk bietet, einschließlich seiner Herkunft.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Complete, systematic, and critical listings of all the known works of a single artist, providing comprehensive information, including provenance, for each work.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Recensements complets, systématiques et critiques de toutes les œuvres connues d'un artiste, donnant pour chacune une information exhaustive, y compris la provenance.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cbf70ed1-44ea-4079-92b0-2c98834e808c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300194222</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Seite (Buchbindung)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">pages (components)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pages</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Einzelne Seite eines Blattes, Vorderseite oder Rückseite; auch die einzelne Flächen nach dem Falten eines Blattes, kann aus Papier oder Pergament bestehen, unabhängig ob diese leer, beschrieben oder bedruckt sind. Unterscheidet sich von "Folio", da ein Folio nur auf der Vorderseite nummeriert wird.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Individual sides of a leaf, recto or verso; the individual sides of leaves resulting from folding a sheet, as of paper or parchment, whether blank or containing writing, printing, or other matter. Distinguished from a "folio" in that a folio is numbered on only the front side.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Faces individuelles d'un feuillet, recto ou verso ; faces obtenues par le pliage d'une feuille de papier ou de parchemin, qu'elles soient blanches ou porteuses d'écriture, d'impression ou d'autres éléments. Se distingue du « folio », numéroté au recto seulement.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d1cfab03-ce07-4800-9b89-d6129b602228">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300265632</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Band (document by form)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">volumes (documents by form)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">volumes</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Sammlung von beschriebenen oder bedruckten Blättern, die zu einem Buch gebunden wurde. Die Bezeichnung kann sich auch auf den einzeln gebundenen Teil oder Abschnitt eines schriftlichen Werks beziehen, das in zwei oder mehr Teilen erscheint, jeder in einem separaten Einband; im Allgemeinen sind mehrere Bände desselben Werks oder derselben Reihe ähnlich groß und haben einen ähnlichen Einband.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Objects comprising sheets of paper, vellum, papyrus, or another material that are bound together. Volumes may include printed books, manuscripts, sketchbooks, or albums. Where the parts of a historical volume have been dispersed, records for the individual sheets may be linked as a historical volume for research purposes. Given that an album contains individual drawings, prints, or other art works that have been mounted, the drawings, etc. in an album may be cataloged as items and linked to the record for the volume. For intact books, manuscripts, and sketchbooks, the illuminations or other parts may be better cataloged as components rather than items. The term may also refer to a separately bound portion or division of a written work or series that is divided into two or more sections, each contained in a separate binding; generally, multiple volumes of the same work or series are of similar dimensions and contained in similar bindings. </skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Objets constitués de feuilles de papier, de vélin, de papyrus ou d'un autre matériau reliées ensemble. Les volumes comprennent les livres imprimés, les manuscrits, les carnets de croquis ou les albums. Lorsque les parties d'un volume historique ont été dispersées, les notices des feuillets isolés peuvent être reliées entre elles comme volume historique à des fins de recherche. Un album contenant des dessins, des estampes ou d'autres œuvres montés, ces pièces peuvent être cataloguées comme objets et rattachées à la notice du volume. Pour les livres, manuscrits et carnets restés intacts, les enluminures ou autres parties gagnent à être cataloguées comme composants plutôt que comme objets. Le terme peut également désigner une partie reliée séparément d'une œuvre ou d'une série divisée en plusieurs sections, chacune dans sa propre reliure ; les volumes d'une même œuvre ou série sont généralement de dimensions et de reliures semblables.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d3a32755-c1ab-4e04-9a3b-9bc1b20583b1">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300026068</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="en">auction catalogs</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalogues de vente aux enchères</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A listing of items, including works of art, manuscripts, books, or other items, that are for sale by auction.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Liste d'objets — œuvres d'art, manuscrits, livres ou autres — mis en vente aux enchères.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f3612d52-0bdb-471d-afec-a3378c25b452">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300026074</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Verkaufskatalog</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">sales catalogs</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalogues de vente</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Katalog, in dem Gegenstände aufgelistet sind, die zum Verkauf stehen.</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Catalogs that enumerate items that are for sale.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Catalogues énumérant des objets proposés à la vente.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f73e0b59-f329-4b8f-932e-7c9426567c2c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300027483</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="de">Geschäftsbuch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">account books</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livres de comptes</skos:prefLabel>
+    <skos:scopeNote xml:lang="de">Buch, in das finanzielle Transaktionen eingetragen werden. </skos:scopeNote>
+    <skos:scopeNote xml:lang="en">Books in which financial accounts are kept.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Livres dans lesquels sont tenus les comptes financiers.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f903e2b8-5579-4159-b28d-9d8544c88c4b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>http://vocab.getty.edu/aat/300312349</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5eb6e7a1-c969-49b3-ab55-8bf8588a9bac"/>
+    <skos:prefLabel xml:lang="en">issues (object groupings)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">émissions</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">All examples of a set number or amount of multiples, such as coins, notes, stamps, prints, copies of a newspaper, books, periodicals, etc. that were issued at one time or otherwise sharply distinguished in pattern, design, color, or identifying numbers from those issued at another time.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Ensemble des exemplaires d'un nombre ou d'une quantité déterminés de multiples — monnaies, billets, timbres, estampes, exemplaires d'un journal, livres, périodiques — émis en une même fois, ou nettement distingués par le motif, le dessin, la couleur ou les numéros d'identification de ceux émis à une autre date.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

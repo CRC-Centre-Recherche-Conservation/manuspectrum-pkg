@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/13c056a0-7687-4295-b870-9913947d53d6">
+    <dcterms:title>ManuSpectrum - Proportion units</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1d9baadc-9aab-4fa2-a85a-1b03f2ca2653">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/1d9baadc-9aab-4fa2-a85a-1b03f2ca2653</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/13c056a0-7687-4295-b870-9913947d53d6"/>
+    <skos:prefLabel xml:lang="en">Mass percent</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pourcentage massique</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1eed6649-94fe-49ca-8793-0284f63c1e18">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/1eed6649-94fe-49ca-8793-0284f63c1e18</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/13c056a0-7687-4295-b870-9913947d53d6"/>
+    <skos:prefLabel xml:lang="en">Percent</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pourcentage</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/78da92ee-deac-49f8-88bb-7df85dffb125">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/78da92ee-deac-49f8-88bb-7df85dffb125</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/13c056a0-7687-4295-b870-9913947d53d6"/>
+    <skos:prefLabel xml:lang="en">Parts</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Parts</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

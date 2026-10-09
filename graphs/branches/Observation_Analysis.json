@@ -24,12 +24,12 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
                     "name": {
                         "en": "Observation_Analysis"
                     },
                     "nodegroup_id": "738019bf-a8db-11ef-8106-d32727aece17",
                     "sortorder": null,
+                    "source_identifier_id": null,
                     "visible": true
                 }
             ],
@@ -49,7 +49,8 @@
                     "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "738019c1-a8db-11ef-8106-d32727aece17"
+                    "rangenode_id": "738019c1-a8db-11ef-8106-d32727aece17",
+                    "source_identifier_id": null
                 },
                 {
                     "description": null,
@@ -58,13 +59,17 @@
                     "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/extensions/crmsci/O24i_was_measured_by",
-                    "rangenode_id": "738019c2-a8db-11ef-8106-d32727aece17"
+                    "rangenode_id": "738019c2-a8db-11ef-8106-d32727aece17",
+                    "source_identifier_id": null
                 }
             ],
             "functions_x_graphs": [],
             "graphid": "738019be-a8db-11ef-8106-d32727aece17",
+            "group_permissions": {},
+            "has_unpublished_changes": true,
             "iconclass": "fa fa-paint-brush",
-            "is_editable": true,
+            "is_active": true,
+            "is_copy_immutable": false,
             "isresource": false,
             "jsonldcontext": "https://cidoc-crm.org/rdfs/7.1.2/CIDOC_CRM_v7.1.2_JSON-LD_Context.jsonld",
             "name": {
@@ -73,6 +78,7 @@
             "nodegroups": [
                 {
                     "cardinality": "1",
+                    "grouping_node_id": "738019bf-a8db-11ef-8106-d32727aece17",
                     "legacygroupid": null,
                     "nodegroupid": "738019bf-a8db-11ef-8106-d32727aece17",
                     "parentnodegroup_id": null
@@ -91,6 +97,7 @@
                     "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
                     "hascustomalias": false,
                     "is_collector": true,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
@@ -100,6 +107,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity",
                     "parentproperty": "",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -114,6 +122,7 @@
                     "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -123,6 +132,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -148,6 +158,7 @@
                     "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
                     "hascustomalias": false,
                     "is_collector": false,
+                    "is_immutable": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
@@ -157,18 +168,21 @@
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S21_Measurement",
                     "parentproperty": "http://www.cidoc-crm.org/extensions/crmsci/O24i_was_measured_by",
                     "sortorder": 0,
+                    "source_identifier_id": null,
                     "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "1db91156-c84e-4488-a62f-bc2f6947e064",
             "publication": {
                 "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
+                "most_recent_edit_id": null,
                 "notes": null,
                 "publicationid": "77183ffc-a8db-11ef-8106-d32727aece17",
                 "published_time": "2024-11-22T08:10:02.115"
             },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
+            "resource_instance_lifecycle": null,
             "root": {
                 "alias": "observable_analysis",
                 "config": {
@@ -181,6 +195,7 @@
                 "graph_id": "738019be-a8db-11ef-8106-d32727aece17",
                 "hascustomalias": false,
                 "is_collector": true,
+                "is_immutable": false,
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
@@ -189,20 +204,18 @@
                 "nodeid": "738019bf-a8db-11ef-8106-d32727aece17",
                 "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity",
                 "sortorder": 0,
+                "source_identifier_id": null,
                 "sourcebranchpublication_id": null
             },
-            "slug": null,
+            "slug": "observation_analysis",
+            "source_identifier_id": null,
+            "spatial_views": [],
             "subtitle": {
                 "en": ""
             },
             "template_id": "50000000-0000-0000-0000-000000000001",
+            "user_permissions": {},
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
-        "os": "Linux",
-        "os version": "5.15.0-130-generic"
-    }
+    ]
 }

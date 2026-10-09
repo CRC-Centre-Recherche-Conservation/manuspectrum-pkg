@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9">
+    <dcterms:title>AGORHA Type of work - written</dcterms:title>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/03c0744b-1953-49e3-b87f-e835e50cf642">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/03c0744b-1953-49e3-b87f-e835e50cf642</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ac67d680-c5b7-4f74-9968-787df4b10fe6"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">travel account</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">récit de voyage</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/042ff3d9-7e56-4e04-a8ec-ef7aa0e9c38f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/042ff3d9-7e56-4e04-a8ec-ef7aa0e9c38f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5bf37c9d-1cf1-4498-81b0-7a3980eaeac5"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">illustrated program</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">programme illustré</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/043fd48a-f5d8-4d0d-96b9-37de46fc8140">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/043fd48a-f5d8-4d0d-96b9-37de46fc8140</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">romance</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">romance</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/05d286d0-71ed-4cb6-9a57-7aecac329ee8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/05d286d0-71ed-4cb6-9a57-7aecac329ee8</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/859d1f23-96ab-4ee6-92e5-8510e7c62a7d"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">letter</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">lettre</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/06829392-d23c-4d4a-95aa-799afb6f16f9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/06829392-d23c-4d4a-95aa-799afb6f16f9</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/316157ee-9fd0-486a-bde0-c70a2570a3bf"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/3c8d54a0-98d2-4ce1-9fac-96128aafa9c6"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/f17a7c89-f559-4adb-946d-24cb437a7b09"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/fc680a2b-9d83-4785-ae10-da3eeaaeeb0e"/>
+    <skos:prefLabel xml:lang="en">commemorative book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre commémoratif</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/08979e39-0afd-48e4-b4be-6631f42b0a37">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/08979e39-0afd-48e4-b4be-6631f42b0a37</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9802708a-ed45-468d-85d6-9e177a833707"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">pamphlet</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pamphlet</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/08f3241b-ae64-463a-a507-0edfcd45369a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/08f3241b-ae64-463a-a507-0edfcd45369a</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/101e16e6-62ac-4a8b-ab00-6e1f183ce6d1"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/728be7f3-2230-40c4-a888-bb1c69249168"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b1b86355-48c4-4d02-b50b-5ea957be235f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/bc76b0fd-92f8-4d0d-86e3-5dc3116be49c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d837adb9-8f34-4424-b2e6-733f9f7d604f"/>
+    <skos:prefLabel xml:lang="en">devotional book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre de dévotion</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0caa1254-eb9c-43aa-badd-b50c84d4103b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0caa1254-eb9c-43aa-badd-b50c84d4103b</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">play</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pièce de théâtre</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0e224837-f3b3-498b-9b47-b08e56694740">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0e224837-f3b3-498b-9b47-b08e56694740</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">printed text</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">texte imprimé</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0e992669-7e00-4400-a2f0-b66b2367ff3a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/0e992669-7e00-4400-a2f0-b66b2367ff3a</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">yearbook</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">annuaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/101e16e6-62ac-4a8b-ab00-6e1f183ce6d1">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/101e16e6-62ac-4a8b-ab00-6e1f183ce6d1</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/08f3241b-ae64-463a-a507-0edfcd45369a"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">novena</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">neuvaine</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/106a890d-7db2-4593-a9b5-a8812fc36445">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/106a890d-7db2-4593-a9b5-a8812fc36445</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/859d1f23-96ab-4ee6-92e5-8510e7c62a7d"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">interview</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">entretien</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/137de8b1-3556-42c9-b41e-8e5995036984">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/137de8b1-3556-42c9-b41e-8e5995036984</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/92df6c2a-848b-432a-bbb5-031448fcdfa4"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">local history</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">histoire locale</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/152fdeaa-fd01-41d9-b72a-0d3e34ab635c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/152fdeaa-fd01-41d9-b72a-0d3e34ab635c</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">collection of plates</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">recueil de planches</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1d4002d3-33e6-47a8-9ad3-8a6ec9fefff5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1d4002d3-33e6-47a8-9ad3-8a6ec9fefff5</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9247d5dd-d4b6-4d71-bb7e-32656444cc87"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">children's sermon</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sermon pour enfants</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1dab9ae1-9e29-4fc1-8963-891a89a8e383">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1dab9ae1-9e29-4fc1-8963-891a89a8e383</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">register</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">registre</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1e12cc91-615e-4003-938e-6d1dad4c380c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1e12cc91-615e-4003-938e-6d1dad4c380c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">herbarium</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">herbier</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1e36d935-4196-493d-ac46-f6d55bb03a49">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1e36d935-4196-493d-ac46-f6d55bb03a49</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9247d5dd-d4b6-4d71-bb7e-32656444cc87"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">apocalyptic sermon</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sermon apocalyptique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1f9f0c03-4b39-4f54-9a7c-e19b761b3f68">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/1f9f0c03-4b39-4f54-9a7c-e19b761b3f68</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">customary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">coutumier</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/21facc82-f202-427c-8777-725fdcbe7176</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/1dab9ae1-9e29-4fc1-8963-891a89a8e383"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/1f9f0c03-4b39-4f54-9a7c-e19b761b3f68"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/65313de0-c2b2-40fc-880b-e1c5c1519460"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/85decfa0-b9a0-4d59-8cb3-7b402d2d65c9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a105424c-74ad-4654-be1e-de91e82b72ab"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/abb64fe9-4b3c-42a4-ba33-372aa2e1d326"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b3538353-afde-4ff6-82ba-f79f982681bb"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/bf8ec8f1-3c42-4e56-b3b5-b55079a0ff3b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/f78dd56d-af7a-4877-bd35-137bb7719e64"/>
+    <skos:prefLabel xml:lang="en">legal book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre juridique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/22908cb8-7ebe-4932-abd5-edff95d5618a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/22908cb8-7ebe-4932-abd5-edff95d5618a</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/a31b43bb-8882-4c9a-b778-10c83fd61ac7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">trade catalog</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalogue commercial</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2449be00-bb28-4247-b371-4187a6964bb9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2449be00-bb28-4247-b371-4187a6964bb9</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">journal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">revue</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2543814d-ddb4-4afe-88b6-aacfd7cf11fd">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2543814d-ddb4-4afe-88b6-aacfd7cf11fd</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9802708a-ed45-468d-85d6-9e177a833707"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">satire</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">satire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/27026840-2049-492a-82d8-79a8b7590525">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/27026840-2049-492a-82d8-79a8b7590525</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e9fac825-8237-45d6-a3c2-4479196464c7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">book of manners</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre de civilités</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/281a2dbd-d9fc-4287-9b24-6804c46d290d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/281a2dbd-d9fc-4287-9b24-6804c46d290d</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">musical score</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">partition</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/28b8760f-5b40-4a57-86c7-15b56e43144c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/1e12cc91-615e-4003-938e-6d1dad4c380c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/573d8b03-9868-4024-be42-fa6263361480"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/574fb390-fd92-40b9-95e6-31260b0c3072"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/584b64e3-4444-4214-952f-e5282578ce61"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/79417f3b-a61d-4b5d-b8ad-bb2765a08d61"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7ec535c4-3eb1-47ef-b4ef-e9c71642a43f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8a3a9b2b-f36e-4e97-9904-8d998e4321c9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9719fbab-c2b2-4d23-8956-8d74cde3e5d3"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ee3bdb39-4a14-4832-85ee-d852f69567f5"/>
+    <skos:prefLabel xml:lang="en">scientific work</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ouvrage scientifique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2b128e7d-c42a-48e1-a035-635be35831d1">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2b128e7d-c42a-48e1-a035-635be35831d1</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/a31b43bb-8882-4c9a-b778-10c83fd61ac7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">prospectus</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">prospectus</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2b45ed37-e436-439d-98b0-42d7a2434f4e</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/34496ef5-0d06-4ba6-a8f8-3d8f3f7e0f9a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/4d0e9317-a41f-4b15-af45-4669924a931f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/56771c2f-add6-499f-82e1-e9195518e562"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/69d0077c-a270-47ef-b264-063d5775e5f8"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6fd1ea68-6881-4b7b-85cf-996c38017a76"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7c3c627c-3cc3-437c-8566-bb6a55fe3013"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7f09222f-24c6-479f-b093-d45d8d435d9f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/93dc117c-37e4-4585-9fef-cfc7ea4ec870"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a345e6e7-550f-4cc7-bb9f-47f0306d4e7a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a47582ea-0ca9-4035-9141-da5f6fd56e25"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ca7d0468-6305-4481-85eb-f8f20ea563d3"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d2c4c1c8-d8d6-4d96-8bdf-9fb18f4c64ce"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/fe56713b-43a3-4e87-a942-d7c240d89398"/>
+    <skos:prefLabel xml:lang="en">liturgical book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre liturgique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2b6d60ab-8f84-46dc-800f-f21f414a26bf">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2b6d60ab-8f84-46dc-800f-f21f414a26bf</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">poetry</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">poésie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2d55cd9b-6b82-402a-a8fc-fa034dcf9834">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2d55cd9b-6b82-402a-a8fc-fa034dcf9834</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e167c9a9-9ee0-4cba-8aa7-908cea1d4122"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">grammar</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">grammaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2d82d322-7d23-4544-a3d7-e4d3d08a2ffc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/2d82d322-7d23-4544-a3d7-e4d3d08a2ffc</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">catechism</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catéchisme</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/316157ee-9fd0-486a-bde0-c70a2570a3bf">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/316157ee-9fd0-486a-bde0-c70a2570a3bf</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/06829392-d23c-4d4a-95aa-799afb6f16f9"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">panegyric</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">panégyrique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3174ec0a-c032-4340-88b4-8cab9c7e4706">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3174ec0a-c032-4340-88b4-8cab9c7e4706</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">book of oaths</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre des serments</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/32e5a2ae-1197-4789-8a20-6e36760b71c7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/32e5a2ae-1197-4789-8a20-6e36760b71c7</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">value sheet</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">feuille de valeurs</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/333dd1b9-c531-4163-977e-5e6d2477a962">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/333dd1b9-c531-4163-977e-5e6d2477a962</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">almanac</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">almanach</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3398ae2a-7716-451e-8de0-e2631095b26d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3398ae2a-7716-451e-8de0-e2631095b26d</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e167c9a9-9ee0-4cba-8aa7-908cea1d4122"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">reader</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre de lecture</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/34496ef5-0d06-4ba6-a8f8-3d8f3f7e0f9a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/34496ef5-0d06-4ba6-a8f8-3d8f3f7e0f9a</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">hymnal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">recueil de cantiques</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/37079b9f-3912-4c5e-8c5d-742a876c3325">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/37079b9f-3912-4c5e-8c5d-742a876c3325</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e9fac825-8237-45d6-a3c2-4479196464c7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/3c650621-5936-4467-a328-8dc4000065ea"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ca3fbe14-4dc0-4d30-a01b-5b8af1854991"/>
+    <skos:prefLabel xml:lang="en">festival book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre de fête</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/371afc5c-68e0-4af3-ba1c-8dfff1f19ff6">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/371afc5c-68e0-4af3-ba1c-8dfff1f19ff6</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">dictionary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dictionnaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3c650621-5936-4467-a328-8dc4000065ea">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3c650621-5936-4467-a328-8dc4000065ea</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/37079b9f-3912-4c5e-8c5d-742a876c3325"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">festival treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité de fête</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3c767bcc-9ddd-41f6-b716-786570b69d69">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3c767bcc-9ddd-41f6-b716-786570b69d69</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">treatise on the architectural orders</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité des ordres</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3c8d54a0-98d2-4ce1-9fac-96128aafa9c6">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3c8d54a0-98d2-4ce1-9fac-96128aafa9c6</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/06829392-d23c-4d4a-95aa-799afb6f16f9"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">album</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">album</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3d65f0b6-caeb-4bba-ba47-7f00c8c69d2e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/3d65f0b6-caeb-4bba-ba47-7f00c8c69d2e</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">autograph</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">autographe</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/42f010e1-847e-4900-9994-1cc62e1f3ded">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/42f010e1-847e-4900-9994-1cc62e1f3ded</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9802708a-ed45-468d-85d6-9e177a833707"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">manifesto</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">manifeste</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4430ff09-35f1-4f08-9b0b-44368f4a9f2c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/4430ff09-35f1-4f08-9b0b-44368f4a9f2c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">bible</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bible</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/48a78957-54ee-4e62-b625-b8e0b308c6bb">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/48a78957-54ee-4e62-b625-b8e0b308c6bb</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9247d5dd-d4b6-4d71-bb7e-32656444cc87"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">occasional sermon</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sermon de circonstance</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4b060f63-c117-4b0f-8edb-d3e7b13dabf4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/4b060f63-c117-4b0f-8edb-d3e7b13dabf4</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">libretto</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livret</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4d0e9317-a41f-4b15-af45-4669924a931f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/4d0e9317-a41f-4b15-af45-4669924a931f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">lectionary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">lectionnaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4da41bde-8809-4ba5-8718-5f473d18e9e9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/4da41bde-8809-4ba5-8718-5f473d18e9e9</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">treatise on the use of scientific instruments</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité d'utilisation d'instruments scientifiques</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/502d8f9e-a403-4464-bf0d-73e97135ae35">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/502d8f9e-a403-4464-bf0d-73e97135ae35</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">translation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traduction</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/537ba0e8-1a50-4c9a-9347-02e9b493e475">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/537ba0e8-1a50-4c9a-9347-02e9b493e475</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e167c9a9-9ee0-4cba-8aa7-908cea1d4122"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">anthology</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">anthologie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/539ab614-aa9e-41d6-a19d-a5fa84a4459b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/539ab614-aa9e-41d6-a19d-a5fa84a4459b</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/a31b43bb-8882-4c9a-b778-10c83fd61ac7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">sales catalog</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalogue de vente</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5436c258-ccbb-4a9c-aeb5-07044cb95c2c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/5436c258-ccbb-4a9c-aeb5-07044cb95c2c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9802708a-ed45-468d-85d6-9e177a833707"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">libel</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">libelle</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/55aeb5a5-cdf6-4925-815b-b3949e691257">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/55aeb5a5-cdf6-4925-815b-b3949e691257</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/a31b43bb-8882-4c9a-b778-10c83fd61ac7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">leaflet</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dépliant</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/5629b144-877a-4027-8a44-f4c7e0594e70</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0e992669-7e00-4400-a2f0-b66b2367ff3a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/333dd1b9-c531-4163-977e-5e6d2477a962"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/371afc5c-68e0-4af3-ba1c-8dfff1f19ff6"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7135ebc1-459a-4aef-a92f-7a84bc972f8d"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/91db1879-e8e5-4871-8835-a62a4a8bab16"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/94969fe6-9bd6-412f-a1a0-3a556b80c463"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9de18323-bd5d-4a60-b5bd-4b820ba1c98a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a1730817-f9d6-47a6-9fdc-57ca0f031408"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/a63b067a-bf5a-4e39-a2c4-b51326da593f"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ee6ab0e2-117e-4d93-adcf-0ce050270114"/>
+    <skos:prefLabel xml:lang="en">reference book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre de référence</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/56771c2f-add6-499f-82e1-e9195518e562">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/56771c2f-add6-499f-82e1-e9195518e562</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">ritual</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">rituel</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/56918b45-4ed2-431d-a862-56f24273eb10">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/56918b45-4ed2-431d-a862-56f24273eb10</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9802708a-ed45-468d-85d6-9e177a833707"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">propaganda</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">propagande</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/56c61151-3bc5-45b4-957e-3cccde26abe7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/56c61151-3bc5-45b4-957e-3cccde26abe7</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">manuscript</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">manuscrit</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/573d8b03-9868-4024-be42-fa6263361480">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/573d8b03-9868-4024-be42-fa6263361480</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">report</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">rapport</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/574fb390-fd92-40b9-95e6-31260b0c3072">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/574fb390-fd92-40b9-95e6-31260b0c3072</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">laboratory notes</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">notes de laboratoire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/584b64e3-4444-4214-952f-e5282578ce61">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/584b64e3-4444-4214-952f-e5282578ce61</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">pharmacopoeia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pharmacopée</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5b7db51a-6118-405b-bfdf-f424b7ea1131">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/5b7db51a-6118-405b-bfdf-f424b7ea1131</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">narrative</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">récit</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5bf37c9d-1cf1-4498-81b0-7a3980eaeac5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/5bf37c9d-1cf1-4498-81b0-7a3980eaeac5</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/a31b43bb-8882-4c9a-b778-10c83fd61ac7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/042ff3d9-7e56-4e04-a8ec-ef7aa0e9c38f"/>
+    <skos:prefLabel xml:lang="en">program</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">programme</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5f7774e7-0f17-4e98-be0d-30cc8327f584">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/5f7774e7-0f17-4e98-be0d-30cc8327f584</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ac67d680-c5b7-4f74-9968-787df4b10fe6"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">autobiography</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">autobiographie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5fca91fa-1b3a-459d-ae7f-439323e67e55">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/5fca91fa-1b3a-459d-ae7f-439323e67e55</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">allegory</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">allégorie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/62736164-a679-483c-aa4f-ad2e26730812">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/62736164-a679-483c-aa4f-ad2e26730812</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">monograph</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">monographie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/643bf182-ac7f-4962-a426-4d22cd0d4393">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/643bf182-ac7f-4962-a426-4d22cd0d4393</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">booklet</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">brochure</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/65313de0-c2b2-40fc-880b-e1c5c1519460">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/65313de0-c2b2-40fc-880b-e1c5c1519460</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">treaty</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité (droit)</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/69d0077c-a270-47ef-b264-063d5775e5f8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/69d0077c-a270-47ef-b264-063d5775e5f8</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">evangeliary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">évangéliaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6e487ac7-6309-4b55-833b-64870a7b2c5d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/6e487ac7-6309-4b55-833b-64870a7b2c5d</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">compilation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">recueil</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6e4ee45b-578b-4d3b-a623-7c2d45e14b2b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/6e4ee45b-578b-4d3b-a623-7c2d45e14b2b</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/aa00b66b-2eff-4960-9669-d5f333456208"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e167c9a9-9ee0-4cba-8aa7-908cea1d4122"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/f2adf145-bbd6-413d-a339-8abcfe110dfc"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ff2d5110-8f5c-4f58-b062-b5a76a6435a6"/>
+    <skos:prefLabel xml:lang="en">educational book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre éducatif</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6fd1ea68-6881-4b7b-85cf-996c38017a76">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/6fd1ea68-6881-4b7b-85cf-996c38017a76</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">breviary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bréviaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7135ebc1-459a-4aef-a92f-7a84bc972f8d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7135ebc1-459a-4aef-a92f-7a84bc972f8d</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">index</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">index</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/728be7f3-2230-40c4-a888-bb1c69249168">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/728be7f3-2230-40c4-a888-bb1c69249168</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/08f3241b-ae64-463a-a507-0edfcd45369a"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">devotional calendar</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">calendrier de dévotion</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/74107d67-9799-4332-b91f-93449e059a62">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/74107d67-9799-4332-b91f-93449e059a62</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/92df6c2a-848b-432a-bbb5-031448fcdfa4"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">annals</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">annales</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7910973f-5f32-4f25-b011-875c26dbb3bc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7910973f-5f32-4f25-b011-875c26dbb3bc</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">novel</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">roman</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/79417f3b-a61d-4b5d-b8ad-bb2765a08d61">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/79417f3b-a61d-4b5d-b8ad-bb2765a08d61</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">thesis</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">thèse</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7ad13c49-2a7b-4915-9afd-ed5381ec8c90">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7ad13c49-2a7b-4915-9afd-ed5381ec8c90</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e9fac825-8237-45d6-a3c2-4479196464c7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">confraternity and lodge ritual</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">rituel de confréries et de loges</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7c3c627c-3cc3-437c-8566-bb6a55fe3013">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7c3c627c-3cc3-437c-8566-bb6a55fe3013</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">pontifical</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pontifical</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7e5ee3e2-6a28-4741-a4f2-4406985d3791">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7e5ee3e2-6a28-4741-a4f2-4406985d3791</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e167c9a9-9ee0-4cba-8aa7-908cea1d4122"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">primer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">abécédaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7ec535c4-3eb1-47ef-b4ef-e9c71642a43f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7ec535c4-3eb1-47ef-b4ef-e9c71642a43f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">dissertation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dissertation</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f09222f-24c6-479f-b093-d45d8d435d9f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7f09222f-24c6-479f-b093-d45d8d435d9f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">antiphonary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">antiphonaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f7f488a-7389-4fb3-85ed-cdadf2c860d5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/7f7f488a-7389-4fb3-85ed-cdadf2c860d5</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">short story</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">nouvelle</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/832c12de-fda7-4fe9-9a4c-1828de2445c0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/832c12de-fda7-4fe9-9a4c-1828de2445c0</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">hunting treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité de chasse</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/85484cb1-b450-4fbd-8e04-133f7f9c4864">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/85484cb1-b450-4fbd-8e04-133f7f9c4864</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/92df6c2a-848b-432a-bbb5-031448fcdfa4"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">genealogy</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">généalogie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/859d1f23-96ab-4ee6-92e5-8510e7c62a7d">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/859d1f23-96ab-4ee6-92e5-8510e7c62a7d</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/05d286d0-71ed-4cb6-9a57-7aecac329ee8"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/106a890d-7db2-4593-a9b5-a8812fc36445"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/89e91bea-7bed-4a63-99c3-27b3373ebd6a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ac177a82-83cd-4750-b70e-7141f86bd623"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b67d31a5-3d1f-47f6-b8ba-1cae8a2f64b5"/>
+    <skos:prefLabel xml:lang="en">discursive work</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ouvrage discursif</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/85decfa0-b9a0-4d59-8cb3-7b402d2d65c9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/85decfa0-b9a0-4d59-8cb3-7b402d2d65c9</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">law</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">loi</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8888cb3e-cc47-4047-825e-687fad08f0ef">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/8888cb3e-cc47-4047-825e-687fad08f0ef</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">legend</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">légende</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/89e91bea-7bed-4a63-99c3-27b3373ebd6a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/89e91bea-7bed-4a63-99c3-27b3373ebd6a</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/859d1f23-96ab-4ee6-92e5-8510e7c62a7d"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">letter copy</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">copie de lettre</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8a3a9b2b-f36e-4e97-9904-8d998e4321c9">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/8a3a9b2b-f36e-4e97-9904-8d998e4321c9</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">discussion</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">discussion</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8ab6b080-b8a6-4085-a835-6d32b6388852">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/8ab6b080-b8a6-4085-a835-6d32b6388852</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">architectural treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité d’architecture</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8d09ccc8-f938-4adf-8004-fd143ea5543c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/8d09ccc8-f938-4adf-8004-fd143ea5543c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">medical treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité de médecine</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8e44f45e-1c88-400e-af21-fa3978009ab0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/8e44f45e-1c88-400e-af21-fa3978009ab0</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e167c9a9-9ee0-4cba-8aa7-908cea1d4122"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">alphabet</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">alphabet</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8f0abeda-7d6c-42e9-8c6c-7b6ac3c870de">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/8f0abeda-7d6c-42e9-8c6c-7b6ac3c870de</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">architectural report</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">mémoire d'architecture</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/91db1879-e8e5-4871-8835-a62a4a8bab16">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/91db1879-e8e5-4871-8835-a62a4a8bab16</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">guidebook</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">guide</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/91f8f1c6-3857-4f94-909d-8c6ff5bb4aa8">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/91f8f1c6-3857-4f94-909d-8c6ff5bb4aa8</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">practical treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité pratique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9247d5dd-d4b6-4d71-bb7e-32656444cc87">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9247d5dd-d4b6-4d71-bb7e-32656444cc87</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/1d4002d3-33e6-47a8-9ad3-8a6ec9fefff5"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/1e36d935-4196-493d-ac46-f6d55bb03a49"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/48a78957-54ee-4e62-b625-b8e0b308c6bb"/>
+    <skos:prefLabel xml:lang="en">sermon book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre de sermons</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/92df6c2a-848b-432a-bbb5-031448fcdfa4">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/92df6c2a-848b-432a-bbb5-031448fcdfa4</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/137de8b1-3556-42c9-b41e-8e5995036984"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/74107d67-9799-4332-b91f-93449e059a62"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/85484cb1-b450-4fbd-8e04-133f7f9c4864"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/cd3e60c5-ee98-4f1a-aeec-6e67caec0277"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/f58a135b-3b2c-49a2-9fff-e13ff543b40e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ff862fb5-c8f8-4a45-8c18-147442c43aca"/>
+    <skos:prefLabel xml:lang="en">history book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre historique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/93dc117c-37e4-4585-9fef-cfc7ea4ec870">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/93dc117c-37e4-4585-9fef-cfc7ea4ec870</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">processional</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">processionnal</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/94969fe6-9bd6-412f-a1a0-3a556b80c463">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/94969fe6-9bd6-412f-a1a0-3a556b80c463</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">museum catalog</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalogue de musée</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/950d8870-17ba-40f3-8121-e3517685d413">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/950d8870-17ba-40f3-8121-e3517685d413</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">binding</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">reliure</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9719fbab-c2b2-4d23-8956-8d74cde3e5d3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9719fbab-c2b2-4d23-8956-8d74cde3e5d3</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">atlas</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">atlas</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/97a9a870-d7e2-4af6-87c4-edf0526fa21e</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/08f3241b-ae64-463a-a507-0edfcd45369a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2d82d322-7d23-4544-a3d7-e4d3d08a2ffc"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/3174ec0a-c032-4340-88b4-8cab9c7e4706"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/4430ff09-35f1-4f08-9b0b-44368f4a9f2c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9247d5dd-d4b6-4d71-bb7e-32656444cc87"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ed0d1f68-7d0f-4fab-924b-01991ad76b10"/>
+    <skos:prefLabel xml:lang="en">religious book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre religieux</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9802708a-ed45-468d-85d6-9e177a833707">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9802708a-ed45-468d-85d6-9e177a833707</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/08979e39-0afd-48e4-b4be-6631f42b0a37"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2543814d-ddb4-4afe-88b6-aacfd7cf11fd"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/42f010e1-847e-4900-9994-1cc62e1f3ded"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/5436c258-ccbb-4a9c-aeb5-07044cb95c2c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/56918b45-4ed2-431d-a862-56f24273eb10"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b052a48e-e341-451b-8713-b3426d67bc58"/>
+    <skos:prefLabel xml:lang="en">polemical writing</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">genre polémique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9c3d57e3-2060-455e-a6fc-9f1d1e63a7eb">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9c3d57e3-2060-455e-a6fc-9f1d1e63a7eb</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">parable</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">parabole</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9de18323-bd5d-4a60-b5bd-4b820ba1c98a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9de18323-bd5d-4a60-b5bd-4b820ba1c98a</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">library catalog</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalogue de bibliothèque</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9e951391-2a31-4cd9-a404-d3e782cfd187">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9e951391-2a31-4cd9-a404-d3e782cfd187</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">article</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">article</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9fad3c6c-f16b-46a5-918e-0baee45ba575">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/9fad3c6c-f16b-46a5-918e-0baee45ba575</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a105424c-74ad-4654-be1e-de91e82b72ab">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a105424c-74ad-4654-be1e-de91e82b72ab</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">notarial deed</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">acte notarié</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a1730817-f9d6-47a6-9fdc-57ca0f031408">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a1730817-f9d6-47a6-9fdc-57ca0f031408</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">bibliography</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bibliographie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a31b43bb-8882-4c9a-b778-10c83fd61ac7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a31b43bb-8882-4c9a-b778-10c83fd61ac7</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/22908cb8-7ebe-4932-abd5-edff95d5618a"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2b128e7d-c42a-48e1-a035-635be35831d1"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/539ab614-aa9e-41d6-a19d-a5fa84a4459b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/55aeb5a5-cdf6-4925-815b-b3949e691257"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/5bf37c9d-1cf1-4498-81b0-7a3980eaeac5"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/dc0a889a-a12f-43fc-9414-f4e206d8ca4c"/>
+    <skos:prefLabel xml:lang="en">ephemera</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">éphémères</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a3417f17-c776-478e-86af-eba17eeed961">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a3417f17-c776-478e-86af-eba17eeed961</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">popular work</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">vulgarisation</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a345e6e7-550f-4cc7-bb9f-47f0306d4e7a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a345e6e7-550f-4cc7-bb9f-47f0306d4e7a</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">missal</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">missel</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a47582ea-0ca9-4035-9141-da5f6fd56e25">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a47582ea-0ca9-4035-9141-da5f6fd56e25</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">sacramentary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sacramentaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a63b067a-bf5a-4e39-a2c4-b51326da593f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a63b067a-bf5a-4e39-a2c4-b51326da593f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">repertory</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">répertoire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a776340d-2a96-4eb9-a2f9-28649dae0082">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/a776340d-2a96-4eb9-a2f9-28649dae0082</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">personal file</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dossier personnel</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/aa00b66b-2eff-4960-9669-d5f333456208">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/aa00b66b-2eff-4960-9669-d5f333456208</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/6e4ee45b-578b-4d3b-a623-7c2d45e14b2b"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">textbook</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">manuel</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ab9764f5-3598-4e11-9592-2dbb9d5ea70c</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/06829392-d23c-4d4a-95aa-799afb6f16f9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6e4ee45b-578b-4d3b-a623-7c2d45e14b2b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/859d1f23-96ab-4ee6-92e5-8510e7c62a7d"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/92df6c2a-848b-432a-bbb5-031448fcdfa4"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/950d8870-17ba-40f3-8121-e3517685d413"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e9fac825-8237-45d6-a3c2-4479196464c7"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:prefLabel xml:lang="en">book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/abb64fe9-4b3c-42a4-ba33-372aa2e1d326">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/abb64fe9-4b3c-42a4-ba33-372aa2e1d326</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">charter</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">charte</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ac177a82-83cd-4750-b70e-7141f86bd623">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ac177a82-83cd-4750-b70e-7141f86bd623</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/859d1f23-96ab-4ee6-92e5-8510e7c62a7d"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">dialogue</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dialogue</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ac67d680-c5b7-4f74-9968-787df4b10fe6">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ac67d680-c5b7-4f74-9968-787df4b10fe6</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/03c0744b-1953-49e3-b87f-e835e50cf642"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/5f7774e7-0f17-4e98-be0d-30cc8327f584"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e4a94c1a-c18d-4659-8772-eb59321c062c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/e961c895-54c7-40be-9d21-988d3217be1b"/>
+    <skos:prefLabel xml:lang="en">personal writing</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">genre intime</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b052a48e-e341-451b-8713-b3426d67bc58">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/b052a48e-e341-451b-8713-b3426d67bc58</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9802708a-ed45-468d-85d6-9e177a833707"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">factum</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">factum</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b1b86355-48c4-4d02-b50b-5ea957be235f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/b1b86355-48c4-4d02-b50b-5ea957be235f</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">manuel de prières</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/08f3241b-ae64-463a-a507-0edfcd45369a"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">prayer book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre de prières</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b3538353-afde-4ff6-82ba-f79f982681bb">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/b3538353-afde-4ff6-82ba-f79f982681bb</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">cartulary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cartulaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b67d31a5-3d1f-47f6-b8ba-1cae8a2f64b5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/b67d31a5-3d1f-47f6-b8ba-1cae8a2f64b5</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/859d1f23-96ab-4ee6-92e5-8510e7c62a7d"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">address</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">allocution</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b9ea6c0a-3a79-4057-9592-68d8be7fb857">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/b9ea6c0a-3a79-4057-9592-68d8be7fb857</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">historical study</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">étude historique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bc76b0fd-92f8-4d0d-86e3-5dc3116be49c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/bc76b0fd-92f8-4d0d-86e3-5dc3116be49c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/08f3241b-ae64-463a-a507-0edfcd45369a"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">psalter</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">psautier</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bf8ec8f1-3c42-4e56-b3b5-b55079a0ff3b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/bf8ec8f1-3c42-4e56-b3b5-b55079a0ff3b</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">decree</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">décret</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c023d5bd-f59c-4f7f-9eaf-34f9458814b0</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/3c767bcc-9ddd-41f6-b716-786570b69d69"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/4da41bde-8809-4ba5-8718-5f473d18e9e9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/832c12de-fda7-4fe9-9a4c-1828de2445c0"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8ab6b080-b8a6-4085-a835-6d32b6388852"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8d09ccc8-f938-4adf-8004-fd143ea5543c"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/91f8f1c6-3857-4f94-909d-8c6ff5bb4aa8"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/c52ae6f1-ee8e-4749-9b1b-31cc889d15fa"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/f4d194ca-0f7a-4686-94b8-994aeac13b04"/>
+    <skos:prefLabel xml:lang="en">didactic treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité (didactique)</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c52ae6f1-ee8e-4749-9b1b-31cc889d15fa">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c52ae6f1-ee8e-4749-9b1b-31cc889d15fa</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">astrological treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité d'astrologie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c844199f-4158-4f9d-a8d8-f3a8d94a54a7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/c844199f-4158-4f9d-a8d8-f3a8d94a54a7</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">fable</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fable</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ca3fbe14-4dc0-4d30-a01b-5b8af1854991">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ca3fbe14-4dc0-4d30-a01b-5b8af1854991</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/37079b9f-3912-4c5e-8c5d-742a876c3325"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">festival booklet</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livret de fête</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ca7d0468-6305-4481-85eb-f8f20ea563d3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ca7d0468-6305-4481-85eb-f8f20ea563d3</dcterms:identifier>
+    <skos:altLabel xml:lang="fr">graduel</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">choir book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre de choeur</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cd3e60c5-ee98-4f1a-aeec-6e67caec0277">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/cd3e60c5-ee98-4f1a-aeec-6e67caec0277</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/92df6c2a-848b-432a-bbb5-031448fcdfa4"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">biography</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">biographie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cdeff85d-447c-4bb3-8141-baa569ccf289">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/cdeff85d-447c-4bb3-8141-baa569ccf289</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">fairy tale</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">conte de fée</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d1a6b479-bdfd-43bf-a067-4dcc6ecd363f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d1a6b479-bdfd-43bf-a067-4dcc6ecd363f</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">tetraevangelion</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tétraévangile</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d2c4c1c8-d8d6-4d96-8bdf-9fb18f4c64ce">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d2c4c1c8-d8d6-4d96-8bdf-9fb18f4c64ce</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">troper</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tropaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d5710250-9512-477a-bfc7-5cfe54f12465">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d5710250-9512-477a-bfc7-5cfe54f12465</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">suite</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">suite</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d6c51eea-490b-48cd-83cb-d1bff63bdb17">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d6c51eea-490b-48cd-83cb-d1bff63bdb17</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">essay</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">essai</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d837adb9-8f34-4424-b2e6-733f9f7d604f">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/d837adb9-8f34-4424-b2e6-733f9f7d604f</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/08f3241b-ae64-463a-a507-0edfcd45369a"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">book of hours</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre d'heures</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/dc0a889a-a12f-43fc-9414-f4e206d8ca4c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/dc0a889a-a12f-43fc-9414-f4e206d8ca4c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/a31b43bb-8882-4c9a-b778-10c83fd61ac7"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">advertisement</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">publicité</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e167c9a9-9ee0-4cba-8aa7-908cea1d4122">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/e167c9a9-9ee0-4cba-8aa7-908cea1d4122</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/6e4ee45b-578b-4d3b-a623-7c2d45e14b2b"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2d55cd9b-6b82-402a-a8fc-fa034dcf9834"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/3398ae2a-7716-451e-8de0-e2631095b26d"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/537ba0e8-1a50-4c9a-9347-02e9b493e475"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7e5ee3e2-6a28-4741-a4f2-4406985d3791"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8e44f45e-1c88-400e-af21-fa3978009ab0"/>
+    <skos:prefLabel xml:lang="en">course</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cours</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e4a94c1a-c18d-4659-8772-eb59321c062c">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/e4a94c1a-c18d-4659-8772-eb59321c062c</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ac67d680-c5b7-4f74-9968-787df4b10fe6"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">memoirs</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">mémoires</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e62cf9ca-880c-4da4-82a5-a04ca6243622">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/e62cf9ca-880c-4da4-82a5-a04ca6243622</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">plate</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">planche</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e961c895-54c7-40be-9d21-988d3217be1b">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/e961c895-54c7-40be-9d21-988d3217be1b</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ac67d680-c5b7-4f74-9968-787df4b10fe6"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">diary</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">journal intime</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e9fac825-8237-45d6-a3c2-4479196464c7">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/e9fac825-8237-45d6-a3c2-4479196464c7</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/27026840-2049-492a-82d8-79a8b7590525"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/37079b9f-3912-4c5e-8c5d-742a876c3325"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7ad13c49-2a7b-4915-9afd-ed5381ec8c90"/>
+    <skos:prefLabel xml:lang="en">social custom book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livres de coutumes sociales</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ea718faf-20b3-43e1-a8fb-3e0e72818c87">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ea718faf-20b3-43e1-a8fb-3e0e72818c87</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">event description</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">description d'événement</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ed0d1f68-7d0f-4fab-924b-01991ad76b10">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ed0d1f68-7d0f-4fab-924b-01991ad76b10</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/97a9a870-d7e2-4af6-87c4-edf0526fa21e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">pentateuch</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pentateuque</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ee3bdb39-4a14-4832-85ee-d852f69567f5">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ee3bdb39-4a14-4832-85ee-d852f69567f5</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/28b8760f-5b40-4a57-86c7-15b56e43144c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">scientific paper</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">mémoire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ee6ab0e2-117e-4d93-adcf-0ce050270114">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ee6ab0e2-117e-4d93-adcf-0ce050270114</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5629b144-877a-4027-8a44-f4c7e0594e70"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">encyclopedia</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">encyclopédie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f17a7c89-f559-4adb-946d-24cb437a7b09">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f17a7c89-f559-4adb-946d-24cb437a7b09</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/06829392-d23c-4d4a-95aa-799afb6f16f9"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">festschrift</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">mélanges</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f2adf145-bbd6-413d-a339-8abcfe110dfc">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f2adf145-bbd6-413d-a339-8abcfe110dfc</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/6e4ee45b-578b-4d3b-a623-7c2d45e14b2b"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">lecture</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">conférence</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f2b2c0cf-e660-4571-a4e7-c78a7d249dc2">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f2b2c0cf-e660-4571-a4e7-c78a7d249dc2</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">regulations, laws, ordinances and customs</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">règlement, lois, ordonnances, coutumes</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f4d194ca-0f7a-4686-94b8-994aeac13b04">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f4d194ca-0f7a-4686-94b8-994aeac13b04</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c023d5bd-f59c-4f7f-9eaf-34f9458814b0"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">falconry treatise</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">traité de fauconnerie</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f58a135b-3b2c-49a2-9fff-e13ff543b40e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f58a135b-3b2c-49a2-9fff-e13ff543b40e</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/92df6c2a-848b-432a-bbb5-031448fcdfa4"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">chronicle</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">chronique</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f58fdd09-712c-4f48-8be1-29049d65b06a">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f58fdd09-712c-4f48-8be1-29049d65b06a</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">offprint</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tiré-à-part</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f613098a-19c1-4af3-b1d4-7321ef3c97db">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f613098a-19c1-4af3-b1d4-7321ef3c97db</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ab9764f5-3598-4e11-9592-2dbb9d5ea70c"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/043fd48a-f5d8-4d0d-96b9-37de46fc8140"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0caa1254-eb9c-43aa-badd-b50c84d4103b"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/2b6d60ab-8f84-46dc-800f-f21f414a26bf"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/4b060f63-c117-4b0f-8edb-d3e7b13dabf4"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/5b7db51a-6118-405b-bfdf-f424b7ea1131"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/5fca91fa-1b3a-459d-ae7f-439323e67e55"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7910973f-5f32-4f25-b011-875c26dbb3bc"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7f7f488a-7389-4fb3-85ed-cdadf2c860d5"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/8888cb3e-cc47-4047-825e-687fad08f0ef"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9802708a-ed45-468d-85d6-9e177a833707"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9c3d57e3-2060-455e-a6fc-9f1d1e63a7eb"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/ac67d680-c5b7-4f74-9968-787df4b10fe6"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/c844199f-4158-4f9d-a8d8-f3a8d94a54a7"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/cdeff85d-447c-4bb3-8141-baa569ccf289"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/d6c51eea-490b-48cd-83cb-d1bff63bdb17"/>
+    <skos:prefLabel xml:lang="en">literary work</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ouvrage littéraire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f78dd56d-af7a-4877-bd35-137bb7719e64">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/f78dd56d-af7a-4877-bd35-137bb7719e64</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/21facc82-f202-427c-8777-725fdcbe7176"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">rent roll</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre censier</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fc680a2b-9d83-4785-ae10-da3eeaaeeb0e">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/fc680a2b-9d83-4785-ae10-da3eeaaeeb0e</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/06829392-d23c-4d4a-95aa-799afb6f16f9"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">epitaph</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">épitaphe</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fe56713b-43a3-4e87-a942-d7c240d89398">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/fe56713b-43a3-4e87-a942-d7c240d89398</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2b45ed37-e436-439d-98b0-42d7a2434f4e"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">collectar</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">collectaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ff2d5110-8f5c-4f58-b062-b5a76a6435a6">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ff2d5110-8f5c-4f58-b062-b5a76a6435a6</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/6e4ee45b-578b-4d3b-a623-7c2d45e14b2b"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">exercise book</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cahier d'exercice</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ff862fb5-c8f8-4a45-8c18-147442c43aca">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
+    <dcterms:identifier>https://thesaurus.inha.fr/thesaurus/resource/ark:/54721/ff862fb5-c8f8-4a45-8c18-147442c43aca</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/92df6c2a-848b-432a-bbb5-031448fcdfa4"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/73cf3108-5fef-429b-a92f-24074871aed9"/>
+    <skos:prefLabel xml:lang="en">military history</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">histoire militaire</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">NULL</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

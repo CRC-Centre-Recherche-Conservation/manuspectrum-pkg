@@ -1,0 +1,602 @@
+{
+    "graph": [
+        {
+            "author": " Maxime Humeau",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "2480137a-b29f-4e38-abc3-af181ecb4217",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Period"
+                    },
+                    "nodegroup_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "4220a18d-22f1-4319-a4fb-0337ba575823",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Alternative period",
+                        "fr": "P\u00e9riode alternative"
+                    },
+                    "nodegroup_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "4220a18d-22f1-4319-a4fb-0337ba575823",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Appellation",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Charles III",
+                            "fr": "Charles III"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "6665158d-9d5c-4a95-8811-a2a916512898",
+                    "label": {
+                        "en": "Appellation",
+                        "fr": "Appellation"
+                    },
+                    "node_id": "8045cee6-ede6-11ef-9a8f-89acc4447d22",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "4220a18d-22f1-4319-a4fb-0337ba575823",
+                    "config": {
+                        "defaultValue": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Type of Identifier",
+                        "placeholder": {
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
+                        }
+                    },
+                    "id": "81cf69e9-94da-487b-bd3d-03cc149a23f5",
+                    "label": {
+                        "en": "Type of Identifier",
+                        "fr": "Type d'identifiant"
+                    },
+                    "node_id": "1a93b143-ede7-11ef-9a8f-89acc4447d22",
+                    "sortorder": 2,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
+                },
+                {
+                    "card_id": "4220a18d-22f1-4319-a4fb-0337ba575823",
+                    "config": {
+                        "defaultValue": [
+                            {
+                                "labels": [
+                                    {
+                                        "id": "d77483cf-7bc1-40aa-95ec-591ea5bb10c6",
+                                        "language_id": "en",
+                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
+                                        "value": "PeriodO",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                                "uri": "https://perio.do/en/"
+                            }
+                        ],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Source of Identifier",
+                        "placeholder": {
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
+                        }
+                    },
+                    "id": "96237c11-a25f-4be3-bf39-a15ba96fa6b5",
+                    "label": {
+                        "en": "Source of Identifier",
+                        "fr": "Source de l'identifiant"
+                    },
+                    "node_id": "1a93b142-ede7-11ef-9a8f-89acc4447d22",
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
+                },
+                {
+                    "card_id": "2480137a-b29f-4e38-abc3-af181ecb4217",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Relative Period",
+                        "placeholder": {
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
+                        }
+                    },
+                    "id": "a9444e94-7d59-496e-8582-0ce61d90c813",
+                    "label": {
+                        "en": "Relative Period",
+                        "fr": "P\u00e9riode relative"
+                    },
+                    "node_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
+                },
+                {
+                    "card_id": "2480137a-b29f-4e38-abc3-af181ecb4217",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Absolute period attribution",
+                        "placeholder": {
+                            "en": "Select an option",
+                            "fr": "S\u00e9lectionner une option"
+                        }
+                    },
+                    "id": "ae3e7b8a-08ac-4bc0-b04f-c18983edddb9",
+                    "label": {
+                        "en": "Absolute period attribution",
+                        "fr": "Attribution de p\u00e9riode absolue"
+                    },
+                    "node_id": "1844f54c-ede6-11ef-9a8f-89acc4447d22",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "19e56148-82b8-47eb-b66e-f6243639a1a8"
+                },
+                {
+                    "card_id": "4220a18d-22f1-4319-a4fb-0337ba575823",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "PeriodO (URI)",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "http://n2t.net/ark:/99152/p06c6g32vfg",
+                            "fr": "http://n2t.net/ark:/99152/p06c6g32vfg"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "aee10a12-8271-4db6-823b-6cd7ffe734fc",
+                    "label": {
+                        "en": "PeriodO (URI)",
+                        "fr": "PeriodO (URI)"
+                    },
+                    "node_id": "1a93b141-ede7-11ef-9a8f-89acc4447d22",
+                    "sortorder": 3,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "edgeid": "04511aa3-7e77-436b-a87e-cfcf60e22b81",
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "1844f54c-ede6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1a93b13f-ede7-11ef-9a8f-89acc4447d22",
+                    "edgeid": "1a93b147-ede7-11ef-9a8f-89acc4447d22",
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "1a93b143-ede7-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1a93b13f-ede7-11ef-9a8f-89acc4447d22",
+                    "edgeid": "1a93b148-ede7-11ef-9a8f-89acc4447d22",
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "1a93b141-ede7-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1a93b13f-ede7-11ef-9a8f-89acc4447d22",
+                    "edgeid": "1a93b149-ede7-11ef-9a8f-89acc4447d22",
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
+                    "rangenode_id": "1a93b142-ede7-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "edgeid": "2f1cfa3a-a820-4a3a-858e-a5b8fec018f9",
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with",
+                    "rangenode_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "edgeid": "3690827d-e2d9-4a46-8200-4f3ec35d319b",
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "1a93b13f-ede7-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "edgeid": "43b3c374-f036-46b9-979a-b9589be5a0fd",
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "8045cee6-ede6-11ef-9a8f-89acc4447d22",
+                    "source_identifier_id": null
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "a967167c-609d-4dbe-bd33-728a810f0006",
+            "group_permissions": {},
+            "has_unpublished_changes": true,
+            "iconclass": "fa fa-calendar",
+            "is_active": true,
+            "is_copy_immutable": false,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Period"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "grouping_node_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "legacygroupid": null,
+                    "nodegroupid": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "parentnodegroup_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22"
+                },
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "legacygroupid": null,
+                    "nodegroupid": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "absolute_period_attribution",
+                    "config": {
+                        "controlledList": "21b06442-8861-4322-80c0-fa1f6e1320e1",
+                        "multiValue": true
+                    },
+                    "datatype": "reference",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Absolute period attribution",
+                    "nodegroup_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "nodeid": "1844f54c-ede6-11ef-9a8f-89acc4447d22",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "identifier_of_alternative_period",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "{\"en\": \"\"}",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Identifier of alternative period",
+                    "nodegroup_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "nodeid": "1a93b13f-ede7-11ef-9a8f-89acc4447d22",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "value_of_alternative_period",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Value of alternative period",
+                    "nodegroup_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "nodeid": "1a93b141-ede7-11ef-9a8f-89acc4447d22",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "source_of_alternative_period",
+                    "config": {
+                        "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                        "multiValue": true
+                    },
+                    "datatype": "reference",
+                    "description": "database origin (Biblissima, BNF, etc)",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Source of alternative period",
+                    "nodegroup_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "nodeid": "1a93b142-ede7-11ef-9a8f-89acc4447d22",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "type_of_alternative_period",
+                    "config": {
+                        "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
+                        "multiValue": true
+                    },
+                    "datatype": "reference",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Type of alternative period",
+                    "nodegroup_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "nodeid": "1a93b143-ede7-11ef-9a8f-89acc4447d22",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "alternative_period",
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Alternative period",
+                    "nodegroup_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "nodeid": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with",
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "label_of_alternative_period",
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Label of alternative period",
+                    "nodegroup_id": "4dc6bf48-ede6-11ef-9a8f-89acc4447d22",
+                    "nodeid": "8045cee6-ede6-11ef-9a8f-89acc4447d22",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "period",
+                    "config": {
+                        "controlledList": "36c03e12-351b-4bbd-a52b-9d09f4d4adc0",
+                        "en": "",
+                        "multiValue": true
+                    },
+                    "datatype": "reference",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Period",
+                    "nodegroup_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "nodeid": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "1db91156-c84e-4488-a62f-bc2f6947e064",
+            "publication": {
+                "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                "most_recent_edit_id": null,
+                "notes": "Migrated concept/concept-list nodes to reference datatype",
+                "publicationid": "1079d5dd-1363-4a87-a08b-0b85b27653d3",
+                "published_time": "2026-08-04T06:27:29.507"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "resource_instance_lifecycle": null,
+            "root": {
+                "alias": "period",
+                "config": {
+                    "controlledList": "36c03e12-351b-4bbd-a52b-9d09f4d4adc0",
+                    "en": "",
+                    "multiValue": true
+                },
+                "datatype": "reference",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "a967167c-609d-4dbe-bd33-728a810f0006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "is_immutable": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Period",
+                "nodegroup_id": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                "nodeid": "d68fe378-ede5-11ef-9a8f-89acc4447d22",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                "sortorder": 0,
+                "source_identifier_id": null,
+                "sourcebranchpublication_id": null
+            },
+            "slug": "period",
+            "source_identifier_id": null,
+            "spatial_views": [],
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "user_permissions": {},
+            "version": ""
+        }
+    ]
+}
