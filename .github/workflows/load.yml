@@ -1,0 +1,192 @@
+name: load
+
+# Loads this package into a fresh ManuSpectrum database, the way the
+# application's first installation does (setup_db, load_package, language
+# sync), then compares the database with expected-inventory.json through the
+# application's `manage.py check_pkg_inventory`. The application is checked out
+# from `app_ref`: the application's feat/production-platform branch by default
+# until the branch that adds `check_pkg_inventory` and the 3 workflow plugins
+# is merged there, then main (change APP_REF_DEFAULT and the dispatch default).
+# Before that merge this workflow is red on a pull request: run it once by hand
+# (Run workflow) with app_ref=feat/pkg-submodule and say so in the pull request.
+# Services run as pinned containers, the same images as the application's
+# Compose stack, with Elasticsearch security on as there.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "23 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      app_ref:
+        description: "Branch, tag or commit of the ManuSpectrum application"
+        default: feat/production-platform
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: load-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  APP_REPOSITORY: CRC-Centre-Recherche-Conservation/ManuSpectrum
+  APP_REF_DEFAULT: feat/production-platform
+  POSTGIS_IMAGE: postgis/postgis:17-3.5@sha256:01a6a70e41e6c4467c8f55f6063555ed72db2d6662cd0d571040d42eadaeb6f6
+  ELASTICSEARCH_IMAGE: elasticsearch:8.19.21@sha256:ae1f398ec8734a63eb7f719cecc2ea33e2bb46e23bdf24641dec86fd256bf594
+  REDIS_IMAGE: redis:8-alpine@sha256:3811787313eba226a2ef38658c6ccb91cd5e110edc89c37767de373120a0e5a0
+  UV_VERSION: "0.12.20"
+
+jobs:
+  load:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: bash
+        working-directory: app
+    env:
+      # The application's settings_docker module reads its whole configuration
+      # from the environment; none of these values is a secret except the
+      # generated ones below.
+      DJANGO_SETTINGS_MODULE: manuspectrum.settings_docker
+      DOMAIN_NAMES: manuspectrum.huma-num.fr
+      # Term identifiers of the lists are built on this address; the SKOS loader
+      # loses the sort order of every item when it differs from the package's.
+      PUBLIC_SERVER_ADDRESS: https://manuspectrum.huma-num.fr/
+      PGDBNAME: manuspectrum
+      PGUSERNAME: postgres
+      PGHOST: localhost
+      PGPORT: "5432"
+      ESHOST: localhost
+      ESPORT: "9200"
+      REDIS_BROKER_URL: redis://localhost:6379
+      REDIS_CACHE_URL: redis://localhost:6379
+      CANTALOUPE_HOST: localhost
+      CANTALOUPE_PORT: "8182"
+      CONTACT_EMAIL: ci@example.invalid
+      EMAIL_HOST: localhost
+      EMAIL_PORT: "25"
+      MS_LOG_FORMAT: text
+      PG_STATEMENT_TIMEOUT_MS: "0"
+      PG_IDLE_IN_TRANSACTION_TIMEOUT_MS: "0"
+      UV_PROJECT_ENVIRONMENT: ${{ github.workspace }}/venv
+      UV_CACHE_DIR: ${{ github.workspace }}/.uv-cache
+    steps:
+      - name: Check out the application
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: ${{ env.APP_REPOSITORY }}
+          ref: ${{ inputs.app_ref || env.APP_REF_DEFAULT }}
+          path: app
+          persist-credentials: false
+
+      - name: Check out this package into the application
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: app/pkg
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+
+      - name: Restore the uv cache
+        uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5.1.0
+        with:
+          path: ${{ env.UV_CACHE_DIR }}
+          key: uv-${{ runner.os }}-py3.11-${{ hashFiles('app/uv.lock') }}
+          restore-keys: uv-${{ runner.os }}-py3.11-
+
+      - name: System libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends build-essential libpq-dev libgdal-dev
+
+      - name: Python dependencies
+        run: |
+          python -m pip install "uv==$UV_VERSION"
+          uv sync --frozen --no-dev --group prod --no-install-project
+          echo "$UV_PROJECT_ENVIRONMENT/bin" >> "$GITHUB_PATH"
+
+      - name: Generated passwords
+        run: |
+          for name in PGPASSWORD ELASTIC_PASSWORD; do
+            value="$(openssl rand -hex 24)"
+            echo "::add-mask::$value"
+            echo "$name=$value" >> "$GITHUB_ENV"
+          done
+          key="$(openssl rand -hex 40)"
+          echo "::add-mask::$key"
+          echo "MANUSPECTRUM_SECRET_KEY=$key" >> "$GITHUB_ENV"
+
+      - name: Directories the settings expect
+        run: sudo install -d -o "$(id -u)" -g "$(id -g)" /srv/media /app/static
+
+      - name: Start PostgreSQL, Elasticsearch and Redis
+        run: |
+          docker run -d --name ms-postgres -p 5432:5432 \
+            -e POSTGRES_USER="$PGUSERNAME" -e POSTGRES_PASSWORD="$PGPASSWORD" \
+            -e POSTGRES_INITDB_ARGS="--encoding=UTF8 --locale=en_US.utf8" \
+            "$POSTGIS_IMAGE" postgres -c standard_conforming_strings=off
+          docker run -d --name ms-elasticsearch -p 9200:9200 \
+            -e discovery.type=single-node -e xpack.security.enabled=true \
+            -e xpack.security.http.ssl.enabled=false \
+            -e xpack.security.transport.ssl.enabled=false \
+            -e ES_JAVA_OPTS="-Xms1g -Xmx1g" -e ELASTIC_PASSWORD="$ELASTIC_PASSWORD" \
+            "$ELASTICSEARCH_IMAGE"
+          docker run -d --name ms-redis -p 6379:6379 "$REDIS_IMAGE"
+
+          for _ in $(seq 60); do
+            docker exec ms-postgres pg_isready -U "$PGUSERNAME" -d postgres && break
+            sleep 2
+          done
+          docker exec ms-postgres pg_isready -U "$PGUSERNAME" -d postgres
+
+          # template_postgis as Arches' ubuntu_setup.sh creates it; setup_db
+          # creates the application database from it.
+          docker exec -i ms-postgres psql -v ON_ERROR_STOP=1 -U "$PGUSERNAME" -d postgres <<'SQL'
+          CREATE DATABASE template_postgis TEMPLATE template0 ENCODING 'UTF8' LOCALE 'en_US.utf8';
+          UPDATE pg_database SET datistemplate = true WHERE datname = 'template_postgis';
+          \connect template_postgis
+          CREATE EXTENSION postgis;
+          CREATE EXTENSION "uuid-ossp";
+          GRANT ALL ON geometry_columns TO PUBLIC;
+          GRANT ALL ON geography_columns TO PUBLIC;
+          GRANT ALL ON spatial_ref_sys TO PUBLIC;
+          SQL
+
+          for _ in $(seq 90); do
+            curl -fsS -u "elastic:$ELASTIC_PASSWORD" \
+              "http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=5s" \
+              >/dev/null 2>&1 && break
+            sleep 2
+          done
+          curl -fsS -u "elastic:$ELASTIC_PASSWORD" \
+            "http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=5s" >/dev/null
+          docker exec ms-redis redis-cli ping
+
+      - name: Initialise the database (setup_db)
+        run: python manage.py setup_db --force
+
+      - name: Load the package
+        run: python manage.py packages -o load_package -s pkg -y
+
+      - name: Synchronise the languages
+        run: python manage.py i18n synclanguages
+
+      - name: Compare the database with expected-inventory.json
+        run: python manage.py check_pkg_inventory pkg/expected-inventory.json
+
+      - name: Service logs
+        if: failure()
+        working-directory: ${{ github.workspace }}
+        run: |
+          for name in ms-postgres ms-elasticsearch ms-redis; do
+            echo "::group::$name"
+            docker logs --tail 80 "$name" 2>&1 || true
+            echo "::endgroup::"
+          done
