@@ -34,7 +34,7 @@ concurrency:
 
 env:
   APP_REPOSITORY: CRC-Centre-Recherche-Conservation/ManuSpectrum
-  APP_REF_DEFAULT: feat/production-platform
+  APP_REF_DEFAULT: feat/pkg-submodule  # until the app PR merges; then feat/production-platform
   POSTGIS_IMAGE: postgis/postgis:17-3.5@sha256:01a6a70e41e6c4467c8f55f6063555ed72db2d6662cd0d571040d42eadaeb6f6
   ELASTICSEARCH_IMAGE: elasticsearch:8.19.21@sha256:ae1f398ec8734a63eb7f719cecc2ea33e2bb46e23bdf24641dec86fd256bf594
   REDIS_IMAGE: redis:8-alpine@sha256:3811787313eba226a2ef38658c6ccb91cd5e110edc89c37767de373120a0e5a0
