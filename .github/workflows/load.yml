@@ -68,6 +68,7 @@ jobs:
       CANTALOUPE_HOST: localhost
       CANTALOUPE_PORT: "8182"
       CONTACT_EMAIL: ci@example.invalid
+      DEFAULT_FROM_EMAIL: noreply@example.invalid
       EMAIL_HOST: localhost
       EMAIL_PORT: "25"
       MS_LOG_FORMAT: text
