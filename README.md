@@ -18,7 +18,7 @@ The data model and reference vocabularies of [ManuSpectrum](https://github.com/C
 | `system_settings`, `package_config.json` | project settings and relationship constraints |
 | `post_sql` | marks the lists as searchable after loading |
 | `expected-inventory.json` | counts and digests a correct load must reproduce |
-| `map_layers` | empty: the maps use Arches' own layers |
+| `map_layers` | empty: the basemap (OpenFreeMap Positron, no Mapbox) is installed by the application's migration 0013; the sprite and glyph URLs are in `system_settings/System_Settings.json` |
 
 ## Main models
 
