@@ -467,20 +467,10 @@
                 {
                     "card_id": "2e2dbac4-e7c2-45cd-a387-f2861c53d177",
                     "config": {
-                        "i18n_properties": [
-                            "url_label_placeholder",
-                            "url_placeholder"
-                        ],
+                        "entityType": "descriptor",
                         "label": "Concept URI",
                         "link_color": "#0055a0",
-                        "url_label_placeholder": {
-                            "en": "Dragon",
-                            "fr": "Dragon"
-                        },
-                        "url_placeholder": {
-                            "en": "https://data.biblissima.fr/entity/Q291430",
-                            "fr": "https://data.biblissima.fr/entity/Q291430"
-                        }
+                        "placeholder": ""
                     },
                     "id": "3d45f30e-7792-4571-af07-497f48d9746b",
                     "label": {
@@ -491,7 +481,7 @@
                     "sortorder": 0,
                     "source_identifier_id": null,
                     "visible": true,
-                    "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
+                    "widget_id": "29905551-a4a5-428c-bf82-2eb0ec464bab"
                 },
                 {
                     "card_id": "ec9d0387-3af5-4470-a341-287d32f26810",
