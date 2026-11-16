@@ -34,8 +34,8 @@ graph LR
   Analysis -->|belongs to| Project
   Analysis -->|uses| Instrument
   Sample -->|taken from| Component
-  Characterization -->|observes| Component
-  Characterization -->|evidence| Analysis
+  Interpretation -->|observes| Component
+  Interpretation -->|evidence| Analysis
   Alteration -->|alters| Component
   Modification -->|modifies| Document
   Person -->|member of| Group
