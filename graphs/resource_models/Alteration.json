@@ -225,8 +225,8 @@
                     "graph_id": "7554cd18-3cb9-4754-b5d2-a27631997385",
                     "helpenabled": true,
                     "helptext": {
-                        "en": "<p>The conclusion drawn from the observations. Write it in <strong>Inference making</strong> (required), e.g. <em>the darkening is consistent with the degradation of a lead-based pigment</em>, and rate it in <strong>Confidence</strong> (required): \u00ab Highly confidence \u00bb, \u00ab Good Confidence \u00bb, \u00ab Use with caution \u00bb or \u00ab Unsure \u00bb.</p><p>Give the <strong>Start Date</strong> (required) and <strong>End Date</strong> of the interpretation and its <strong>Authors of inference</strong>. In <strong>Influenced by Interpretation</strong> choose the other Alteration records the inference builds on. The supporting analyses go in the sub-cards.</p>",
-                        "fr": "<p>La conclusion tir\u00e9e des observations. R\u00e9digez-la dans <strong>\u00c9laboration d'inf\u00e9rence</strong> (obligatoire), ex. <em>l'assombrissement est compatible avec la d\u00e9gradation d'un pigment \u00e0 base de plomb</em>, et notez-la dans <strong>Fiabilit\u00e9</strong> (obligatoire) : \u00ab Highly confidence \u00bb, \u00ab Good Confidence \u00bb, \u00ab Use with caution \u00bb ou \u00ab Unsure \u00bb.</p><p>Indiquez la <strong>Date de d\u00e9but</strong> (obligatoire) et la <strong>Date de fin</strong> de l'interpr\u00e9tation, ainsi que les <strong>Auteurs de l'inf\u00e9rence</strong>. Dans <strong>Influenc\u00e9 par l'interpr\u00e9tation</strong>, choisissez les autres fiches Alt\u00e9ration sur lesquelles l'inf\u00e9rence s'appuie. Les analyses qui la soutiennent se saisissent dans les sous-cartes.</p>"
+                        "en": "<p>The conclusion drawn from the observations. Write it in <strong>Inference making</strong> (required), e.g. <em>the darkening is consistent with the degradation of a lead-based pigment</em>, and rate it in <strong>Confidence</strong> (required): \u00ab Highly confidence \u00bb, \u00ab Good Confidence \u00bb, \u00ab Use with caution \u00bb or \u00ab Unsure \u00bb.</p><p>Give the <strong>Start Date</strong> (required) and <strong>End Date</strong> of the interpretation and its <strong>Authors of inference</strong>. In <strong>Influenced by Alteration</strong> choose the other Alteration records the inference builds on. The supporting analyses go in the sub-cards.</p>",
+                        "fr": "<p>La conclusion tir\u00e9e des observations. R\u00e9digez-la dans <strong>\u00c9laboration d'inf\u00e9rence</strong> (obligatoire), ex. <em>l'assombrissement est compatible avec la d\u00e9gradation d'un pigment \u00e0 base de plomb</em>, et notez-la dans <strong>Fiabilit\u00e9</strong> (obligatoire) : \u00ab Highly confidence \u00bb, \u00ab Good Confidence \u00bb, \u00ab Use with caution \u00bb ou \u00ab Unsure \u00bb.</p><p>Indiquez la <strong>Date de d\u00e9but</strong> (obligatoire) et la <strong>Date de fin</strong> de l'interpr\u00e9tation, ainsi que les <strong>Auteurs de l'inf\u00e9rence</strong>. Dans <strong>Influenc\u00e9 par l'alt\u00e9ration</strong>, choisissez les autres fiches Alt\u00e9ration sur lesquelles l'inf\u00e9rence s'appuie. Les analyses qui la soutiennent se saisissent dans les sous-cartes.</p>"
                     },
                     "helptitle": {
                         "en": "Recording an inference",
@@ -459,15 +459,15 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Influenced by Interpretation",
+                        "label": "Influenced by Alteration",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "119058a7-f5a1-48a9-86f2-6695aa314a20",
                     "label": {
-                        "en": "Influenced by Interpretation",
-                        "fr": "Influenc\u00e9 par l'interpr\u00e9tation"
+                        "en": "Influenced by Alteration",
+                        "fr": "Influenc\u00e9 par l'alt\u00e9ration"
                     },
                     "node_id": "3a30d8d8-e882-11ef-9bfc-0debd0685137",
                     "sortorder": 1,
