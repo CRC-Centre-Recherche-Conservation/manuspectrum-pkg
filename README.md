@@ -78,7 +78,7 @@ No business data (resources, tiles, files), no accounts, no keys or passwords. T
 
 ## Credits and licence
 
-Original content: [CC BY 4.0](LICENSE). The controlled lists and ontologies build on third-party sources, each of which keeps its own licence: the Getty Art & Architecture Thesaurus (ODC-By 1.0), the INHA AGORHA thesauri (CC BY 4.0), the Frantiq PACTOLS thesaurus (ODbL 1.0), the Loterre periodic table of the elements (CC BY 4.0, Inist-CNRS), the Frollo TAPAC thesaurus of analysis techniques (no licence stated by its provider), and the CIDOC CRM 7.1.2, CRMsci, CRMtex and LRMoo ontologies (CC BY 4.0). Recommended citations, the lists derived from each source, licence links and the attribution texts that Getty and Frantiq ask for are in [NOTICE](NOTICE). Arches is AGPL-3.0 and is not included.
+Original content: [CC BY 4.0](LICENSE). The controlled lists and ontologies build on third-party sources, each of which keeps its own licence: the Getty Art & Architecture Thesaurus (ODC-By 1.0), the INHA AGORHA thesauri (CC BY 4.0), the Frantiq PACTOLS thesaurus (ODbL 1.0), the Loterre periodic table of the elements (CC BY 4.0, Inist-CNRS), the Frollo TAPAC thesaurus of analysis techniques (no licence stated by its provider), two single terms of the PaNET and CHMO ontologies used as item URIs (CC BY 4.0), and the CIDOC CRM 7.1.2, CRMsci, CRMtex and LRMoo ontologies (CC BY 4.0). Recommended citations, the lists derived from each source, licence links and the attribution texts that Getty and Frantiq ask for are in [NOTICE](NOTICE). Arches is AGPL-3.0 and is not included.
 
 ## Links
 
