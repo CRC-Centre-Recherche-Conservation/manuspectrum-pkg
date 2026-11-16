@@ -138,7 +138,10 @@ provider states no licence, this file says so and does not infer one.
   Both lists use the same thesaurus: the numeric identifiers of the eight
   sample-taking terms (for example 61042, 61044, 61045) and of the 317 TAPAC
   terms are all concepts of th12. A few concepts also carry AAT links
-  (see 1.1).
+  (see 1.1). Th12 has no term for X-ray fluorescence imaging: the project
+  added "X-ray fluorescence imaging" under "Fluorescence X" (61209), with
+  its macro and micro modes, worded by the project and linked to PaNET and
+  CHMO where a matching term exists (see 1.8).
 
 1.6 Registries named in "Identifier Sources"
 
@@ -157,6 +160,25 @@ provider states no licence, this file says so and does not infer one.
   emission lines; Sampling Type; Status Activity; Names type - Generic (the
   three AAT links excepted). These are licensed under CC BY 4.0 like the rest
   of the package.
+
+1.8 Ontologies linked by single terms (PaNET, CHMO)
+
+  Two items of "Frollo - Analysis and examination techniques (TAPAC)" use a
+  term of these ontologies as their URI. Labels and scope notes are the
+  project's own wording; no other content is copied.
+  - PaNET, The Photon and Neutron Experimental Techniques Ontology, v1.3.0,
+    https://pan-ontologies.github.io/PaNET/ , CC BY 4.0,
+    https://creativecommons.org/licenses/by/4.0/ .
+    Term: "scanning x-ray fluorescence",
+    http://purl.org/pan-science/PaNET/PaNET01288
+    (item "X-ray fluorescence imaging").
+  - CHMO, Chemical Methods Ontology, Royal Society of Chemistry, release
+    2026-05-27, https://github.com/rsc-ontology/rsc-cmo , CC BY 4.0,
+    http://creativecommons.org/licenses/by/4.0/ .
+    Term: "X-ray fluorescence microscopy",
+    http://purl.obolibrary.org/obo/CHMO_0002311
+    (item "micro X-ray fluorescence imaging").
+  Each consulted on 2026-11-16 through the TIB Terminology Service.
 
 
 2. ONTOLOGIES (ontologies/cidoc_crm)

@@ -1225,6 +1225,39 @@
     <skos:prefLabel xml:lang="en">Gandolfi camera X-ray diffraction</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">Diffraction X par chambre Gandolfi</skos:prefLabel>
   </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/50b2d86c-d084-4bdf-bcd7-127f16864653">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
+    <dcterms:identifier>http://purl.org/pan-science/PaNET/PaNET01288</dcterms:identifier>
+    <skos:altLabel xml:lang="en">XRF imaging</skos:altLabel>
+    <skos:altLabel xml:lang="en">XRF mapping</skos:altLabel>
+    <skos:altLabel xml:lang="en">scanning X-ray fluorescence</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Cartographie de fluorescence X</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Imagerie XRF</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/d35a8f0a-4fdd-3733-abbe-3e13e3ba5d26"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/5189fb62-73ce-4d90-a6e0-598b0628edde"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6dd471b3-e497-4ce1-b1bd-c0f69f709da3"/>
+    <skos:prefLabel xml:lang="en">X-ray fluorescence imaging</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Imagerie de fluorescence X</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">X-ray fluorescence measured point by point while the beam scans an area, giving maps of the distribution of chemical elements; each pixel holds a full XRF spectrum. Narrower terms name the scale of the scan.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Fluorescence X mesurée point par point pendant que le faisceau balaie une surface, pour obtenir des cartes de répartition des éléments chimiques ; chaque pixel porte un spectre XRF complet. Les termes spécifiques précisent l'échelle du balayage.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5189fb62-73ce-4d90-a6e0-598b0628edde">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/5189fb62-73ce-4d90-a6e0-598b0628edde</dcterms:identifier>
+    <skos:altLabel xml:lang="en">MA-XRF</skos:altLabel>
+    <skos:altLabel xml:lang="en">maXRF</skos:altLabel>
+    <skos:altLabel xml:lang="en">macro-XRF scanning</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Cartographie macro-XRF</skos:altLabel>
+    <skos:altLabel xml:lang="fr">MA-XRF</skos:altLabel>
+    <skos:altLabel xml:lang="fr">maXRF</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/50b2d86c-d084-4bdf-bcd7-127f16864653"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
+    <skos:prefLabel xml:lang="en">macro X-ray fluorescence imaging</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Imagerie de macro-fluorescence X</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">X-ray fluorescence imaging at the macroscopic scale: a beam of some tens to hundreds of micrometres scans a whole page, painting or object, without contact or sampling, giving elemental maps of large areas.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Imagerie de fluorescence X à l'échelle macroscopique : un faisceau de quelques dizaines à quelques centaines de micromètres balaie une page, une peinture ou un objet entier, sans contact ni prélèvement, et donne des cartes élémentaires de grandes surfaces.</skos:scopeNote>
+  </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/51b206c9-6b8f-3984-8223-a4c0a989b6d8">
     <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</arches:sortorder>
     <dcterms:identifier>https://ark.notre-dame.science/ark:/35572/ndpxst1p1q3m280fvgrfq2r</dcterms:identifier>
@@ -1708,6 +1741,20 @@
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
     <skos:prefLabel xml:lang="en">acoustic holography</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">Holographie acoustique</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6dd471b3-e497-4ce1-b1bd-c0f69f709da3">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <dcterms:identifier>http://purl.obolibrary.org/obo/CHMO_0002311</dcterms:identifier>
+    <skos:altLabel xml:lang="en">X-ray fluorescence microscopy</skos:altLabel>
+    <skos:altLabel xml:lang="en">µXRF mapping</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Cartographie µXRF</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Microscopie de fluorescence X</skos:altLabel>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/50b2d86c-d084-4bdf-bcd7-127f16864653"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
+    <skos:prefLabel xml:lang="en">micro X-ray fluorescence imaging</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Imagerie de microfluorescence X</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">X-ray fluorescence imaging with a beam focused to a few to some tens of micrometres (polycapillary optics or synchrotron), giving elemental maps of small areas at microscopic resolution.</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Imagerie de fluorescence X avec un faisceau focalisé à quelques micromètres ou dizaines de micromètres (optique polycapillaire ou synchrotron), qui donne des cartes élémentaires de petites surfaces à résolution microscopique.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6f663b4f-a7a4-3503-9fd4-3b87fed47b48">
     <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
@@ -2811,6 +2858,7 @@
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/12ddaa76-d0e6-38f2-a34d-b566f979ad4b"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/499a30a8-d3fe-3ea7-a49a-07d4755b216d"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/50b2d86c-d084-4bdf-bcd7-127f16864653"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/59367393-f619-3994-a359-b73e3d7e1184"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/6d4ff657-5ac1-3a73-a8f9-06fe71e13cb0"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/9b85c40c-132d-3664-a869-e62fae06aa10"/>
