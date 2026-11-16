@@ -442,8 +442,8 @@
                     "graph_id": "60c85aba-f079-45bc-997f-21cdd4f77b6d",
                     "helpenabled": true,
                     "helptext": {
-                        "en": "<p>One entry per text about the analysis, written in <strong>Content</strong> and classed by <strong>Type</strong>: \u00ab instrument settings \u00bb or \u00ab configuration \u00bb for the acquisition parameters (e.g. the step size and the dwell time of a mapping), \u00ab methodology \u00bb, \u00ab conditions \u00bb or \u00ab note \u00bb for the rest. Pick a Type so that the statements can be told apart; the content is stored as formatted text.</p><p>Give the <strong>Language</strong> of the text when it matters and, in <strong>source</strong>, the URL of the document it comes from, if any. Identified materials are not recorded here but as Characterization records.</p>",
-                        "fr": "<p>Une entr\u00e9e par texte sur l'analyse, r\u00e9dig\u00e9 dans <strong>Contenu</strong> et class\u00e9 par <strong>Type</strong> : \u00ab param\u00e8tres instrumentaux \u00bb ou \u00ab configuration \u00bb pour les param\u00e8tres d'acquisition (ex. le pas et le temps d'int\u00e9gration d'une cartographie), \u00ab m\u00e9thodologie \u00bb, \u00ab conditions \u00bb ou \u00ab note \u00bb pour le reste. Choisissez un Type pour distinguer les d\u00e9clarations ; le contenu est conserv\u00e9 en texte mis en forme.</p><p>Indiquez la <strong>Langue</strong> du texte quand elle compte et, dans <strong>source</strong>, l'URL du document dont il provient, le cas \u00e9ch\u00e9ant. Les mat\u00e9riaux identifi\u00e9s ne se saisissent pas ici mais dans des fiches Caract\u00e9risation.</p>"
+                        "en": "<p>One entry per text about the analysis, written in <strong>Content</strong> and classed by <strong>Type</strong>: \u00ab instrument settings \u00bb or \u00ab configuration \u00bb for the acquisition parameters (e.g. the step size and the dwell time of a mapping), \u00ab methodology \u00bb, \u00ab conditions \u00bb or \u00ab note \u00bb for the rest. Pick a Type so that the statements can be told apart; the content is stored as formatted text.</p><p>Give the <strong>Language</strong> of the text when it matters and, in <strong>source</strong>, the URL of the document it comes from, if any. Identified materials are not recorded here but as Interpretation records.</p>",
+                        "fr": "<p>Une entr\u00e9e par texte sur l'analyse, r\u00e9dig\u00e9 dans <strong>Contenu</strong> et class\u00e9 par <strong>Type</strong> : \u00ab param\u00e8tres instrumentaux \u00bb ou \u00ab configuration \u00bb pour les param\u00e8tres d'acquisition (ex. le pas et le temps d'int\u00e9gration d'une cartographie), \u00ab m\u00e9thodologie \u00bb, \u00ab conditions \u00bb ou \u00ab note \u00bb pour le reste. Choisissez un Type pour distinguer les d\u00e9clarations ; le contenu est conserv\u00e9 en texte mis en forme.</p><p>Indiquez la <strong>Langue</strong> du texte quand elle compte et, dans <strong>source</strong>, l'URL du document dont il provient, le cas \u00e9ch\u00e9ant. Les mat\u00e9riaux identifi\u00e9s ne se saisissent pas ici mais dans des fiches Interpr\u00e9tation.</p>"
                     },
                     "helptitle": {
                         "en": "Writing a statement",
@@ -2917,8 +2917,8 @@
                                 ],
                                 "key": "characterizations",
                                 "label": {
-                                    "en": "Characterizations",
-                                    "fr": "Caract\u00e9risations"
+                                    "en": "Interpretations",
+                                    "fr": "Interpr\u00e9tations"
                                 },
                                 "max_related": 200,
                                 "path": [

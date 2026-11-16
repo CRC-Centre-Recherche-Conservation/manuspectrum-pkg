@@ -40,23 +40,23 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "characterizations that observed the modification",
+                    "description": "interpretations that observed the modification",
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
                     "helpenabled": true,
                     "helptext": {
-                        "en": "<p>In <strong>Characterisation</strong>, choose the Characterization records that observed this modification, e.g. one identifying a pigment that did not exist when the document was made.</p><p>Create the Characterization records first; the link is entered from this side.</p>",
-                        "fr": "<p>Dans <strong>Caract\u00e9risation</strong>, choisissez les fiches Caract\u00e9risation qui ont observ\u00e9 cette modification, ex. l'une identifiant un pigment qui n'existait pas \u00e0 la cr\u00e9ation du document.</p><p>Cr\u00e9ez d'abord les fiches Caract\u00e9risation ; le lien se saisit de ce c\u00f4t\u00e9.</p>"
+                        "en": "<p>In <strong>Interpretation</strong>, choose the Interpretation records that observed this modification, e.g. one identifying a pigment that did not exist when the document was made.</p><p>Create the Interpretation records first; the link is entered from this side.</p>",
+                        "fr": "<p>Dans <strong>Interpr\u00e9tation</strong>, choisissez les fiches Interpr\u00e9tation qui ont observ\u00e9 cette modification, ex. l'une identifiant un pigment qui n'existait pas \u00e0 la cr\u00e9ation du document.</p><p>Cr\u00e9ez d'abord les fiches Interpr\u00e9tation ; le lien se saisit de ce c\u00f4t\u00e9.</p>"
                     },
                     "helptitle": {
-                        "en": "Characterizations of the modification",
-                        "fr": "Caract\u00e9risations de la modification"
+                        "en": "Interpretations of the modification",
+                        "fr": "Interpr\u00e9tations de la modification"
                     },
                     "instructions": {
                         "en": ""
                     },
                     "name": {
-                        "en": "Observed by Characterisation",
-                        "fr": "Observ\u00e9 par la caract\u00e9risation"
+                        "en": "Observed by Interpretation",
+                        "fr": "Observ\u00e9 par l'interpr\u00e9tation"
                     },
                     "nodegroup_id": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
                     "sortorder": 9,
@@ -483,15 +483,15 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Characterisation",
+                        "label": "Interpretation",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "41950f7d-920d-4ed3-8c2b-0eaa6956f480",
                     "label": {
-                        "en": "Characterisation",
-                        "fr": "Caract\u00e9risation"
+                        "en": "Interpretation",
+                        "fr": "Interpr\u00e9tation"
                     },
                     "node_id": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
                     "sortorder": 0,
@@ -2546,7 +2546,7 @@
                             {
                                 "graphid": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
                                 "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
-                                "name": "Characterization",
+                                "name": "Interpretation",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
                                 "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "useOntologyRelationship": false
@@ -2556,7 +2556,7 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance-list",
-                    "description": "characterizations that observed the modification",
+                    "description": "interpretations that observed the modification",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "bfe5ab65-67ed-44b1-a5f8-301a614e625f",
@@ -2566,7 +2566,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Observed by Characterisation",
+                    "name": "Observed by Interpretation",
                     "nodegroup_id": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
                     "nodeid": "a17232a6-ae50-11ef-8dd2-3b6c98a10134",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S4_Observation",

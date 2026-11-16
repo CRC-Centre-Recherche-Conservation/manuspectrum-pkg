@@ -48,15 +48,15 @@
                         "fr": "La relation inverse n'est pas cr\u00e9\u00e9e automatiquement : si A est au-dessus de B, saisissez \u00ab En dessous de \u00bb sur B. Il en va de m\u00eame pour \u00ab Confirme \u00bb, \u00ab Contredit \u00bb, \u00ab M\u00eame mat\u00e9riau ailleurs \u00bb et \u00ab M\u00e9lange ou superposition (incertain) \u00bb : saisissez-les sur chaque fiche concern\u00e9e."
                     },
                     "helptitle": {
-                        "en": "Correlated characterizations",
-                        "fr": "Caract\u00e9risations corr\u00e9l\u00e9es"
+                        "en": "Correlated interpretations",
+                        "fr": "Interpr\u00e9tations corr\u00e9l\u00e9es"
                     },
                     "instructions": {
                         "en": ""
                     },
                     "name": {
-                        "en": "Correlated characterizations",
-                        "fr": "Caract\u00e9risations corr\u00e9l\u00e9es"
+                        "en": "Correlated interpretations",
+                        "fr": "Interpr\u00e9tations corr\u00e9l\u00e9es"
                     },
                     "nodegroup_id": "356421be-3179-4baf-8931-e1c84adf3104",
                     "sortorder": 6,
@@ -105,8 +105,8 @@
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
                     "helpenabled": true,
                     "helptext": {
-                        "en": "<p>One entry per text about the characterization, written in <strong>Content</strong> and classed by <strong>Type</strong>: \u00ab hypothesis \u00bb, \u00ab note \u00bb, \u00ab scientific analysis \u00bb\u2026 E.g. type \u00ab hypothesis \u00bb: <em>the layer could be a mixture, to be checked with a second technique</em>.</p><p>Give the <strong>Language</strong> of the text when it matters and, in <strong>Source</strong>, the URL of the document it comes from, if any. The main explanation of the identification goes in \u00ab Inference Making \u00bb.</p>",
-                        "fr": "<p>Une entr\u00e9e par texte sur la caract\u00e9risation, r\u00e9dig\u00e9 dans <strong>Contenu</strong> et class\u00e9 par <strong>Type</strong> : \u00ab hypoth\u00e8se \u00bb, \u00ab note \u00bb, \u00ab analyse scientifique \u00bb\u2026 Ex. type \u00ab hypoth\u00e8se \u00bb : <em>la couche pourrait \u00eatre un m\u00e9lange, \u00e0 v\u00e9rifier avec une seconde technique</em>.</p><p>Indiquez la <strong>Langue</strong> du texte quand elle compte et, dans <strong>Source</strong>, l'URL du document dont il provient, le cas \u00e9ch\u00e9ant. L'explication principale de l'identification se saisit dans \u00ab Inf\u00e9rence \u00bb.</p>"
+                        "en": "<p>One entry per text about the interpretation, written in <strong>Content</strong> and classed by <strong>Type</strong>: \u00ab hypothesis \u00bb, \u00ab note \u00bb, \u00ab scientific analysis \u00bb\u2026 E.g. type \u00ab hypothesis \u00bb: <em>the layer could be a mixture, to be checked with a second technique</em>.</p><p>Give the <strong>Language</strong> of the text when it matters and, in <strong>Source</strong>, the URL of the document it comes from, if any. The main explanation of the identification goes in \u00ab Inference Making \u00bb.</p>",
+                        "fr": "<p>Une entr\u00e9e par texte sur l'interpr\u00e9tation, r\u00e9dig\u00e9 dans <strong>Contenu</strong> et class\u00e9 par <strong>Type</strong> : \u00ab hypoth\u00e8se \u00bb, \u00ab note \u00bb, \u00ab analyse scientifique \u00bb\u2026 Ex. type \u00ab hypoth\u00e8se \u00bb : <em>la couche pourrait \u00eatre un m\u00e9lange, \u00e0 v\u00e9rifier avec une seconde technique</em>.</p><p>Indiquez la <strong>Langue</strong> du texte quand elle compte et, dans <strong>Source</strong>, l'URL du document dont il provient, le cas \u00e9ch\u00e9ant. L'explication principale de l'identification se saisit dans \u00ab Inf\u00e9rence \u00bb.</p>"
                     },
                     "helptitle": {
                         "en": "Writing a statement",
@@ -165,12 +165,12 @@
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
                     "helpenabled": true,
                     "helptext": {
-                        "en": "<p>In <strong>Layer type</strong>, choose the layer of the object that the materials below belong to: \u00ab Colored layer \u00bb for a pigment or a dye, \u00ab Preparatory layer \u00bb for a ground, \u00ab Script \u00bb for an ink, \u00ab Support \u00bb for the parchment, \u00ab Non-painted layer \u00bb for a layer that is not paint, \u00ab Auxiliary device \u00bb for an auxiliary device.</p><p>One layer per Characterization: if two layers were identified, create two records and link them in \u00ab Correlated characterizations \u00bb. Choose \u00ab Decoration \u00bb or its child \u00ab Decorative book \u00bb only when none of the other items fits.</p>",
-                        "fr": "<p>Dans <strong>Type de couche</strong>, choisissez la couche de l'objet \u00e0 laquelle appartiennent les mat\u00e9riaux ci-dessous : \u00ab Couche color\u00e9e \u00bb pour un pigment ou un colorant, \u00ab Couche pr\u00e9paratoire \u00bb pour une pr\u00e9paration, \u00ab \u00c9criture \u00bb pour une encre, \u00ab Support \u00bb pour le parchemin, \u00ab Couche non-peinte \u00bb pour une couche qui n'est pas de la peinture, \u00ab Dispositif annexe \u00bb pour un dispositif annexe.</p><p>Une couche par Caract\u00e9risation : si deux couches ont \u00e9t\u00e9 identifi\u00e9es, cr\u00e9ez deux fiches et reliez-les dans \u00ab Caract\u00e9risations corr\u00e9l\u00e9es \u00bb. Ne choisissez \u00ab D\u00e9cor \u00bb ou son enfant \u00ab D\u00e9cor d'ouvrage \u00bb que si aucun autre \u00e9l\u00e9ment ne convient.</p>"
+                        "en": "<p>In <strong>Layer type</strong>, choose the layer of the object that the materials below belong to: \u00ab Colored layer \u00bb for a pigment or a dye, \u00ab Preparatory layer \u00bb for a ground, \u00ab Script \u00bb for an ink, \u00ab Support \u00bb for the parchment, \u00ab Non-painted layer \u00bb for a layer that is not paint, \u00ab Auxiliary device \u00bb for an auxiliary device.</p><p>One layer per Interpretation: if two layers were identified, create two records and link them in \u00ab Correlated interpretations \u00bb. Choose \u00ab Decoration \u00bb or its child \u00ab Decorative book \u00bb only when none of the other items fits.</p>",
+                        "fr": "<p>Dans <strong>Type de couche</strong>, choisissez la couche de l'objet \u00e0 laquelle appartiennent les mat\u00e9riaux ci-dessous : \u00ab Couche color\u00e9e \u00bb pour un pigment ou un colorant, \u00ab Couche pr\u00e9paratoire \u00bb pour une pr\u00e9paration, \u00ab \u00c9criture \u00bb pour une encre, \u00ab Support \u00bb pour le parchemin, \u00ab Couche non-peinte \u00bb pour une couche qui n'est pas de la peinture, \u00ab Dispositif annexe \u00bb pour un dispositif annexe.</p><p>Une couche par Interpr\u00e9tation : si deux couches ont \u00e9t\u00e9 identifi\u00e9es, cr\u00e9ez deux fiches et reliez-les dans \u00ab Interpr\u00e9tations corr\u00e9l\u00e9es \u00bb. Ne choisissez \u00ab D\u00e9cor \u00bb ou son enfant \u00ab D\u00e9cor d'ouvrage \u00bb que si aucun autre \u00e9l\u00e9ment ne convient.</p>"
                     },
                     "helptitle": {
-                        "en": "Which layer is characterized",
-                        "fr": "Quelle couche est caract\u00e9ris\u00e9e"
+                        "en": "Which layer is interpreted",
+                        "fr": "Quelle couche est interpr\u00e9t\u00e9e"
                     },
                     "instructions": {
                         "en": ""
@@ -193,16 +193,16 @@
                     },
                     "constraints": [],
                     "cssclass": null,
-                    "description": "component whose layer is characterized",
+                    "description": "component whose layer is interpreted",
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
                     "helpenabled": true,
                     "helptext": {
-                        "en": "<p>In <strong>Object observed</strong>, choose the Component the characterization is about, e.g. an initial. In <strong>Color aspect</strong>, choose the colour of the layer as it appears today, among Silvery, Beige, White, Blue, Brown, Coppery, Golden, Grey, Yellow, Black, Orange, Pink, Red, Green and Violet; several colours are allowed. <strong>Origin color</strong> is free text for the original colour, if known.</p><p>In <strong>Location of characterization</strong>, draw the zone on the image and name it in <strong>Location appellation</strong>, e.g. <code>red area of the initial</code>. The colour you choose is also what visitors filter on.</p>",
-                        "fr": "<p>Dans <strong>Objet observ\u00e9</strong>, choisissez le Composant sur lequel porte la caract\u00e9risation, ex. une initiale. Dans <strong>Aspect de la couleur</strong>, choisissez la couleur de la couche telle qu'elle appara\u00eet aujourd'hui, parmi Argent\u00e9, Beige, Blanc, Bleu, Brun, Cuivr\u00e9, Dor\u00e9, Gris, Jaune, Noir, Orange, Rose, Rouge, Vert et Violet ; plusieurs couleurs sont possibles. <strong>Couleur d'origine</strong> est un texte libre pour la couleur d'origine, si elle est connue.</p><p>Dans <strong>Localisation de la caract\u00e9risation</strong>, dessinez la zone sur l'image et nommez-la dans <strong>Appellation de la localisation</strong>, ex. <code>zone rouge de l'initiale</code>. La couleur choisie est aussi celle sur laquelle les visiteurs filtrent.</p>"
+                        "en": "<p>In <strong>Object observed</strong>, choose the Component the interpretation is about, e.g. an initial. In <strong>Color aspect</strong>, choose the colour of the layer as it appears today, among Silvery, Beige, White, Blue, Brown, Coppery, Golden, Grey, Yellow, Black, Orange, Pink, Red, Green and Violet; several colours are allowed. <strong>Origin color</strong> is free text for the original colour, if known.</p><p>In <strong>Location of interpretation</strong>, draw the zone on the image and name it in <strong>Location appellation</strong>, e.g. <code>red area of the initial</code>. The colour you choose is also what visitors filter on.</p>",
+                        "fr": "<p>Dans <strong>Objet observ\u00e9</strong>, choisissez le Composant sur lequel porte l'interpr\u00e9tation, ex. une initiale. Dans <strong>Aspect de la couleur</strong>, choisissez la couleur de la couche telle qu'elle appara\u00eet aujourd'hui, parmi Argent\u00e9, Beige, Blanc, Bleu, Brun, Cuivr\u00e9, Dor\u00e9, Gris, Jaune, Noir, Orange, Rose, Rouge, Vert et Violet ; plusieurs couleurs sont possibles. <strong>Couleur d'origine</strong> est un texte libre pour la couleur d'origine, si elle est connue.</p><p>Dans <strong>Localisation de l'interpr\u00e9tation</strong>, dessinez la zone sur l'image et nommez-la dans <strong>Appellation de la localisation</strong>, ex. <code>zone rouge de l'initiale</code>. La couleur choisie est aussi celle sur laquelle les visiteurs filtrent.</p>"
                     },
                     "helptitle": {
-                        "en": "What was characterized, and where",
-                        "fr": "Ce qui est caract\u00e9ris\u00e9, et o\u00f9"
+                        "en": "What was interpreted, and where",
+                        "fr": "Ce qui est interpr\u00e9t\u00e9, et o\u00f9"
                     },
                     "instructions": {
                         "en": ""
@@ -257,12 +257,12 @@
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
                     "helpenabled": true,
                     "helptext": {
-                        "en": "<p>The <strong>Label</strong> is the name shown in search results and on the public site, so it must read alone. Recommended form, like the Analysis and Component names: the materials, the zone and folio, then the shelfmark of the document, with a plain hyphen between these three parts, in the form <code>&lt;materials&gt; - &lt;zone&gt; &lt;folio&gt; - &lt;shelfmark&gt;</code> (the layer is not part of the name; the zone and the folio are joined by a space, without hyphen).</p><p>Set <strong>Type</strong> to \u00ab preferred terms \u00bb for the main name; give its <strong>Language</strong> when you add the name in several languages. In <strong>Source</strong>, you may cite a record that names the characterization this way.</p>",
-                        "fr": "<p>Le <strong>Libell\u00e9</strong> est le nom affich\u00e9 dans les r\u00e9sultats de recherche et sur le site public : il doit se lire seul. Forme recommand\u00e9e, comme pour les noms d'analyses et de composants : les mat\u00e9riaux, la zone et le folio, puis la cote du document, avec un trait d'union simple entre ces trois parties, sous la forme <code>&lt;mat\u00e9riaux&gt; - &lt;zone&gt; &lt;folio&gt; - &lt;cote&gt;</code> (la couche ne fait pas partie du nom ; la zone et le folio sont joints par une espace, sans trait d'union).</p><p>Choisissez le <strong>Type</strong> \u00ab termes pr\u00e9f\u00e9rentiels \u00bb pour le nom principal ; indiquez sa <strong>Langue</strong> si vous ajoutez le nom en plusieurs langues. Dans <strong>Source</strong>, vous pouvez citer une fiche qui nomme ainsi la caract\u00e9risation.</p>"
+                        "en": "<p>The <strong>Label</strong> is the name shown in search results and on the public site, so it must read alone. Recommended form, like the Analysis and Component names: the materials, the zone and folio, then the shelfmark of the document, with a plain hyphen between these three parts, in the form <code>&lt;materials&gt; - &lt;zone&gt; &lt;folio&gt; - &lt;shelfmark&gt;</code> (the layer is not part of the name; the zone and the folio are joined by a space, without hyphen).</p><p>Set <strong>Type</strong> to \u00ab preferred terms \u00bb for the main name; give its <strong>Language</strong> when you add the name in several languages. In <strong>Source</strong>, you may cite a record that names the interpretation this way.</p>",
+                        "fr": "<p>Le <strong>Libell\u00e9</strong> est le nom affich\u00e9 dans les r\u00e9sultats de recherche et sur le site public : il doit se lire seul. Forme recommand\u00e9e, comme pour les noms d'analyses et de composants : les mat\u00e9riaux, la zone et le folio, puis la cote du document, avec un trait d'union simple entre ces trois parties, sous la forme <code>&lt;mat\u00e9riaux&gt; - &lt;zone&gt; &lt;folio&gt; - &lt;cote&gt;</code> (la couche ne fait pas partie du nom ; la zone et le folio sont joints par une espace, sans trait d'union).</p><p>Choisissez le <strong>Type</strong> \u00ab termes pr\u00e9f\u00e9rentiels \u00bb pour le nom principal ; indiquez sa <strong>Langue</strong> si vous ajoutez le nom en plusieurs langues. Dans <strong>Source</strong>, vous pouvez citer une fiche qui nomme ainsi l'interpr\u00e9tation.</p>"
                     },
                     "helptitle": {
-                        "en": "Naming the characterization",
-                        "fr": "Nommer la caract\u00e9risation"
+                        "en": "Naming the interpretation",
+                        "fr": "Nommer l'interpr\u00e9tation"
                     },
                     "instructions": {
                         "en": ""
@@ -306,12 +306,12 @@
                     "card_id": "56844cbd-af14-451a-bc46-e298bb566c43",
                     "config": {
                         "defaultManifest": "",
-                        "label": "Location of characterization"
+                        "label": "Location of interpretation"
                     },
                     "id": "2936f6e9-2152-4591-87bf-6c814366d6a8",
                     "label": {
-                        "en": "Location of characterization",
-                        "fr": "Localisation de la caract\u00e9risation"
+                        "en": "Location of interpretation",
+                        "fr": "Localisation de l'interpr\u00e9tation"
                     },
                     "node_id": "6aeb32e4-e88b-11ef-9bfc-0debd0685137",
                     "sortorder": 3,
@@ -715,15 +715,15 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Characterization",
+                        "label": "Interpretation",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "67885820-2cdf-423f-b386-71a2c11ec146",
                     "label": {
-                        "en": "Characterization",
-                        "fr": "Caract\u00e9risation"
+                        "en": "Interpretation",
+                        "fr": "Interpr\u00e9tation"
                     },
                     "node_id": "8b2d52f4-ffd7-4058-aae1-ca8639aadf64",
                     "sortorder": 0,
@@ -1139,8 +1139,8 @@
             "deploymentdate": null,
             "deploymentfile": null,
             "description": {
-                "en": "Characterization involves linking one or more analyses with the object under study to determine its physical nature.",
-                "fr": "La caract\u00e9risation consiste \u00e0 relier une ou plusieurs analyses \u00e0 l'objet \u00e9tudi\u00e9 afin de d\u00e9terminer sa nature physique."
+                "en": "An interpretation links one or more analyses with the object under study to determine its physical nature.",
+                "fr": "Une interpr\u00e9tation relie une ou plusieurs analyses \u00e0 l'objet \u00e9tudi\u00e9 afin d'en d\u00e9terminer la nature physique."
             },
             "edges": [
                 {
@@ -1658,8 +1658,8 @@
             "isresource": true,
             "jsonldcontext": "https://cidoc-crm.org/rdfs/7.1.2/CIDOC_CRM_v7.1.2_JSON-LD_Context.jsonld",
             "name": {
-                "en": "Characterization",
-                "fr": "Caract\u00e9risation"
+                "en": "Interpretation",
+                "fr": "Interpr\u00e9tation"
             },
             "nodegroups": [
                 {
@@ -1910,7 +1910,7 @@
                         "multiValue": true
                     },
                     "datatype": "reference",
-                    "description": "colour of the characterized layer as it appears today",
+                    "description": "colour of the interpreted layer as it appears today",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
@@ -2236,7 +2236,7 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance-list",
-                    "description": "component whose layer is characterized",
+                    "description": "component whose layer is interpreted",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
@@ -2337,7 +2337,7 @@
                         "en": ""
                     },
                     "datatype": "annotation",
-                    "description": "zone characterized, drawn on the document's IIIF image",
+                    "description": "zone interpreted, drawn on the document's IIIF image",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
@@ -2347,7 +2347,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Location of characterization",
+                    "name": "Location of interpretation",
                     "nodegroup_id": "578055de-dff0-11ef-9c84-1b2112637e89",
                     "nodeid": "6aeb32e4-e88b-11ef-9bfc-0debd0685137",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S23_Position_Determination",
@@ -2388,7 +2388,7 @@
                         "multiValue": false
                     },
                     "datatype": "reference",
-                    "description": "layer of the object characterized (colored layer, preparatory layer, script, support\u2026)",
+                    "description": "layer of the object interpreted (colored layer, preparatory layer, script, support\u2026)",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
@@ -2414,7 +2414,7 @@
                             {
                                 "graphid": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
                                 "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
-                                "name": "Characterization",
+                                "name": "Interpretation",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
                                 "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "useOntologyRelationship": false
@@ -2424,7 +2424,7 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance",
-                    "description": "other characterization this one is related to",
+                    "description": "other interpretation this one is related to",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
@@ -2434,7 +2434,7 @@
                     "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Correlated characterization",
+                    "name": "Correlated interpretation",
                     "nodegroup_id": "356421be-3179-4baf-8931-e1c84adf3104",
                     "nodeid": "8b2d52f4-ffd7-4058-aae1-ca8639aadf64",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S4_Observation",
@@ -2500,7 +2500,7 @@
                         "en": ""
                     },
                     "datatype": "string",
-                    "description": "name by which the characterization is known, in the form <materials> - <zone> <folio> - <shelfmark>",
+                    "description": "name by which the interpretation is known, in the form <materials> - <zone> <folio> - <shelfmark>",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
@@ -2553,7 +2553,7 @@
                         "searchString": ""
                     },
                     "datatype": "resource-instance-list",
-                    "description": "record that names the characterization this way",
+                    "description": "record that names the interpretation this way",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "af6eed4f-04a3-40d8-baef-1ad37b86c4dd",
@@ -2767,7 +2767,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
-                    "name": "Characterization",
+                    "name": "Interpretation",
                     "nodegroup_id": null,
                     "nodeid": "e0e186c4-825b-11ef-8a8f-d17c22436c2e",
                     "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S4_Observation",
@@ -2916,7 +2916,7 @@
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
-                "name": "Characterization",
+                "name": "Interpretation",
                 "nodegroup_id": null,
                 "nodeid": "e0e186c4-825b-11ef-8a8f-d17c22436c2e",
                 "ontologyclass": "http://www.cidoc-crm.org/extensions/crmsci/S4_Observation",
@@ -2928,8 +2928,8 @@
             "source_identifier_id": null,
             "spatial_views": [],
             "subtitle": {
-                "en": "Material characterization of a component",
-                "fr": "Material characterization of a component"
+                "en": "Interpretation of the materials of a component",
+                "fr": "Interpr\u00e9tation des mat\u00e9riaux d'un composant"
             },
             "template_id": "50000000-0000-0000-0000-000000000004",
             "user_permissions": {},
