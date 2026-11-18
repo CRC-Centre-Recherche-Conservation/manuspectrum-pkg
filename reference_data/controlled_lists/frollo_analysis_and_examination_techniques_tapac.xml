@@ -1982,10 +1982,14 @@
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f793df7-6d0d-4f50-8bd7-01e8635bbc01">
     <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/7f793df7-6d0d-4f50-8bd7-01e8635bbc01</dcterms:identifier>
+    <skos:altLabel xml:lang="en">SWIR HSI</skos:altLabel>
+    <skos:altLabel xml:lang="fr">HSI SWIR</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ee7a5330-e73a-492e-a695-5e1d2d566827"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
     <skos:prefLabel xml:lang="en">hyperspectral imaging SWIR</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">imagerie hyperspectrale SWIR</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Hyperspectral imaging over ~1000-2500 nm (short-wave infrared)</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Imagerie hyperspectrale sur la plage ~1000-2500 nm (infrarouge à ondes courtes)</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f82d1b9-d04c-3aed-90d1-49f47eb41abb">
     <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</arches:sortorder>
@@ -2074,6 +2078,16 @@
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
     <skos:prefLabel xml:lang="en">gamma radiography</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">Gammagraphie</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/85a560e7-7e60-4a75-80ff-29cf5c9ca004">
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/85a560e7-7e60-4a75-80ff-29cf5c9ca004</dcterms:identifier>
+    <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ee7a5330-e73a-492e-a695-5e1d2d566827"/>
+    <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
+    <skos:prefLabel xml:lang="en">hyperspectral imaging VIS</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">imagerie hyperspectrale VIS</skos:prefLabel>
+    <skos:scopeNote xml:lang="fr">Hyperspectral imaging restricted to the visible range (~400-700 nm)</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Imagerie hyperspectrale limitée à la plage visible (~400-700 nm)</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/86838fae-a04c-307c-80a7-7f4f7a11faa9">
     <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
@@ -2568,10 +2582,14 @@
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b465ecfa-5640-45bb-998e-248792e599ac">
     <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/b465ecfa-5640-45bb-998e-248792e599ac</dcterms:identifier>
+    <skos:altLabel xml:lang="en">VNIR HSI</skos:altLabel>
+    <skos:altLabel xml:lang="fr">HSI VNIR</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/ee7a5330-e73a-492e-a695-5e1d2d566827"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
-    <skos:prefLabel xml:lang="en">hyperspectral imaging VIS</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">imagerie hyperspectrale VIS</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">hyperspectral imaging VNIR</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">imagerie hyperspectrale VNIR</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Hyperspectral imaging over ~400-1000 nm (visible and near-infrared)</skos:scopeNote>
+    <skos:scopeNote xml:lang="fr">Imagerie hyperspectrale sur la plage ~400-1000 nm (visible et proche infrarouge)</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b7205f8d-08a9-37db-8539-de3704c84d0e">
     <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
@@ -3129,6 +3147,7 @@
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/8065fc1a-68b3-370b-bf58-6706fd35700e"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/12dc9a7b-b177-450a-a927-711fa7882882"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7f793df7-6d0d-4f50-8bd7-01e8635bbc01"/>
+    <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/85a560e7-7e60-4a75-80ff-29cf5c9ca004"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/b465ecfa-5640-45bb-998e-248792e599ac"/>
     <skos:prefLabel xml:lang="en">hyperspectral imaging</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">imagerie hyperspectrale</skos:prefLabel>
