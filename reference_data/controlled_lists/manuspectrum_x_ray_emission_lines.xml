@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:arches="https://manuspectrum.huma-num.fr/"
-  xmlns:arches_controlled_lists="https://archesproject.org/ns/controlled-lists#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/75f1d706-6221-4545-817f-92415b618144">
-    <arches_controlled_lists:searchable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</arches_controlled_lists:searchable>
     <dcterms:title>ManuSpectrum - X-ray emission lines</dcterms:title>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/17eb9605-b8da-4e06-b327-4b556d1bcadd">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/17eb9605-b8da-4e06-b327-4b556d1bcadd</dcterms:identifier>
     <skos:altLabel xml:lang="en">K</skos:altLabel>
     <skos:altLabel xml:lang="fr">K</skos:altLabel>
@@ -22,7 +20,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5c0f9523-5e58-4c63-a66c-b8b93e1cad16">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/5c0f9523-5e58-4c63-a66c-b8b93e1cad16</dcterms:identifier>
     <skos:altLabel xml:lang="en">L2-M4</skos:altLabel>
     <skos:altLabel xml:lang="fr">L2-M4</skos:altLabel>
@@ -33,7 +31,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/681e2a8d-d0be-49c3-b942-6dd081dad7f4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/681e2a8d-d0be-49c3-b942-6dd081dad7f4</dcterms:identifier>
     <skos:altLabel xml:lang="en">L3-M5</skos:altLabel>
     <skos:altLabel xml:lang="fr">L3-M5</skos:altLabel>
@@ -44,7 +42,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/72050ea0-90d7-4ec5-a5a5-049ef98a5192">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/72050ea0-90d7-4ec5-a5a5-049ef98a5192</dcterms:identifier>
     <skos:altLabel xml:lang="en">M</skos:altLabel>
     <skos:altLabel xml:lang="fr">M</skos:altLabel>
@@ -55,7 +53,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8bda2154-46bb-459b-8c84-3b1eedb01b0b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/8bda2154-46bb-459b-8c84-3b1eedb01b0b</dcterms:identifier>
     <skos:altLabel xml:lang="en">M4-N6</skos:altLabel>
     <skos:altLabel xml:lang="fr">M4-N6</skos:altLabel>
@@ -66,7 +64,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b8b00b35-aca0-4465-a6a0-0b4a2fb18ad8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/b8b00b35-aca0-4465-a6a0-0b4a2fb18ad8</dcterms:identifier>
     <skos:altLabel xml:lang="en">L</skos:altLabel>
     <skos:altLabel xml:lang="fr">L</skos:altLabel>
@@ -77,7 +75,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b906a9cd-b82b-4aad-9c2b-6cf6574c1c73">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/b906a9cd-b82b-4aad-9c2b-6cf6574c1c73</dcterms:identifier>
     <skos:altLabel xml:lang="en">M5-N7</skos:altLabel>
     <skos:altLabel xml:lang="fr">M5-N7</skos:altLabel>
@@ -88,7 +86,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c509c57a-5ace-4d4d-82c3-357af9ca9a4e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://www.wikidata.org/entity/Q6322807</dcterms:identifier>
     <skos:altLabel xml:lang="en">K-M3</skos:altLabel>
     <skos:altLabel xml:lang="fr">K-M3</skos:altLabel>
@@ -99,7 +97,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d68c5e5f-dc88-45cf-b4c9-0491707af427">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://www.wikidata.org/entity/Q337841</dcterms:identifier>
     <skos:altLabel xml:lang="en">K-L3</skos:altLabel>
     <skos:altLabel xml:lang="fr">K-L3</skos:altLabel>
@@ -110,7 +108,7 @@
     <skos:scopeNote xml:lang="fr">Notation de Siegbahn (Wikidata Q3344441) ; la transition IUPAC est le libellé alternatif.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ecedcdb7-14fb-435d-ba8c-3bffa43d36b9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/ecedcdb7-14fb-435d-ba8c-3bffa43d36b9</dcterms:identifier>
     <skos:altLabel xml:lang="en">L2-N4</skos:altLabel>
     <skos:altLabel xml:lang="fr">L2-N4</skos:altLabel>

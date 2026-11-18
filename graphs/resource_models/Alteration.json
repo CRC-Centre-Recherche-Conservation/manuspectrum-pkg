@@ -431,6 +431,7 @@
                 {
                     "card_id": "c87ce5f8-b2ef-434e-b60d-fb74c4a2283c",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -438,8 +439,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "0cdfdaf6-0e70-4b98-ae4c-07436a20da5d",
                     "label": {
@@ -462,8 +462,7 @@
                         "label": "Influenced by Alteration",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "119058a7-f5a1-48a9-86f2-6695aa314a20",
                     "label": {
@@ -486,8 +485,7 @@
                         "label": "Authors of inference",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "2ed940d0-d6e0-4337-83a4-5a296ece5295",
                     "label": {
@@ -505,8 +503,7 @@
                     "config": {
                         "defaultManifest": "",
                         "label": "Localisation",
-                        "multiFeature": false,
-                        "uneditable": false
+                        "multiFeature": false
                     },
                     "id": "2f52b1b2-b342-4b6c-8419-5b3cd1afd36d",
                     "label": {
@@ -522,6 +519,7 @@
                 {
                     "card_id": "f37b5837-199e-4317-be1d-69af329dde07",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -529,8 +527,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "325e7e39-8d07-4e10-a0c3-06a64310c81f",
                     "label": {
@@ -546,6 +543,12 @@
                 {
                     "card_id": "555c44e8-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -572,6 +575,7 @@
                 {
                     "card_id": "555c44e8-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -579,8 +583,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "555c44ed-b225-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -596,6 +599,7 @@
                 {
                     "card_id": "555c44e8-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -603,8 +607,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "555c44ee-b225-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -620,6 +623,12 @@
                 {
                     "card_id": "5bf32128-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -646,6 +655,28 @@
                 {
                     "card_id": "5bf32128-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": [
+                            {
+                                "labels": [
+                                    {
+                                        "id": "2d14f2a9-48bc-4b2d-bdaf-a9eedeabc205",
+                                        "language_id": "en",
+                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
+                                        "value": "preferred terms",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "7c5ec08e-708a-5bfc-adf2-8a819fc7f705",
+                                        "language_id": "fr",
+                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
+                                        "value": "termes pr\u00e9f\u00e9rentiels",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
+                                "uri": "http://vocab.getty.edu/aat/300404670"
+                            }
+                        ],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -653,8 +684,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "5bf3212e-b225-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -670,6 +700,7 @@
                 {
                     "card_id": "5bf32128-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -677,8 +708,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "5bf3212f-b225-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -694,8 +724,8 @@
                 {
                     "card_id": "67050e94-b245-11ef-a32a-9fa3cbd72e36",
                     "config": {
-                        "label": "Date",
-                        "uneditable": false
+                        "defaultValue": null,
+                        "label": "Date"
                     },
                     "id": "67050ea7-b245-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -712,11 +742,11 @@
                     "card_id": "67050e94-b245-11ef-a32a-9fa3cbd72e36",
                     "config": {
                         "dateFormat": "YYYY-MM-DD HH:mm:ssZ",
+                        "defaultValue": "",
                         "label": "Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
-                        "uneditable": false,
                         "viewMode": "days"
                     },
                     "id": "67050ea8-b245-11ef-a32a-9fa3cbd72e36",
@@ -734,11 +764,11 @@
                     "card_id": "67050e94-b245-11ef-a32a-9fa3cbd72e36",
                     "config": {
                         "dateFormat": "YYYY-MM-DD HH:mm:ssZ",
+                        "defaultValue": "",
                         "label": "Date (end approximative)",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
-                        "uneditable": false,
                         "viewMode": "days"
                     },
                     "id": "67050ea9-b245-11ef-a32a-9fa3cbd72e36",
@@ -756,11 +786,11 @@
                     "card_id": "67050e94-b245-11ef-a32a-9fa3cbd72e36",
                     "config": {
                         "dateFormat": "YYYY-MM-DD HH:mm:ssZ",
+                        "defaultValue": "",
                         "label": "Date (end of the begin)",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
-                        "uneditable": false,
                         "viewMode": "decades"
                     },
                     "id": "67050eaa-b245-11ef-a32a-9fa3cbd72e36",
@@ -778,11 +808,11 @@
                     "card_id": "67050e94-b245-11ef-a32a-9fa3cbd72e36",
                     "config": {
                         "dateFormat": "YYYY-MM-DD HH:mm:ssZ",
+                        "defaultValue": "",
                         "label": "Date (end of the end)",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
-                        "uneditable": false,
                         "viewMode": "decades"
                     },
                     "id": "67050eab-b245-11ef-a32a-9fa3cbd72e36",
@@ -799,6 +829,12 @@
                 {
                     "card_id": "67652d30-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -831,7 +867,6 @@
                         ],
                         "label": "Source",
                         "link_color": "#0055a0",
-                        "uneditable": false,
                         "url_label_placeholder": {
                             "en": "Enter URL Label... ",
                             "fr": "Saisir le libell\u00e9 de l'URL\u2026 "
@@ -855,6 +890,7 @@
                 {
                     "card_id": "67652d30-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -862,8 +898,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "67652d3d-b225-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -879,6 +914,7 @@
                 {
                     "card_id": "67652d30-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -886,8 +922,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "67652d3e-b225-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -903,6 +938,7 @@
                 {
                     "card_id": "67652d32-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -910,8 +946,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "67652d3f-b225-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -927,6 +962,12 @@
                 {
                     "card_id": "67652d32-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -953,6 +994,7 @@
                 {
                     "card_id": "67652d32-b225-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -960,8 +1002,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "67652d42-b225-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -984,8 +1025,7 @@
                         "label": "Object",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "718e4b3e-ba95-4ea5-9925-49064632e695",
                     "label": {
@@ -1001,6 +1041,7 @@
                 {
                     "card_id": "d549d797-c495-4ee5-8e22-5cfde517eaad",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1008,8 +1049,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "80c3f088-8a4f-40b3-aeb9-65ac8852940e",
                     "label": {
@@ -1032,8 +1072,7 @@
                         "label": "Annotator",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "b989525e-d689-41a6-bead-465d1d5e5c8a",
                     "label": {
@@ -1056,8 +1095,7 @@
                         "label": "Observed",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "cb21f454-b231-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -1073,6 +1111,12 @@
                 {
                     "card_id": "cb21f44a-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1106,8 +1150,7 @@
                         "label": "Analysis reference",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "cb21f456-b231-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -1123,6 +1166,12 @@
                 {
                     "card_id": "cb21f446-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1149,6 +1198,7 @@
                 {
                     "card_id": "cb21f446-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1156,8 +1206,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "cb21f458-b231-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -1174,11 +1223,11 @@
                     "card_id": "cb21f446-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "2024-11-22",
                         "label": "End Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
-                        "uneditable": false,
                         "viewMode": "days"
                     },
                     "id": "cb21f459-b231-11ef-a32a-9fa3cbd72e36",
@@ -1196,11 +1245,11 @@
                     "card_id": "cb21f446-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "2024-11-22",
                         "label": "Start Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
-                        "uneditable": false,
                         "viewMode": "days"
                     },
                     "id": "cb21f45a-b231-11ef-a32a-9fa3cbd72e36",
@@ -1217,6 +1266,7 @@
                 {
                     "card_id": "d6b4b4f0-edf1-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1224,8 +1274,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "d6b4b4f9-edf1-11ef-9a8f-89acc4447d22",
                     "label": {
@@ -1241,6 +1290,7 @@
                 {
                     "card_id": "d6b4b4f0-edf1-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1248,8 +1298,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "d6b4b4fa-edf1-11ef-9a8f-89acc4447d22",
                     "label": {
@@ -1265,6 +1314,12 @@
                 {
                     "card_id": "d6b4b4f2-edf1-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1291,6 +1346,28 @@
                 {
                     "card_id": "d6b4b4f2-edf1-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": [
+                            {
+                                "labels": [
+                                    {
+                                        "id": "d77483cf-7bc1-40aa-95ec-591ea5bb10c6",
+                                        "language_id": "en",
+                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
+                                        "value": "PeriodO",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "0ea2edef-a739-59d4-9028-7e7d257e8393",
+                                        "language_id": "fr",
+                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
+                                        "value": "PeriodO",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                                "uri": "https://perio.do/en/"
+                            }
+                        ],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1298,8 +1375,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "d6b4b4fc-edf1-11ef-9a8f-89acc4447d22",
                     "label": {
@@ -1315,6 +1391,12 @@
                 {
                     "card_id": "d6b4b4f2-edf1-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1341,6 +1423,7 @@
                 {
                     "card_id": "d6b4b4f2-edf1-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": [],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -1348,8 +1431,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "d6b4b4fe-edf1-11ef-9a8f-89acc4447d22",
                     "label": {
@@ -1372,8 +1454,7 @@
                         "label": "Places",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e7224f12-1014-4470-9834-39fc9e0d258f",
                     "label": {
@@ -2084,7 +2165,6 @@
                     "alias": "occured_in_presence_of_material",
                     "config": {
                         "controlledList": "afb9ba20-3b2d-4bcf-bfea-0065b0aff1e8",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2113,11 +2193,11 @@
                         "graphs": [
                             {
                                 "graphid": "5bf45c85-84cd-4a76-b64a-3ffe86eea1b8",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Person",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -2149,11 +2229,11 @@
                         "graphs": [
                             {
                                 "graphid": "7554cd18-3cb9-4754-b5d2-a27631997385",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Alteration",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -2207,12 +2287,6 @@
                 {
                     "alias": "value_of_identifier",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -2239,7 +2313,6 @@
                     "alias": "source_of_identifier",
                     "config": {
                         "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2266,7 +2339,6 @@
                     "alias": "type_of_identifier",
                     "config": {
                         "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2293,7 +2365,6 @@
                     "alias": "type",
                     "config": {
                         "controlledList": "4f5e7d81-4187-4908-9ec9-a1892efa6635",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2345,7 +2416,6 @@
                     "alias": "language_of_name",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2371,12 +2441,6 @@
                 {
                     "alias": "label_of_name",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -2403,28 +2467,6 @@
                     "alias": "type_of_name",
                     "config": {
                         "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                        "defaultValue": [
-                            {
-                                "labels": [
-                                    {
-                                        "id": "2d14f2a9-48bc-4b2d-bdaf-a9eedeabc205",
-                                        "language_id": "en",
-                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
-                                        "value": "preferred terms",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "bc6441fe-70bd-405e-a4da-356582cb4422",
-                                        "language_id": "fr",
-                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
-                                        "value": "termes pr\u00e9f\u00e9rentiels",
-                                        "valuetype_id": "prefLabel"
-                                    }
-                                ],
-                                "list_id": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                                "uri": "http://vocab.getty.edu/aat/300404670"
-                            }
-                        ],
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2507,10 +2549,9 @@
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": "alteration_process_date_end_of_the_begin",
+                    "alias": "alteration_process_date_end_of_the_begin_",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD HH:mm:ssZ",
-                        "defaultValue": ""
+                        "dateFormat": "YYYY-MM-DD HH:mm:ssZ"
                     },
                     "datatype": "date",
                     "description": "latest possible start of the alteration",
@@ -2535,8 +2576,7 @@
                 {
                     "alias": "alteration_process_end_date",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD HH:mm:ssZ",
-                        "defaultValue": ""
+                        "dateFormat": "YYYY-MM-DD HH:mm:ssZ"
                     },
                     "datatype": "date",
                     "description": "earliest possible end of the alteration",
@@ -2559,10 +2599,9 @@
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": "alteration_process_date_end_of_the_end",
+                    "alias": "alteration_process_date_end_of_the_end_",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD HH:mm:ssZ",
-                        "defaultValue": ""
+                        "dateFormat": "YYYY-MM-DD HH:mm:ssZ"
                     },
                     "datatype": "date",
                     "description": "latest possible end of the alteration",
@@ -2587,8 +2626,7 @@
                 {
                     "alias": "alteration_process_start_date",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD HH:mm:ssZ",
-                        "defaultValue": ""
+                        "dateFormat": "YYYY-MM-DD HH:mm:ssZ"
                     },
                     "datatype": "date",
                     "description": "date of the alteration, or its earliest possible start when uncertain",
@@ -2663,12 +2701,6 @@
                 {
                     "alias": "content_of_statement",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -2695,7 +2727,6 @@
                     "alias": "language_of_name_statement",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2721,12 +2752,6 @@
                 {
                     "alias": "label_of_name_statement",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -2753,7 +2778,6 @@
                     "alias": "language_of_statement",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2780,7 +2804,6 @@
                     "alias": "type_of_name_statement",
                     "config": {
                         "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2807,7 +2830,6 @@
                     "alias": "type_of_statement",
                     "config": {
                         "controlledList": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2861,19 +2883,19 @@
                         "graphs": [
                             {
                                 "graphid": "0c8226c1-11a9-4c48-9601-a7a0c6f2df6b",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Document",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             },
                             {
                                 "graphid": "d47595b4-f8a6-419c-8f33-b388206280c4",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Component",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -2905,11 +2927,11 @@
                         "graphs": [
                             {
                                 "graphid": "5bf45c85-84cd-4a76-b64a-3ffe86eea1b8",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Person",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -2939,7 +2961,6 @@
                     "alias": "features_object_altered",
                     "config": {
                         "controlledList": "a73da2b6-d68e-440f-ae86-7c541e7a88d9",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2965,12 +2986,6 @@
                 {
                     "alias": "inference_making",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -3047,12 +3062,6 @@
                 {
                     "alias": "note_about_observation_of_analysis",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -3081,11 +3090,11 @@
                         "graphs": [
                             {
                                 "graphid": "60c85aba-f079-45bc-997f-21cdd4f77b6d",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Analysis",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -3114,7 +3123,6 @@
                 {
                     "alias": "confidence_of_inference",
                     "config": {
-                        "defaultValue": "",
                         "i18n_config": {
                             "fn": "arches.app.datatypes.datatypes.DomainDataType"
                         },
@@ -3197,8 +3205,7 @@
                 {
                     "alias": "inference_making_end_date",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "2024-11-22"
+                        "dateFormat": "YYYY-MM-DD"
                     },
                     "datatype": "date",
                     "description": "date the interpretation ended",
@@ -3223,8 +3230,7 @@
                 {
                     "alias": "inference_making_start_date",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "2024-11-22"
+                        "dateFormat": "YYYY-MM-DD"
                     },
                     "datatype": "date",
                     "description": "date the interpretation started",
@@ -3250,7 +3256,6 @@
                     "alias": "alteration_process_period",
                     "config": {
                         "controlledList": "36c03e12-351b-4bbd-a52b-9d09f4d4adc0",
-                        "defaultValue": "",
                         "en": "",
                         "multiValue": true
                     },
@@ -3327,12 +3332,6 @@
                 {
                     "alias": "value_of_alternative_period_identifier",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -3359,28 +3358,6 @@
                     "alias": "source_of_alternative_period_identifier",
                     "config": {
                         "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
-                        "defaultValue": [
-                            {
-                                "labels": [
-                                    {
-                                        "id": "d77483cf-7bc1-40aa-95ec-591ea5bb10c6",
-                                        "language_id": "en",
-                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
-                                        "value": "PeriodO",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "34b303d6-7c5f-40e3-8889-d29f93d15c20",
-                                        "language_id": "fr",
-                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
-                                        "value": "PeriodO",
-                                        "valuetype_id": "prefLabel"
-                                    }
-                                ],
-                                "list_id": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
-                                "uri": "https://perio.do/en/"
-                            }
-                        ],
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -3407,7 +3384,6 @@
                     "alias": "absolute_period_attribution_of_alteration_process",
                     "config": {
                         "controlledList": "21b06442-8861-4322-80c0-fa1f6e1320e1",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -3433,12 +3409,6 @@
                 {
                     "alias": "label_of_alternative_period",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "rdmCollection": null
                     },
                     "datatype": "string",
@@ -3465,7 +3435,6 @@
                     "alias": "type_of_alternative_period_identifier",
                     "config": {
                         "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
-                        "defaultValue": [],
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -3519,11 +3488,11 @@
                         "graphs": [
                             {
                                 "graphid": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Place",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",

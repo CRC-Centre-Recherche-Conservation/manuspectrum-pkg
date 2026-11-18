@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:arches="https://manuspectrum.huma-num.fr/"
-  xmlns:arches_controlled_lists="https://archesproject.org/ns/controlled-lists#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933">
-    <arches_controlled_lists:searchable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</arches_controlled_lists:searchable>
     <dcterms:title>shared social entity</dcterms:title>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/038a4d13-5633-3058-aa4d-d49c843f7280">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crtHeV4upMO9v</dcterms:identifier>
     <skos:altLabel xml:lang="fr">administration des armées</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
@@ -24,7 +22,7 @@
     <skos:prefLabel xml:lang="it">amministrazione militare</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/03e25aa6-3168-33bb-b1e6-2cb774bda93f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtQhPfhX3FU5</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5ff194da-9ed9-35d0-a544-a96e2b78faca"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -37,7 +35,7 @@
     <skos:prefLabel xml:lang="nl">senaat</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0436c44c-14c2-37dc-9033-bf3643d578dc">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtdJyHYwvubf</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/57308e19-ca10-3243-887f-33fb79b38d2b"/>
     <skos:definition xml:lang="fr">Docteurs de l'ecole rabinique de Babylonie, en Palestine (Lyon)</skos:definition>
@@ -51,7 +49,7 @@
     <skos:prefLabel xml:lang="nl">masoreten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/046ed54c-4ebc-380d-8641-22e2de491b5d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtwZZRWJSITM</dcterms:identifier>
     <skos:altLabel xml:lang="en">Carmel</skos:altLabel>
     <skos:altLabel xml:lang="fr">Carmel</skos:altLabel>
@@ -71,7 +69,7 @@
     <skos:prefLabel xml:lang="nl">karmelieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0565ca90-f19e-397f-ba94-19acaf3e8969">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt8B6fSH1cS7</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52232f12-06a3-3426-b4f3-ebafc0639893"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -84,7 +82,7 @@
     <skos:prefLabel xml:lang="nl">jeugdbeweging</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/059e86af-116a-4f71-83f6-d828b2688276">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300343392</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -95,7 +93,7 @@
     <skos:scopeNote xml:lang="fr">Bibliothèques au service d'un établissement d'enseignement supérieur, comme une université, et dont les collections sont développées pour soutenir les programmes de l'institution de rattachement.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/06c4ca46-8f00-330b-ae93-002298529924">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtnz7hwxgTNX</dcterms:identifier>
     <skos:altLabel xml:lang="de">Ordo Senatorius</skos:altLabel>
     <skos:altLabel xml:lang="en">senate structure during the Roman Empire</skos:altLabel>
@@ -111,7 +109,7 @@
     <skos:prefLabel xml:lang="nl">senatoriële stand</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/093b0873-140c-3d9e-907f-c18159183b7c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtcJxKj39GTp</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
     <skos:definition xml:lang="fr">Dans la Rome antique, marché des denrées alimentaires en général. Il concerne en particulier le ravitaillement de la ville de Rome mis en place dès l'époque républicaine. Il est géré par un curateur puis par la préfecture de l'annone. L'acheminement, le stockage et la vente des denrées sont assurés par des particuliers. Il est relayé à partir de la Tétrarchie par un impôt en nature. (d'ap. Leclant, Dictionnaire de l'Antiquité, 2005, p. 124-125)</skos:definition>
@@ -125,7 +123,7 @@
     <skos:prefLabel xml:lang="nl">annona (bevoorrading)</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/09ff9e93-12f6-3c08-ba0b-65ccb15927df">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtQaga2vgcrm</dcterms:identifier>
     <skos:altLabel xml:lang="de">Bundesarchiv</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c98907bf-c06b-3b17-8fed-dd700b594dc3"/>
@@ -139,7 +137,7 @@
     <skos:prefLabel xml:lang="nl">nationaal archief</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0a68063d-a551-3fdc-a227-f18e5849f2eb">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtF7MVFVqc80</dcterms:identifier>
     <skos:altLabel xml:lang="en">Hetaeria</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f61df72d-d6f1-30fb-8170-ef3c3fe8b10a"/>
@@ -153,7 +151,7 @@
     <skos:prefLabel xml:lang="nl">hetaerie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0ab30d64-94c8-31bc-9831-b396cde9dbf5">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrttV6XwP4wBv</dcterms:identifier>
     <skos:altLabel xml:lang="de">militärische Organisation</skos:altLabel>
     <skos:altLabel xml:lang="en">military organisation</skos:altLabel>
@@ -173,7 +171,7 @@
     <skos:prefLabel xml:lang="nl">militaire leven</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0baed05c-7e09-35b7-80ad-43db4774622a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt29Voi1AOMa</dcterms:identifier>
     <skos:altLabel xml:lang="ar">السينودس</skos:altLabel>
     <skos:altLabel xml:lang="ar">مَجْمَع الأساقفة</skos:altLabel>
@@ -192,7 +190,7 @@
     <skos:prefLabel xml:lang="nl">synode</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0e4a8f89-2ce0-3937-8b03-8a719b28c7e0">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtFoRtvSw7kM</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/39bb46e2-3c4e-37a1-bb87-660cb0f68fa4"/>
     <skos:definition xml:lang="fr">Ensemble des troupes combattant à pied (Lar.)</skos:definition>
@@ -207,7 +205,7 @@
     <skos:prefLabel xml:lang="nl">infanterie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0f3301fe-995d-3b7c-a0bd-6956825537ac">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtO5QaMJbyUf</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52232f12-06a3-3426-b4f3-ebafc0639893"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -222,7 +220,7 @@
     <skos:prefLabel xml:lang="nl">vakgenootschap</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0fc210cd-745a-335e-8a72-e037847463e9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtofLoHl5eje</dcterms:identifier>
     <skos:altLabel xml:lang="es">orden militar</skos:altLabel>
     <skos:altLabel xml:lang="fr">ordres religieux militaires</skos:altLabel>
@@ -241,7 +239,7 @@
     <skos:prefLabel xml:lang="ru">Духо́вно-ры́царские о́рдены</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/10d6c7a8-980d-32f6-b2ad-e8577e0c8238">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtpy25RXapbm</dcterms:identifier>
     <skos:altLabel xml:lang="en">academic association</skos:altLabel>
     <skos:altLabel xml:lang="en">learned academy</skos:altLabel>
@@ -258,7 +256,7 @@
     <skos:prefLabel xml:lang="nl">geleerd genootschap</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/10ebb4f2-f623-3353-ba35-753b2d11be71">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt89zWH7jpRM</dcterms:identifier>
     <skos:altLabel xml:lang="es">grupo de investigación</skos:altLabel>
     <skos:altLabel xml:lang="fr">recherche équipe</skos:altLabel>
@@ -276,7 +274,7 @@
     <skos:prefLabel xml:lang="nl">onderzoeksteam</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/11249593-9c68-3e5d-af57-d08bb4442f6b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtiABmjTRFmJ</dcterms:identifier>
     <skos:altLabel xml:lang="es">Compañía de Jesús</skos:altLabel>
     <skos:altLabel xml:lang="fr">Compagnie de Jésus</skos:altLabel>
@@ -294,7 +292,7 @@
     <skos:prefLabel xml:lang="nl">jezuïeten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1171b570-dd6a-3efa-a01f-793b5361c23f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtsfNjq9l4Oe</dcterms:identifier>
     <skos:altLabel xml:lang="en">Praetura</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1023011-1054-333a-9234-80a2d0502027"/>
@@ -309,7 +307,7 @@
     <skos:prefLabel xml:lang="nl">pretuur</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/11873a6f-932c-3f13-bb43-bbb344553c03">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt5qjq8vfgdj</dcterms:identifier>
     <skos:altLabel xml:lang="en">Madhhab al-Shāfiʿī</skos:altLabel>
     <skos:altLabel xml:lang="en">Shafei school</skos:altLabel>
@@ -326,7 +324,7 @@
     <skos:prefLabel xml:lang="it">sciafeismo</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/12009fdb-4ba6-3f17-a7a7-5c140aeab012">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtVTAgkStDhn</dcterms:identifier>
     <skos:altLabel xml:lang="en">Alawites</skos:altLabel>
     <skos:altLabel xml:lang="fr">Alawites</skos:altLabel>
@@ -343,7 +341,7 @@
     <skos:prefLabel xml:lang="nl">Alawieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/13b36af8-5d39-367a-86b1-d2639c43238d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtsATltSFmba</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -359,7 +357,7 @@
     <skos:prefLabel xml:lang="nl">Griekse instituties</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/144e83db-a642-3b4a-a25a-94adb0811939">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrthjgtr36z9k</dcterms:identifier>
     <skos:altLabel xml:lang="en">Hanafi fiqh</skos:altLabel>
     <skos:altLabel xml:lang="en">Hanafism</skos:altLabel>
@@ -380,7 +378,7 @@
     <skos:prefLabel xml:lang="ru">ханафизм</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/148f7b50-b35e-3f02-8439-1f1b3be80446">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtUJMzIINORw</dcterms:identifier>
     <skos:altLabel xml:lang="en">magistrature</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b215ae7d-b43b-32ff-a0e1-00efd316f4c4"/>
@@ -396,7 +394,7 @@
     <skos:prefLabel xml:lang="nl">magistratuur</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/17c21550-179b-3518-834c-01b70614945f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt73qzf4gq73</dcterms:identifier>
     <skos:altLabel xml:lang="en">Order of Saint Ursula</skos:altLabel>
     <skos:altLabel xml:lang="es">Orden de Santa Úrsula</skos:altLabel>
@@ -413,7 +411,7 @@
     <skos:prefLabel xml:lang="it">Orsonline</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/17d22b20-9086-3b9b-935d-778c84f1a778">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtnnq46tq1g8xk9b8h3g3d</dcterms:identifier>
     <skos:altLabel xml:lang="fr">Pauvres Dames</skos:altLabel>
     <skos:altLabel xml:lang="fr">ordre de Sainte-Claire</skos:altLabel>
@@ -429,7 +427,7 @@
     <skos:prefLabel xml:lang="nl">Clarissen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1b85c81e-b371-3d3b-b021-39ba454cf423">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtBrqZWsEDSu</dcterms:identifier>
     <skos:altLabel xml:lang="de">Attischer Seebund</skos:altLabel>
     <skos:altLabel xml:lang="es">liga ateniense</skos:altLabel>
@@ -446,7 +444,7 @@
     <skos:prefLabel xml:lang="nl">Delische bond</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1c2bc750-99a6-30b1-b892-b5405bbf19f4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtr0nBiKwVYI</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/13b36af8-5d39-367a-86b1-d2639c43238d"/>
     <skos:definition xml:lang="fr">&lt;p&gt;Institution organisée par la cité pour préparer les jeunes hommes au rôle de citoyen. (Dictionnaire de l'Antiquité, Leclant)&lt;/p&gt;</skos:definition>
@@ -460,7 +458,7 @@
     <skos:prefLabel xml:lang="nl">efebe</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1c4a9adb-6b99-3517-a797-25c7c4d7f6d9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtjSjrm2VnSy</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
     <skos:definition xml:lang="fr">&lt;p&gt;Partisans du Nestorianisme, doctrine christologique affirmant que deux hypostases, l'une divine, l'autre humaine, coexistent en Jésus-Christ.&lt;/p&gt;</skos:definition>
@@ -474,7 +472,7 @@
     <skos:prefLabel xml:lang="nl">nestorianen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1c5d00dc-eda2-30b1-992e-1372916dbabc">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtcO4KW8zUxZ</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/1f293480-5f6f-3e95-a53f-469a9e216f2e"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -487,7 +485,7 @@
     <skos:prefLabel xml:lang="nl">Archaeïsche bond</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1cb95288-35a7-30d8-85ff-3e95b9f0eaee">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt8vk1jjdkq2</dcterms:identifier>
     <skos:altLabel xml:lang="fr">Assyriens (chrétiens d'Orient)</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e0bd9494-ae70-38ec-8f54-d52c1627097f"/>
@@ -502,7 +500,7 @@
     <skos:prefLabel xml:lang="it">assiro-caldei</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1d05d29a-14e6-39e6-9fab-60deb44a226b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtb4FqNkkfrk</dcterms:identifier>
     <skos:altLabel xml:lang="it">comitium</skos:altLabel>
     <skos:altLabel xml:lang="it">comizio (storia romana)</skos:altLabel>
@@ -518,7 +516,7 @@
     <skos:prefLabel xml:lang="nl">comitia</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1f293480-5f6f-3e95-a53f-469a9e216f2e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtExwhMubSfx</dcterms:identifier>
     <skos:altLabel xml:lang="ar">عصبة أمم</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e0a50890-ddc3-3901-9383-17d780d7c990"/>
@@ -536,7 +534,7 @@
     <skos:prefLabel xml:lang="nl">bond</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1fc7f96b-0bb6-3b83-87be-63779d858b0b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtwDKITsGcZT</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/39bb46e2-3c4e-37a1-bb87-660cb0f68fa4"/>
     <skos:definition xml:lang="fr">Ensemble de troupes occupant une place, une forteresse pour la défendre.  Par extension, lieu où stationne au moins une unité de l'armée, même en temps de paix. (Atilf)</skos:definition>
@@ -550,7 +548,7 @@
     <skos:prefLabel xml:lang="nl">garnizoen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/20c6541e-8302-399b-aab5-f6c986251348">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrttbvv59s3kc</dcterms:identifier>
     <skos:altLabel xml:lang="en">chivalric code</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0ab30d64-94c8-31bc-9831-b396cde9dbf5"/>
@@ -563,7 +561,7 @@
     <skos:prefLabel xml:lang="it">cavalleria (medievale)</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/211e9b3f-b4a5-35b6-9071-0a712335e7b4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtFoO4fLvQDw</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b215ae7d-b43b-32ff-a0e1-00efd316f4c4"/>
     <skos:definition xml:lang="fr">Juridiction d'un ou plusieurs magistrats qui jugent ensemble (Lar.)</skos:definition>
@@ -580,7 +578,7 @@
     <skos:prefLabel xml:lang="nl">tribunaal</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21b901dd-04ef-3bf8-821d-5ef022c566a9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtN11IPuP5rc</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/d0137ea9-7f6b-32f6-8fe1-4585bffe7c95"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -593,7 +591,7 @@
     <skos:prefLabel xml:lang="nl">landbouwgemeenschap</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21c9c751-0a60-30e6-bd26-18133ff1009f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtrqvz1bpdwb</dcterms:identifier>
     <skos:altLabel xml:lang="fr">vente d'objets d'art</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
@@ -606,7 +604,7 @@
     <skos:prefLabel xml:lang="it">mercato dell'arte</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/23470737-28d0-3b8e-806e-33dad184cb17">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtQJIO5OQT41</dcterms:identifier>
     <skos:altLabel xml:lang="en">administrative division</skos:altLabel>
     <skos:altLabel xml:lang="en">public administration</skos:altLabel>
@@ -628,7 +626,7 @@
     <skos:prefLabel xml:lang="nl">gemeenteadministratie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/25a529de-13da-3f5a-be1b-24b86d4aa1b6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtMYaBIxkfiI</dcterms:identifier>
     <skos:altLabel xml:lang="en">board</skos:altLabel>
     <skos:altLabel xml:lang="en">directorate</skos:altLabel>
@@ -645,7 +643,7 @@
     <skos:prefLabel xml:lang="nl">teamleiding</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/27785092-863f-3579-b54c-b24fac33593f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtX9hIpEsNpd</dcterms:identifier>
     <skos:altLabel xml:lang="de">Mendikanten</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52dc90d5-c492-3c15-a193-f169a11d1ca1"/>
@@ -665,7 +663,7 @@
     <skos:prefLabel xml:lang="nl">bedelorden</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/283ba9f9-47b0-3d89-99fe-a103a373d3ca">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrthdbrd7n297ggx6h7ws5n</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5ff194da-9ed9-35d0-a544-a96e2b78faca"/>
     <skos:definition xml:lang="fr">Assemblée politique ayant existé dans la Grèce antique.</skos:definition>
@@ -675,7 +673,7 @@
     <skos:prefLabel xml:lang="fr">synédrion</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2844a06b-916e-3d2f-a347-fe3bbcb108ac">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt7vLkeZro2h</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/498ee149-c969-39f4-badd-89f18470c500"/>
     <skos:definition xml:lang="fr">&lt;span style= color: rgb(32, 33, 34); &gt;Ensemble d'individus ou d'éléments partageant une ou plusieurs caractéristiques qui servent à les regrouper. (wikidata)&lt;/span&gt;</skos:definition>
@@ -690,7 +688,7 @@
     <skos:prefLabel xml:lang="nl">bevolking</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/28668d7d-2e3b-3b74-80d6-8b38547fa0e4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtfy3Q6VEKFW</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/57308e19-ca10-3243-887f-33fb79b38d2b"/>
     <skos:definition xml:lang="fr">Membres d'une secte juive apparue au IIe s. av.J.C. et qui constitua un important mouvement politique et religieux au début de notre ère (Lar.)</skos:definition>
@@ -704,7 +702,7 @@
     <skos:prefLabel xml:lang="nl">farizeeën</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2a4bf82f-4dac-341f-a0b2-555f9927ddc2">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtjvd5jm92db</dcterms:identifier>
     <skos:altLabel xml:lang="fr">doctrine juridique</skos:altLabel>
     <skos:altLabel xml:lang="fr">madhhab</skos:altLabel>
@@ -723,7 +721,7 @@
     <skos:prefLabel xml:lang="it">scuola giuridica</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2dc927cc-b3df-3546-9924-3e1f9068722b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt0rQVDaNZ4V</dcterms:identifier>
     <skos:altLabel xml:lang="en">ethnicity</skos:altLabel>
     <skos:altLabel xml:lang="it">gruppo etnico</skos:altLabel>
@@ -739,7 +737,7 @@
     <skos:prefLabel xml:lang="nl">etnische groep</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2de4de46-c455-36ff-85d9-399a83d71c4d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt3L3gyyxoTy</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/57308e19-ca10-3243-887f-33fb79b38d2b"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -752,7 +750,7 @@
     <skos:prefLabel xml:lang="nl">efezieërs</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2de5050c-945f-3f58-bee7-f1213a30e4d5">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crt5Xfjm3qcic</dcterms:identifier>
     <skos:altLabel xml:lang="en">minority</skos:altLabel>
     <skos:altLabel xml:lang="es">minoría</skos:altLabel>
@@ -772,7 +770,7 @@
     <skos:prefLabel xml:lang="it">gruppo sociale minoritario</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2f0593f6-0e48-36fc-832e-b256da04d0b7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt9MZnacjb5Y</dcterms:identifier>
     <skos:altLabel xml:lang="en">Order of Saint Benedict</skos:altLabel>
     <skos:altLabel xml:lang="es">Orden Benedictina</skos:altLabel>
@@ -794,7 +792,7 @@
     <skos:prefLabel xml:lang="nl">benedictijnen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2f80af20-926b-3767-9c6f-ffe894630d6b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtuZA4RKNDF7</dcterms:identifier>
     <skos:altLabel xml:lang="en">Knight Templar</skos:altLabel>
     <skos:altLabel xml:lang="es">caballeros templarios</skos:altLabel>
@@ -811,7 +809,7 @@
     <skos:prefLabel xml:lang="nl">tempeliers</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/321e112a-b38d-302e-b3c3-e43084fe97e4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtlMn7vpBl2F</dcterms:identifier>
     <skos:altLabel xml:lang="de">Knabenliebe</skos:altLabel>
     <skos:altLabel xml:lang="en">paederasty</skos:altLabel>
@@ -827,7 +825,7 @@
     <skos:prefLabel xml:lang="nl">pederastie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3679741b-5ddb-3194-9ef2-16c9b8c00c63">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtxgLIMipixb</dcterms:identifier>
     <skos:altLabel xml:lang="de">Karäer</skos:altLabel>
     <skos:altLabel xml:lang="fr">Caraites</skos:altLabel>
@@ -844,7 +842,7 @@
     <skos:prefLabel xml:lang="nl">karaïtische joden</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/37423348-02dc-3ecd-9fd9-768f92a3df5f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtffc8hjqxb3n1hzv7mxt1</dcterms:identifier>
     <skos:altLabel xml:lang="fr">cour colongère</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5ff194da-9ed9-35d0-a544-a96e2b78faca"/>
@@ -855,7 +853,7 @@
     <skos:prefLabel xml:lang="fr">colonge</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/39bb46e2-3c4e-37a1-bb87-660cb0f68fa4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtDz6FAhsh6y</dcterms:identifier>
     <skos:altLabel xml:lang="en">armed forces</skos:altLabel>
     <skos:altLabel xml:lang="en">army</skos:altLabel>
@@ -879,7 +877,7 @@
     <skos:prefLabel xml:lang="nl">leger</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3c63bed4-8a10-3284-b203-f3ef40fbace6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt9qNLM9voWW</dcterms:identifier>
     <skos:altLabel xml:lang="de">Volkstribunat</skos:altLabel>
     <skos:altLabel xml:lang="en">plebeian tribune</skos:altLabel>
@@ -900,7 +898,7 @@
     <skos:prefLabel xml:lang="nl">tribunaat</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3d5ec043-1ed9-3c09-9df6-1d20196df584">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtfgbTf8dbyO</dcterms:identifier>
     <skos:altLabel xml:lang="es">armada romana</skos:altLabel>
     <skos:altLabel xml:lang="it">armata romana</skos:altLabel>
@@ -920,7 +918,7 @@
     <skos:prefLabel xml:lang="nl">Romeins leger</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3f0863ea-2240-3521-9f48-191f32215c49">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtgDUxSdRAme</dcterms:identifier>
     <skos:altLabel xml:lang="es">armada griega</skos:altLabel>
     <skos:altLabel xml:lang="it">armata greca</skos:altLabel>
@@ -936,7 +934,7 @@
     <skos:prefLabel xml:lang="nl">Grieks leger</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/41417e4b-15f9-35fe-86b9-60e7f8d006af">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtp91g2nz3kzsb8bcmzhj0</dcterms:identifier>
     <skos:altLabel xml:lang="fr">ordre de Grammont</skos:altLabel>
     <skos:altLabel xml:lang="fr">ordre de Grandmont</skos:altLabel>
@@ -951,7 +949,7 @@
     <skos:prefLabel xml:lang="it">Ordine di Grandmont</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/418bc870-943a-3d33-890b-8e674dd0949e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt3336m0233g375kj3qj78</dcterms:identifier>
     <skos:altLabel xml:lang="en">Cluniac Benedictines</skos:altLabel>
     <skos:altLabel xml:lang="en">Cluniac order</skos:altLabel>
@@ -972,7 +970,7 @@
     <skos:prefLabel xml:lang="nl">Orde van Cluny</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/42e5b0b7-0e88-3a8a-b503-28763ecf3ec3">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtUYsQrcK2ij</dcterms:identifier>
     <skos:altLabel xml:lang="en">Tribe of Benjamin</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/57308e19-ca10-3243-887f-33fb79b38d2b"/>
@@ -987,7 +985,7 @@
     <skos:prefLabel xml:lang="nl">benjaminieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4465d199-4ba1-3c2a-8827-20965923a26f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt8ZVR5ZSxvu</dcterms:identifier>
     <skos:altLabel xml:lang="en">bazaar</skos:altLabel>
     <skos:altLabel xml:lang="en">fairground</skos:altLabel>
@@ -1002,7 +1000,7 @@
     <skos:prefLabel xml:lang="nl">beurs</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/447da031-6b87-3bfd-9252-5929dbcc9f07">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtxw48rnd0gr</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/3d5ec043-1ed9-3c09-9df6-1d20196df584"/>
     <skos:definition xml:lang="fr">Définit alors la plus petite unité militaire de la légion romaine (Wikipedia, 04/09/2020). De façon plus générale, désigne dans le monde romain, la relation intime ou amicale, la cohabitation ou le concubinage. En particulier, désigne la camaraderie entre soldats qui logent sous la même tente, la vie commune d'un jeune homme avec un général auquel il est attaché, mais aussi le concubinage entre esclaves qui ne pouvaient contracter de mariage au sens légal, et aussi, de fait, le logement commun dont la tente des soldats qui leur impose une certaine intimité (d'ap. Gaffiot, 2016).</skos:definition>
@@ -1016,7 +1014,7 @@
     <skos:scopeNote xml:lang="fr">Réserver ce concept pour désigner l'unité de l'armée et les relations qui s'y nouent. Pour le compagnonnage entre esclaves, utiliser le concept concubinage.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/44c8b20c-8ab7-3c10-b8e4-e49be68d3c3b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtTjJOGknE8Z</dcterms:identifier>
     <skos:altLabel xml:lang="de">Essäer</skos:altLabel>
     <skos:altLabel xml:lang="fr">Esseniens</skos:altLabel>
@@ -1032,7 +1030,7 @@
     <skos:prefLabel xml:lang="nl">essenen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/460c0d27-f55c-4c7b-9ebf-a103191feadf">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300443859</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -1042,7 +1040,7 @@
     <skos:scopeNote xml:lang="fr">Groupes œuvrant à promouvoir ou à atteindre des objectifs déclarés au moyen de projets ou d'autres activités.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/46952993-f4f8-395d-80c3-1c7df664f475">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtzd41rtDBri</dcterms:identifier>
     <skos:altLabel xml:lang="es">zelotas</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/57308e19-ca10-3243-887f-33fb79b38d2b"/>
@@ -1057,7 +1055,7 @@
     <skos:prefLabel xml:lang="nl">Zeloten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/491a64d8-d1c7-3f85-87cc-21d689b325e7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtI5PkmmlTNS</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/513f1c40-4666-330c-ac1c-8d2d57daec46"/>
     <skos:definition xml:lang="fr">Population du Proche-Orient professant une religion monothéiste abrahamique proche de l'ismaélisme, sont principalement établis dans le sud du Liban et dans la partie centrale du Mont-Liban, dans le sud de la Syrie, dans le nord de l'État d'Israël en Galilée, et sur le plateau du Golan. (wp)</skos:definition>
@@ -1071,7 +1069,7 @@
     <skos:prefLabel xml:lang="nl">druzen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/498ee149-c969-39f4-badd-89f18470c500">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt57cjcx55ng</dcterms:identifier>
     <skos:altLabel xml:lang="en">groups and communities</skos:altLabel>
     <skos:altLabel xml:lang="es">grupos y comunidades</skos:altLabel>
@@ -1100,7 +1098,7 @@
     <skos:scopeNote xml:lang="fr">Concept de niveau supérieur, utiliser de préférence des concepts plus spécifiques.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/513f1c40-4666-330c-ac1c-8d2d57daec46">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtsy8ZSrfudp</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/55a4e144-7c34-3801-aa02-f1e71a2cf127"/>
     <skos:definition xml:lang="fr">Fidèles de l'Islam (Lar.)</skos:definition>
@@ -1120,7 +1118,7 @@
     <skos:prefLabel xml:lang="nl">moslims</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/52232f12-06a3-3426-b4f3-ebafc0639893">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt0bOnESvRsW</dcterms:identifier>
     <skos:altLabel xml:lang="fr">association</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
@@ -1143,7 +1141,7 @@
     <skos:prefLabel xml:lang="nl">vereniging</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/52dc90d5-c492-3c15-a193-f169a11d1ca1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crt2mtop80lS9</dcterms:identifier>
     <skos:altLabel xml:lang="en">monastic community</skos:altLabel>
     <skos:altLabel xml:lang="en">monastic life</skos:altLabel>
@@ -1174,7 +1172,7 @@
     <skos:prefLabel xml:lang="it">ordine monastico</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/540f7f81-4a43-3558-8c96-1b63ee05bd80">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtUzSq6lgiFq</dcterms:identifier>
     <skos:altLabel xml:lang="de">Armenhaus</skos:altLabel>
     <skos:altLabel xml:lang="de">Hospiz</skos:altLabel>
@@ -1191,7 +1189,7 @@
     <skos:prefLabel xml:lang="fr">aumônerie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/55a4e144-7c34-3801-aa02-f1e71a2cf127">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtyFIDkPnLlS</dcterms:identifier>
     <skos:altLabel xml:lang="en">community of believers</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/d0137ea9-7f6b-32f6-8fe1-4585bffe7c95"/>
@@ -1209,7 +1207,7 @@
     <skos:prefLabel xml:lang="it">communità di credenti</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/57308e19-ca10-3243-887f-33fb79b38d2b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtRLpzUzUbJP</dcterms:identifier>
     <skos:altLabel xml:lang="en">Jewish people</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/55a4e144-7c34-3801-aa02-f1e71a2cf127"/>
@@ -1234,7 +1232,7 @@
     <skos:prefLabel xml:lang="nl">joden</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/59026e8e-1ac4-362f-8bcf-2df316f8fefa">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crtIYTtZ7xdsc</dcterms:identifier>
     <skos:altLabel xml:lang="fr">ordre de Malte</skos:altLabel>
     <skos:altLabel xml:lang="fr">ordre de Saint-Jean de Jérusalem</skos:altLabel>
@@ -1249,7 +1247,7 @@
     <skos:prefLabel xml:lang="it">Ordine ospedaliero</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/59ad70bd-f9f3-3382-b3df-0f7bae89415a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtkUOUfhIavk</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bb162fe7-60cb-3746-a0ab-87351e8acc68"/>
     <skos:definition xml:lang="fr">Assemblée d'évêques et de théologiens qui décide de questions de doctrine et de discipline ecclésiastique (Lar.)</skos:definition>
@@ -1263,7 +1261,7 @@
     <skos:prefLabel xml:lang="nl">concilie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5a743e35-9f6e-3347-b1a2-f610b1453ef3">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtq7zt7rr68w1b826xk5s4</dcterms:identifier>
     <skos:altLabel xml:lang="fr">Norbertins</skos:altLabel>
     <skos:altLabel xml:lang="fr">ordre des Prémontrés</skos:altLabel>
@@ -1279,7 +1277,7 @@
     <skos:prefLabel xml:lang="nl">Norbertijnen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5c4ec728-2490-3c47-b89b-a72b0f6ddef0">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt5petrAfI5Z</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/498ee149-c969-39f4-badd-89f18470c500"/>
     <skos:definition xml:lang="fr">&lt;p&gt;Ensemble des auteurs ecclésiastiques dénommés par l'historiographie moderne et depuis le XVIe s., dont les écrits (appelés littérature patristique), les actes et l'exemple moral ont contribué à établir et à défendre de multiples aspects de la doctrine chrétienne. Ils ont travaillé approximativement depuis la fin du Ier au milieu du VIIIe siècle, s'épanouissant plus particulièrement aux IVe et Ve siècle, de l'admission du christianisme dans l'Empire romain à son évolution en tant qu'Église d'état. (d'ap. Wikipedia)&lt;/p&gt;</skos:definition>
@@ -1294,7 +1292,7 @@
     <skos:prefLabel xml:lang="nl">Kerkvaders</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5d50845a-b373-3541-967c-34b8b4e5e294">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtEMkL33H6gX</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52232f12-06a3-3426-b4f3-ebafc0639893"/>
     <skos:definition xml:lang="fr">&lt;p&gt;Forme de société ou d'organisation, qui en droit français, relève du droit civil, contrairement aux sociétés commerciales et aux établissements publics et administratifs. Concerne aussi les associations à caractère non gouvernemental et à but non lucratif qui influencent les politiques gouvernementales selon leurs intérêts.&lt;/p&gt;</skos:definition>
@@ -1308,7 +1306,7 @@
     <skos:prefLabel xml:lang="nl">Burgermaatschappij</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5ff194da-9ed9-35d0-a544-a96e2b78faca">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt2QMfvVPT6u</dcterms:identifier>
     <skos:altLabel xml:lang="en">deme</skos:altLabel>
     <skos:altLabel xml:lang="en">demos</skos:altLabel>
@@ -1335,7 +1333,7 @@
     <skos:prefLabel xml:lang="nl">volksvergadering</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6088d777-ed94-36a6-8247-97cbb73cfb78">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtQ1qNhgFmao</dcterms:identifier>
     <skos:altLabel xml:lang="ar">كونفدرالية</skos:altLabel>
     <skos:altLabel xml:lang="de">Konföderation</skos:altLabel>
@@ -1356,7 +1354,7 @@
     <skos:prefLabel xml:lang="nl">confederatie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/619998a0-dd8a-391b-9884-bb1ffc0ced29">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtSN3S26ATfL</dcterms:identifier>
     <skos:altLabel xml:lang="en">Salian Frank</skos:altLabel>
     <skos:altLabel xml:lang="es">Salii</skos:altLabel>
@@ -1372,7 +1370,7 @@
     <skos:prefLabel xml:lang="nl">Salieërs</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/64370661-ba98-3c58-b022-668c06043d20">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrto1B8tFBbYh</dcterms:identifier>
     <skos:altLabel xml:lang="en">heliaea</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/211e9b3f-b4a5-35b6-9071-0a712335e7b4"/>
@@ -1387,7 +1385,7 @@
     <skos:prefLabel xml:lang="nl">heliaia</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/65a0c22f-b83b-331a-b794-844c5d647fbf">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtULttS9GIrn</dcterms:identifier>
     <skos:altLabel xml:lang="en">college</skos:altLabel>
     <skos:altLabel xml:lang="fr">collège (association)</skos:altLabel>
@@ -1404,7 +1402,7 @@
     <skos:prefLabel xml:lang="nl">collegium</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/66548dab-6dce-3c47-8be2-da55d2faf5f7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtwIoH1lMxY4</dcterms:identifier>
     <skos:altLabel xml:lang="en">amphictyonic league</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5ff194da-9ed9-35d0-a544-a96e2b78faca"/>
@@ -1419,7 +1417,7 @@
     <skos:prefLabel xml:lang="nl">amfictyonie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/672b60f9-4213-3c6c-a3ad-8a5026e7cb1a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtmJENHlMtcF</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
     <skos:definition xml:lang="fr">Adeptes de l'Arianisme (Lar.). Ne pas confondre avec les Aryens.</skos:definition>
@@ -1433,7 +1431,7 @@
     <skos:prefLabel xml:lang="nl">arianen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/67c03b70-9a1c-3bcc-8ec3-b903ba26f69a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtWkZVMcX3r5</dcterms:identifier>
     <skos:altLabel xml:lang="es">empresa naviera</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
@@ -1446,7 +1444,7 @@
     <skos:prefLabel xml:lang="it">compagnia commerciale di navigazione</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/683cb401-d19d-3268-a6da-a09b84f6b738">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtcm41DKVMlu</dcterms:identifier>
     <skos:altLabel xml:lang="en">Franciscan Order</skos:altLabel>
     <skos:altLabel xml:lang="en">Order of Friars Minor</skos:altLabel>
@@ -1467,7 +1465,7 @@
     <skos:prefLabel xml:lang="nl">franciscanen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/69544848-d8ca-3d23-8d98-d0024b78e81a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crtWO3Jmx5Ozd</dcterms:identifier>
     <skos:altLabel xml:lang="es">vida de la corte</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
@@ -1480,7 +1478,7 @@
     <skos:prefLabel xml:lang="it">vita di corte</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6a9778ea-811a-3ce5-bd13-652a1e4d58c5">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtIBBzDtHASy</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
     <skos:definition xml:lang="fr">Administration chargée de percevoir les droits imposés sur les marchandises qui franchissent les frontières (Lar.). Pour les droits eux-mêmes voir     péage     dans la vie financière (BL)</skos:definition>
@@ -1494,7 +1492,7 @@
     <skos:prefLabel xml:lang="nl">douane</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b26dba4-91cf-39cd-b6d3-4e870b66bf3f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtvgvp4tg6qvbrwbmnbp0x</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/27785092-863f-3579-b54c-b24fac33593f"/>
     <skos:definition xml:lang="fr">&lt;span style= color: rgb(31, 31, 31); &gt;Ordre canonial à vocation érémitique régi par la règle de Saint Augustin apparu au début du XIIe siècle au prieuré de l'Artige, à Saint-Léonard-de-Noblat (Haute-Vienne, France).&lt;/span&gt;</skos:definition>
@@ -1503,7 +1501,7 @@
     <skos:prefLabel xml:lang="fr">ordre de Lartige</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6d68a9d9-4249-39aa-ac86-ded90c96de85">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtOd4cleR5QE</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/498ee149-c969-39f4-badd-89f18470c500"/>
     <skos:definition xml:lang="fr">Ensemble de citoyens, appelés des jurés, chargés de rendre un verdict dans un procès. (wp)</skos:definition>
@@ -1517,7 +1515,7 @@
     <skos:prefLabel xml:lang="nl">jury</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6e6ab411-d4d2-3f07-8b7e-50c5525be845">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtqzt6fqc013k1zjrq54sm</dcterms:identifier>
     <skos:altLabel xml:lang="fr">Chapitre du Saint-Sépulcre</skos:altLabel>
     <skos:altLabel xml:lang="fr">chanoines du Saint-Sépulcre</skos:altLabel>
@@ -1534,7 +1532,7 @@
     <skos:scopeNote xml:lang="fr">Ne doit pas être confondu avec Ordre équestre du Saint-Sépulcre de Jérusalem, &amp;amp;nbsp;ordre de chevalerie religieux, de droit pontifical, qui s'inspire des Croisades et est recréé en 1847 par décret papal.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6f168c83-ec6d-3fe0-bb09-38f7adcdd25d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtXl7NZgF8IA</dcterms:identifier>
     <skos:altLabel xml:lang="es">museo de sitio arqueólogico</skos:altLabel>
     <skos:altLabel xml:lang="it">museo di sito archeologico</skos:altLabel>
@@ -1549,7 +1547,7 @@
     <skos:prefLabel xml:lang="nl">museum bij archeologische site</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6f1f5d8e-1a63-34de-97d2-9f5aa8665966">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crthUyMVOXAk5</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec"/>
     <skos:definition xml:lang="fr">groupe social hiérarchisé, endogame et héréditaire (d'après Wikipedia).</skos:definition>
@@ -1562,7 +1560,7 @@
     <skos:prefLabel xml:lang="nl">kastenstelsel</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7193813e-4d14-39bf-a009-c0a0362ccbba">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtWMQyubLmxZ</dcterms:identifier>
     <skos:altLabel xml:lang="fr">Sarrazins</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/513f1c40-4666-330c-ac1c-8d2d57daec46"/>
@@ -1577,7 +1575,7 @@
     <skos:prefLabel xml:lang="nl">sarracenen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/72744c39-a428-39c0-8f03-c417066bc133">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtdbdsWw7h2B</dcterms:identifier>
     <skos:altLabel xml:lang="en">poor</skos:altLabel>
     <skos:altLabel xml:lang="en">subordinated</skos:altLabel>
@@ -1598,7 +1596,7 @@
     <skos:prefLabel xml:lang="nl">afhankelijke klasse</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/73638708-0fcb-3a08-94b1-6728c5b1f458">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtFRE341NEg9</dcterms:identifier>
     <skos:altLabel xml:lang="en">proxenia</skos:altLabel>
     <skos:altLabel xml:lang="it">proxenia</skos:altLabel>
@@ -1614,7 +1612,7 @@
     <skos:prefLabel xml:lang="nl">proxenos</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/73ee4f8b-a6b3-30f3-b722-6b6346af851d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtTuKv1rrbQF</dcterms:identifier>
     <skos:altLabel xml:lang="de">Herrscherschicht</skos:altLabel>
     <skos:altLabel xml:lang="en">governing class</skos:altLabel>
@@ -1631,7 +1629,7 @@
     <skos:prefLabel xml:lang="nl">leidende klasse</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/748d07a9-18d8-3d2a-a0f9-c4175a3d4916">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtpAmioxn6lc</dcterms:identifier>
     <skos:altLabel xml:lang="ar">إكليروس</skos:altLabel>
     <skos:altLabel xml:lang="en">clergyperson</skos:altLabel>
@@ -1652,7 +1650,7 @@
     <skos:prefLabel xml:lang="nl">clerus</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/750bcbd0-4d89-4cab-b2f3-847f5346ace6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300312242</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -1663,7 +1661,7 @@
     <skos:scopeNote xml:lang="fr">Institutions qui conservent, gèrent et prennent soin d'archives publiques non courantes ou d'autres documents historiques importants constitués en fonds organisé. Les documents conservés dans un service d'archives ont été reçus ou produits dans le cadre de l'activité d'une organisation, d'une institution ou d'une personne, et sont conservés pour leur valeur durable.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/76814244-e364-331b-8a7d-3466f512fa80">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtlSWsgHct8R</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c98907bf-c06b-3b17-8fed-dd700b594dc3"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -1676,7 +1674,7 @@
     <skos:prefLabel xml:lang="nl">provinciale administratie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/78e6494c-2394-35bf-bcfa-0d31da9bbeed">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtSZRolHtWnA</dcterms:identifier>
     <skos:altLabel xml:lang="en">clientage</skos:altLabel>
     <skos:altLabel xml:lang="en">clients</skos:altLabel>
@@ -1693,7 +1691,7 @@
     <skos:prefLabel xml:lang="nl">cliënteel</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/79734cf9-aaab-362a-902c-8f19b85307dc">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtUP6h0RqRV0</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1023011-1054-333a-9234-80a2d0502027"/>
     <skos:definition xml:lang="fr">Charge de magistrat romain s'occupant surtout des fonctions financières (Lar.)</skos:definition>
@@ -1707,7 +1705,7 @@
     <skos:prefLabel xml:lang="nl">quaestuur</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7ace4793-ac34-33ab-b21a-8702ac807dcd">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtE322xPRgxL</dcterms:identifier>
     <skos:altLabel xml:lang="en">municipal elite</skos:altLabel>
     <skos:altLabel xml:lang="en">municipal magister</skos:altLabel>
@@ -1723,7 +1721,7 @@
     <skos:prefLabel xml:lang="nl">gemeentemagistratuur</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7affa274-aafc-3add-bf14-d11223eb458c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtkr5x313t7x</dcterms:identifier>
     <skos:altLabel xml:lang="en">religious order</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/d7e4df2c-87a5-3e04-93f2-9b8776743fea"/>
@@ -1737,7 +1735,7 @@
     <skos:prefLabel xml:lang="it">congregazione religiosa</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7b163b2e-c7ac-3277-843d-8321eb033248">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt65t8HtqQtK</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
     <skos:definition xml:lang="fr">Chrétiens gréco-orientaux (Lar.)</skos:definition>
@@ -1751,7 +1749,7 @@
     <skos:prefLabel xml:lang="nl">byzantijnen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7b5f6be9-e153-3112-a423-4d5330e9c41d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt8IKnD9fXtI</dcterms:identifier>
     <skos:altLabel xml:lang="en">Tribe of Levi</skos:altLabel>
     <skos:altLabel xml:lang="es">Tribu de Leví</skos:altLabel>
@@ -1767,7 +1765,7 @@
     <skos:prefLabel xml:lang="nl">levieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7bd0a59f-9cb3-3ff3-a3c5-40deb1d1caf1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt36vmh0q1nv</dcterms:identifier>
     <skos:altLabel xml:lang="en">ekklesia</skos:altLabel>
     <skos:altLabel xml:lang="es">ekklesía</skos:altLabel>
@@ -1782,7 +1780,7 @@
     <skos:prefLabel xml:lang="it">ecclesia</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7cddd9d2-1bd9-3830-8940-54625ce1dfba">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtgGeSc2OzSA</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bdcc0b5a-5ce0-36b0-84fb-755dcc13eb55"/>
     <skos:definition xml:lang="fr">En Grèce antique, les hippeis, ou cavaliers, étaient ceux qui pouvaient entretenir un cheval, le nourrir. Pour cela, il fallait avoir des terres et avoir une récolte de plus de 300 mesures de blé. S'ils atteignaient plus de 500 mesures de blé de récolte, ils devenaient pentacosiomédimnes. Ces cavaliers n'était pas des cavaliers au sens moderne du terme. (WP le 08.01.21)</skos:definition>
@@ -1796,7 +1794,7 @@
     <skos:prefLabel xml:lang="nl">hippeis</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7d92ab51-6f6a-4621-9a55-008ae0d3f2c0">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300312281</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -1810,7 +1808,7 @@
     <skos:scopeNote xml:lang="pt">Instituições que mantêm locais onde objetos de valor, como obras de arte, antiguidades, espécimes científicos ou outros artefatos, são armazenados e exibidos para benefício público. Uma instituição dedicada à aquisição, cuidado, documentação, estudo e exposição de objetos de interesse ou valor duradouro.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7e991ad5-6d7c-3887-8d3c-413ff520281d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtggqpv8jpn4</dcterms:identifier>
     <skos:altLabel xml:lang="de">Trauerzug</skos:altLabel>
     <skos:altLabel xml:lang="en">funeral cortege</skos:altLabel>
@@ -1829,7 +1827,7 @@
     <skos:prefLabel xml:lang="it">corteo funebre</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8360fe0d-f58d-3816-9c67-6d0e2d83a48b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crt3KOSi8EBaT</dcterms:identifier>
     <skos:altLabel xml:lang="en">upper class</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b61f2054-35a8-35ad-a71c-ce27d35516b7"/>
@@ -1841,7 +1839,7 @@
     <skos:prefLabel xml:lang="it">borghesia</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/837f3bb8-97d3-394c-93dc-ae64c0c85e4a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtgzT3iPmALm</dcterms:identifier>
     <skos:altLabel xml:lang="fr">Augustiniens</skos:altLabel>
     <skos:altLabel xml:lang="fr">ordre de saint-Augustin</skos:altLabel>
@@ -1859,7 +1857,7 @@
     <skos:scopeNote xml:lang="fr">La variante du libellé Augustiniens ne s'applique qu'aux disciples de la règle de Saint-Augustin. Ne pas confondre avec les Jansénistes.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/85b9ee1b-4a99-3b8b-a899-282322296433">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtAziBYV7ZEo</dcterms:identifier>
     <skos:altLabel xml:lang="en">Coptic Orthodox Christians</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e0bd9494-ae70-38ec-8f54-d52c1627097f"/>
@@ -1874,7 +1872,7 @@
     <skos:prefLabel xml:lang="nl">kopten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/86837aff-1f4d-34fd-a67c-7cae388c7585">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtqkbXh5YDPG</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/498ee149-c969-39f4-badd-89f18470c500"/>
     <skos:definition xml:lang="fr">Groupe de concurrents appartenant aux différentes écuries qui s'opposaient les unes aux autres lors des jeux du cirque (ATLIF)</skos:definition>
@@ -1888,7 +1886,7 @@
     <skos:prefLabel xml:lang="nl">factie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/86a4bdaa-e8dc-3a26-bcd4-e9107c01d040">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtX3KGZZcFg2</dcterms:identifier>
     <skos:altLabel xml:lang="en">labor force</skos:altLabel>
     <skos:altLabel xml:lang="en">labour force</skos:altLabel>
@@ -1906,7 +1904,7 @@
     <skos:prefLabel xml:lang="nl">arbeider</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8733d74f-87f1-3d4e-a328-aee92443e72e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtgxhRLofhb3</dcterms:identifier>
     <skos:altLabel xml:lang="en">Almohads</skos:altLabel>
     <skos:altLabel xml:lang="fr">mouvement almohade</skos:altLabel>
@@ -1923,7 +1921,7 @@
     <skos:prefLabel xml:lang="nl">Almohaden</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8a6a2c03-31dd-362c-83b3-503fe417de7b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrthqc13cqnxw</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -1934,7 +1932,7 @@
     <skos:prefLabel xml:lang="it">cattolici</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8aceabd0-4efb-4d89-80ef-3cb6deb5bcca">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300386741</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -1944,7 +1942,7 @@
     <skos:scopeNote xml:lang="fr">Organes qui exercent de façon continue l'autorité, au nom d'une nation, d'un État, d'une communauté ou d'une autre entité administrative, sur les actions des sujets ou des citoyens, par voie de direction ou de réglementation.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8b877edd-ba47-345d-895b-da23eeccba48">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtoyLU25Xoz1</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/39bb46e2-3c4e-37a1-bb87-660cb0f68fa4"/>
     <skos:definition xml:lang="fr">Ensemble des formations militaires combattant à cheval (Lar.)</skos:definition>
@@ -1958,7 +1956,7 @@
     <skos:prefLabel xml:lang="nl">cavalerie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8d462a99-fcb3-3de0-b530-140fb0505213">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtvt7lNlU3VQ</dcterms:identifier>
     <skos:altLabel xml:lang="es">albigenses</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
@@ -1974,7 +1972,7 @@
     <skos:prefLabel xml:lang="nl">katharen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8f0192c6-9fd7-3b67-997b-5a2d72895a97">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crttUGNGTBjKc</dcterms:identifier>
     <skos:altLabel xml:lang="fr">phalange militaire</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0e4a8f89-2ce0-3937-8b03-8a719b28c7e0"/>
@@ -1987,7 +1985,7 @@
     <skos:prefLabel xml:lang="it">falange (esercito)</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8fb9a5df-6177-3b26-87d7-03ce21f278a4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtIJYtBwwnS2</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5c4ec728-2490-3c47-b89b-a72b0f6ddef0"/>
     <skos:definition xml:lang="fr">Les Pères du désert sont principalement des représentants du clergé régulier et parfois séculier de l'Antiquité tardive (IIIe et IVe siècles) qui ont vécu en communauté ou en ermites dans les déserts d'Égypte, de Palestine et de Syrie, ou dans des lieux peu fréquentés d'Anatolie. Ils sont aussi appelés « Abbas ». (Wikipedia)</skos:definition>
@@ -2001,7 +1999,7 @@
     <skos:prefLabel xml:lang="nl">Woestijnvaders</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/901f64f2-02a5-3c03-b153-e4701622caaa">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtaS0hStUkrV</dcterms:identifier>
     <skos:altLabel xml:lang="it">archivio comunale</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c98907bf-c06b-3b17-8fed-dd700b594dc3"/>
@@ -2015,7 +2013,7 @@
     <skos:prefLabel xml:lang="nl">stadsarchief</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/90a784fb-d7b6-3212-a518-90d7c6b1e0e1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtxmeGKwivUD</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b15d7389-e6f3-39f0-9d66-65f62abf2c6c"/>
     <skos:definition xml:lang="fr">Ensemble des esclaves d'un maître vivant à la ville.</skos:definition>
@@ -2029,7 +2027,7 @@
     <skos:prefLabel xml:lang="nl">familia urbana</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/91e206ac-8036-3872-9332-e5d64d551007">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtn0qTeZhS6S</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f61df72d-d6f1-30fb-8170-ef3c3fe8b10a"/>
     <skos:definition xml:lang="fr">Groupe de personnes possédant des idées politiques communes réunis en association. Il peut chercher à influencer le gouvernement en place, en le soutenant si celui-ci en est issu, ou en s'y opposant. (wp)</skos:definition>
@@ -2043,7 +2041,7 @@
     <skos:prefLabel xml:lang="nl">politieke partijen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/97675a6d-de4c-3e34-abae-1d50e00cc749">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crtLsENZlJGEv</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2de5050c-945f-3f58-bee7-f1213a30e4d5"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -2054,7 +2052,7 @@
     <skos:prefLabel xml:lang="it">minoranza religiosa</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/98257d1a-6e98-324b-808a-9978011013e2">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtYc6EeLONyB</dcterms:identifier>
     <skos:altLabel xml:lang="fr">Saducéens</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/57308e19-ca10-3243-887f-33fb79b38d2b"/>
@@ -2069,7 +2067,7 @@
     <skos:prefLabel xml:lang="nl">Sadduceeën</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/988f6d28-14f4-3670-a082-0cba3ab79430">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtcswfkLieJo</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b15d7389-e6f3-39f0-9d66-65f62abf2c6c"/>
     <skos:definition xml:lang="fr">Ensemble des esclave d'un maître vivant à la campagne.</skos:definition>
@@ -2083,7 +2081,7 @@
     <skos:prefLabel xml:lang="nl">familia rustica</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9af20b56-e841-3ee7-805b-d7d16aac42a4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtZ6BRAuHO1x</dcterms:identifier>
     <skos:altLabel xml:lang="en">popedom</skos:altLabel>
     <skos:altLabel xml:lang="nl">pausdom</skos:altLabel>
@@ -2099,7 +2097,7 @@
     <skos:prefLabel xml:lang="nl">pausschap</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9b085308-fb52-3785-b413-43442c10223c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtiOsQ2Et3AF</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0f3301fe-995d-3b7c-a0bd-6956825537ac"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -2112,7 +2110,7 @@
     <skos:prefLabel xml:lang="nl">naukleros</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9c5a6aa7-fd4f-3176-ba1e-aa9a3d9300f7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtSA0jKZOkkW</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2a4bf82f-4dac-341f-a0b2-555f9927ddc2"/>
     <skos:definition xml:lang="fr">Le hanbalisme est l'un des quatre madhhabs (écoles de pensée religieuse formant le droit musulman) de l'islam sunnite. (Wikipédia)</skos:definition>
@@ -2126,7 +2124,7 @@
     <skos:prefLabel xml:lang="nl">hanbalisme</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9d1d0fa1-6bc6-3ba2-9f0c-67c3c7e0565e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crtoQ312EsBA1</dcterms:identifier>
     <skos:altLabel xml:lang="en">Masonry</skos:altLabel>
     <skos:altLabel xml:lang="es">masonería</skos:altLabel>
@@ -2141,7 +2139,7 @@
     <skos:prefLabel xml:lang="nl">vrijmetselarij</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9e15ec3a-275d-3a7d-81fc-d5994999caef">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtJwWgjqN195</dcterms:identifier>
     <skos:altLabel xml:lang="en">Boeotia</skos:altLabel>
     <skos:altLabel xml:lang="es">Liga Beocia</skos:altLabel>
@@ -2156,7 +2154,7 @@
     <skos:prefLabel xml:lang="nl">Beotische confederatie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9e7b9e34-ec1e-38a6-8db2-5695f7d2e4a1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crtGjcFEg2cIj</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2de5050c-945f-3f58-bee7-f1213a30e4d5"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -2167,7 +2165,7 @@
     <skos:prefLabel xml:lang="it">minoranza etnica</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a09e75d7-9b81-3795-8bd1-fde36f6afff0">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt71pd59j1dn</dcterms:identifier>
     <skos:altLabel xml:lang="en">orthodox person</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
@@ -2180,7 +2178,7 @@
     <skos:prefLabel xml:lang="it">ortodossi</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a434a7a8-7f1d-3419-bc58-90d84157d66d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtPWZ0vptq25</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0ab30d64-94c8-31bc-9831-b396cde9dbf5"/>
     <skos:definition xml:lang="en">Period of work, usually compulsory, spent in the service of your country's army.</skos:definition>
@@ -2196,7 +2194,7 @@
     <skos:prefLabel xml:lang="nl">dienstplicht</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a48a9ea1-6463-3278-a172-19448c83addc">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtA4q0ZavI4W</dcterms:identifier>
     <skos:altLabel xml:lang="en">diplomatic mission</skos:altLabel>
     <skos:altLabel xml:lang="en">foreign mission</skos:altLabel>
@@ -2212,7 +2210,7 @@
     <skos:prefLabel xml:lang="nl">ambassade</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a4b4d675-9c38-336c-91cf-af8b4cde1039">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtlUPuEy3KWk</dcterms:identifier>
     <skos:altLabel xml:lang="en">choir</skos:altLabel>
     <skos:altLabel xml:lang="en">chorale</skos:altLabel>
@@ -2229,7 +2227,7 @@
     <skos:prefLabel xml:lang="nl">koorgezang</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a54761ca-5f91-39a4-89d8-7bcc31622db1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtxN5iMioSxL</dcterms:identifier>
     <skos:altLabel xml:lang="en">royal family</skos:altLabel>
     <skos:altLabel xml:lang="es">familia real</skos:altLabel>
@@ -2246,7 +2244,7 @@
     <skos:prefLabel xml:lang="it">famiglia reale</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a5fc6790-a808-3d73-89a4-7dc240791ce6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtzUB2INUjpr</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
     <skos:definition xml:lang="fr">Croyants relevant de l'Hérésie (Wikidata).</skos:definition>
@@ -2260,7 +2258,7 @@
     <skos:prefLabel xml:lang="nl">ketters</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a6c66d39-1181-36d5-bde3-760f1f65a7b3">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crtBEZS4vIwhw</dcterms:identifier>
     <skos:altLabel xml:lang="en">School of Cos</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/498ee149-c969-39f4-badd-89f18470c500"/>
@@ -2274,7 +2272,7 @@
     <skos:prefLabel xml:lang="it">Scuola di Cnido</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a6f09ac3-8c03-37d6-acbb-720224b934ea">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt21RS8L1DTZ</dcterms:identifier>
     <skos:altLabel xml:lang="en">low-ranking</skos:altLabel>
     <skos:altLabel xml:lang="es">clase proletaria</skos:altLabel>
@@ -2292,7 +2290,7 @@
     <skos:prefLabel xml:lang="nl">arbeidersklasse</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/aa89f5fe-a2ba-3f0d-bb08-2e58d6925650">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtzpDJK1sK3X</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0f3301fe-995d-3b7c-a0bd-6956825537ac"/>
     <skos:definition xml:lang="fr">Les confréries des métiers sont des institutions de tradition romaine. Déjà le roi Numa rangea, en effet, tous les artisans de Rome en autant de confréries qu'il y avait de professions dans la ville; elles avaient chacune un dieu de l’antiquité pour patron. (WP le 27.11.20)</skos:definition>
@@ -2306,7 +2304,7 @@
     <skos:prefLabel xml:lang="nl">Romeinse broederschappen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ab3afe39-19f8-330f-b0f9-09fcd27edfa1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtScr6ezDU6D</dcterms:identifier>
     <skos:altLabel xml:lang="en">Auxilia</skos:altLabel>
     <skos:altLabel xml:lang="en">auxiliary troop</skos:altLabel>
@@ -2322,7 +2320,7 @@
     <skos:prefLabel xml:lang="nl">hulptroepen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ab716c10-a5ec-3dcb-acb3-d50de57928d7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt943eNWUji4</dcterms:identifier>
     <skos:altLabel xml:lang="en">servant</skos:altLabel>
     <skos:altLabel xml:lang="en">slave</skos:altLabel>
@@ -2338,7 +2336,7 @@
     <skos:prefLabel xml:lang="nl">slavenklasse</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ab7b57d2-f249-353e-802f-0afa5d79fead">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtx4f9xvr7m4kmsw76x2ht</dcterms:identifier>
     <skos:altLabel xml:lang="fr">ordre des Célestins</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52dc90d5-c492-3c15-a193-f169a11d1ca1"/>
@@ -2352,7 +2350,7 @@
     <skos:prefLabel xml:lang="it">Congregazione dei Celestini</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/aca50421-15bf-31ec-aa33-713471e4b9eb">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtEE1qe7b07e</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52232f12-06a3-3426-b4f3-ebafc0639893"/>
     <skos:definition xml:lang="fr">Apparues à la XXVIe dynastie (664-525 av. J.-C.) et appelées parfois aussi confréries, les associations religieuses sont connues aux époques grecques et romaines par des sources démotiques et grecques. (...) On a conservé des statuts de ces associations, rédigés pour un an et approuvés, semble-t-il, par la majorité des membres. Instituées en l'honneur d'un dieu, elles sont rattachés à la vie du temple où elles tiennent leur réunion.  (Cenival 1972)</skos:definition>
@@ -2366,7 +2364,7 @@
     <skos:prefLabel xml:lang="nl">religieuze vereniging</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/acab47d3-b33a-3e4d-88a2-9b0ff3cffe39">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt4Ntkdf9S4q</dcterms:identifier>
     <skos:altLabel xml:lang="en">priesthood</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bb162fe7-60cb-3746-a0ab-87351e8acc68"/>
@@ -2381,7 +2379,7 @@
     <skos:prefLabel xml:lang="nl">priesterschap</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtgE4pHNat6W</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/55a4e144-7c34-3801-aa02-f1e71a2cf127"/>
     <skos:definition xml:lang="fr">Groupe de personnes qui adhèrent à la religion issue de Jésus de Nazareth, le christianisme, et suivent son enseignement rapporté par les Évangiles. Les chrétiens sont répartis en trois grandes confessions : les catholiques, les orthodoxes et les protestants. (Wikipédia)</skos:definition>
@@ -2410,7 +2408,7 @@
     <skos:prefLabel xml:lang="nl">christenen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b06ad3c2-c5b5-3ac6-955f-1a358083afed">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtqethkqaNhR</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/3d5ec043-1ed9-3c09-9df6-1d20196df584"/>
     <skos:definition xml:lang="fr">Division de la légion romaine constituée de six cents hommes de toutes les armes et commandée par un tribun militaire, un préfet ou un centurion.  (CNRTL 2020)</skos:definition>
@@ -2424,7 +2422,7 @@
     <skos:prefLabel xml:lang="nl">cohorte</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b0927e47-cd8b-3d0b-aaa1-0cd9d3222d49">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtuutqsphua6</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/1f293480-5f6f-3e95-a53f-469a9e216f2e"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -2437,7 +2435,7 @@
     <skos:prefLabel xml:lang="nl">Ionische bond</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b15d7389-e6f3-39f0-9d66-65f62abf2c6c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtOX6iAwmm9S</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec"/>
     <skos:definition xml:lang="fr">La familia désigne l'ensemble des maîtres et domestiques chez les Étrusques et les Romains.</skos:definition>
@@ -2453,7 +2451,7 @@
     <skos:prefLabel xml:lang="nl">familia</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b1b1cf0b-474a-3738-88da-e5e5bf8e438d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtA56TqYxlPi</dcterms:identifier>
     <skos:altLabel xml:lang="en">Bernardines</skos:altLabel>
     <skos:altLabel xml:lang="en">Order of Cistercians</skos:altLabel>
@@ -2476,7 +2474,7 @@
     <skos:prefLabel xml:lang="nl">cisterciënzers</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b2051109-ec2a-3a98-bc09-d5648c76348b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtq0vazjRSi8</dcterms:identifier>
     <skos:altLabel xml:lang="en">pleb</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/72744c39-a428-39c0-8f03-c417066bc133"/>
@@ -2491,7 +2489,7 @@
     <skos:prefLabel xml:lang="nl">plebs</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b215ae7d-b43b-32ff-a0e1-00efd316f4c4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtR3UkdvnDGA</dcterms:identifier>
     <skos:altLabel xml:lang="en">political organisation</skos:altLabel>
     <skos:altLabel xml:lang="en">political structure</skos:altLabel>
@@ -2515,7 +2513,7 @@
     <skos:prefLabel xml:lang="nl">politieke institutie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b36423a3-e884-3a4b-81c8-4234fc07ba28">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrthe0bIqpaWw</dcterms:identifier>
     <skos:altLabel xml:lang="de">Ältestenrat</skos:altLabel>
     <skos:altLabel xml:lang="fr">gérousie</skos:altLabel>
@@ -2532,7 +2530,7 @@
     <skos:prefLabel xml:lang="nl">gerousia</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b3b6d98a-7990-3c1c-b4c0-8168ccc9b480">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtlp1OFwcxfE</dcterms:identifier>
     <skos:altLabel xml:lang="es">legión romana</skos:altLabel>
     <skos:altLabel xml:lang="it">legio</skos:altLabel>
@@ -2550,7 +2548,7 @@
     <skos:prefLabel xml:lang="nl">legioen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b4893712-08a4-31af-8770-88410b021ded">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrthoMrS3qnLo</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
     <skos:definition xml:lang="fr">“Un musée est une institution permanente à but non lucratif au service de la société qui recherche, collecte, conserve, interprète et expose le patrimoine matériel et immatériel. Ouverts au public, accessibles et inclusifs, les musées favorisent la diversité et la durabilité. Ils fonctionnent et communiquent de manière éthique, professionnelle et avec la participation des communautés, offrant des expériences variées pour l’éducation, le plaisir, la réflexion et le partage des connaissances.” (ICOM, août 2022)</skos:definition>
@@ -2565,7 +2563,7 @@
     <skos:prefLabel xml:lang="nl">museum</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b61f2054-35a8-35ad-a71c-ce27d35516b7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtbTwnVl3xKL</dcterms:identifier>
     <skos:altLabel xml:lang="en">elite</skos:altLabel>
     <skos:altLabel xml:lang="en">wealthy</skos:altLabel>
@@ -2587,7 +2585,7 @@
     <skos:prefLabel xml:lang="nl">hogere klasse</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b671ed90-483e-39e3-bc4f-10f6ddcc8180">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtw46tdwnw33</dcterms:identifier>
     <skos:altLabel xml:lang="fr">anglicans</skos:altLabel>
     <skos:altLabel xml:lang="fr">calvinistes</skos:altLabel>
@@ -2604,7 +2602,7 @@
     <skos:prefLabel xml:lang="it">protestanti</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b75c2bce-3515-3f70-93ba-ee295e7c334a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtgU5LqkI2d1</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b215ae7d-b43b-32ff-a0e1-00efd316f4c4"/>
     <skos:definition xml:lang="fr">institution politique qui exerce le pouvoir exécutif du pays&lt;/br&gt;</skos:definition>
@@ -2618,7 +2616,7 @@
     <skos:prefLabel xml:lang="nl">regering</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b77c621c-44d8-375e-ae6c-702d5bf4b8ee">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt4GBikp6RKx</dcterms:identifier>
     <skos:altLabel xml:lang="de">Sippe</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec"/>
@@ -2633,7 +2631,7 @@
     <skos:prefLabel xml:lang="nl">gens</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b7b4d2fa-1d22-36de-b167-f2f12ca71d57">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt7839kqsn5k</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52232f12-06a3-3426-b4f3-ebafc0639893"/>
     <skos:definition xml:lang="fr">&lt;p&gt;&lt;span style= color: rgb(0, 0, 0); &gt;Association ou corporation qui peut, parmi ses activités, assurer à ses membres un lieu de sépulture et des funérailles. Ainsi peuvent se créer des ensembles ou groupes de sépultures spécifiques, constitués selon l’appartenance au collège, avec un profil de recrutement particulier (Atelier Mort, fév. 2021)&lt;/span&gt;&lt;/p&gt;</skos:definition>
@@ -2645,7 +2643,7 @@
     <skos:prefLabel xml:lang="it">collegio funebre</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b7eaaf5a-5f57-3fc5-893c-f71e9266052e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtzvgvx28k7w</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
     <skos:definition xml:lang="fr">Institution qui a pour mission de garder et de rendre accessibles des livres.</skos:definition>
@@ -2654,7 +2652,7 @@
     <skos:prefLabel xml:lang="fr">bibliothèque (institution)</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ba29b69c-f2c4-372c-9e76-6903b8800fcb">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt6OPaWEQNas</dcterms:identifier>
     <skos:altLabel xml:lang="en">Aegean confederation</skos:altLabel>
     <skos:altLabel xml:lang="en">Aegean maritime confederation</skos:altLabel>
@@ -2672,7 +2670,7 @@
     <skos:prefLabel xml:lang="nl">Atheense confederatie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ba5d5c6f-e93a-3f56-9287-6330c3c08b31">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtVJmokfYBiq</dcterms:identifier>
     <skos:altLabel xml:lang="en">episcopacy</skos:altLabel>
     <skos:altLabel xml:lang="it">vescovado (carica)</skos:altLabel>
@@ -2689,7 +2687,7 @@
     <skos:prefLabel xml:lang="nl">episcopaat</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ba916f92-7f6e-450e-ae0d-58535d1342c5">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300343398</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -2700,7 +2698,7 @@
     <skos:scopeNote xml:lang="fr">Institutions de recherche, généralement rattachées à des organisations ou à des institutions industrielles, commerciales ou éducatives plus vastes. Pour les lieux indépendants où s'exerce la recherche, voir « instituts de recherche ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bade7922-f4b2-330e-b6d0-bc5d684a2017">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtLPSlOUeaFi</dcterms:identifier>
     <skos:altLabel xml:lang="es">armada egipicia</skos:altLabel>
     <skos:altLabel xml:lang="it">armata egizia</skos:altLabel>
@@ -2716,7 +2714,7 @@
     <skos:prefLabel xml:lang="nl">Egyptisch leger</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bb162fe7-60cb-3746-a0ab-87351e8acc68">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtvEh8SAa1Nr</dcterms:identifier>
     <skos:altLabel xml:lang="es">instituto religioso</skos:altLabel>
     <skos:altLabel xml:lang="fr">administration religieuse</skos:altLabel>
@@ -2744,7 +2742,7 @@
     <skos:prefLabel xml:lang="nl">religieuze institutie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bce3ef91-a8b3-3e5c-a807-f0768cd9796f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrth1q2mqj1n5jp55xsf9x2</dcterms:identifier>
     <skos:altLabel xml:lang="fr">ordre de la Visitation</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52dc90d5-c492-3c15-a193-f169a11d1ca1"/>
@@ -2758,7 +2756,7 @@
     <skos:prefLabel xml:lang="it">ordine della Visitazione di Santa Maria</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bcf688bb-9974-3934-9d14-923ec1fa9134">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtkuVRERHKGR</dcterms:identifier>
     <skos:altLabel xml:lang="en">praefectus annonae</skos:altLabel>
     <skos:altLabel xml:lang="fr">préfecture de l'annone</skos:altLabel>
@@ -2774,7 +2772,7 @@
     <skos:prefLabel xml:lang="nl">annona</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bdc28b26-764c-30c2-91ca-acb7431a03c6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtfRsB7bzupa</dcterms:identifier>
     <skos:altLabel xml:lang="en">Paleochristian</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
@@ -2789,7 +2787,7 @@
     <skos:prefLabel xml:lang="nl">vroegchristenen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bdcc0b5a-5ce0-36b0-84fb-755dcc13eb55">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtXv6ew1867F</dcterms:identifier>
     <skos:altLabel xml:lang="es">elite</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b61f2054-35a8-35ad-a71c-ce27d35516b7"/>
@@ -2806,7 +2804,7 @@
     <skos:prefLabel xml:lang="nl">elite</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtvOY6KXyI9x</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/498ee149-c969-39f4-badd-89f18470c500"/>
     <skos:definition xml:lang="fr">Ensemble d’individus formant une unité sociale durable, caractérisé par des valeurs communes, des liens plus ou moins intenses, une situation sociale identique et/ou des activités communes, une conscience d’appartenir à ce groupe et par la reconnaissance, par d’autres groupes, de son existence. (https://ses.webclass.fr/notions/groupe-social/)</skos:definition>
@@ -2833,7 +2831,7 @@
     <skos:prefLabel xml:lang="nl">sociale groepen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c20aeeda-89b9-37ae-93cc-75efc0767c60">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtDjfeS1PyaR</dcterms:identifier>
     <skos:altLabel xml:lang="fr">Ismaéliens</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/513f1c40-4666-330c-ac1c-8d2d57daec46"/>
@@ -2848,7 +2846,7 @@
     <skos:prefLabel xml:lang="nl">ismaëlieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c2395383-ad8b-3b25-a0e3-503261f42382">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/crtiF2SfFW119</dcterms:identifier>
     <skos:altLabel xml:lang="fr">vehiculatio</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1023011-1054-333a-9234-80a2d0502027"/>
@@ -2862,7 +2860,7 @@
     <skos:prefLabel xml:lang="nl">cursus publicus</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c392da7c-8e1b-36ce-8a9d-1722b61eff57">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtsybJRiiSaa</dcterms:identifier>
     <skos:altLabel xml:lang="de">Areshügel</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/211e9b3f-b4a5-35b6-9071-0a712335e7b4"/>
@@ -2877,7 +2875,7 @@
     <skos:prefLabel xml:lang="nl">Areopaag</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c396247e-ddc5-35b1-b48a-dada62267e1d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtDXZStrVYoM</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec"/>
     <skos:definition xml:lang="fr">Un clan est un ensemble de familles associées par une parenté réelle ou fictive, fondée sur l'idée de descendance d'un ancêtre commun, qui, lui-même, peut être réel, imaginaire ou mythologique. Mot d'orgine écossaise choisi comme concept générique par les ethnologues pour désigner tous les systèmes politiques fondés sur des familles élargies stables. Il est l'équivalent de gente(gens-gentis) qui désigne les familles patriciennes de la Rome antique (WP 19/8/2020).</skos:definition>
@@ -2891,7 +2889,7 @@
     <skos:prefLabel xml:lang="nl">clan</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c3a618e1-6a50-4ed5-827b-9cbf535ac725">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300386364</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -2901,7 +2899,7 @@
     <skos:scopeNote xml:lang="fr">Organisations, agences, services ou autres entités qui coordonnent, dirigent et supervisent la mise en œuvre de plusieurs projets ou activités liés entre eux.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c66396cb-c8aa-3ccc-94c2-79e2cb1f8273">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtrYZPFi88VQ</dcterms:identifier>
     <skos:altLabel xml:lang="en">curule aedile</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1023011-1054-333a-9234-80a2d0502027"/>
@@ -2916,7 +2914,7 @@
     <skos:prefLabel xml:lang="nl">aedilitas</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c718709e-92d5-39cb-a3b0-5e546a1e00d6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt0f7vAOIWS2</dcterms:identifier>
     <skos:altLabel xml:lang="en">Tribe of Asher</skos:altLabel>
     <skos:altLabel xml:lang="fr">Tribu des Ashurites</skos:altLabel>
@@ -2932,7 +2930,7 @@
     <skos:prefLabel xml:lang="nl">assurieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/c98907bf-c06b-3b17-8fed-dd700b594dc3">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt5t2drGln1y</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -2952,7 +2950,7 @@
     <skos:prefLabel xml:lang="nl">administratieve dienst</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cb8dfa01-142e-4115-a401-06a9233e9e57">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300263534</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -2964,7 +2962,7 @@
     <skos:scopeNote xml:lang="fr">Principales unités exécutives ou administratives au sein d'une organisation. Pour les unités majeures autonomes ou semi-autonomes, employer « divisions ». L'usage de ces termes dans la littérature, notamment pour les intitulés officiels, est variable et la distinction n'est pas toujours cohérente.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cbbeb1cd-77bf-3ea8-a9f9-e6181773c221">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt3KAIEU7WgX</dcterms:identifier>
     <skos:altLabel xml:lang="en">cult</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/55a4e144-7c34-3801-aa02-f1e71a2cf127"/>
@@ -2979,7 +2977,7 @@
     <skos:prefLabel xml:lang="nl">sekten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cd2d0664-2919-32f1-8320-d4d410cb07fa">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtNoupej4mXn</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
     <skos:definition xml:lang="fr">Nom donné par les Arabes aux Chrétiens d'Espagne sous la domination arabe (Lar.)</skos:definition>
@@ -2993,7 +2991,7 @@
     <skos:prefLabel xml:lang="nl">mozaraben</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ce93aba2-56ee-304d-8a41-7508cc2bf5b9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt6Bxd07j7Ni</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1023011-1054-333a-9234-80a2d0502027"/>
     <skos:definition xml:lang="fr">Charge de Consul, à Rome (Lar.)</skos:definition>
@@ -3007,7 +3005,7 @@
     <skos:prefLabel xml:lang="nl">consulaat</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ceb95bcd-2b5b-35a2-8fca-2f53e4417776">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtjyQVKT7K6O</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
     <skos:definition xml:lang="fr">Groupe religieux qui tire son nom du monastère de Saint-Maron, en Syrie (Lar.)</skos:definition>
@@ -3021,7 +3019,7 @@
     <skos:prefLabel xml:lang="nl">maronieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/cfa49402-4f5c-3796-b3ce-1ac4ce67e919">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtnN1gEm6iYG</dcterms:identifier>
     <skos:altLabel xml:lang="en">bacaudae</skos:altLabel>
     <skos:altLabel xml:lang="it">bacaudae</skos:altLabel>
@@ -3037,7 +3035,7 @@
     <skos:prefLabel xml:lang="nl">Bagaudae</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d0137ea9-7f6b-32f6-8fe1-4585bffe7c95">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtKPKSRRMdbB</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/498ee149-c969-39f4-badd-89f18470c500"/>
     <skos:definition xml:lang="fr">Groupe de gens qui ont des intérêts communs (Lar.)</skos:definition>
@@ -3054,7 +3052,7 @@
     <skos:prefLabel xml:lang="nl">gemeenschap</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d21e4cc5-e2cd-3cea-91bb-c6144b2ab87e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtdTBth2LgTe</dcterms:identifier>
     <skos:altLabel xml:lang="en">Mandaean Sabian</skos:altLabel>
     <skos:altLabel xml:lang="en">Sabian</skos:altLabel>
@@ -3071,7 +3069,7 @@
     <skos:prefLabel xml:lang="nl">mandaeërs</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d61af883-0177-3be3-965e-496e29ad7227">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtnY2OZuVaEs</dcterms:identifier>
     <skos:altLabel xml:lang="de">Ratsversammlung</skos:altLabel>
     <skos:altLabel xml:lang="es">Boulè</skos:altLabel>
@@ -3087,7 +3085,7 @@
     <skos:prefLabel xml:lang="nl">boulé</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d7b858c3-486e-4a52-9036-198eff1da00f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300248011</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -3099,7 +3097,7 @@
     <skos:scopeNote xml:lang="fr">Groupes de deux personnes ou animaux ou plus fonctionnant comme une unité collaborative dans une action commune : sport, jeu, projet ou tâche.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d7e4df2c-87a5-3e04-93f2-9b8776743fea">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt9gvwn25xgs</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/d0137ea9-7f6b-32f6-8fe1-4585bffe7c95"/>
     <skos:definition xml:lang="fr">Une communauté religieuse est une communauté dont les membres poursuivent le même idéal religieux. (CNRTL)</skos:definition>
@@ -3114,7 +3112,7 @@
     <skos:prefLabel xml:lang="it">comunità religiosa</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d842cb99-1e96-33e8-a216-03b5b85173a4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtBStLfVUpiv</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5ff194da-9ed9-35d0-a544-a96e2b78faca"/>
     <skos:definition xml:lang="fr">Assemblée des dignitaires municipaux nommés décurions. Elle regroupe magistrats et anciens magistrats des cités. Elle joue un rôle comparable à celui du Sénat romain (d'ap. Leclant, Disctionnaire de l'Antiquité, 2005</skos:definition>
@@ -3128,7 +3126,7 @@
     <skos:prefLabel xml:lang="nl">administratieve curie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/dc016427-7a60-37e4-a8e7-727ca46acd4b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt5Vyzd3D9vw</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
     <skos:definition xml:lang="fr">&lt;p&gt;L'état ou la condition d'un groupe d'humains vivant en compagnie d'autres personnes ; le système de coutumes et d'organisation adopté par un groupe de personnes pour une coexistence harmonieuse ou un bénéfice mutuel.&amp;amp;nbsp;&lt;/p&gt;</skos:definition>
@@ -3142,7 +3140,7 @@
     <skos:prefLabel xml:lang="nl">gemeenschap</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/dd074b33-36b9-338c-81e5-f8955cd95bc9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtOsxJT4LGRE</dcterms:identifier>
     <skos:altLabel xml:lang="de">Eques</skos:altLabel>
     <skos:altLabel xml:lang="de">Ordo equester</skos:altLabel>
@@ -3161,7 +3159,7 @@
     <skos:prefLabel xml:lang="nl">ridderstand</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ddbdcdf0-c77a-38af-a045-959af6f6e4a2">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt4hfB8PS2og</dcterms:identifier>
     <skos:altLabel xml:lang="de">Malikismus</skos:altLabel>
     <skos:altLabel xml:lang="es">Malikí</skos:altLabel>
@@ -3178,7 +3176,7 @@
     <skos:prefLabel xml:lang="nl">Malikieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/de1a689b-7440-3f44-b952-ccc4d7197bab">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtj8VoEOkH9q</dcterms:identifier>
     <skos:altLabel xml:lang="en">brotherhood</skos:altLabel>
     <skos:altLabel xml:lang="en">guild</skos:altLabel>
@@ -3194,7 +3192,7 @@
     <skos:prefLabel xml:lang="nl">broederschap (vereniging)</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtQTFW9uZaVG</dcterms:identifier>
     <skos:definition xml:lang="fr">Cette branche concerne les entités sociales collectives organisées dans un but commun. Elles sont constituées d'un certain nombre d'individus et peuvent se composer de sous-groupes aux rôles définis qui interagissent entre eux pour conduire la mission spécifique (qui leur a été confié). Elles se reconnaissent un événement fondateur qui leur confère identité et légitimation. Leur organisation interne peut évoluer pour s'adapter à des circonstances particulières. (d'après le DARIAH Backbone Thesaurus, v. 1.2.8)</skos:definition>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -3229,7 +3227,7 @@
     <skos:scopeNote xml:lang="fr">Concept de niveau supérieur, utiliser de préférence des concepts plus spécifiques.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e0a50890-ddc3-3901-9383-17d780d7c990">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtqaRGD15q3Q</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e05d3552-6a44-3cd6-adc9-fec22a881851"/>
     <skos:definition xml:lang="fr">&lt;span style= color: rgb(32, 33, 34); &gt;Coalition entre deux ou plusieurs partis pour défendre des intérêts communs.&lt;/span&gt;</skos:definition>
@@ -3245,7 +3243,7 @@
     <skos:prefLabel xml:lang="nl">alliantie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e0bd9494-ae70-38ec-8f54-d52c1627097f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtg7spdbrkmr</dcterms:identifier>
     <skos:altLabel xml:lang="de">Orientalische Christen#Ostchristen</skos:altLabel>
     <skos:altLabel xml:lang="en">Arab Christians</skos:altLabel>
@@ -3264,7 +3262,7 @@
     <skos:prefLabel xml:lang="it">cristiani d'Oriente</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e1b2424f-af0a-352a-9721-6911f1a130f8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtGTK4xMLBAB</dcterms:identifier>
     <skos:altLabel xml:lang="en">Order of Carthusians</skos:altLabel>
     <skos:altLabel xml:lang="es">Orden cartuja</skos:altLabel>
@@ -3284,7 +3282,7 @@
     <skos:prefLabel xml:lang="nl">kartuizers</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e1d08230-9ad3-3149-8924-ab3cf9e360b8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtbNUNRnBldV</dcterms:identifier>
     <skos:altLabel xml:lang="en">Dominicans</skos:altLabel>
     <skos:altLabel xml:lang="en">Order of Preachers</skos:altLabel>
@@ -3305,7 +3303,7 @@
     <skos:prefLabel xml:lang="nl">dominicanen</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e20ba4a5-0a7c-3cbf-9235-1dc02810d2f6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtd6p9oHq1Tf</dcterms:identifier>
     <skos:altLabel xml:lang="fr">personnes noires</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/2de5050c-945f-3f58-bee7-f1213a30e4d5"/>
@@ -3321,7 +3319,7 @@
     <skos:prefLabel xml:lang="nl">Zwarten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e2a0e8ea-464d-3dcf-91f4-c04d17bfb578">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtu9I4uLVXyH</dcterms:identifier>
     <skos:altLabel xml:lang="en">aristocracy</skos:altLabel>
     <skos:altLabel xml:lang="es">aristocracia (clase social)</skos:altLabel>
@@ -3339,7 +3337,7 @@
     <skos:prefLabel xml:lang="nl">adel</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e2b73d9f-665c-320b-865b-e4f2e90cce9f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrttbxggbkm3h</dcterms:identifier>
     <skos:altLabel xml:lang="ar">forces navales</skos:altLabel>
     <skos:altLabel xml:lang="ar">marine de guerre</skos:altLabel>
@@ -3361,7 +3359,7 @@
     <skos:prefLabel xml:lang="it">marina militare</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e3259cbf-3078-3694-9324-0eea2c4bdd6a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt1buth3q7SQ</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec"/>
     <skos:definition xml:lang="fr">Division topographique du peuple romain ; subdivision ethnique des peuples grecs ; groupe social et politique fondé sur la parenté ethnique (Rob.)</skos:definition>
@@ -3375,7 +3373,7 @@
     <skos:prefLabel xml:lang="nl">stam</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e588e9ca-549b-3118-9b0d-cb9c4a2ab9f4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt9zOnWQjwz9</dcterms:identifier>
     <skos:altLabel xml:lang="de">Jurisdiktion</skos:altLabel>
     <skos:altLabel xml:lang="de">Zwangsverwaltung</skos:altLabel>
@@ -3394,7 +3392,7 @@
     <skos:prefLabel xml:lang="nl">jurisdictie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e8ef6fee-dd05-3a1a-9eb6-eafe0ef6f8cf">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtjg8adfR3nr</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/af08cf17-0197-3341-b045-b3b47872189b"/>
     <skos:definition xml:lang="fr">Chevaliers chrétiens occidentaux ayant participé aux Croisades.</skos:definition>
@@ -3408,7 +3406,7 @@
     <skos:prefLabel xml:lang="nl">kruisvaarders</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ea203e0b-5a62-385c-97df-46db77b005d3">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtxizW65mJ49</dcterms:identifier>
     <skos:altLabel xml:lang="de">Departementalarchiv</skos:altLabel>
     <skos:altLabel xml:lang="de">Kantonsarchiv</skos:altLabel>
@@ -3424,7 +3422,7 @@
     <skos:prefLabel xml:lang="nl">departementaal archief</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ea7e364d-bdb2-3cc5-8e9b-99074ef16b3c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtmwrEXUKR07</dcterms:identifier>
     <skos:altLabel xml:lang="en">Adamian</skos:altLabel>
     <skos:altLabel xml:lang="es">adamianos</skos:altLabel>
@@ -3442,7 +3440,7 @@
     <skos:prefLabel xml:lang="nl">adamieten</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ebf9edd9-7916-33fe-b2ed-9ed0e922c768">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtSmZQR19KQ9</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/c98907bf-c06b-3b17-8fed-dd700b594dc3"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -3455,7 +3453,7 @@
     <skos:prefLabel xml:lang="nl">politie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ed241ce8-b69e-447b-8e7c-e757443e4041">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300026004</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -3467,7 +3465,7 @@
     <skos:scopeNote xml:lang="fr">Organisations, établissements ou associations formellement structurés, créés pour la promotion d'un objectif d'intérêt public ou privé déterminé, généralement religieux, charitable ou éducatif : église, école, collège, hôpital, asile, maison de correction, mission, etc.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f1023011-1054-333a-9234-80a2d0502027">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt3mQjNBZrQs</dcterms:identifier>
     <skos:altLabel xml:lang="en">Roman administration</skos:altLabel>
     <skos:altLabel xml:lang="fr">administration romaine</skos:altLabel>
@@ -3488,7 +3486,7 @@
     <skos:prefLabel xml:lang="nl">Romeinse instituties</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f16848f4-aa9f-3e8e-b3fe-d15fe33b336c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt3Oay0dEeNy</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec"/>
     <skos:definition xml:lang="fr">La famille du roi se composait de la reine, de la troupe des concubines du harem et des enfants du roi.</skos:definition>
@@ -3501,7 +3499,7 @@
     <skos:prefLabel xml:lang="it">famiglia reale egizia</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/f1e7c733-a149-4ffe-8f8e-620c852f4131</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/059e86af-116a-4f71-83f6-d828b2688276"/>
@@ -3518,7 +3516,7 @@
     <skos:prefLabel xml:lang="fr">AAT - Types de groupes généraux</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f54fd97a-dfbf-3193-88c0-9897306698e6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtcZXxvwiOgy</dcterms:identifier>
     <skos:altLabel xml:lang="en">Church (organization)</skos:altLabel>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bb162fe7-60cb-3746-a0ab-87351e8acc68"/>
@@ -3533,7 +3531,7 @@
     <skos:prefLabel xml:lang="nl">Kerk (gemeenschap)</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f61df72d-d6f1-30fb-8170-ef3c3fe8b10a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtufeQDy8WUs</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/52232f12-06a3-3426-b4f3-ebafc0639893"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -3548,7 +3546,7 @@
     <skos:prefLabel xml:lang="nl">politieke vereniging</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f7ca2657-8374-373a-aa12-e6de0907863d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt3w1hp9pj6zjs97x48dqt</dcterms:identifier>
     <skos:altLabel xml:lang="fr">ordre de Fontevraud</skos:altLabel>
     <skos:altLabel xml:lang="fr">ordre de Fontevrault</skos:altLabel>
@@ -3563,7 +3561,7 @@
     <skos:prefLabel xml:lang="nl">orde van Fontevraud</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f81c623e-8924-32df-89a4-3da970d7690f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtQp8i0XsykH</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/513f1c40-4666-330c-ac1c-8d2d57daec46"/>
     <skos:definition xml:lang="fr">Musulmans d'Espagne devenus sujets des royaumes chrétiens après le XIe siècle.</skos:definition>
@@ -3577,7 +3575,7 @@
     <skos:prefLabel xml:lang="nl">Mudéjar</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fb3b6644-e787-3d14-a263-4f556944ebe9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtgOPqvnJgdU</dcterms:identifier>
     <skos:altLabel xml:lang="en">household</skos:altLabel>
     <skos:altLabel xml:lang="en">kin</skos:altLabel>
@@ -3594,7 +3592,7 @@
     <skos:prefLabel xml:lang="nl">familie</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fb58c384-98fe-3809-a0ef-933dfa3dd5a9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtbgMATQiLX4</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>
@@ -3609,7 +3607,7 @@
     <skos:prefLabel xml:lang="nl">sociale klasse</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fbad9273-52cb-33a1-94bf-47115f6148dd">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrt5jEHsAS2lp</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/bf326f99-0892-3419-85c6-d21bc39f1dec"/>
     <skos:definition xml:lang="ar">فرع من قبيلة</skos:definition>
@@ -3624,7 +3622,7 @@
     <skos:prefLabel xml:lang="nl">Phratria</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fd84bdea-9a50-399f-a07e-4d8ae56d2fce">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtmpr294q3hz</dcterms:identifier>
     <skos:altLabel xml:lang="en">the Tribunal of the Holy Office of the Inquisition</skos:altLabel>
     <skos:altLabel xml:lang="es">Inquisición</skos:altLabel>
@@ -3644,7 +3642,7 @@
     <skos:prefLabel xml:lang="it">Tribunale dell'Inquisizione</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ff1561f9-80ac-309d-b1b3-0bd9060a9e72">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>https://ark.frantiq.fr/ark:/26678/pcrtuoZ5H5qivl</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b61f2054-35a8-35ad-a71c-ce27d35516b7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/c3cc3cbf-e31f-433f-92fd-32f85bdda933"/>

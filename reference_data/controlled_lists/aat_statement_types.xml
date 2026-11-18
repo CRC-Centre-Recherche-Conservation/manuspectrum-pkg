@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:arches="https://manuspectrum.huma-num.fr/"
-  xmlns:arches_controlled_lists="https://archesproject.org/ns/controlled-lists#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837">
-    <arches_controlled_lists:searchable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</arches_controlled_lists:searchable>
     <dcterms:title>AAT - Statement Types</dcterms:title>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/052e3e0e-d685-4df6-a922-54b9ff54c274">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300435429</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">materials/technique description</skos:prefLabel>
@@ -20,7 +18,7 @@
     <skos:scopeNote xml:lang="fr">Indication des substances ou matériaux utilisés dans la création d'une œuvre, ainsi que des outils, techniques de production ou de fabrication, procédés ou méthodes incorporés dans sa fabrication, présentés dans une syntaxe adaptée à la présentation à l'utilisateur final et comprenant toutes les indications nécessaires d'incertitude, d'ambiguïté et de nuance. Pour les œuvres sur papier, la description des filigranes peut également être incluse. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0fff64d5-7aa5-4986-ae75-a684adec2dc6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300055547</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">rights statement</skos:prefLabel>
@@ -29,7 +27,7 @@
     <skos:scopeNote xml:lang="fr">Notions de sciences sociales relatives au droit.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/20d28e7a-0d4f-4055-b1cd-cf6f264e8432">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300027200</dcterms:identifier>
     <skos:altLabel xml:lang="de">Notiz (Dokumentengattung)</skos:altLabel>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
@@ -40,7 +38,7 @@
     <skos:scopeNote xml:lang="fr">Brèves déclarations d'un fait ou d'une expérience, écrites pour examen, comme aide-mémoire ou pour informer quelqu'un d'autre ; comprend également les lettres courtes et informelles. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2731df8f-0742-4315-9c73-bc630838949c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300435434</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">copyright/licensing statement</skos:prefLabel>
@@ -49,7 +47,7 @@
     <skos:scopeNote xml:lang="fr">Déclaration formelle du droit d'auteur ou de la licence d'une œuvre, et/ou de toute restriction qui lui est imposée. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2d4c2463-5d61-44f1-b873-ef59cbedfb96">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054676</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">methodology</skos:prefLabel>
@@ -60,7 +58,7 @@
     <skos:scopeNote xml:lang="fr">Ensemble des méthodes, procédures, concepts de travail, règles et postulats utilisés par une science, un art ou une discipline. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/577466f6-540a-49c0-a9f0-527b80512f1a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300389724</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">conditions</skos:prefLabel>
@@ -69,7 +67,7 @@
     <skos:scopeNote xml:lang="fr">L'état est l'état général d'un objet, d'un être ou d'un environnement, y compris les caractéristiques physiques telles que l'apparence, l'éclat, le niveau de dommage, l'exhaustivité, l'état de fonctionnement ou la qualité. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5b1a15d7-f4ce-48ec-871f-d09b330feeb1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300055863</dcterms:identifier>
     <skos:altLabel xml:lang="de">Provenienz</skos:altLabel>
     <skos:altLabel xml:lang="fr">provenance</skos:altLabel>
@@ -80,14 +78,14 @@
     <skos:scopeNote xml:lang="fr">L'histoire de la propriété et de la transmission d'un objet, y compris les emplacements précédents d'une œuvre.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5d43136e-bf32-4858-8051-1e5dd4e2fcf8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/5d43136e-bf32-4858-8051-1e5dd4e2fcf8</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">hypothesis</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">hypothèse</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b46c34b-124d-499a-8a89-b09f941d519b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379372</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">scientific analysis</skos:prefLabel>
@@ -96,7 +94,7 @@
     <skos:scopeNote xml:lang="fr">Examen détaillé des principes et des processus empiriques de découverte et de démonstration considérés comme caractéristiques de l'investigation scientifique, impliquant généralement l'observation, la formulation d'une hypothèse, l'expérimentation et l'élaboration d'une conclusion. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b498ba0-36ea-40c9-803b-76cf35ceb81f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300226216</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">examination (function)</skos:prefLabel>
@@ -107,7 +105,7 @@
     <skos:scopeNote xml:lang="fr">L'examen minutieux d'une situation ou d'un objet, généralement dans le but de déterminer sa nature, ses qualités ou son état actuel. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/77617e19-4102-4f2c-9a8c-4bb118d0d61d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300080102</dcterms:identifier>
     <skos:altLabel xml:lang="de">Biografie (Dokument)</skos:altLabel>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
@@ -118,7 +116,7 @@
     <skos:scopeNote xml:lang="fr">Récit écrit de la vie d'un individu. Pour le genre, quel que soit le support, préférez « biographie (genre général) ». </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/79f44e59-670d-408d-9439-0c6810523d5e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300266036</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">dimensions</skos:prefLabel>
@@ -127,7 +125,7 @@
     <skos:scopeNote xml:lang="fr">Une étendue mesurable ou spatiale de quelque nature que ce soit, telle que la longueur, la largeur, l'épaisseur, la surface, le volume, la mesure, la magnitude ou la taille. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7c355cac-8eb8-474a-b6d5-213767c6b2c1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300077463</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">fieldwork (research)</skos:prefLabel>
@@ -138,7 +136,7 @@
     <skos:scopeNote xml:lang="fr">L'étude ou la recherche d'un sujet particulier dans son environnement naturel.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f675a9f-975b-4313-87bf-32d6ed32c22c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300026687</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="de">Danksagung</skos:prefLabel>
@@ -149,7 +147,7 @@
     <skos:scopeNote xml:lang="fr">Reconnaissance écrite d'actes ou de réalisations</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8d1180e7-b308-4402-b2a4-ed5322c2a90c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300010358</dcterms:identifier>
     <skos:altLabel xml:lang="fr">matériaux (materials concept)</skos:altLabel>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
@@ -159,7 +157,7 @@
     <skos:scopeNote xml:lang="fr">La matière ou la substance à partir de laquelle une chose est ou peut être faite ; la substance tangible qui entre dans la composition d'une œuvre d'art ou d'un autre objet physique. Les substances physiques, qu'elles soient d'origine naturelle ou synthétique, vont des matériaux spécifiques aux types de matériaux. Les matériaux peuvent être désignés par leurs propriétés, leur fonction ou leur forme. Ils comprennent les matières premières et les matières transformées. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9076a3e5-06f5-4ed7-91e4-985914c7178b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300028702</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="de">Inschrift</skos:prefLabel>
@@ -174,14 +172,14 @@
     <skos:scopeNote xml:lang="it">Parole, testi, lettere, o simboli segnati su un'opera, inclusi testi, leggende, documentazioni, o commemorazioni. Per simboli o notazioni standardizzati su oggetti che trasmettono informazioni ufficiali, utilizzare "marks (symbols)".</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/981b1779-dfb7-4ce2-89be-a44b11f92887">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/981b1779-dfb7-4ce2-89be-a44b11f92887</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">configuration</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">configuration</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/98ba0f36-ac6e-4a97-877c-b14cb26b600b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379429</dcterms:identifier>
     <skos:altLabel xml:lang="en">sampling description</skos:altLabel>
     <skos:altLabel xml:lang="fr">description de l'échantillon</skos:altLabel>
@@ -192,7 +190,7 @@
     <skos:scopeNote xml:lang="fr">En sciences, prélèvement d'échantillons en vue d'une analyse technique.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9a51d30b-48e8-4f94-9344-cd2bb1d4b33a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300411780</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">description</skos:prefLabel>
@@ -201,7 +199,7 @@
     <skos:scopeNote xml:lang="fr">Représentations écrites, numériques, orales ou signées des attributs ou des qualités de quelque chose ou de quelqu'un. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b2f45594-6c10-49d7-a4b7-24e5ca839838">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300418049</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">brief text</skos:prefLabel>
@@ -210,7 +208,7 @@
     <skos:scopeNote xml:lang="fr">Documents comprenant des textes relativement courts, parfois mais pas toujours des versions abrégées de textes plus longs. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b4b5a0c9-edce-41a5-8df0-94b7e0e9631c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300026032</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="de">Zusammenfassung (Dokumentversion)</skos:prefLabel>
@@ -221,7 +219,7 @@
     <skos:scopeNote xml:lang="fr">Brèves synthèses qui reprennent les points essentiels d'un travail écrit, comme le contenu d'une publication ou d'une revue. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b5948ab8-9354-416c-8509-c31793ca7a63">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379518</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">technical analysis</skos:prefLabel>
@@ -230,7 +228,7 @@
     <skos:scopeNote xml:lang="fr">L'application de méthodes d'essai à des matériaux ou à des objets afin d'analyser leur composition et leur fabrication. Dans le contexte de la science de la conservation, il peut s'agir d'œuvres d'art mobiles et d'objets artefactuels dans un laboratoire de conservation. Pour un éventail plus large de méthodes d'essai, préférez « analyse scientifique ». </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bbe4af0a-867a-407f-8531-3ec4f6240090">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300200294</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="de">Paginierung</skos:prefLabel>
@@ -240,7 +238,7 @@
     <skos:scopeNote xml:lang="fr">De façon générale, organisation d'ensemble de la numérotation dans un livre. Ordonnancement des pages d'un livre, des microformes d'un microfilm, etc., par apposition de numéros consécutifs, un par page.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d2a8104a-312a-4f1d-acb7-3ecb1335e2fc">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300137570</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">identification</skos:prefLabel>
@@ -251,7 +249,7 @@
     <skos:scopeNote xml:lang="fr">Reconnaître ou établir que quelqu'un ou quelque chose est une personne ou une chose particulière. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d9de4418-386a-4563-a212-ed3994ef8fbe">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300200662</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">foliation</skos:prefLabel>
@@ -260,7 +258,7 @@
     <skos:scopeNote xml:lang="fr">Le placement de numéros consécutifs sur chaque folio d'un livre ; peut également se référer à la configuration générale de la numérotation dans le livre.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e025d70c-9b3d-450a-9d03-c4b76b5e29e5">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300028744</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">marks (identifying markings)</skos:prefLabel>
@@ -271,7 +269,7 @@
     <skos:scopeNote xml:lang="fr">Symboles, notations ou autres marques normalisés apposés sur des objets pendant ou après leur création, et transmettant une information telle que l'origine ou l'auteur de l'objet, son authenticité ou un changement de son statut officiel. Pour un texte porté sur un objet à des fins de documentation ou de commémoration, employer « inscriptions ». Pour les marques inhérentes au support papier, non apposées dans le cadre de l'image ou de l'œuvre, employer « filigranes ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e7971cff-8252-4ff7-bb18-58962dd92be2">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300121294</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="de">Auflage (editions)</skos:prefLabel>
@@ -282,14 +280,14 @@
     <skos:scopeNote xml:lang="fr">Groupes de multiples d'une œuvre publiés ensemble, comme un livre, une estampe, une photographie ou une sculpture moulée. Tous les exemplaires d'un livre, d'une estampe, etc., produits à partir d'un même modèle et publiés en même temps font partie de la même édition. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f0410bb1-e290-4bb1-a12f-7d67b27ffc92">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/f0410bb1-e290-4bb1-a12f-7d67b27ffc92</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">instrument settings</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">paramètres instrumentaux</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/f13a7e3f-0dcd-464c-a2e0-ea66e00431d4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300080091</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/d9ac47a4-0ffc-4b9b-89c1-c07c3a253837"/>
     <skos:prefLabel xml:lang="en">description (activity)</skos:prefLabel>

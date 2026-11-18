@@ -37,6 +37,7 @@
                 {
                     "card_id": "99590f7a-703d-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -44,8 +45,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "238d0f76-4002-44d9-be02-2310f859c3a2",
                     "label": {
@@ -61,6 +61,7 @@
                 {
                     "card_id": "99590f7a-703d-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -68,8 +69,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "387c05d7-0e15-48dc-96a4-8bfe1c363f87",
                     "label": {
@@ -85,6 +85,7 @@
                 {
                     "card_id": "99590f7a-703d-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "format": "",
                         "i18n_properties": [
                             "placeholder",
@@ -210,7 +211,6 @@
                 {
                     "alias": "dimension_value",
                     "config": {
-                        "defaultValue": "",
                         "en": ""
                     },
                     "datatype": "number",
@@ -237,7 +237,6 @@
                     "alias": "dimension_type",
                     "config": {
                         "controlledList": "3ff3a843-3891-4a6e-aa2b-eb2ec54eba7b",
-                        "defaultValue": "",
                         "multiValue": false
                     },
                     "datatype": "reference",
@@ -264,7 +263,6 @@
                     "alias": "dimension_unit",
                     "config": {
                         "controlledList": "c66d1ab5-258a-45c8-84f3-e82ddf085dad",
-                        "defaultValue": "",
                         "multiValue": false
                     },
                     "datatype": "reference",

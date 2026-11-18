@@ -309,6 +309,7 @@
                 {
                     "card_id": "5f68bad2-dc55-4ccf-a68f-babc3598ac56",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -316,8 +317,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "4e7c0bfd-a045-498c-a142-2d7bb7f73f12",
                     "label": {
@@ -333,6 +333,7 @@
                 {
                     "card_id": "d79dbcc8-3c3f-4b04-9161-e31adb5af29d",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -341,8 +342,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "5b9e92ce-6d79-4ba9-b510-f7d0133ba784",
                     "label": {
@@ -365,8 +365,7 @@
                         "label": "Part of Place",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "8068c34f-1061-40ac-8adb-5166e7a01caf",
                     "label": {
@@ -386,6 +385,7 @@
                         "bearing": 0,
                         "centerX": 3,
                         "centerY": 8.5,
+                        "defaultValue": "",
                         "defaultValueType": "",
                         "featureColor": "#FF0000",
                         "featureLineWidth": 1,
@@ -414,7 +414,6 @@
                         "overlayOpacity": 0,
                         "pitch": 0,
                         "rerender": true,
-                        "uneditable": false,
                         "zoom": 0
                     },
                     "id": "ae65c0fc-a365-4eb4-a781-cdbc25e70179",
@@ -431,6 +430,12 @@
                 {
                     "card_id": "e4513854-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -457,6 +462,7 @@
                 {
                     "card_id": "e4513854-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -464,8 +470,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e451385a-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -481,6 +486,7 @@
                 {
                     "card_id": "e4513854-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -488,8 +494,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e451385b-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -512,8 +517,7 @@
                         "label": "Source",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e451385c-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -529,6 +533,12 @@
                 {
                     "card_id": "e7bf9152-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -555,6 +565,7 @@
                 {
                     "card_id": "e7bf9152-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -562,8 +573,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e7bf9157-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -579,6 +589,7 @@
                 {
                     "card_id": "e7bf9152-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -586,8 +597,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e7bf9158-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -603,6 +613,12 @@
                 {
                     "card_id": "ec2d44be-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -635,7 +651,6 @@
                         ],
                         "label": "source",
                         "link_color": "#0055a0",
-                        "uneditable": false,
                         "url_label_placeholder": {
                             "en": "Enter URL Label... ",
                             "fr": "Saisir le libell\u00e9 de l'URL\u2026 "
@@ -659,6 +674,7 @@
                 {
                     "card_id": "ec2d44be-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -666,8 +682,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ec2d44cb-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -683,6 +698,7 @@
                 {
                     "card_id": "ec2d44be-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -690,8 +706,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ec2d44cc-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -707,6 +722,7 @@
                 {
                     "card_id": "ec2d44c0-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -714,8 +730,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ec2d44cd-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -731,6 +746,12 @@
                 {
                     "card_id": "ec2d44c0-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -757,6 +778,7 @@
                 {
                     "card_id": "ec2d44c0-7024-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -764,8 +786,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ec2d44d0-7024-11ef-8753-0575b5bada34",
                     "label": {
@@ -781,6 +802,7 @@
                 {
                     "card_id": "ffdad494-ede8-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -788,8 +810,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ffdad49d-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
@@ -805,6 +826,7 @@
                 {
                     "card_id": "ffdad494-ede8-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -812,8 +834,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ffdad49e-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
@@ -829,6 +850,12 @@
                 {
                     "card_id": "ffdad496-ede8-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -855,6 +882,28 @@
                 {
                     "card_id": "ffdad496-ede8-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": [
+                            {
+                                "labels": [
+                                    {
+                                        "id": "d77483cf-7bc1-40aa-95ec-591ea5bb10c6",
+                                        "language_id": "en",
+                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
+                                        "value": "PeriodO",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "0ea2edef-a739-59d4-9028-7e7d257e8393",
+                                        "language_id": "fr",
+                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
+                                        "value": "PeriodO",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                                "uri": "https://perio.do/en/"
+                            }
+                        ],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -862,8 +911,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ffdad4a0-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
@@ -879,6 +927,12 @@
                 {
                     "card_id": "ffdad496-ede8-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -905,6 +959,7 @@
                 {
                     "card_id": "ffdad496-ede8-11ef-9a8f-89acc4447d22",
                     "config": {
+                        "defaultValue": [],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -912,8 +967,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ffdad4a2-ede8-11ef-9a8f-89acc4447d22",
                     "label": {
@@ -1385,7 +1439,6 @@
                         "clusterDistance": 30,
                         "clusterMaxZoom": 12,
                         "clusterMinPoints": 2,
-                        "defaultValue": "",
                         "fillColor": "rgba(46,139,87,0.25)",
                         "haloRadius": 8,
                         "haloWeight": 4,
@@ -1429,11 +1482,11 @@
                         "graphs": [
                             {
                                 "graphid": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Place",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -1462,15 +1515,14 @@
                 {
                     "alias": "similar_of_places",
                     "config": {
-                        "defaultValue": "",
                         "graphs": [
                             {
                                 "graphid": "3f2b036a-b65d-474d-b692-0b21903655c5",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Place",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -1550,7 +1602,6 @@
                     "alias": "language_of_name",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1576,12 +1627,6 @@
                 {
                     "alias": "label_of_name",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -1608,7 +1653,6 @@
                     "alias": "type_of_name",
                     "config": {
                         "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1686,12 +1730,6 @@
                 {
                     "alias": "value_of_identifier",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -1718,7 +1756,6 @@
                     "alias": "source_of_identifier",
                     "config": {
                         "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1745,7 +1782,6 @@
                     "alias": "type_of_identifier",
                     "config": {
                         "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1821,12 +1857,6 @@
                 {
                     "alias": "content_of_statement",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -1852,12 +1882,6 @@
                 {
                     "alias": "label_of_name_statement",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -1884,7 +1908,6 @@
                     "alias": "language_of_name_statement",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1911,7 +1934,6 @@
                     "alias": "language_of_statement",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1938,7 +1960,6 @@
                     "alias": "type_of_name_statement",
                     "config": {
                         "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1965,7 +1986,6 @@
                     "alias": "type_of_statement",
                     "config": {
                         "controlledList": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2017,7 +2037,6 @@
                     "alias": "type",
                     "config": {
                         "controlledList": "7a9a62f5-235e-4f7d-8c21-726adf064122",
-                        "defaultValue": "",
                         "multiValue": false
                     },
                     "datatype": "reference",
@@ -2044,7 +2063,6 @@
                     "alias": "period",
                     "config": {
                         "controlledList": "36c03e12-351b-4bbd-a52b-9d09f4d4adc0",
-                        "defaultValue": "",
                         "en": "",
                         "multiValue": true
                     },
@@ -2121,12 +2139,6 @@
                 {
                     "alias": "value_of_identifier_n1",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -2153,28 +2165,6 @@
                     "alias": "source_of_identifier_n1",
                     "config": {
                         "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
-                        "defaultValue": [
-                            {
-                                "labels": [
-                                    {
-                                        "id": "d77483cf-7bc1-40aa-95ec-591ea5bb10c6",
-                                        "language_id": "en",
-                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
-                                        "value": "PeriodO",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "34b303d6-7c5f-40e3-8889-d29f93d15c20",
-                                        "language_id": "fr",
-                                        "list_item_id": "28238338-b793-425d-a4bd-1d7539190429",
-                                        "value": "PeriodO",
-                                        "valuetype_id": "prefLabel"
-                                    }
-                                ],
-                                "list_id": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
-                                "uri": "https://perio.do/en/"
-                            }
-                        ],
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2201,7 +2191,6 @@
                     "alias": "absolute_period_attribution",
                     "config": {
                         "controlledList": "21b06442-8861-4322-80c0-fa1f6e1320e1",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2227,12 +2216,6 @@
                 {
                     "alias": "label_of_period",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "rdmCollection": null
                     },
                     "datatype": "string",
@@ -2259,7 +2242,6 @@
                     "alias": "type_of_identifier_n1",
                     "config": {
                         "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
-                        "defaultValue": [],
                         "multiValue": true
                     },
                     "datatype": "reference",

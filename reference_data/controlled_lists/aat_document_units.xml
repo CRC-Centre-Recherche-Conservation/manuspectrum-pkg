@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:arches="https://manuspectrum.huma-num.fr/"
-  xmlns:arches_controlled_lists="https://archesproject.org/ns/controlled-lists#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c">
-    <arches_controlled_lists:searchable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</arches_controlled_lists:searchable>
     <dcterms:title>AAT - Document Units</dcterms:title>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1058af00-c0bb-49a6-bfcf-a5265cf79fc8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300194222</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
     <skos:prefLabel xml:lang="de">Seite (Buchbindung)</skos:prefLabel>
@@ -23,7 +21,7 @@
     <skos:scopeNote xml:lang="fr">Les côtés individuels d'une feuille, recto ou verso ; les côtés individuels des feuilles résultant du pliage d'une feuille de papier ou de parchemin, qu'elle soit vierge ou qu'elle contienne de l'écriture, de l'impression ou d'autres éléments. Se distingue d'un « folio » par le fait qu'un folio n'est numéroté que sur le recto. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/1bb66801-ae76-45ce-b6d0-7b10026196b8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300201054</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
     <skos:prefLabel xml:lang="de">Falzbogen</skos:prefLabel>
@@ -35,7 +33,7 @@
     <skos:scopeNote xml:lang="fr">Feuilles individuelles pliées en deux feuillets qui, réunies, forment un cahier.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21a7214b-1b03-40c7-8bc2-270a40d1a9ed">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379890</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/49144b53-ba2e-4b42-8464-b7ac6a0a4219"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
@@ -45,7 +43,7 @@
     <skos:scopeNote xml:lang="fr">Feuilles, généralement de papier ou de vélin, ayant appartenu à des manuscrits ou à d'autres volumes mais qui en ont été détachées ou séparées.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/302a45b8-a322-4045-a31e-e505fa69d8a3">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300194226</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
     <skos:prefLabel xml:lang="en">gatherings (gathered matter components)</skos:prefLabel>
@@ -55,7 +53,7 @@
     <skos:scopeNote xml:lang="fr">Groupes de feuilles pliées pouvant être arrangées ou arrangées et attachées ensemble pour former un livre. Chaque unité de feuilles pliées dans l'ordre séquentiel constitue un livre.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/49144b53-ba2e-4b42-8464-b7ac6a0a4219">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300115833</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/21a7214b-1b03-40c7-8bc2-270a40d1a9ed"/>
@@ -68,7 +66,7 @@
     <skos:scopeNote xml:lang="fr">Un feuillet est une feuille de papier ou de parchemin, recto et verso, formant les deux pages d'un livre ; c'est l'unité bibliographique de base d'un livre. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4ebef5fd-5374-42c2-93f0-17167b3f36d0">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300189604</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/49144b53-ba2e-4b42-8464-b7ac6a0a4219"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
@@ -79,7 +77,7 @@
     <skos:scopeNote xml:lang="fr">Feuilles individuelles d'un livre ou d'un manuscrit numérotées au recto seulement. Les deux côtés du folio sont généralement numérotés en utilisant « r » pour recto, c'est-à-dire la page de droite, et « v » pour verso, c'est-à-dire la page de gauche. La référence à un folio se distingue de la référence à une « page » dans la mesure où une page est numérotée des deux côtés. </skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6bffc4fb-ae00-4db4-b483-b4621557087d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379391</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>
     <skos:prefLabel xml:lang="de">Teil (Aufteilung)</skos:prefLabel>
@@ -90,7 +88,7 @@
     <skos:scopeNote xml:lang="fr">Parties ou subdivisions séparées du reste ; portions dans lesquelles une chose est coupée ou divisée.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/779a05ab-7894-4fac-a931-746bca0bfef7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300253107</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/49144b53-ba2e-4b42-8464-b7ac6a0a4219"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/3b785062-2fcb-4a48-b37d-d33c6983386c"/>

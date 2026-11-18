@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:arches="https://manuspectrum.huma-num.fr/"
-  xmlns:arches_controlled_lists="https://archesproject.org/ns/controlled-lists#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635">
-    <arches_controlled_lists:searchable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</arches_controlled_lists:searchable>
     <dcterms:title>AAT - Alteration</dcterms:title>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/00a22d0e-35c2-40fb-a120-ced77ebb5cc9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300412052</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">interpolation</skos:prefLabel>
@@ -20,7 +18,7 @@
     <skos:scopeNote xml:lang="fr">Action ou méthode consistant à insérer des éléments intermédiaires dans une série, la nature des éléments ajoutés étant déduite des éléments connus qui les entourent.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300214735</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -35,7 +33,7 @@
     <skos:scopeNote xml:lang="fr">Dissociation en parties distinctes, se dit en particulier des matériaux organiques ou de transformations de cet ordre à l'échelle moléculaire.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300053045</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b19913bb-3ee8-4abd-9074-a4780a378938"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -51,7 +49,7 @@
     <skos:scopeNote xml:lang="fr">Toute modification de la couleur d'un objet.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/094ac2bb-5c15-4403-af9d-124b03a1e79a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300438573</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -61,7 +59,7 @@
     <skos:scopeNote xml:lang="fr">Conception et pratique selon lesquelles les restes humains et les artefacts doivent être soumis aux lois de la dégradation naturelle plutôt que faire l'objet d'une intervention ou d'une conservation.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/09abfe0f-b82c-47fc-b507-ed61052931c5">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300237956</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5a2c9e25-6127-4d12-83dd-8605ee9bcd5e"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -73,7 +71,7 @@
     <skos:scopeNote xml:lang="fr">Variation de longueur ou de volume d'un matériau ou d'un corps due à un changement de température.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0bbd0ddc-3497-4c5d-bc5a-73a8b9c723a1">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300155059</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -86,7 +84,7 @@
     <skos:scopeNote xml:lang="fr">Déformation par flexion ou torsion, provoquée par exemple par le séchage, l'humidité ou la chaleur.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0dcedbb3-ccf4-4df0-8d39-7da393b2ed5c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300343527</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -96,7 +94,7 @@
     <skos:scopeNote xml:lang="fr">En céramique, fissuration survenant pendant la cuisson ou le refroidissement sous l'effet de variations rapides de température ; peut affecter le biscuit comme les pièces émaillées.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0f69960a-b816-409d-9021-906f1a418c71">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300438822</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -106,7 +104,7 @@
     <skos:scopeNote xml:lang="fr">Enlèvement progressif de matière à la surface de matériaux solides tels que le corail ou la roche, sous l'action d'organismes vivants.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/10ec4b89-4448-4167-8d25-a4e795ce7ff6">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300343532</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -116,7 +114,7 @@
     <skos:scopeNote xml:lang="fr">Boursouflement des objets en argile pendant la cuisson, sous l'effet des gaz libérés lors de la vitrification ; parfois dû à une surcuisson, il affecte soit l'ensemble de la pièce, soit de petites zones. Généralement considéré comme un défaut en céramique, il est parfois recherché pour les briques non porteuses.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/14643fa6-af14-48cf-a3c6-0b432c68b252">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054128</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/6df977c2-521a-4d44-9b6a-4a768ae678fa"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -128,7 +126,7 @@
     <skos:scopeNote xml:lang="fr">Séparation en couches constitutives.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/146aab87-7247-4687-9169-4b2ec1577223">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379690</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -138,7 +136,7 @@
     <skos:scopeNote xml:lang="fr">En science des polymères, détérioration moléculaire des polymères provoquée par une surchauffe.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/17a0d61d-e333-4201-a16c-ae96f301bbff">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380018</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/7d99ec98-1f1f-4976-ad98-9852be4d9ed8"/>
@@ -148,7 +146,7 @@
     <skos:scopeNote xml:lang="fr">Action de dissoudre ou état de ce qui est dissous. En chimie, dispersion moléculaire d'une substance dans un liquide, passage d'un solide en solution.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/18e1a7a0-6fcd-4c2b-bdae-f215a83beff9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380318</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -158,7 +156,7 @@
     <skos:scopeNote xml:lang="fr">Rupture des liaisons qui assurent la cohésion d'une chaîne polymère, par exemple dans le caoutchouc sous l'effet de la chaleur.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/199bce7d-f431-4559-919c-04233ef7e9ae">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379469</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -168,7 +166,7 @@
     <skos:scopeNote xml:lang="fr">Fait de salir ou de se salir, de se ternir ou de se tacher ; dommage affectant la surface ou le support d'un matériau.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21822792-05eb-43f9-84da-6401ecf0fba8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300390002</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -178,7 +176,7 @@
     <skos:scopeNote xml:lang="fr">Désigne un régime d'humidité du sol, naturel ou anthropique, et ses effets sur les propriétés physiques, chimiques et biologiques des sols irrigués.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/21c2dd05-f045-4326-be9e-713982f20e95">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054122</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -191,7 +189,7 @@
     <skos:scopeNote xml:lang="fr">Processus à l'origine des cloques, zones qui font saillie par rapport à la masse ou à la surface, par exemple dans une couche picturale.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300229438</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0bbd0ddc-3497-4c5d-bc5a-73a8b9c723a1"/>
@@ -235,7 +233,7 @@
     <skos:scopeNote xml:lang="fr">Désigne les processus qui transforment la surface ou la structure d'un objet.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/23a3c281-3f82-4e58-8211-3310de2a2778">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379761</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -245,7 +243,7 @@
     <skos:scopeNote xml:lang="fr">Formation d'une patine, qu'elle résulte naturellement de l'exposition aux intempéries ou qu'elle soit provoquée artificiellement en laboratoire.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2459aba6-9a38-4c3a-ba00-d7749978ba98">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054130</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -257,7 +255,7 @@
     <skos:scopeNote xml:lang="fr">Présence de petites cavités ou dépressions dans une surface, causées par les intempéries, l'érosion ou d'autres processus au fil du temps. Pour des dépressions comparables dans un enduit de plâtre pris, voir « éclatement ponctuel ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/26bfa74a-79ce-43cb-9ebc-8447bec50b32">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300228335</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -269,7 +267,7 @@
     <skos:scopeNote xml:lang="fr">Processus affectant des matériaux tels que le papier, le carton, le vélin ou le textile, par lequel le matériau se plisse, se gondole ou ondule.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2b68471b-9d81-4d8b-94df-041cae9b7b6f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300077803</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">embrittlement</skos:prefLabel>
@@ -280,7 +278,7 @@
     <skos:scopeNote xml:lang="fr">Processus par lequel un matériau devient cassant ; comprend la perte de souplesse ou d'élasticité.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2f50b7e0-b596-4091-b5f8-bd6661839635">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300252881</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -292,7 +290,7 @@
     <skos:scopeNote xml:lang="fr">Création de séparations dans un matériau souple en tirant ou en arrachant une partie de l'autre.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3302c766-5aa0-48de-a201-da6a54a220bf">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380084</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">fossilization</skos:prefLabel>
@@ -301,7 +299,7 @@
     <skos:scopeNote xml:lang="fr">Processus de fossilisation. Ses modalités comprennent la minéralisation, l'empreinte, la conservation de traces et la conservation exceptionnelle.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/3655ddfa-89cf-4186-8d36-fcc4edb88d9d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379409</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -311,7 +309,7 @@
     <skos:scopeNote xml:lang="fr">Dégradation d'un matériau provoquée par l'exposition à la lumière, en particulier modifications chimiques des molécules photodégradables induites par l'absorption de photons, notamment aux longueurs d'onde du rayonnement solaire. Processus par lequel un matériau est endommagé par une exposition prolongée au rayonnement ultraviolet.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/434a90fd-cec2-4a74-89e0-2d02a5dcc37e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300419490</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -321,7 +319,7 @@
     <skos:scopeNote xml:lang="fr">Politique d'entretien appliquée à des bâtiments ou à des sites afin d'en maintenir l'intégrité structurelle tout en préservant leur aspect ruiné. Peut également s'appliquer à des objets.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/47449d92-2926-404d-baa0-9af023300a20">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054118</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5a59eb3c-e4fa-402d-b677-2d52a602f067"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -334,7 +332,7 @@
     <skos:scopeNote xml:lang="fr">Action ou processus par lequel un corps devient plus petit, plus court ou plus compact.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4e8ba99d-e7c3-468a-ba31-f91bb5861885">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054107</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -348,7 +346,7 @@
     <skos:scopeNote xml:lang="fr">Détérioration d'un métal ou d'une autre substance par réaction chimique ou électrochimique consécutive à l'exposition aux intempéries, à l'humidité, à des produits chimiques ou à d'autres agents.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054106</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730"/>
@@ -365,7 +363,7 @@
     <skos:scopeNote xml:lang="fr">Au sens large, action ou processus par lequel la qualité, l'état ou la condition d'un objet s'altère.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/4fe2c43d-06f6-43b0-a8b8-10d7d5207b02">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300400800</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -375,7 +373,7 @@
     <skos:scopeNote xml:lang="fr">Processus ou état correspondant à la formation de creux ou d'empreintes dans une surface, par exemple sous l'effet d'un coup porté avec un instrument pointu ou tranchant.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/50fc09e4-8fb0-4c92-88c9-4407dc4e905c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054108</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4e8ba99d-e7c3-468a-ba31-f91bb5861885"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -387,7 +385,7 @@
     <skos:scopeNote xml:lang="fr">Corrosion qui se produit lorsqu'un courant circule entre les zones cathodiques et anodiques d'une surface métallique.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/58372100-e70d-4254-9cc3-a81649baa4a2">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379824</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -397,7 +395,7 @@
     <skos:scopeNote xml:lang="fr">Action ou processus de réduction en poudre, pulvérisation ; en science de la conservation, désigne la désagrégation granulaire de la pierre et des pigments.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/589ded00-4713-406e-a9c5-a99558170cb9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300261477</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -409,7 +407,7 @@
     <skos:scopeNote xml:lang="fr">Arquage du dos du corps d'ouvrage relié d'un livre lorsque celui-ci est ouvert.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5948ede7-a410-46f4-bce1-53ea7c087347">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380391</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">kaolinization</skos:prefLabel>
@@ -418,7 +416,7 @@
     <skos:scopeNote xml:lang="fr">Processus d'altération météorique ou hydrothermale par lequel des minéraux, en particulier les feldspaths et les micas, se transforment en kaolin.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5a2c9e25-6127-4d12-83dd-8605ee9bcd5e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054119</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5a59eb3c-e4fa-402d-b677-2d52a602f067"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -431,7 +429,7 @@
     <skos:scopeNote xml:lang="fr">Augmentation de longueur ou de volume d'un matériau ou d'un corps, provoquée par la température, l'humidité ou d'autres conditions environnementales.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5a59eb3c-e4fa-402d-b677-2d52a602f067">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300229431</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/47449d92-2926-404d-baa0-9af023300a20"/>
@@ -444,7 +442,7 @@
     <skos:scopeNote xml:lang="fr">Désigne les processus qui modifient le volume ou la longueur d'un objet sous l'effet de la température, de l'humidité ou d'autres conditions environnementales.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b5ee13c-082f-42ba-ae0b-8a146d5ab114">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300072682</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -456,7 +454,7 @@
     <skos:scopeNote xml:lang="fr">Flambage d'un élément de structure accompagné d'un déversement latéral et d'une torsion.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6b9c577c-7320-4524-8be0-6e3e47e84d07">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054115</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -468,7 +466,7 @@
     <skos:scopeNote xml:lang="fr">Action des agents atmosphériques modifiant la couleur, la texture, la composition ou la forme des objets.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6c2f7582-0ebf-4053-a66f-794f796166b4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300251330</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -480,7 +478,7 @@
     <skos:scopeNote xml:lang="fr">Déplacement vertical entre des couches, produisant des bords convergents qui évoquent une tente.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6df977c2-521a-4d44-9b6a-4a768ae678fa">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054127</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -493,7 +491,7 @@
     <skos:scopeNote xml:lang="fr">Séparation et soulèvement d'une couche superficielle qui se détache de son support.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6ebc5e8e-5e38-44b4-af2b-de71f59fa11a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380234</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -503,7 +501,7 @@
     <skos:scopeNote xml:lang="fr">Mouvements gravitaires de masse, vers l'aval, de débris rocheux et de sol.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/6f800e41-2926-4920-8826-e768b4d241e4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300386687</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -513,7 +511,7 @@
     <skos:scopeNote xml:lang="fr">Mécanisme de formation d'une « poudre » dans la dégradation des peintures ou des plastiques, déclenché par la dégradation oxydative du liant qui met à nu une couche de pigment ou de charge. Le processus donne une surface sèche et pulvérulente.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/732618a8-d54b-4dd1-b728-6abfcab2d02a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379468</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -523,7 +521,7 @@
     <skos:scopeNote xml:lang="fr">Action de rendre une substance plus souple ou plus malléable ; diminution de la dureté ou de la rigidité. Peut désigner l'emploi d'agents ou de procédés d'assouplissement dans le traitement de matériaux comme le cuir ou le parchemin, pour en accroître la souplesse, le lissé ou la plasticité.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7812e243-7a09-4130-92d3-5607e84c8571">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300072718</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -534,7 +532,7 @@
     <skos:scopeNote xml:lang="fr">Flambage au cours duquel le matériau reprend sa forme initiale une fois la charge supprimée, la déformation restant dans le domaine élastique.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7c50a2b1-b745-44ff-943f-cf7b298110c9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380016</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">rot</skos:prefLabel>
@@ -543,7 +541,7 @@
     <skos:scopeNote xml:lang="fr">Décomposition des végétaux et des matériaux qui en dérivent, comme le bois, marquée par la détérioration des tissus et due principalement aux champignons et aux bactéries. Par extension, décomposition de la pierre, du cuir, des textiles.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7d99ec98-1f1f-4976-ad98-9852be4d9ed8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300386480</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/17a0d61d-e333-4201-a16c-ae96f301bbff"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -553,7 +551,7 @@
     <skos:scopeNote xml:lang="fr">Processus par lequel un solide cristallin absorbe la vapeur d'eau atmosphérique jusqu'à fondre ou se liquéfier en une solution saturée.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7e452b2c-b398-4784-a863-02f131184913">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379622</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -563,7 +561,7 @@
     <skos:scopeNote xml:lang="fr">Dégradation spontanée des films photographiques à support en triacétate de cellulose, caractérisée par une forte odeur de vinaigre. Cette détérioration est irréversible. Le terme s'emploie le plus souvent à propos des films cinématographiques.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f13afc1-acb8-4079-934f-9121addb0d1c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054129</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/6df977c2-521a-4d44-9b6a-4a768ae678fa"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -575,7 +573,7 @@
     <skos:scopeNote xml:lang="fr">Séparation en écailles ou en fines couches aplaties.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/7f6b9efe-b0a6-413d-89da-2e1ad940f404">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380182</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -585,7 +583,7 @@
     <skos:scopeNote xml:lang="fr">Processus ou action transformant une molécule en l'un de ses isomères, c'est-à-dire en une molécule dont les atomes restent les mêmes mais sont agencés différemment.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/807c5064-009d-40e7-a800-573b5301d49a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300053752</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -597,7 +595,7 @@
     <skos:scopeNote xml:lang="fr">Détachement de petits fragments d'un objet ou d'une surface. Peut désigner un processus accidentel ou une action intentionnelle, comme dans la fabrication de pointes de flèche.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8355f3d9-eb58-4804-a93b-372d2e9c32d4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300443802</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">gelatinization</skos:prefLabel>
@@ -606,7 +604,7 @@
     <skos:scopeNote xml:lang="fr">Processus par lequel une matière devient gélatineuse. En conservation, peut désigner une dégradation chimique du parchemin et du cuir tannés aux tanins végétaux condensés, où le collagène se transforme en gélatine soluble dans l'eau. Elle survient en réaction à de fortes fluctuations de température et d'humidité, ou lorsque ces matériaux sont conservés en milieu acide.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8732e51c-e81f-4ea2-ab69-434e3f127244">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300220580</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4e8ba99d-e7c3-468a-ba31-f91bb5861885"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -618,7 +616,7 @@
     <skos:scopeNote xml:lang="fr">Corrosion provoquée par les polluants présents dans l'atmosphère.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8a39fcbe-ca8a-4d7a-ae73-2639f17dcb10">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300072726</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -629,7 +627,7 @@
     <skos:scopeNote xml:lang="fr">Flambage au cours duquel la contrainte dépasse la limite élastique du matériau, de sorte que la déformation est permanente.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8c4015aa-0923-4c94-8dcf-bcf127fc9a4a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379764</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -639,7 +637,7 @@
     <skos:scopeNote xml:lang="fr">Perturbation du sol et des sédiments par la flore ou la faune ; en contexte archéologique, la bioturbation déplace les objets enfouis, tels que le mobilier funéraire.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/8dd9a753-446c-417a-9c15-fa6b8519d6ca">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300228350</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5a59eb3c-e4fa-402d-b677-2d52a602f067"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -651,7 +649,7 @@
     <skos:scopeNote xml:lang="fr">Processus ou état d'augmentation de volume ou de taille, par exemple par gonflement ou accumulation de fluides. Désigne aussi la partie renflée ou épaissie d'un objet : entasis d'une colonne, renflement d'une crosse de fusil, surépaisseur au dos du corps d'ouvrage d'un livre due au fil de couture ou à un onglet important.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/91da9665-525d-4ed7-8927-65cb6e61bda4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379603</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">salinization</skos:prefLabel>
@@ -660,7 +658,7 @@
     <skos:scopeNote xml:lang="fr">Imprégnation d'une matière par des sels. En écologie, désigne un processus de dégradation des terres provoqué par une salinité excessive des sols en région aride. L'accumulation de sels dans les horizons proches de la surface — remontée capillaire depuis la nappe, engrais ou irrigation excessive — peut inhiber la croissance des cultures et conduire à la désertification.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300228676</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -676,7 +674,7 @@
     <skos:scopeNote xml:lang="fr">Perte progressive de qualité ; peut survenir sans modification structurelle.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9330fb82-32b5-4427-a5a6-826322a6d205">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300389996</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/0bbd0ddc-3497-4c5d-bc5a-73a8b9c723a1"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -686,7 +684,7 @@
     <skos:scopeNote xml:lang="fr">Type de gauchissement généralement observé sur le bois, lorsqu'une face d'une pièce de débit se rétracte davantage que l'autre, ce qui produit une courbure. Plus rarement, ce phénomène affecte la pierre, comme le marbre, sous l'effet de contraintes résiduelles, de la dilatation thermique anisotrope des grains de calcite, de variations de teneur en fluides et de processus de dissolution.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9bc2159d-19f5-4450-8c42-00acd754ec3f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300228751</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -698,7 +696,7 @@
     <skos:scopeNote xml:lang="fr">Développement d'un réseau de fines fissures dans une couche de revêtement : préparation, couche picturale, vernis ou glaçure.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9efb0c28-f842-4451-8a6d-f751baf35df3">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300242002</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -708,7 +706,7 @@
     <skos:scopeNote xml:lang="fr">État dans lequel une surface ou un matériau s'est fissuré sous l'effet d'une pression, d'un écart de température ou d'une autre contrainte. Exemple en verrerie : des fissures se développent dans le corps d'un récipient sous l'effet de contraintes internes dues à un recuit insuffisant ou à un choc thermique accidentel.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/9f2789f5-4abb-4816-b6e4-ec6ce7dd32f9">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379860</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">carbonation</skos:prefLabel>
@@ -717,7 +715,7 @@
     <skos:scopeNote xml:lang="fr">Dissolution de dioxyde de carbone dans un liquide. En géologie, désigne l'interaction du dioxyde de carbone dissous dans l'eau avec les minéraux, en particulier le calcaire ; forme d'altération chimique.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a19253ff-0d2d-40fa-8200-07cfeebce11f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379990</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -727,7 +725,7 @@
     <skos:scopeNote xml:lang="fr">En biologie, modification de la structure d'une protéine provoquée par la chaleur, les alcalis ou d'autres facteurs, qui la fait s'effondrer en une masse désordonnée. Le processus est irréversible pour la plupart des protéines. En science de la conservation, la dénaturation du cuir et du parchemin est étudiée par diverses techniques analytiques.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a2b87cfd-8fef-43be-94d3-f26b98e2af58">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300219639</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -739,7 +737,7 @@
     <skos:scopeNote xml:lang="fr">Perte, d'origine biologique, des caractéristiques physiques ou fonctionnelles d'un matériau, causée par des bactéries ou d'autres micro-organismes. La biodétérioration ne recouvre que la désagrégation physique et l'altération d'aspect. Pour une détérioration comportant des modifications moléculaires telles que les propriétés caractéristiques du matériau ne sont plus perceptibles, employer « biodégradation ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a5e25602-fcbc-4331-bafd-9d16df29ec22">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300256571</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -751,7 +749,7 @@
     <skos:scopeNote xml:lang="fr">Soulèvement partiel d'une couche superficielle — peinture, solvant ou vernis — dû à une rupture d'adhérence avec la couche sous-jacente ou la surface.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a81d5b32-b2cf-443a-85d0-95d8ba25b293">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300225196</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -763,7 +761,7 @@
     <skos:scopeNote xml:lang="fr">Processus ou résultat du jaunissement, par exemple d'un textile ou d'un papier sous l'effet du vieillissement ou de l'environnement.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a8787a32-f874-4aba-af26-0701c5a13942">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300252872</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -775,7 +773,7 @@
     <skos:scopeNote xml:lang="fr">Compression ou torsion en une masse compacte de plis et de froissements irréguliers.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/adbb03e1-e189-4048-880f-eb2fcecf4df3">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300389943</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fcb82f9e-3b2e-4d0a-87f8-1766538c2827"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -785,7 +783,7 @@
     <skos:scopeNote xml:lang="fr">Méthode de fragmentation des roches utilisant des impulsions électriques de forte puissance et de courte durée pour créer des contraintes internes en traction qui fracturent le matériau le long des joints de grains. La désagrégation par impulsions électriques (EPD) sépare efficacement les constituants d'une roche : isolement de monocristaux pour la mesure isotopique, dégagement de fossiles.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b10a0a76-69b7-4851-bf42-9bf3fe56f43e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300053123</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -797,7 +795,7 @@
     <skos:scopeNote xml:lang="fr">Déformation d'un objet initialement linéaire ou plan, qui prend une forme courbe ou enroulée.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b1499655-e1ac-4616-b79d-023032f38981">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380198</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">solidification</skos:prefLabel>
@@ -806,7 +804,7 @@
     <skos:scopeNote xml:lang="fr">Processus ou action de prise, de durcissement, de solidification.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b19913bb-3ee8-4abd-9074-a4780a378938">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300229421</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
@@ -819,7 +817,7 @@
     <skos:scopeNote xml:lang="fr">Désigne les processus qui transforment la couleur d'un objet.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b7dc1f1b-ba5b-43a9-b837-9676c17f49ce">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054104</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -830,7 +828,7 @@
     <skos:scopeNote xml:lang="fr">Désagrégation d'un matériau en petits fragments ou en poussière.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b850cbf6-68ca-438d-a4d7-5cf54349dae8">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054114</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b19913bb-3ee8-4abd-9074-a4780a378938"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -842,7 +840,7 @@
     <skos:scopeNote xml:lang="fr">Processus de dégradation affectant les images photographiques argentiques, dans lequel l'argent réagit avec le soufre présent dans l'air ou dans le tirage lui-même pour former du sulfure d'argent, ce qui fait jaunir et pâlir l'épreuve.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b872e616-20ae-4951-b3fe-8de42879b33b">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300343504</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -852,7 +850,7 @@
     <skos:scopeNote xml:lang="fr">Processus par lequel une matière devient ferme et caoutchouteuse ; se dit en particulier du durcissement des peintures à l'huile dans leur tube ou leur boîte sous l'effet d'impuretés.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b8d78f2a-2027-4eac-a0cb-91618d654564">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300220569</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -864,7 +862,7 @@
     <skos:scopeNote xml:lang="fr">Formation d'une concavité ou d'un creux en forme de cuvette dans une couche picturale.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bb6cbc6f-a1ad-4e94-a3f5-2473af30aacf">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300220273</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">devitrification</skos:prefLabel>
@@ -875,7 +873,7 @@
     <skos:scopeNote xml:lang="fr">Dans le verre, perte de transparence causée par la cristallisation ou le dépôt d'un ou de plusieurs de ses constituants.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bba93780-ff2c-40fd-93e3-94127e703874">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300228803</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -887,7 +885,7 @@
     <skos:scopeNote xml:lang="fr">Processus de formation d'un ou de plusieurs plis marqués.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bdea5e54-3680-4dca-bb90-3c8eb667f859">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300053048</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/b19913bb-3ee8-4abd-9074-a4780a378938"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -899,7 +897,7 @@
     <skos:scopeNote xml:lang="fr">Perte progressive de couleur ou d'intensité.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/bfda4a52-bd8f-4ad8-b64a-dc10c51f9f9d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300419379</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/9281c6a7-2a32-4dc0-a17d-4da21712dabc"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -911,7 +909,7 @@
     <skos:scopeNote xml:lang="fr">Détérioration d'origine biologique comportant des modifications moléculaires du matériau, telles que ses propriétés caractéristiques ne sont plus perceptibles. Pour la perte des caractéristiques physiques ou fonctionnelles d'un matériau causée par des bactéries ou d'autres micro-organismes, employer « biodétérioration ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d0b7bb72-c7ea-4e8c-83a0-562172797a28">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379952</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -921,7 +919,7 @@
     <skos:scopeNote xml:lang="fr">Fait de devenir opaque, de s'assombrir, de perdre sa transparence, de se voiler. En conservation, s'applique notamment à l'opacification des vitraux et des émaux.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d1a17a1e-aa0b-48da-8dae-ea32d98c338d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300380086</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/02519aee-b1ed-4a7c-bd49-1666d01f1730"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -931,7 +929,7 @@
     <skos:scopeNote xml:lang="fr">Action ou processus par lequel un polymère se décompose en ses monomères constitutifs.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d298e5e1-398c-43b9-b297-eace2312ed72">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379491</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -941,7 +939,7 @@
     <skos:scopeNote xml:lang="fr">Fait de devenir plus sombre en nuance, en valeur ou en couleur ; forme de décoloration : noircissement ou brunissement des matériaux sous l'effet de processus chimiques, de l'exposition à la lumière ou du temps.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d4515d02-0e08-48d8-8a9c-2d87097470e2">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054120</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/47449d92-2926-404d-baa0-9af023300a20"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -953,7 +951,7 @@
     <skos:scopeNote xml:lang="fr">Contraction ou diminution de taille, en particulier sous l'effet de la température ou de l'humidité.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/dce022bc-5e34-48f4-a8a5-cb2f781a8ca5">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300072663</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -968,7 +966,7 @@
     <skos:scopeNote xml:lang="fr">Flexion, gauchissement ou bombement prononcé ; dans le cas d'un élément de structure, ruine provoquée par une instabilité latérale ou en torsion.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/df96111f-01ae-4d5b-8f8e-3b13b5e24f95">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054132</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -980,7 +978,7 @@
     <skos:scopeNote xml:lang="fr">Formation de petites crêtes ou de sillons sur une surface auparavant lisse.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e38627b6-8bd0-473c-a82d-390fdd9501ca">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300053749</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
     <skos:prefLabel xml:lang="en">bleeding (seeping)</skos:prefLabel>
@@ -991,7 +989,7 @@
     <skos:scopeNote xml:lang="fr">Perte ou migration d'un colorant au contact d'un liquide, en particulier de l'eau ; en peinture, diffusion ou migration des couches ou des pigments qu'elles contiennent vers les couches ou les surfaces voisines.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e54efb7c-3b4b-49bc-aac4-fe3c937f8580">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300379986</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -1001,7 +999,7 @@
     <skos:scopeNote xml:lang="fr">Processus consistant à séparer, effilocher, tirer, carder ou crêper des fibres ou des cheveux afin de les orienter dans une direction donnée, pour les séparer, former un duvet ou augmenter le volume. Le terme s'emploie notamment dans le traitement des fibres, le tissage et la coiffure.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e559ebc9-f42c-4907-bd92-74cd11ff32de">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300419941</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -1011,7 +1009,7 @@
     <skos:scopeNote xml:lang="fr">Processus d'altération par lequel la pellicule externe d'une roche devient plus résistante à l'érosion que son cœur, soit par renforcement de l'enveloppe, soit par affaiblissement de l'intérieur. Dans des matériaux comme le grès, le renforcement vient d'une accumulation de ciments liant les grains en surface. Dans les roches cristallines, il résulte de la rupture des liaisons internes par altération chimique.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e67349d9-af99-44fc-a162-740ca8201dbb">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300387368</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -1021,7 +1019,7 @@
     <skos:scopeNote xml:lang="fr">Processus d'altération des roches dont les effets ne sont observables qu'à l'échelle microscopique.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e82f1bbf-5c35-413f-a480-8a7624e252ce">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054116</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -1036,7 +1034,7 @@
     <skos:scopeNote xml:lang="fr">Processus par lequel les matériaux sont usés puis emportés par des causes naturelles : intempéries, dissolution, corrosion ou transport.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ec9f5054-e984-4125-bc99-84a3724bd710">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300254981</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/026e87da-765d-4fec-a3c5-9306549854a7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -1048,7 +1046,7 @@
     <skos:scopeNote xml:lang="fr">Décoloration bleutée ou grisâtre du bois causée par le développement de plusieurs types de champignons filamenteux à la surface et à l'intérieur de l'aubier.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/ee5d14f0-8889-4471-b072-403fba8c032e">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300343511</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -1058,7 +1056,7 @@
     <skos:scopeNote xml:lang="fr">Dans le plâtre, apparition de petits cratères coniques pouvant atteindre six millimètres de diamètre, dus à l'expansion de la chaux ou de corps étrangers, et survenant entre trois mois et un an après la prise.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fa056ff4-3ac6-4381-b00f-b421e42c1589">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054124</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/22d5d16e-cbf7-4ac3-8342-09126a9ca9db"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>
@@ -1074,7 +1072,7 @@
     <skos:scopeNote xml:lang="fr">Rupture au sein d'un matériau ou d'un objet, généralement selon un tracé unique ou ramifié.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fcb82f9e-3b2e-4d0a-87f8-1766538c2827">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300214746</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/4f8af2ec-116e-4f49-aa04-9aeee2fbdbd7"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/4f5e7d81-4187-4908-9ec9-a1892efa6635"/>

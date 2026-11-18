@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:arches="https://manuspectrum.huma-num.fr/"
-  xmlns:arches_controlled_lists="https://archesproject.org/ns/controlled-lists#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d">
-    <arches_controlled_lists:searchable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</arches_controlled_lists:searchable>
     <dcterms:title>AAT - Identifier Types</dcterms:title>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/0da6b75e-0443-454d-a17d-8f85867cad2c">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/0da6b75e-0443-454d-a17d-8f85867cad2c</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
@@ -21,7 +19,7 @@
     <skos:scopeNote xml:lang="fr">Les identifiants ARK (Archival Resource Key) sont des URL pérennes conçues pour garantir l'accès à long terme à des objets d'information. Introduits en 2001, ils peuvent identifier des objets de tout type : documents, bases de données, images, logiciels, sites web, etc.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/18fef3ab-5a0a-48f0-90b6-eea6d091e7ba">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300404013</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">manuscript designations</skos:prefLabel>
@@ -30,7 +28,7 @@
     <skos:scopeNote xml:lang="fr">Codes alphanumériques traditionnellement employés pour identifier de façon unique un manuscrit au sein d'un ensemble défini. Ces cotes peuvent servir de titre au manuscrit. Exemple : « Ms. Ludwig II 7 ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/20d9c7e0-e193-48d1-97c9-5765e484f77f">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300417432</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
@@ -40,7 +38,7 @@
     <skos:scopeNote xml:lang="fr">Chaînes alphanumériques uniques attribuées par une agence d'enregistrement pour identifier un contenu et fournir un lien pérenne vers un emplacement sur internet.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2b4f482c-f07c-4e76-87e2-e7be3d5abcd4">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300404629</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
@@ -50,7 +48,7 @@
     <skos:scopeNote xml:lang="fr">Un URN (Uniform Resource Name) est un identifiant qui permet d'identifier et de citer de manière unique et durable la publication en ligne associée, indépendamment de son lieu de stockage.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/2cbf15b4-aa04-4b5b-bf4a-2594bbeb72ca">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300404704</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">shelf marks</skos:prefLabel>
@@ -59,7 +57,7 @@
     <skos:scopeNote xml:lang="fr">Codes numériques ou alphabétiques d'identification, généralement portés au dos d'un manuscrit, d'un livre ou d'un autre volume, et indiquant l'emplacement où le trouver dans la bibliothèque.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/31eb6be4-04ae-4e58-8df9-a96de385b947">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300404630</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
@@ -69,7 +67,7 @@
     <skos:scopeNote xml:lang="fr">Localisateurs uniformes de ressource qui, outre l'identification d'une ressource, fournissent l'adresse du document sur internet selon l'un des protocoles existants.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/40b8d852-4b18-497d-916f-a0a41e903613">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300404012</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">unique identifiers</skos:prefLabel>
@@ -78,7 +76,7 @@
     <skos:scopeNote xml:lang="fr">Numéros ou codes alphanumériques non répétés dans un environnement donné, employés pour identifier sans ambiguïté un objet, une notice ou une donnée.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/55801709-9719-473f-9608-949f08b32eb7">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/55801709-9719-473f-9608-949f08b32eb7</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">Internal Identifier</skos:prefLabel>
@@ -87,7 +85,7 @@
     <skos:scopeNote xml:lang="fr">Codes numériques, alphanumériques ou autres, de types variés, attribués à un objet d'art, à un livre, à un autre bien ou à un ensemble d'œuvres par l'institution qui les conserve. Une pièce ou un ensemble peut porter plusieurs types de numéros d'institution. Pour les numéros attribués au moment de l'entrée en collection, préférer « numéro d'inventaire ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300387580</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:narrower rdf:resource="https://manuspectrum.huma-num.fr/0da6b75e-0443-454d-a17d-8f85867cad2c"/>
@@ -101,7 +99,7 @@
     <skos:scopeNote xml:lang="fr">Codes numériques, alphabétiques, alphanumériques ou autres, uniques, fiables et durables, qui identifient ou référencent une chose, un concept ou une notice. Les identifiants d'objets numériques en sont un exemple. Parmi les systèmes existants figurent les POID (persistent object identifiers) et les DOI (digital object identifiers).</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/72ae261c-5cf5-4c5b-a9b0-185be43ec314">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300404621</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">repository numbers</skos:prefLabel>
@@ -110,7 +108,7 @@
     <skos:scopeNote xml:lang="fr">Codes numériques, alphanumériques ou autres, de types variés, attribués à un objet d'art, à un livre, à un autre bien ou à un ensemble d'œuvres par l'institution qui les conserve. Une pièce ou un ensemble peut porter plusieurs types de numéros d'institution. Pour les numéros attribués au moment de l'entrée en collection, préférer « numéro d'inventaire ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/b7929847-1bff-4ca6-b3f3-488b4a37db81">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300312355</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">Accession Number</skos:prefLabel>
@@ -119,7 +117,7 @@
     <skos:scopeNote xml:lang="fr">Codes numériques, alphanumériques ou autres attribués lorsqu'un objet d'art, un livre ou un autre bien entre dans la collection d'un musée, d'une bibliothèque ou d'une autre institution de conservation. Ces codes sont uniques au sein de l'ensemble et identifient précisément la pièce concernée. Ils peuvent ou non être portés sur l'objet.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/be56d99a-4be6-4e2e-ab58-2432d8a77e46">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300404628</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">Lot Number</skos:prefLabel>
@@ -128,7 +126,7 @@
     <skos:scopeNote xml:lang="fr">Numéros ou codes d'identification attribués soit à une parcelle de terrain, soit à un lot d'objets, par exemple lors d'une vente aux enchères.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/d2d7ac19-a9b6-436c-936a-3c6f314b2742">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300412177</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">Object Stock Number</skos:prefLabel>
@@ -137,7 +135,7 @@
     <skos:scopeNote xml:lang="fr">Numéros que des maisons telles que les marchands d'art ou les galeries attribuent aux objets lors de leur entrée en stock. Généralement inscrits ou apposés sur les objets eux-mêmes, ils permettent de rapprocher un objet des entrées d'un livre de stock ou de vente. Ces numéros ne sont pas nécessairement uniques et un objet peut en porter plusieurs.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/e10752d3-d8fa-47cb-92f9-dd7277dfc97a">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300435704</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>
     <skos:prefLabel xml:lang="en">record identifiers</skos:prefLabel>
@@ -146,7 +144,7 @@
     <skos:scopeNote xml:lang="fr">Numéros ou codes identifiant de façon unique une notice ou une entité dans un périmètre donné d'un système. Généralement générés par le système, ils peuvent être séquentiels ou construits algorithmiquement. L'objectif peut être d'assurer l'unicité entre plusieurs systèmes, comme pour un UUID ou un GUID.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/fb39f64f-665b-4bc3-819f-2e73762e67b2">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300417435</dcterms:identifier>
     <skos:broader rdf:resource="https://manuspectrum.huma-num.fr/5b292232-52ac-4e71-ba6c-fe4dd6ff02fa"/>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/5cae2276-c40a-44c0-9e13-8e94f02ab40d"/>

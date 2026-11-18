@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:arches="https://manuspectrum.huma-num.fr/"
-  xmlns:arches_controlled_lists="https://archesproject.org/ns/controlled-lists#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/6b906328-4abe-4189-a938-f0a374090468">
-    <arches_controlled_lists:searchable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</arches_controlled_lists:searchable>
     <dcterms:title>ManuSpectrum - Element level</dcterms:title>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/29909f9c-4db2-4577-b720-313b95fc3906">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/29909f9c-4db2-4577-b720-313b95fc3906</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6b906328-4abe-4189-a938-f0a374090468"/>
     <skos:prefLabel xml:lang="en">Major</skos:prefLabel>
@@ -20,7 +18,7 @@
     <skos:scopeNote xml:lang="fr">Élément qui domine le signal. Estimation qualitative de l'analyste d'après l'intensité relative du signal, pas un seuil de concentration.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/a25f5525-113b-462b-aaa4-9534eccecaee">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/a25f5525-113b-462b-aaa4-9534eccecaee</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6b906328-4abe-4189-a938-f0a374090468"/>
     <skos:prefLabel xml:lang="en">Trace</skos:prefLabel>
@@ -29,7 +27,7 @@
     <skos:scopeNote xml:lang="fr">Tout juste détecté, près de la limite du signal. Estimation qualitative de l'analyste d'après l'intensité relative du signal, pas un seuil de concentration.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/affaf6da-edb4-42cf-8ade-c9d40c55792d">
-    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
+    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
     <dcterms:identifier>https://manuspectrum.huma-num.fr/plugins/controlled-list-manager/item/affaf6da-edb4-42cf-8ade-c9d40c55792d</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/6b906328-4abe-4189-a938-f0a374090468"/>
     <skos:prefLabel xml:lang="en">Minor</skos:prefLabel>

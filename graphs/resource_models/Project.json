@@ -347,8 +347,7 @@
                         "label": "Actors",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "25bb1f7b-999c-49eb-8b85-6c3ea7c56685",
                     "label": {
@@ -364,6 +363,7 @@
                 {
                     "card_id": "c9507d22-d541-4d54-9c4c-f99a0f3a1b66",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -371,8 +371,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "39e4c7f0-5e73-4fc5-9182-6c4bb9601e62",
                     "label": {
@@ -388,6 +387,7 @@
                 {
                     "card_id": "a25a8066-d94d-434e-ba12-935b43ca9a3b",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -395,8 +395,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "4e0f3404-514e-4cfd-8683-8ea6d6f29507",
                     "label": {
@@ -419,8 +418,7 @@
                         "label": "Studied Objects",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ac198d12-4cb2-406d-a50f-cc78f02b52ec",
                     "label": {
@@ -436,6 +434,12 @@
                 {
                     "card_id": "da931fe8-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -462,6 +466,28 @@
                 {
                     "card_id": "da931fe8-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": [
+                            {
+                                "labels": [
+                                    {
+                                        "id": "2d14f2a9-48bc-4b2d-bdaf-a9eedeabc205",
+                                        "language_id": "en",
+                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
+                                        "value": "preferred terms",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "7c5ec08e-708a-5bfc-adf2-8a819fc7f705",
+                                        "language_id": "fr",
+                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
+                                        "value": "termes pr\u00e9f\u00e9rentiels",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
+                                "uri": "http://vocab.getty.edu/aat/300404670"
+                            }
+                        ],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -469,8 +495,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "da931fee-7020-11ef-8753-0575b5bada34",
                     "label": {
@@ -486,6 +511,35 @@
                 {
                     "card_id": "da931fe8-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": [
+                            {
+                                "labels": [
+                                    {
+                                        "id": "13e87ca2-66aa-4005-8af8-611f5b2559de",
+                                        "language_id": "fr",
+                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
+                                        "value": "anglais",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "5af2c4b5-3edb-493f-8939-514e10656292",
+                                        "language_id": "de",
+                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
+                                        "value": "Englisch",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "42a4cfe6-bbd7-452c-a93b-f097ac699b53",
+                                        "language_id": "en",
+                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
+                                        "value": "English (language)",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                                "uri": "http://vocab.getty.edu/aat/300388277"
+                            }
+                        ],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -493,8 +547,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "da931fef-7020-11ef-8753-0575b5bada34",
                     "label": {
@@ -510,6 +563,12 @@
                 {
                     "card_id": "de1722e0-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -536,6 +595,7 @@
                 {
                     "card_id": "de1722e0-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -543,8 +603,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "de1722e5-7020-11ef-8753-0575b5bada34",
                     "label": {
@@ -560,6 +619,7 @@
                 {
                     "card_id": "de1722e0-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -567,8 +627,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "de1722e6-7020-11ef-8753-0575b5bada34",
                     "label": {
@@ -584,6 +643,7 @@
                 {
                     "card_id": "e77c8710-7022-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -591,8 +651,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "df10003a-6d5c-4eaf-b41e-b8e9773096f8",
                     "label": {
@@ -608,6 +667,12 @@
                 {
                     "card_id": "e18cc402-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -640,7 +705,6 @@
                         ],
                         "label": "Source",
                         "link_color": "#0055a0",
-                        "uneditable": false,
                         "url_label_placeholder": {
                             "en": "Enter URL Label... ",
                             "fr": "Saisir le libell\u00e9 de l'URL\u2026 "
@@ -664,6 +728,7 @@
                 {
                     "card_id": "e18cc402-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -671,8 +736,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e18cc40f-7020-11ef-8753-0575b5bada34",
                     "label": {
@@ -688,6 +752,35 @@
                 {
                     "card_id": "e18cc402-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": [
+                            {
+                                "labels": [
+                                    {
+                                        "id": "13e87ca2-66aa-4005-8af8-611f5b2559de",
+                                        "language_id": "fr",
+                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
+                                        "value": "anglais",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "5af2c4b5-3edb-493f-8939-514e10656292",
+                                        "language_id": "de",
+                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
+                                        "value": "Englisch",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "42a4cfe6-bbd7-452c-a93b-f097ac699b53",
+                                        "language_id": "en",
+                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
+                                        "value": "English (language)",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                                "uri": "http://vocab.getty.edu/aat/300388277"
+                            }
+                        ],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -695,8 +788,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e18cc410-7020-11ef-8753-0575b5bada34",
                     "label": {
@@ -712,6 +804,7 @@
                 {
                     "card_id": "e18cc404-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -719,8 +812,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e18cc411-7020-11ef-8753-0575b5bada34",
                     "label": {
@@ -736,6 +828,12 @@
                 {
                     "card_id": "e18cc404-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -762,6 +860,28 @@
                 {
                     "card_id": "e18cc404-7020-11ef-8753-0575b5bada34",
                     "config": {
+                        "defaultValue": [
+                            {
+                                "labels": [
+                                    {
+                                        "id": "2d14f2a9-48bc-4b2d-bdaf-a9eedeabc205",
+                                        "language_id": "en",
+                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
+                                        "value": "preferred terms",
+                                        "valuetype_id": "prefLabel"
+                                    },
+                                    {
+                                        "id": "7c5ec08e-708a-5bfc-adf2-8a819fc7f705",
+                                        "language_id": "fr",
+                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
+                                        "value": "termes pr\u00e9f\u00e9rentiels",
+                                        "valuetype_id": "prefLabel"
+                                    }
+                                ],
+                                "list_id": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
+                                "uri": "http://vocab.getty.edu/aat/300404670"
+                            }
+                        ],
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -769,8 +889,7 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "e18cc414-7020-11ef-8753-0575b5bada34",
                     "label": {
@@ -787,11 +906,11 @@
                     "card_id": "e77c8710-7022-11ef-8753-0575b5bada34",
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
                         "label": "Start Date",
                         "maxDate": false,
                         "minDate": "1945-01-01",
                         "placeholder": "Enter date",
-                        "uneditable": false,
                         "viewMode": "years"
                     },
                     "id": "e77c8724-7022-11ef-8753-0575b5bada34",
@@ -809,11 +928,11 @@
                     "card_id": "e77c8710-7022-11ef-8753-0575b5bada34",
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
                         "label": "End Date",
                         "maxDate": false,
                         "minDate": "1945-01-01",
                         "placeholder": "Enter date",
-                        "uneditable": false,
                         "viewMode": "years"
                     },
                     "id": "e77c8727-7022-11ef-8753-0575b5bada34",
@@ -837,8 +956,7 @@
                         "label": "Project",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "ea158b37-1851-4649-8a92-dcd30ab89048",
                     "label": {
@@ -861,8 +979,7 @@
                         "label": "Project",
                         "placeholder": {
                             "en": ""
-                        },
-                        "uneditable": false
+                        }
                     },
                     "id": "fdac4a49-c118-4f57-aace-aa687116c8c1",
                     "label": {
@@ -1310,11 +1427,11 @@
                         "graphs": [
                             {
                                 "graphid": "87a4319d-3ca5-43f6-88cc-a7379fba67f6",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Project",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -1346,11 +1463,11 @@
                         "graphs": [
                             {
                                 "graphid": "87a4319d-3ca5-43f6-88cc-a7379fba67f6",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Project",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -1380,7 +1497,6 @@
                     "alias": "status_of_activity",
                     "config": {
                         "controlledList": "549241a7-b4df-4759-ab9a-a6dbe208efa0",
-                        "defaultValue": "",
                         "multiValue": false
                     },
                     "datatype": "reference",
@@ -1407,7 +1523,6 @@
                     "alias": "type",
                     "config": {
                         "controlledList": "194f514f-9088-4152-b52e-3e7d938f9185",
-                        "defaultValue": "",
                         "multiValue": false
                     },
                     "datatype": "reference",
@@ -1459,7 +1574,6 @@
                     "alias": "techniques",
                     "config": {
                         "controlledList": "12dc9a7b-b177-450a-a927-711fa7882882",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1488,19 +1602,19 @@
                         "graphs": [
                             {
                                 "graphid": "5bf45c85-84cd-4a76-b64a-3ffe86eea1b8",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Person",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             },
                             {
                                 "graphid": "4f447dca-dbb3-48d0-bc90-3f2935db8b8c",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Group",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -1532,19 +1646,19 @@
                         "graphs": [
                             {
                                 "graphid": "0c8226c1-11a9-4c48-9601-a7a0c6f2df6b",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Document",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             },
                             {
                                 "graphid": "d47595b4-f8a6-419c-8f33-b388206280c4",
-                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Component",
-                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipSource": "concept"
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
                             }
                         ],
                         "searchDsl": "",
@@ -1599,35 +1713,6 @@
                     "alias": "language_of_name",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": [
-                            {
-                                "labels": [
-                                    {
-                                        "id": "13e87ca2-66aa-4005-8af8-611f5b2559de",
-                                        "language_id": "fr",
-                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
-                                        "value": "anglais",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "5af2c4b5-3edb-493f-8939-514e10656292",
-                                        "language_id": "de",
-                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
-                                        "value": "Englisch",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "42a4cfe6-bbd7-452c-a93b-f097ac699b53",
-                                        "language_id": "en",
-                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
-                                        "value": "English (language)",
-                                        "valuetype_id": "prefLabel"
-                                    }
-                                ],
-                                "list_id": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                                "uri": "http://vocab.getty.edu/aat/300388277"
-                            }
-                        ],
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1653,12 +1738,6 @@
                 {
                     "alias": "label_of_name",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -1685,28 +1764,6 @@
                     "alias": "type_of_name",
                     "config": {
                         "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                        "defaultValue": [
-                            {
-                                "labels": [
-                                    {
-                                        "id": "2d14f2a9-48bc-4b2d-bdaf-a9eedeabc205",
-                                        "language_id": "en",
-                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
-                                        "value": "preferred terms",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "bc6441fe-70bd-405e-a4da-356582cb4422",
-                                        "language_id": "fr",
-                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
-                                        "value": "termes pr\u00e9f\u00e9rentiels",
-                                        "valuetype_id": "prefLabel"
-                                    }
-                                ],
-                                "list_id": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                                "uri": "http://vocab.getty.edu/aat/300404670"
-                            }
-                        ],
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1757,12 +1814,6 @@
                 {
                     "alias": "value_of_identifier",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -1789,7 +1840,6 @@
                     "alias": "source_of_identifier",
                     "config": {
                         "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1816,7 +1866,6 @@
                     "alias": "type_of_identifier",
                     "config": {
                         "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1892,12 +1941,6 @@
                 {
                     "alias": "content_of_statement",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -1923,12 +1966,6 @@
                 {
                     "alias": "label_of_name_statement",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -1955,7 +1992,6 @@
                     "alias": "language_of_name_statement",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -1982,35 +2018,6 @@
                     "alias": "language_of_statement",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                        "defaultValue": [
-                            {
-                                "labels": [
-                                    {
-                                        "id": "13e87ca2-66aa-4005-8af8-611f5b2559de",
-                                        "language_id": "fr",
-                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
-                                        "value": "anglais",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "5af2c4b5-3edb-493f-8939-514e10656292",
-                                        "language_id": "de",
-                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
-                                        "value": "Englisch",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "42a4cfe6-bbd7-452c-a93b-f097ac699b53",
-                                        "language_id": "en",
-                                        "list_item_id": "38729dbe-6d1c-48ce-bf47-e2a18945600e",
-                                        "value": "English (language)",
-                                        "valuetype_id": "prefLabel"
-                                    }
-                                ],
-                                "list_id": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
-                                "uri": "http://vocab.getty.edu/aat/300388277"
-                            }
-                        ],
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2037,28 +2044,6 @@
                     "alias": "type_of_name_statement",
                     "config": {
                         "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                        "defaultValue": [
-                            {
-                                "labels": [
-                                    {
-                                        "id": "2d14f2a9-48bc-4b2d-bdaf-a9eedeabc205",
-                                        "language_id": "en",
-                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
-                                        "value": "preferred terms",
-                                        "valuetype_id": "prefLabel"
-                                    },
-                                    {
-                                        "id": "bc6441fe-70bd-405e-a4da-356582cb4422",
-                                        "language_id": "fr",
-                                        "list_item_id": "5f400d39-3b6b-4b8a-939b-4e49787c7444",
-                                        "value": "termes pr\u00e9f\u00e9rentiels",
-                                        "valuetype_id": "prefLabel"
-                                    }
-                                ],
-                                "list_id": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
-                                "uri": "http://vocab.getty.edu/aat/300404670"
-                            }
-                        ],
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2085,7 +2070,6 @@
                     "alias": "type_of_statement",
                     "config": {
                         "controlledList": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837",
-                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -2161,8 +2145,7 @@
                 {
                     "alias": "end_date_of_period_activity",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": ""
+                        "dateFormat": "YYYY-MM-DD"
                     },
                     "datatype": "date",
                     "description": "date the project, or this phase of it, ended; empty while it runs",
@@ -2187,8 +2170,7 @@
                 {
                     "alias": "start_date_of_period_activity",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": ""
+                        "dateFormat": "YYYY-MM-DD"
                     },
                     "datatype": "date",
                     "description": "date the project, or this phase of it, started",
