@@ -4,9 +4,10 @@ name: load
 # application's first installation does (setup_db, load_package, language
 # sync), then compares the database with expected-inventory.json through the
 # application's `manage.py check_pkg_inventory`. The application is checked out
-# from `app_ref`: the application's integration branch (dev) by default, until
-# main holds the production platform; then main (change APP_REF_DEFAULT and the
-# dispatch default together).
+# from `app_ref`: the application's Arches 8.2 branch (chore/arches-8.2) while
+# this package carries the 8.2 shapes, back to its integration branch (dev)
+# once that branch is merged (change APP_REF_DEFAULT and the dispatch default
+# together).
 # Services run as pinned containers, the same images as the application's
 # Compose stack, with Elasticsearch security on as there.
 on:
@@ -19,7 +20,7 @@ on:
     inputs:
       app_ref:
         description: "Branch, tag or commit of the ManuSpectrum application"
-        default: dev
+        default: chore/arches-8.2
         required: true
         type: string
 
@@ -32,9 +33,9 @@ concurrency:
 
 env:
   APP_REPOSITORY: CRC-Centre-Recherche-Conservation/ManuSpectrum
-  APP_REF_DEFAULT: dev
+  APP_REF_DEFAULT: chore/arches-8.2
   POSTGIS_IMAGE: postgis/postgis:17-3.5@sha256:01a6a70e41e6c4467c8f55f6063555ed72db2d6662cd0d571040d42eadaeb6f6
-  ELASTICSEARCH_IMAGE: elasticsearch:8.19.21@sha256:ae1f398ec8734a63eb7f719cecc2ea33e2bb46e23bdf24641dec86fd256bf594
+  ELASTICSEARCH_IMAGE: elasticsearch:9.5.5@sha256:b7b0f24e9b5e90656ffe69804b3a48907499ab2b9cd67f02b7af3aff1b026a89
   REDIS_IMAGE: redis:8-alpine@sha256:3811787313eba226a2ef38658c6ccb91cd5e110edc89c37767de373120a0e5a0
   UV_VERSION: "0.12.20"
 
@@ -91,14 +92,14 @@ jobs:
 
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: "3.11"
+          python-version: "3.13"
 
       - name: Restore the uv cache
         uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5.1.0
         with:
           path: ${{ env.UV_CACHE_DIR }}
-          key: uv-${{ runner.os }}-py3.11-${{ hashFiles('app/uv.lock') }}
-          restore-keys: uv-${{ runner.os }}-py3.11-
+          key: uv-${{ runner.os }}-py3.13-${{ hashFiles('app/uv.lock') }}
+          restore-keys: uv-${{ runner.os }}-py3.13-
 
       - name: System libraries
         run: |
@@ -130,7 +131,7 @@ jobs:
           docker run -d --name ms-postgres -p 5432:5432 \
             -e POSTGRES_USER="$PGUSERNAME" -e POSTGRES_PASSWORD="$PGPASSWORD" \
             -e POSTGRES_INITDB_ARGS="--encoding=UTF8 --locale=en_US.utf8" \
-            "$POSTGIS_IMAGE" postgres -c standard_conforming_strings=off
+            "$POSTGIS_IMAGE"
           docker run -d --name ms-elasticsearch -p 9200:9200 \
             -e discovery.type=single-node -e xpack.security.enabled=true \
             -e xpack.security.http.ssl.enabled=false \

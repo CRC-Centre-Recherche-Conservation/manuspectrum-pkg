@@ -3,7 +3,7 @@
 The data model and reference vocabularies of [ManuSpectrum](https://github.com/CRC-Centre-Recherche-Conservation/ManuSpectrum): a platform for heritage manuscripts and their scientific analyses, built on [Arches](https://www.archesproject.org).
 
 [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-[![Arches 8.1](https://img.shields.io/badge/Arches-8.1-blue.svg)](https://www.archesproject.org)
+[![Arches 8.2](https://img.shields.io/badge/Arches-8.2-blue.svg)](https://www.archesproject.org)
 [![Load check](https://github.com/CRC-Centre-Recherche-Conservation/manuspectrum-pkg/actions/workflows/load.yml/badge.svg)](.github/workflows/load.yml)
 [![Secret scan](https://github.com/CRC-Centre-Recherche-Conservation/manuspectrum-pkg/actions/workflows/secret-scan.yml/badge.svg)](.github/workflows)
 
