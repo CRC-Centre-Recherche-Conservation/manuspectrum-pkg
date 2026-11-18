@@ -94,11 +94,11 @@
                     "card_id": "1329ddf5-2ac9-4d0b-a6ed-468d02d32bdb",
                     "config": {
                         "dateFormat": "YYYY",
-                        "defaultValue": "",
                         "label": "Publication date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
+                        "uneditable": false,
                         "viewMode": "days"
                     },
                     "id": "2d15f3f4-fe53-4eb0-9147-3ce25d2dc761",
@@ -115,12 +115,6 @@
                 {
                     "card_id": "1329ddf5-2ac9-4d0b-a6ed-468d02d32bdb",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -147,12 +141,6 @@
                 {
                     "card_id": "3887c4d0-7bea-11ef-b1e5-dd514ecd97bc",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -179,7 +167,6 @@
                 {
                     "card_id": "3887c4d0-7bea-11ef-b1e5-dd514ecd97bc",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -187,7 +174,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "3887c4d5-7bea-11ef-b1e5-dd514ecd97bc",
                     "label": {
@@ -203,7 +191,6 @@
                 {
                     "card_id": "1329ddf5-2ac9-4d0b-a6ed-468d02d32bdb",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -211,7 +198,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "95a757bc-949f-4575-90a5-8eef62128c2b",
                     "label": {
@@ -227,12 +215,6 @@
                 {
                     "card_id": "1329ddf5-2ac9-4d0b-a6ed-468d02d32bdb",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -259,12 +241,6 @@
                 {
                     "card_id": "1329ddf5-2ac9-4d0b-a6ed-468d02d32bdb",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -291,12 +267,6 @@
                 {
                     "card_id": "760461a9-4b9a-4903-bc38-bf2922e6a17c",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -494,6 +464,12 @@
                 {
                     "alias": "bibliographic_content",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -520,6 +496,7 @@
                     "alias": "bibliographic_type_n1",
                     "config": {
                         "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
+                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -545,6 +522,12 @@
                 {
                     "alias": "editor",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "graphs": [],
                         "searchDsl": "",
                         "searchString": ""
@@ -622,6 +605,12 @@
                 {
                     "alias": "publication_author",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -647,6 +636,12 @@
                 {
                     "alias": "place_edition",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "graphs": [],
                         "searchDsl": "",
                         "searchString": ""
@@ -674,7 +669,8 @@
                 {
                     "alias": "date_edition",
                     "config": {
-                        "dateFormat": "YYYY"
+                        "dateFormat": "YYYY",
+                        "defaultValue": ""
                     },
                     "datatype": "date",
                     "description": null,
@@ -699,6 +695,12 @@
                 {
                     "alias": "bibliographic_title",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -725,6 +727,7 @@
                     "alias": "bibliographic_type",
                     "config": {
                         "controlledList": "5eb6e7a1-c969-49b3-ab55-8bf8588a9bac",
+                        "defaultValue": "",
                         "multiValue": false
                     },
                     "datatype": "reference",

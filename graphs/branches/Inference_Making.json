@@ -122,12 +122,6 @@
                 {
                     "card_id": "9274ee2e-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -154,7 +148,6 @@
                 {
                     "card_id": "9274ee2e-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -162,7 +155,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "9274ee36-b231-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -178,11 +172,11 @@
                 {
                     "card_id": "9274ee2e-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
-                        "defaultValue": "2024-11-22",
                         "label": "End Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
+                        "uneditable": false,
                         "viewMode": "days"
                     },
                     "id": "9274ee37-b231-11ef-a32a-9fa3cbd72e36",
@@ -199,11 +193,11 @@
                 {
                     "card_id": "9274ee2e-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
-                        "defaultValue": "2024-11-22",
                         "label": "Start Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
+                        "uneditable": false,
                         "viewMode": "days"
                     },
                     "id": "9274ee38-b231-11ef-a32a-9fa3cbd72e36",
@@ -227,7 +221,8 @@
                         "label": "Author",
                         "placeholder": {
                             "en": ""
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "9274ee39-b231-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -250,7 +245,8 @@
                         "label": "Observation_Analysis",
                         "placeholder": {
                             "en": ""
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "9274ee3a-b231-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -266,12 +262,6 @@
                 {
                     "card_id": "9274ee2a-b231-11ef-a32a-9fa3cbd72e36",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -305,7 +295,8 @@
                         "label": "Analysis reference",
                         "placeholder": {
                             "en": ""
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "9274ee3c-b231-11ef-a32a-9fa3cbd72e36",
                     "label": {
@@ -564,11 +555,11 @@
                         "graphs": [
                             {
                                 "graphid": "5bf45c85-84cd-4a76-b64a-3ffe86eea1b8",
-                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Person",
+                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
-                                "useOntologyRelationship": false
+                                "relationshipSource": "concept"
                             }
                         ],
                         "searchDsl": "",
@@ -597,6 +588,12 @@
                 {
                     "alias": "inference_making",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -622,6 +619,12 @@
                 {
                     "alias": "note_observation_analysis",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -650,11 +653,11 @@
                         "graphs": [
                             {
                                 "graphid": "60c85aba-f079-45bc-997f-21cdd4f77b6d",
-                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "inverseRelationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "name": "Analysis",
+                                "relationship": "ac41d9be-79db-4256-b368-2f4559cfbe55",
                                 "relationshipCollection": "00000000-0000-0000-0000-000000000005",
-                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
-                                "useOntologyRelationship": false
+                                "relationshipSource": "concept"
                             }
                         ],
                         "searchDsl": "",
@@ -683,6 +686,7 @@
                 {
                     "alias": "confidence",
                     "config": {
+                        "defaultValue": "",
                         "i18n_config": {
                             "fn": "arches.app.datatypes.datatypes.DomainDataType"
                         },
@@ -736,7 +740,8 @@
                 {
                     "alias": "timespan_begin_of_the_end",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD"
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "2024-11-22"
                     },
                     "datatype": "date",
                     "description": null,
@@ -761,7 +766,8 @@
                 {
                     "alias": "timespan_begin_of_the_begin",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD"
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "2024-11-22"
                     },
                     "datatype": "date",
                     "description": null,
@@ -792,6 +798,12 @@
             "root": {
                 "alias": "inference_making",
                 "config": {
+                    "defaultValue": {
+                        "en": {
+                            "direction": "ltr",
+                            "value": ""
+                        }
+                    },
                     "en": ""
                 },
                 "datatype": "string",

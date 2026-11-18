@@ -65,7 +65,6 @@
                 {
                     "card_id": "ad8082c4-f226-40dd-8dae-9d68bcb61a11",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -73,7 +72,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "31b635fa-5a2e-40e4-ac67-38cfec431358",
                     "label": {
@@ -95,6 +95,7 @@
                         ],
                         "label": "Source",
                         "link_color": "#0055a0",
+                        "uneditable": false,
                         "url_label_placeholder": {
                             "en": "Enter URL Label... ",
                             "fr": "Saisir le libell\u00e9 de l'URL\u2026 "
@@ -118,12 +119,6 @@
                 {
                     "card_id": "670421dc-6f7e-11ef-8285-7d7e0a0885f4",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -150,7 +145,6 @@
                 {
                     "card_id": "670421dc-6f7e-11ef-8285-7d7e0a0885f4",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -158,7 +152,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "670421e2-6f7e-11ef-8285-7d7e0a0885f4",
                     "label": {
@@ -174,7 +169,6 @@
                 {
                     "card_id": "670421dc-6f7e-11ef-8285-7d7e0a0885f4",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -182,7 +176,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "670421e3-6f7e-11ef-8285-7d7e0a0885f4",
                     "label": {
@@ -198,12 +193,6 @@
                 {
                     "card_id": "ad8082c4-f226-40dd-8dae-9d68bcb61a11",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -230,7 +219,6 @@
                 {
                     "card_id": "ad8082c4-f226-40dd-8dae-9d68bcb61a11",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -238,7 +226,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "ec612ad3-6644-417e-b75b-64caa24bef62",
                     "label": {
@@ -374,6 +363,7 @@
                     "alias": "type_of_name_statement",
                     "config": {
                         "controlledList": "d9ac47a4-0ffc-4b9b-89c1-c07c3a253837",
+                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -425,6 +415,7 @@
                     "alias": "language_of_name_statement_n1",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -450,6 +441,12 @@
                 {
                     "alias": "label_of_name_statement_n1",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -476,6 +473,7 @@
                     "alias": "type_of_name_statement_n1",
                     "config": {
                         "controlledList": "6c02daa3-c79c-41cf-bd46-c947a61104b9",
+                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -552,6 +550,7 @@
                     "alias": "language_of_name_statement",
                     "config": {
                         "controlledList": "27eb6c94-5cd0-46be-bd74-26b2d7bb4642",
+                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -577,6 +576,12 @@
                 {
                     "alias": "label_of_name_statement",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "en": ""
                     },
                     "datatype": "string",

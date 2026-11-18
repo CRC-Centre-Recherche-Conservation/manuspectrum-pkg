@@ -37,7 +37,6 @@
                 {
                     "card_id": "2573fec5-5e26-45be-bb93-6124dea1b968",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -45,7 +44,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "6e8b30b0-bcb8-430a-b3ef-c6bedb3e500b",
                     "label": {
@@ -61,7 +61,6 @@
                 {
                     "card_id": "2573fec5-5e26-45be-bb93-6124dea1b968",
                     "config": {
-                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -69,7 +68,8 @@
                         "placeholder": {
                             "en": "Select an option",
                             "fr": "S\u00e9lectionner une option"
-                        }
+                        },
+                        "uneditable": false
                     },
                     "id": "a93cf249-8502-4dcb-82bc-f59c4b431ad5",
                     "label": {
@@ -85,12 +85,6 @@
                 {
                     "card_id": "2573fec5-5e26-45be-bb93-6124dea1b968",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -205,6 +199,7 @@
                     "alias": "type_of_identifier",
                     "config": {
                         "controlledList": "5cae2276-c40a-44c0-9e13-8e94f02ab40d",
+                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",
@@ -230,6 +225,12 @@
                 {
                     "alias": "value_of_identifier",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
                         "en": ""
                     },
                     "datatype": "string",
@@ -256,6 +257,7 @@
                     "alias": "source_of_identifier",
                     "config": {
                         "controlledList": "bd902d96-0d2b-4fa5-9d90-fb957e34ca40",
+                        "defaultValue": "",
                         "multiValue": true
                     },
                     "datatype": "reference",

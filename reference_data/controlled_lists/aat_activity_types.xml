@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:arches="https://manuspectrum.huma-num.fr/"
+  xmlns:arches_controlled_lists="https://archesproject.org/ns/controlled-lists#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <skos:ConceptScheme rdf:about="https://manuspectrum.huma-num.fr/194f514f-9088-4152-b52e-3e7d938f9185">
+    <arches_controlled_lists:searchable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</arches_controlled_lists:searchable>
     <dcterms:title>AAT - Activity Types</dcterms:title>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/54d2f763-34aa-4830-bc1d-f9ed627cf164">
-    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches:sortorder>
+    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</arches_controlled_lists:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300048788</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/194f514f-9088-4152-b52e-3e7d938f9185"/>
     <skos:prefLabel xml:lang="en">project</skos:prefLabel>
@@ -18,7 +20,7 @@
     <skos:scopeNote xml:lang="fr">Concepts artistiques recouvrant des entreprises ou des créations projetées, y compris la création d'œuvres d'art ou d'architecture, ainsi que la réalisation effective de ces propositions. Lorsque l'accent porte sur des schémas conceptuels précis d'organisation ou d'aspect d'œuvres graphiques, d'objets, de structures ou de systèmes, employer « designs ». Pour les œuvres visuelles et autres objets matériels servant à réaliser le projet, employer « projects (object groupings) ».</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/5b2762ac-b9de-4fe4-b410-fbf9d80a56e9">
-    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches:sortorder>
+    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</arches_controlled_lists:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300137801</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/194f514f-9088-4152-b52e-3e7d938f9185"/>
     <skos:prefLabel xml:lang="en">experiment</skos:prefLabel>
@@ -27,7 +29,7 @@
     <skos:scopeNote xml:lang="fr">Mise à l'épreuve d'une hypothèse ou d'un modèle. En sciences et dans les domaines apparentés, désigne un essai mené systématiquement en conditions contrôlées afin de découvrir les propriétés, le comportement ou les effets de son objet.</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="https://manuspectrum.huma-num.fr/66ac5ba5-c498-48fc-9a31-e132dce34883">
-    <arches:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches:sortorder>
+    <arches_controlled_lists:sortorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</arches_controlled_lists:sortorder>
     <dcterms:identifier>http://vocab.getty.edu/aat/300054687</dcterms:identifier>
     <skos:inScheme rdf:resource="https://manuspectrum.huma-num.fr/194f514f-9088-4152-b52e-3e7d938f9185"/>
     <skos:prefLabel xml:lang="en">research task</skos:prefLabel>
