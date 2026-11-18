@@ -4,10 +4,9 @@ name: load
 # application's first installation does (setup_db, load_package, language
 # sync), then compares the database with expected-inventory.json through the
 # application's `manage.py check_pkg_inventory`. The application is checked out
-# from `app_ref`: the application's Arches 8.2 branch (chore/arches-8.2) while
-# this package carries the 8.2 shapes, back to its integration branch (dev)
-# once that branch is merged (change APP_REF_DEFAULT and the dispatch default
-# together).
+# from `app_ref`: the application's integration branch (dev) by default, until
+# main holds the production platform; then main (change APP_REF_DEFAULT and the
+# dispatch default together).
 # Services run as pinned containers, the same images as the application's
 # Compose stack, with Elasticsearch security on as there.
 on:
@@ -20,7 +19,7 @@ on:
     inputs:
       app_ref:
         description: "Branch, tag or commit of the ManuSpectrum application"
-        default: chore/arches-8.2
+        default: dev
         required: true
         type: string
 
@@ -33,7 +32,7 @@ concurrency:
 
 env:
   APP_REPOSITORY: CRC-Centre-Recherche-Conservation/ManuSpectrum
-  APP_REF_DEFAULT: chore/arches-8.2
+  APP_REF_DEFAULT: dev
   POSTGIS_IMAGE: postgis/postgis:17-3.5@sha256:01a6a70e41e6c4467c8f55f6063555ed72db2d6662cd0d571040d42eadaeb6f6
   ELASTICSEARCH_IMAGE: elasticsearch:9.5.5@sha256:b7b0f24e9b5e90656ffe69804b3a48907499ab2b9cd67f02b7af3aff1b026a89
   REDIS_IMAGE: redis:8-alpine@sha256:3811787313eba226a2ef38658c6ccb91cd5e110edc89c37767de373120a0e5a0
